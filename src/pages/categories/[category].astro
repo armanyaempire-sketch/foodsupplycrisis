@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import AdPlacement from "../../components/AdPlacement.astro";
 import { slugify } from "../../utils/slugify";
 
 export async function getStaticPaths() {
@@ -28,6 +29,12 @@ const articles = (await getCollection("articles"))
       <p class="eyebrow">Topic</p>
       <h1>{category}</h1>
       <p>Research, reporting and explainers focused on {category.toLowerCase()}.</p>
+    </div>
+  </section>
+
+  <section class="section page-native-ad" aria-label="Sponsored content">
+    <div class="shell">
+      <AdPlacement placement="native-horizontal" />
     </div>
   </section>
   <section class="section">

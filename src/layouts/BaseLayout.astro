@@ -155,7 +155,7 @@ const breadcrumbJsonLd = breadcrumbs.length
 
     <div class="global-ad-band global-ad-bottom">
       <div class="shell ad-bottom-grid">
-        <AdPlacement placement="banner-300x250" />
+        {adProfile === "standard" && <AdPlacement placement="banner-300x250" />}
         <AdPlacement placement="smartlink" />
       </div>
     </div>

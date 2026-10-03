@@ -104,3 +104,7 @@ See our [Water & Food hub](/water-food/) for updates and [Food Security](/food-s
 Water scarcity is one of the clearest long-term constraints on food production.
 
 But the correct framing is regional and systems-based. Agriculture can adapt in many places, yet severe water stress can reduce production, raise costs and increase food-security risks when water management and resilience lag behind changing conditions.
+
+## Related Food Supply Coverage
+
+Water is one part of a wider risk chain. See [the climate-and-production analysis](/articles/very-strong-el-nino-2026-food-production/), [the global food-crisis overview](/articles/global-food-crisis-2026/), and [10 approaches to strengthening food security](/articles/how-can-world-prevent-food-crisis-10-solutions/).

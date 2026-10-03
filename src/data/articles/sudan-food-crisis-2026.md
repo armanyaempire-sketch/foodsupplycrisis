@@ -1,5 +1,5 @@
 ---
-title: Sudan Food Crisis 2026: Conflict, Hunger and the Risk of Famine
+title: "Sudan Food Crisis 2026: Conflict, Hunger and the Risk of Famine"
 description: Sudan remains one of the world's most severe food-insecurity emergencies in 2026, with conflict, displacement and access constraints worsening hunger.
 pubDate: 2026-10-04
 updatedDate: 2026-10-04

@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
 
 const articles = (await getCollection("articles"))
   .filter((article) => article.data.category === "Fertilizer")

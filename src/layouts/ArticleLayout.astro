@@ -82,7 +82,7 @@ const articleJsonLd = {
   publisher: {
     "@type": "Organization",
     name: SITE.name,
-    url: new URL("/about/editorial-desk/", SITE.url).toString(),
+    url: SITE.url,
     logo: {
       "@type": "ImageObject",
       url: new URL("/favicon.svg", SITE.url).toString()

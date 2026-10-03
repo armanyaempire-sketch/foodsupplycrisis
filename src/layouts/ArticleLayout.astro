@@ -1,0 +1,129 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import { SITE } from "../config/site";
+
+interface Source {
+  name: string;
+  url: string;
+}
+
+interface Props {
+  title: string;
+  description: string;
+  pubDate: Date;
+  updatedDate?: Date;
+  author: string;
+  category: string;
+  keywords: string[];
+  sources: Source[];
+  image?: string;
+  imageAlt?: string;
+}
+
+const {
+  title,
+  description,
+  pubDate,
+  updatedDate,
+  author,
+  category,
+  keywords,
+  sources,
+  image = SITE.defaultImage,
+  imageAlt = title
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, SITE.url).toString();
+const categorySlug = category.toLowerCase()
+  .replace(/&/g, "and")
+  .replace(/[^a-z0-9]+/g, "-")
+  .replace(/^-|-$/g, "");
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: title,
+  description,
+  datePublished: pubDate.toISOString(),
+  dateModified: (updatedDate ?? pubDate).toISOString(),
+  author: {
+    "@type": "Organization",
+    name: author,
+    url: new URL("/about/editorial-desk/", SITE.url).toString()
+  },
+  publisher: {
+    "@type": "Organization",
+    name: SITE.name,
+    url: SITE.url,
+    logo: {
+      "@type": "ImageObject",
+      url: new URL("/favicon.svg", SITE.url).toString()
+    }
+  },
+  mainEntityOfPage: canonical,
+  keywords,
+  image: [new URL(image, SITE.url).toString()]
+};
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonical={canonical}
+  type="article"
+  image={image}
+  publishedTime={pubDate}
+  modifiedTime={updatedDate ?? pubDate}
+  authorName={author}
+  breadcrumbs={[
+    { name: "Home", url: "/" },
+    { name: category, url: \`/categories/\${categorySlug}/\` },
+    { name: title, url: canonical }
+  ]}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+
+  <article class="article-shell">
+    <div class="article-main">
+      <p class="eyebrow">{category}</p>
+      <h1>{title}</h1>
+      <p class="article-dek">{description}</p>
+
+      <div class="article-meta">
+        <span>By {author}</span>
+        <span>Published {pubDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>
+        {updatedDate && <span>Updated {updatedDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>}
+      </div>
+
+      {image !== SITE.defaultImage && (
+        <figure class="article-hero">
+          <img src={image} alt={imageAlt} width="1600" height="900" loading="eager" decoding="async" />
+        </figure>
+      )}
+
+      <div class="article-content">
+        <slot />
+      </div>
+
+      <section class="source-box" aria-labelledby="sources-heading">
+        <h2 id="sources-heading">Sources & Further Reading</h2>
+        <p>Important figures, forecasts and current-event claims should be checked against the original material linked below.</p>
+        <ul>
+          {sources.map((source) => (
+            <li><a href={source.url} rel="noopener noreferrer" target="_blank">{source.name}</a></li>
+          ))}
+        </ul>
+      </section>
+    </div>
+
+    <aside class="article-sidebar" aria-label="Article sidebar">
+      <div class="ad-slot ad-slot-vertical" data-adsterra-slot="sidebar-native">
+        <span>Advertisement</span>
+      </div>
+      <div class="sidebar-card">
+        <h2>Evidence matters</h2>
+        <p>We distinguish observed data, official forecasts, reported events and analysis.</p>
+      </div>
+    </aside>
+  </article>
+</BaseLayout>

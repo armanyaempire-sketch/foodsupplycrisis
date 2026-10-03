@@ -12,7 +12,7 @@ export async function getStaticPaths() {
       .slice(0, 3)
       .map((candidate) => ({
         title: candidate.data.title,
-        url: \`/articles/\${candidate.id}/\`
+        url: `/articles/${candidate.id}/`
       }));
 
     return {

@@ -1,0 +1,85 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const articles = (await getCollection("articles"))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const featured = articles.filter((article) => article.data.featured);
+const latest = articles.slice(0, 6);
+---
+
+<BaseLayout
+  title="Food Supply Crisis Report | Global Food Supply, Prices & Food Security"
+  description="Track global food supply risks, food prices, shortages, food security, climate, water, fertilizer and supply-chain disruptions with evidence and practical solutions."
+>
+  <section class="hero">
+    <div class="shell">
+      <p class="eyebrow">Global Food Supply Intelligence</p>
+      <h1>The Global Food Supply, Explained.</h1>
+      <p>We track food-supply risks, price shocks, agricultural pressures and food-security conditions — then explain the causes, evidence and practical solutions.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <div class="callout">
+        <strong>How we report:</strong> A local shortage, a price increase, a forecast or a stockpiling episode is not automatically evidence of a worldwide food shortage. We label what is verified, forecast and analysed.
+      </div>
+    </div>
+  </section>
+
+  {featured.length > 0 && (
+    <section class="section">
+      <div class="shell">
+        <p class="eyebrow">Featured analysis</p>
+        <div class="card-grid">
+          {featured.slice(0, 3).map((article) => (
+            <article class="card">
+              <p class="eyebrow">{article.data.category}</p>
+              <h2><a href={\`/articles/\${article.id}/\`}>{article.data.title}</a></h2>
+              <p>{article.data.description}</p>
+              <a href={\`/articles/\${article.id}/\`}>Read the analysis →</a>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="section">
+    <div class="shell">
+      <p class="eyebrow">Latest</p>
+      <h2>Latest food-supply reporting and explainers</h2>
+      {latest.length ? (
+        <div class="card-grid">
+          {latest.map((article) => (
+            <article class="card">
+              <p class="eyebrow">{article.data.category}</p>
+              <h3><a href={\`/articles/\${article.id}/\`}>{article.data.title}</a></h3>
+              <p>{article.data.description}</p>
+              <small>Published {article.data.pubDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</small>
+            </article>
+          ))}
+        </div>
+      ) : (
+        <div class="card"><p>The first evidence-based articles are being prepared.</p></div>
+      )}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <p class="eyebrow">Explore</p>
+      <h2>Follow the drivers behind food-supply risk</h2>
+      <div class="card-grid">
+        <div class="card"><h3><a href="/global-food-crisis/">Global Food Crisis</a></h3><p>Global availability, hunger, food insecurity and major risk factors.</p></div>
+        <div class="card"><h3><a href="/food-prices/">Food Prices</a></h3><p>Commodity prices, inflation, fuel, freight and household impact.</p></div>
+        <div class="card"><h3><a href="/food-supply/">Food Supply</a></h3><p>Grain, rice, fertilizer, shipping, stocks and production.</p></div>
+        <div class="card"><h3><a href="/countries/">Countries</a></h3><p>Country-by-country food-security and food-supply conditions.</p></div>
+        <div class="card"><h3><a href="/climate-agriculture/">Climate & Agriculture</a></h3><p>El Niño, drought, heat, rainfall and crop resilience.</p></div>
+        <div class="card"><h3><a href="/solutions/">Solutions</a></h3><p>Evidence-based measures that can strengthen resilient food systems.</p></div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

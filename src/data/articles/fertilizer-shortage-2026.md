@@ -1,5 +1,5 @@
 ---
-title: Fertilizer Shortage 2026: Why Fertilizer Costs Could Become a Food Crisis
+title: "Fertilizer Shortage 2026: Why Fertilizer Costs Could Become a Food Crisis"
 description: Fertilizer disruptions can affect future harvests through higher costs, delayed deliveries and reduced input use, making fertilizer a key food-security risk in 2026 and 2027.
 pubDate: 2026-10-04
 updatedDate: 2026-10-04

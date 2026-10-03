@@ -10,6 +10,6 @@ const articles = (await getCollection("articles"))
 <BaseLayout title="Food Supply Chains | Food Supply Crisis Report" description="Track shipping, ports, trade routes, freight, storage and logistics risks that can influence food availability and prices.">
   <section class="hero"><div class="shell"><p class="eyebrow">Topic Hub</p><h1>Food Supply Chain</h1><p>Food moves through farms, ports, ships, warehouses, roads and retailers. We explain how disruptions travel through that system.</p></div></section>
   <section class="section"><div class="shell"><div class="card-grid">
-    {articles.length ? articles.map((article) => (<article class="card"><h2><a href={\`/articles/\${article.id}/\`}>{article.data.title}</a></h2><p>{article.data.description}</p></article>)) : <div class="callout"><strong>Supply-chain coverage:</strong> Current reporting will connect shipping disruptions, freight costs, trade routes, ports and food-price effects.</div>}
+    {articles.length ? articles.map((article) => (<article class="card"><h2><a href={"/articles/" + article.id + "/"}>{article.data.title}</a></h2><p>{article.data.description}</p></article>)) : <div class="callout"><strong>Supply-chain coverage:</strong> Current reporting will connect shipping disruptions, freight costs, trade routes, ports and food-price effects.</div>}
   </div></div></section>
 </BaseLayout>

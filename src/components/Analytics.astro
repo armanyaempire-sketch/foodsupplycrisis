@@ -4,7 +4,7 @@ const measurementId = import.meta.env.PUBLIC_GA_ID;
 
 {measurementId && (
   <>
-    <script async src={\`https://www.googletagmanager.com/gtag/js?id=\${measurementId}\`}></script>
+    <script async src={"https://www.googletagmanager.com/gtag/js?id=" + measurementId}></script>
     <script is:inline define:vars={{ measurementId }}>
       window.dataLayer = window.dataLayer || [];
       function gtag(){window.dataLayer.push(arguments);}

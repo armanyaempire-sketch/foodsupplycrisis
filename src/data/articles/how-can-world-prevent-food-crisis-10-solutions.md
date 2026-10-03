@@ -1,6 +1,6 @@
 ---
 title: How Can the World Prevent a Food Crisis? 10 Solutions That Could Strengthen Food Security
-description: Better water management, lower food loss, diversified trade, efficient fertilizer use, climate adaptation and support for vulnerable households can strengthen food-system resilience.
+description: Better water management, lower food loss, diversified trade, efficient fertilizer use, climate adaptation and support for vulnerable households strengthen food-system resilience.
 pubDate: 2026-10-04
 updatedDate: 2026-10-04
 author: Food Supply Crisis Report Editorial Desk

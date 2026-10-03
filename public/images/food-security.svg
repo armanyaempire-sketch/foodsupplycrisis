@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Food Security</title><desc id="desc">Access, affordability, hunger and resilience</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef7f3"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d7a543"/><stop offset="1" stop-color="#f1d889"/></linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1300" cy="170" r="150" fill="url(#sun)" opacity=".92"/>
+  <circle cx="1300" cy="170" r="205" fill="none" stroke="#d7a543" stroke-width="3" opacity=".18"/>
+  <path d="M0 650 C240 540 410 600 620 560 C850 515 1080 600 1600 470 L1600 900 L0 900 Z" fill="#b8d7c8" opacity=".72"/>
+  
+<path d="M930 410 Q1080 350 1230 410 L1205 590 Q1080 680 955 590Z" fill="#f9fbfa" stroke="#147a57" stroke-width="7"/>
+<path d="M960 480 Q1080 430 1200 480" fill="none" stroke="#147a57" stroke-width="7"/>
+<path d="M1015 470 C980 420 1040 390 1080 445 C1120 390 1180 420 1145 470 C1120 505 1095 525 1080 540 C1065 525 1040 505 1015 470Z" fill="#dc7b5e"/>
+<circle cx="1265" cy="535" r="55" fill="#f1d889"/><path d="M1240 535 q25 -65 50 0" fill="none" stroke="#8b6c2f" stroke-width="7"/>
+
+  <rect x="86" y="96" width="620" height="130" rx="24" fill="#ffffff" opacity=".9"/>
+  <text x="126" y="150" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="800" fill="#193447">Food Security</text>
+  <text x="126" y="194" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#5f7380">Access, affordability, hunger and resilience</text>
+</svg>

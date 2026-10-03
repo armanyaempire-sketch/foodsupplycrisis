@@ -161,3 +161,5 @@ nav a{flex:0 0 auto}
 html{scroll-behavior:auto}
 .card,nav a,.button{transition:none}
 }
+.article-topic-hero{background:#eef4f0}
+.article-topic-hero img{width:100%;aspect-ratio:16/9;height:auto;object-fit:cover;object-position:center}

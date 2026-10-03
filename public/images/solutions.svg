@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Resilient Food Solutions</title><desc id="desc">Efficiency, diversification and stronger food systems</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eaf5ee"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9a842"/><stop offset="1" stop-color="#f1d57e"/></linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1300" cy="170" r="150" fill="url(#sun)" opacity=".92"/>
+  <circle cx="1300" cy="170" r="205" fill="none" stroke="#d9a842" stroke-width="3" opacity=".18"/>
+  <path d="M0 650 C240 540 410 600 620 560 C850 515 1080 600 1600 470 L1600 900 L0 900 Z" fill="#a8ce9f" opacity=".72"/>
+  
+<path d="M1100 680 C1080 580 1090 520 1140 470" fill="none" stroke="#4e8f58" stroke-width="18" stroke-linecap="round"/>
+<path d="M1140 500 C1060 485 1015 425 1050 375 C1140 380 1180 430 1140 500Z" fill="#72ae70"/>
+<path d="M1145 525 C1225 510 1280 450 1250 395 C1170 400 1115 450 1145 525Z" fill="#8bc47d"/>
+<circle cx="1125" cy="330" r="30" fill="#d9a842"/><circle cx="1220" cy="330" r="30" fill="#d9a842"/>
+
+  <rect x="86" y="96" width="620" height="130" rx="24" fill="#ffffff" opacity=".9"/>
+  <text x="126" y="150" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="800" fill="#173b2d">Resilient Food Solutions</text>
+  <text x="126" y="194" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#5f7668">Efficiency, diversification and stronger food systems</text>
+</svg>

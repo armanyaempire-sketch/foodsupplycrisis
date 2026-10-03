@@ -1,6 +1,5 @@
 ---
-import { SITE } from "../config/site";
-import { getCountryFlag } from "../utils/country-flags";
+import { getArticleImage } from "../utils/article-image";
 
 interface Props {
   article: {
@@ -19,14 +18,17 @@ interface Props {
 }
 
 const { article, featured = false } = Astro.props;
-const flag = getCountryFlag(article.data.title);
-const image = article.data.heroImage ?? flag?.url ?? SITE.defaultImage;
-const imageAlt = article.data.imageAlt ?? (flag ? `${flag.name} national flag` : article.data.title);
+const featuredImage = getArticleImage({
+  title: article.data.title,
+  category: article.data.category,
+  heroImage: article.data.heroImage,
+  imageAlt: article.data.imageAlt
+});
 ---
 
 <article class:list={["card", featured && "card-featured"]}>
   <a class="card-image-link" href={`/articles/${article.id}/`} aria-label={`Read: ${article.data.title}`}>
-    <img class="card-image" src={image} alt={imageAlt} width="1200" height="675" loading="lazy" decoding="async" />
+    <img class="card-image" src={featuredImage.url} alt={featuredImage.alt} width="1200" height="675" loading="lazy" decoding="async" />
   </a>
   <p class="eyebrow">{article.data.category}</p>
   <h2><a href={`/articles/${article.id}/`}>{article.data.title}</a></h2>

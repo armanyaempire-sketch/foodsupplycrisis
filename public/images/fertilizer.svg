@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Fertilizer & Crops</title><desc id="desc">Nutrients, farm inputs and crop growth</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#edf5e9"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d5a244"/><stop offset="1" stop-color="#efd17d"/></linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1300" cy="170" r="150" fill="url(#sun)" opacity=".92"/>
+  <circle cx="1300" cy="170" r="205" fill="none" stroke="#d5a244" stroke-width="3" opacity=".18"/>
+  <path d="M0 650 C240 540 410 600 620 560 C850 515 1080 600 1600 470 L1600 900 L0 900 Z" fill="#93bd7e" opacity=".72"/>
+  
+<path d="M900 665 C910 545 915 465 970 420 C1025 465 1030 545 1040 665" fill="#6da66c"/>
+<path d="M1100 665 C1110 545 1120 440 1180 395 C1240 440 1250 545 1260 665" fill="#79af6f"/>
+<circle cx="1360" cy="520" r="98" fill="#fff" stroke="#c9d5c0" stroke-width="6"/>
+<circle cx="1325" cy="500" r="12" fill="#d8dce0"/><circle cx="1360" cy="470" r="12" fill="#d8dce0"/><circle cx="1395" cy="510" r="12" fill="#d8dce0"/><circle cx="1360" cy="545" r="12" fill="#d8dce0"/><circle cx="1390" cy="550" r="12" fill="#d8dce0"/>
+
+  <rect x="86" y="96" width="620" height="130" rx="24" fill="#ffffff" opacity=".9"/>
+  <text x="126" y="150" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="800" fill="#284835">Fertilizer & Crops</text>
+  <text x="126" y="194" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#667460">Nutrients, farm inputs and crop growth</text>
+</svg>

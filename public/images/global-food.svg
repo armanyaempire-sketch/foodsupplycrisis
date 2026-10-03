@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Global Food Systems</title><desc id="desc">Production • prices • security • resilience</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eaf4ef"/><stop offset="1" stop-color="#f8fbf9"/></linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d8aa44"/><stop offset="1" stop-color="#f3d681"/></linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1300" cy="170" r="150" fill="url(#sun)" opacity=".92"/>
+  <circle cx="1300" cy="170" r="205" fill="none" stroke="#d8aa44" stroke-width="3" opacity=".18"/>
+  <path d="M0 650 C240 540 410 600 620 560 C850 515 1080 600 1600 470 L1600 900 L0 900 Z" fill="#a9cbb8" opacity=".72"/>
+  
+<circle cx="1060" cy="500" r="180" fill="#ffffff" opacity=".82" stroke="#147a57" stroke-width="8"/>
+<path d="M900 495 Q1060 325 1220 495 Q1060 675 900 495Z" fill="#d9eee4"/>
+<path d="M1060 325V675 M900 495H1220" stroke="#147a57" stroke-width="6" opacity=".7"/>
+<path d="M1015 585 C980 530 990 420 1050 388 C1110 360 1160 420 1138 505 C1120 575 1070 612 1015 585Z" fill="#6ea98c"/>
+
+  <rect x="86" y="96" width="620" height="130" rx="24" fill="#ffffff" opacity=".9"/>
+  <text x="126" y="150" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="800" fill="#17324a">Global Food Systems</text>
+  <text x="126" y="194" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#526776">Production • prices • security • resilience</text>
+</svg>

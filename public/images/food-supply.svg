@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Food Supply</title><desc id="desc">Grain, harvests, stocks and availability</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3f1df"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d8a43a"/><stop offset="1" stop-color="#f2d486"/></linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1300" cy="170" r="150" fill="url(#sun)" opacity=".92"/>
+  <circle cx="1300" cy="170" r="205" fill="none" stroke="#d8a43a" stroke-width="3" opacity=".18"/>
+  <path d="M0 650 C240 540 410 600 620 560 C850 515 1080 600 1600 470 L1600 900 L0 900 Z" fill="#b5be83" opacity=".72"/>
+  
+<rect x="895" y="380" width="145" height="250" rx="20" fill="#c4a062"/>
+<rect x="1075" y="330" width="160" height="300" rx="24" fill="#b48f54"/>
+<path d="M900 430 L970 385 L1040 430" fill="#e0bd78"/><path d="M1080 392 L1155 340 L1235 392" fill="#d5ad6a"/>
+<path d="M820 670 Q980 595 1160 660 T1500 645" fill="none" stroke="#8a7b4d" stroke-width="18" stroke-linecap="round"/>
+
+  <rect x="86" y="96" width="620" height="130" rx="24" fill="#ffffff" opacity=".9"/>
+  <text x="126" y="150" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="800" fill="#4d4527">Food Supply</text>
+  <text x="126" y="194" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#6c715c">Grain, harvests, stocks and availability</text>
+</svg>

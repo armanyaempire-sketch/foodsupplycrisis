@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Food Supply Chains</title><desc id="desc">Ports, ships, trade routes and logistics</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eaf1f5"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d6a43c"/><stop offset="1" stop-color="#f0d381"/></linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1300" cy="170" r="150" fill="url(#sun)" opacity=".92"/>
+  <circle cx="1300" cy="170" r="205" fill="none" stroke="#d6a43c" stroke-width="3" opacity=".18"/>
+  <path d="M0 650 C240 540 410 600 620 560 C850 515 1080 600 1600 470 L1600 900 L0 900 Z" fill="#7aa2b4" opacity=".72"/>
+  
+<rect x="860" y="520" width="520" height="110" rx="20" fill="#fff" opacity=".9" stroke="#b9cbd5" stroke-width="5"/>
+<rect x="920" y="425" width="110" height="95" fill="#3f7898"/><rect x="1045" y="405" width="110" height="115" fill="#5790aa"/><rect x="1170" y="440" width="110" height="80" fill="#6ea0b4"/>
+<path d="M850 635 H1400" stroke="#244b5e" stroke-width="16"/><circle cx="945" cy="645" r="24" fill="#244b5e"/><circle cx="1275" cy="645" r="24" fill="#244b5e"/>
+<path d="M900 720 Q1050 670 1200 715 T1500 690" fill="none" stroke="#5da0bf" stroke-width="18"/>
+
+  <rect x="86" y="96" width="620" height="130" rx="24" fill="#ffffff" opacity=".9"/>
+  <text x="126" y="150" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="800" fill="#18384b">Food Supply Chains</text>
+  <text x="126" y="194" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#607481">Ports, ships, trade routes and logistics</text>
+</svg>

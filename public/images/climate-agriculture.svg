@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Climate & Agriculture</title><desc id="desc">Weather, crops, drought and adaptation</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eaf5f4"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d8a43a"/><stop offset="1" stop-color="#f2d27a"/></linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1300" cy="170" r="150" fill="url(#sun)" opacity=".92"/>
+  <circle cx="1300" cy="170" r="205" fill="none" stroke="#d8a43a" stroke-width="3" opacity=".18"/>
+  <path d="M0 650 C240 540 410 600 620 560 C850 515 1080 600 1600 470 L1600 900 L0 900 Z" fill="#9cc9a3" opacity=".72"/>
+  
+<circle cx="1030" cy="380" r="72" fill="#f4c95c" opacity=".95"/>
+<path d="M910 470 C960 410 1035 430 1065 475 C1110 430 1190 450 1210 500 C1270 480 1320 520 1320 575 H900 C875 525 885 495 910 470Z" fill="#eaf1f3"/>
+<path d="M850 650 Q900 560 950 650 T1050 650 T1150 650 T1250 650 T1350 650" fill="none" stroke="#4b8d65" stroke-width="16"/>
+<path d="M930 635 V570 M1000 640 V585 M1080 645 V565 M1160 645 V585" stroke="#39734f" stroke-width="8"/>
+
+  <rect x="86" y="96" width="620" height="130" rx="24" fill="#ffffff" opacity=".9"/>
+  <text x="126" y="150" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="800" fill="#1e3e4b">Climate & Agriculture</text>
+  <text x="126" y="194" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#5d7580">Weather, crops, drought and adaptation</text>
+</svg>

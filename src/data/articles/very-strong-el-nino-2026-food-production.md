@@ -16,112 +16,99 @@ type: analysis
 sources:
   - name: NOAA Climate Prediction Center — September 2026 outlook
     url: https://www.cpc.ncep.noaa.gov/products/predictions/90day/fxus05.html
-  - name: FAO Food Outlook — June 2026
-    url: https://www.fao.org/newsroom/detail/fao-food-outlook--global-food-commodity-market-trends-face-rising-geopolitical-and-weather-risks/
+  - name: NOAA Climate Prediction Center — ENSO Diagnostic Discussion, September 2026
+    url: https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml
   - name: FAO Cereal Supply and Demand Brief — October 2026
     url: https://www.fao.org/worldfoodsituation/csdb
 related: []
 ---
 
-El Niño is one of the major climate signals to watch in the global food system during late 2026 and into 2027.
+El Niño is one of the most important climate signals for agriculture in late 2026, but the term “very strong El Niño” describes a forecasted strength category, not a guarantee of a global harvest failure.
 
-NOAA's September 2026 long-lead outlook said El Niño conditions were present and strengthening, with more than a 90% chance of a very strong event during the fall and winter.
+NOAA's September 2026 ENSO discussion said El Niño was strengthening and gave a greater than 90% chance of a very strong event during the Northern Hemisphere fall and winter of 2026–27.
 
-That does not mean a worldwide crop failure is expected.
+That is a significant warning signal. It is not a forecast that every country will have poor harvests.
 
-El Niño changes the probability of particular weather patterns. The effect on agriculture depends on where rainfall and temperature anomalies occur.
+## What NOAA is seeing
 
-## Why El Niño matters to food
+NOAA reported unusually warm sea-surface temperatures across the eastern and central equatorial Pacific, with further strengthening during the previous month.
 
-Agriculture depends on water and temperature.
+For October-December 2026, NOAA said there was a 75% chance of an event reaching a historic strength threshold based on the agency's RONI measure.
 
-Changes in rainfall can affect planting dates, irrigation demand and crop yields.
+Those probabilities describe the expected climate pattern. They do not directly translate into a percentage chance of a specific crop failing.
 
-Changes in temperature can affect flowering, grain filling, livestock health and soil moisture.
+## Why El Niño matters to food production
 
-But the direction of the effect differs by region.
+El Niño changes atmospheric circulation and rainfall patterns.
 
-A weather pattern that improves conditions in one crop-growing area may damage another.
+The effects are regional.
 
-## What “very strong” means
+Some producing areas can become wetter. Others can become drier or hotter. The timing also matters because planting, flowering and grain filling are sensitive to conditions at particular stages.
 
-A very strong El Niño describes the strength of the climate event, not a forecast that every food-producing region will suffer.
+That is why there is no single “El Niño crop effect.”
 
-That distinction matters because a strong global climate signal can still produce a mixed agricultural outcome.
+## The agricultural risks are crop-specific
 
-The right question is therefore not “Will El Niño cause a food shortage?”
+A drought during a critical development stage can be more damaging than the same amount of dryness later in the season.
 
-It is “Which production regions and crops are most exposed to the expected rainfall and temperature changes?”
+Heat can reduce yields where crops are already near their temperature limits.
 
-## What FAO is warning about
+Heavy rainfall can create planting delays or flood damage.
 
-FAO's 2026 Food Outlook describes global cereal production as historically elevated while highlighting increasing dependence on weather developments, including the emergence of El Niño.
+Livestock can also be affected when pasture or water availability changes.
 
-The latest October cereal outlook still forecasts roughly 2.979 billion tonnes of cereals globally.
-
-So the baseline does not point to a simple worldwide production collapse.
-
-Instead, El Niño adds another source of regional volatility to an already complex market.
-
-## Why timing matters
-
-A climate shock can affect different crops at different stages.
-
-Rainfall before planting may matter more than rainfall after harvest.
-
-Heat during flowering can matter more than heat during a less sensitive stage.
-
-This is why seasonal agricultural monitoring needs crop-specific information rather than a single global headline.
+The correct analysis therefore combines ENSO forecasts with regional crop information.
 
 ## How climate risk can become food-price risk
 
-Suppose a major exporter experiences a lower-than-expected harvest.
+Suppose a major exporter has a lower-than-expected harvest.
 
-The market can respond even before the crop is harvested if traders anticipate tighter supply.
+Importers may search for alternative suppliers.
 
-Importers may look for alternative suppliers.
+Markets may react before the final crop is measured because prices incorporate expectations.
 
-Freight routes may change.
+Feed costs can rise if maize supplies tighten.
 
-Feed costs may rise.
+Vegetable-oil markets can respond differently depending on the crops and regions affected.
 
-The result can be higher international commodity prices even when total global output remains large.
+The result can be higher food prices without a worldwide production collapse.
 
-## What would reduce the risk?
+## Why 2026 is especially important
 
-Food systems can improve resilience through:
+The current El Niño signal is arriving while food markets are already dealing with transportation, energy and fertilizer uncertainty.
 
-- drought-tolerant or heat-tolerant varieties;
-- better irrigation where sustainable;
-- soil moisture management;
-- diversified crops;
-- improved weather forecasting;
-- insurance and financial tools;
-- and less dependence on a single production region.
+That raises the possibility of overlapping shocks.
 
-These approaches are more durable than treating every climate event as a one-off emergency.
+An adverse weather event is harder to absorb when farm input costs are already high or alternative suppliers are difficult to reach.
 
-## What readers should watch in late 2026
+This is one reason [Food Prices](/food-prices/) and [Fertilizer](/fertilizer/) belong in the same risk map.
 
-The most important indicators are:
+## What would count as stronger evidence of a crop problem?
 
-- NOAA seasonal outlooks;
-- regional rainfall and temperature;
-- crop-condition reports;
-- reservoir and soil-moisture conditions;
+Watch actual observations rather than relying on the ENSO headline alone:
+
+- rainfall and temperature;
+- soil moisture;
+- reservoir and irrigation conditions;
 - planting progress;
-- and FAO or national crop forecasts.
+- crop-condition reports;
+- pest and disease developments;
+- and official production forecasts.
 
-See our [Climate & Agriculture hub](/climate-agriculture/) for future updates and [Water & Food](/water-food/) for the agricultural water side of the risk.
+If those indicators deteriorate in multiple major producing regions, the food-market implications become more significant.
+
+## What can reduce agricultural exposure?
+
+Resilience measures include drought- and heat-tolerant varieties, irrigation where water use is sustainable, improved soil-moisture management, crop diversification, insurance and better seasonal forecasting.
+
+No measure eliminates climate risk. The objective is to reduce the size of the shock.
 
 ## Bottom line
 
-A very strong El Niño can increase agricultural risk, but it does not by itself prove that a global food shortage is coming.
+A very strong El Niño is a meaningful agricultural risk signal for late 2026 and early 2027.
 
-The effect will be regional and crop-specific. The key is to follow the actual weather, crop conditions and production forecasts as the season develops.
+But El Niño is not a synonym for global food shortage.
 
-That evidence-based approach is especially important when other shocks—energy, fertilizer and shipping—are already influencing food markets.
+The real story will be determined by what happens in individual farming regions, to individual crops, and to global trade as the season develops.
 
-## Related Food Supply Coverage
-
-Climate effects can interact with wider food-system risks. See [the global food-crisis overview](/articles/global-food-crisis-2026/), [water shortages and agriculture](/articles/water-crisis-food-crisis/), and [food-crisis prevention and resilience options](/articles/how-can-world-prevent-food-crisis-10-solutions/).
+For the water side of climate risk, see [Water Crisis and Food Crisis](/articles/water-crisis-food-crisis/). For the wider climate cluster, visit [Climate & Agriculture](/climate-agriculture/).

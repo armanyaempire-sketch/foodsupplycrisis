@@ -22,91 +22,82 @@ sources:
 related: []
 ---
 
-Energy is an upstream cost in almost every part of the food system.
+Energy is hidden inside almost every stage of the modern food system.
 
-Farm machinery needs fuel. Irrigation pumps need energy. Grain dryers, mills, warehouses, cold stores and food factories consume electricity or fuel. Trucks and ships move food between producers, ports and consumers.
+Farm machinery uses fuel. Irrigation can require electricity. Fertilizer production is energy intensive. Food is processed in factories, stored in warehouses and transported by road, rail and ship.
 
-That is why an energy shock can become a food-price shock even when farms are producing large crops.
+That is why an energy shock can raise food costs even when farms are still producing large harvests.
 
-## The first transmission: fuel
+## The energy-to-food chain
 
-Higher diesel prices can increase the cost of planting, harvesting and transporting crops.
+A useful way to understand the connection is:
 
-The effect is strongest where farming and food distribution depend heavily on motorized equipment and long-distance logistics.
+energy price → farm and input costs → processing and transport costs → delivered commodity cost → consumer prices.
 
-But fuel is only one part of the chain.
+The chain is not mechanical. Other forces can offset or amplify the effect.
 
-## The second transmission: fertilizer
+A country with domestic fuel production may be less exposed than an importer. A government can also use subsidies or taxes to change how quickly international energy prices reach households.
 
-FAO has highlighted the connection between the 2026 Middle East conflict, energy markets and fertilizer.
+## Why fertilizer is a key link
 
-Natural gas and other energy inputs are important to fertilizer manufacturing, especially nitrogen fertilizer. When energy becomes more expensive or supply routes become less reliable, fertilizer costs can rise.
+Nitrogen fertilizer is strongly connected to natural-gas markets.
 
-That makes energy a food-production issue, not just an energy-sector issue.
+When gas becomes expensive or production is disrupted, fertilizer manufacturers can face higher costs. Those costs can affect farmers before the next harvest.
 
-## The third transmission: freight
+This is one reason the energy story is also a fertilizer story.
 
-Food may travel thousands of kilometers from farm to consumer.
+FAO has warned in 2026 that energy and fertilizer disruptions linked to the wider Middle East conflict are creating food-security risks.
 
-A higher fuel price can raise trucking and shipping costs. A shipping security event can raise insurance and rerouting costs as well.
+## Transport matters too
 
-These costs may be small compared with the value of the cargo in some trades, but they can become significant when commodity margins are tight.
+Food has to move.
 
-## The fourth transmission: processing
+Diesel and other transport fuels affect trucks, farm equipment, fishing vessels, ships and generators.
 
-Food processing uses energy for grinding, baking, drying, refrigeration and packaging.
+When energy prices rise, the cost of moving grain, vegetables, meat and other foods can rise as well.
 
-The effect on consumers depends on the product. Highly processed or refrigerated foods can have a different cost structure from locally produced, shelf-stable foods.
+Shipping disruptions can add insurance and routing costs on top of the fuel bill.
 
-## Why a price shock can be uneven
+This can increase the landed cost for an importer even when the underlying agricultural commodity price has changed only modestly.
 
-A global energy price is not the same as a global retail food price.
+## What the September 2026 food-price data shows
 
-Countries set taxes and subsidies differently. Electricity markets differ. Fuel contracts have different timing. Transport distances vary.
+FAO's Food Price Index averaged 136.0 points in September 2026, 1.5% higher than August and 5.8% higher than September 2025.
 
-A country that grows much of its own food and has efficient domestic logistics can react differently from a highly import-dependent economy.
+FAO said transport disruptions and weather concerns contributed to the rise.
 
-Currency movements can amplify or reduce the international shock.
+The index does not mean every country experienced the same food inflation. Local currency movements, domestic supply, taxes, wages and retail competition all matter.
 
-## What happened in September 2026?
+## Why oil prices do not translate one-for-one into food prices
 
-FAO reported that its Food Price Index increased to 136.0 in September, with transport disruptions and weather concerns contributing to higher commodity prices.
+It is tempting to think a 10% increase in oil should create a 10% increase in food.
 
-Reuters reported that oil prices rose sharply in early October amid renewed Middle East supply concerns.
+Real food systems are more complicated.
 
-The combination is worth watching because energy and food markets interact.
+Fuel is only one component of production and distribution costs. Some farmers hedge or purchase fuel in advance. Some countries subsidize energy. Some crops are more energy-intensive than others.
 
-## What would prevent an energy shock from becoming a food crisis?
+The final consumer price also depends on how much of the commodity is imported and how strongly retailers compete.
 
-Resilience measures include:
+The correct conclusion is that energy shocks can transmit into food markets, not that they determine food prices by themselves.
 
-- efficient farm energy use;
-- diversified transport routes;
-- lower energy intensity in fertilizer production;
-- efficient storage and processing;
-- strategic reserves where appropriate;
-- and targeted assistance for households affected by food-price inflation.
+## Why Hormuz matters
 
-These measures address different links in the transmission chain.
+The Strait of Hormuz is an important energy chokepoint. The 2026 disruption has also affected fertilizer and shipping markets.
 
-## Is every oil spike a food crisis?
+That creates a compound risk because energy and agricultural inputs are being affected through related channels.
 
-No.
+See [Strait of Hormuz Food Crisis](/articles/strait-of-hormuz-food-crisis-2026/) for the trade-route side of the story and [Fertilizer Shortage 2026](/articles/fertilizer-shortage-2026/) for the farm-input connection.
 
-Markets can absorb short-term movements.
+## What consumers should watch
 
-Inventories, contracts and competitive suppliers can cushion temporary shocks.
+Follow international oil and gas prices, fertilizer quotations, freight and insurance costs, international cereal and vegetable-oil prices, domestic food inflation and major shipping disruptions.
 
-A more serious food risk emerges when higher energy prices persist, coincide with poor weather or fertilizer constraints, or occur alongside major trade disruptions.
+These indicators can help explain why food prices move even when local supermarket supply appears normal.
 
 ## Bottom line
 
-The grocery-store effect of an energy shock is usually indirect.
+Energy shocks reach food markets through several channels rather than one.
 
-Oil and gas influence the costs of fertilizer, machinery, transport, processing and cold storage. Those costs can then affect commodity markets and household food prices.
+Fuel affects machinery and transport. Gas affects fertilizer. Electricity affects irrigation and processing. Shipping disruption can raise freight and insurance.
 
-That is why our food-price coverage follows energy alongside crops, weather and trade rather than treating food inflation as a single-cause story.
-
-## Related Food Supply Coverage
-
-The energy channel connects with [global food-price pressures](/articles/why-global-food-prices-rising-2026/), while shipping disruption is discussed in the [Strait of Hormuz analysis](/articles/strait-of-hormuz-food-crisis-2026/) and [Black Sea food-supply analysis](/articles/black-sea-food-crisis-2026/).
+That is why food-price analysis needs to look upstream.

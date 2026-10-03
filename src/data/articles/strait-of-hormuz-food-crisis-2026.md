@@ -24,85 +24,78 @@ sources:
 related: []
 ---
 
-The Strait of Hormuz is primarily discussed as an energy chokepoint, but its importance extends into food markets.
+The Strait of Hormuz is an energy and trade chokepoint, but its importance to food markets is indirect as well as direct.
 
-The reason is simple: modern agriculture depends on energy, fertilizer and global logistics. When a major shipping route is disrupted, the first effects may appear in oil, gas, freight or fertilizer. Food markets can feel those effects later.
+Food does not need to pass through the strait for a disruption there to matter. The route affects energy prices, shipping conditions and fertilizer trade, all of which can influence agricultural costs.
 
-## Why Hormuz matters to agriculture
+That makes Hormuz a useful case study in how a geopolitical shock can travel into food markets.
 
-FAO has described the 2026 Middle East conflict as a compound shock affecting energy, fertilizer and agrifood systems.
+## Why Hormuz matters to food
 
-In a September 2026 statement, FAO said the Gulf region supplies a large share of global urea, sulfur and ammonia exports. It also reported that fertilizer trade was being delayed and that tanker movements through the Strait of Hormuz had fallen sharply.
+Agriculture depends on energy and inputs.
 
-The exact impact changes over time, but the basic mechanism is stable: disruptions to maritime trade can increase the cost or reduce the availability of agricultural inputs.
+Fuel powers farm machinery and transport. Gas is important in fertilizer manufacturing. Electricity supports irrigation, storage and processing.
 
-## The food-price transmission chain
+If a major energy corridor is disrupted, the effect can spread through the cost of producing and moving food.
 
-A useful way to understand the problem is as a sequence.
+FAO warned in May 2026 that fertilizer scarcity associated with the Strait of Hormuz disruption could lower yields and tighten food supplies in the second half of 2026 and into 2027.
 
-Shipping disruption can reduce vessel availability or increase risk premiums.
+## Fertilizer is the critical transmission channel
 
-Higher shipping costs can raise the delivered cost of energy or fertilizer.
+The most important agricultural connection is fertilizer.
 
-Higher input costs can raise the cost of planting, irrigation, processing and transport.
+FAO's September 2026 statement highlighted the Gulf's role in global urea, sulfur and ammonia trade and warned that fertilizer trade had been delayed amid the disruption.
 
-Higher farm and logistics costs can then contribute to higher commodity prices.
+That matters because fertilizer is often purchased before planting.
 
-Not every step happens in every market, and not every higher input cost reaches consumers immediately. Countries with domestic production, strategic stocks or alternative suppliers may experience a different effect from import-dependent countries.
+A farmer may respond to higher prices by buying less, delaying a purchase or changing the crop plan. The resulting effect on yields, if it occurs, may not appear until months later.
 
-## Fertilizer is the key link
+## Shipping costs can raise food prices
 
-Food production is not only about the availability of land and rainfall. Modern intensive agriculture also relies on nitrogen, phosphate and potash fertilizers.
+A longer or riskier shipping route can mean higher freight, insurance and financing costs.
 
-FAO warned in May 2026 that fertilizer scarcity associated with Strait of Hormuz disruptions could affect yields and tighten food supplies later in 2026 and into 2027.
+Importers then face a higher delivered cost even if the farm-gate price of the food itself has not changed.
 
-That timing is important.
+The impact is greatest for countries that rely heavily on imported food or fertilizer and have limited ability to absorb higher international costs.
 
-A shipping disruption does not necessarily remove food from supermarkets tomorrow. Fertilizer and fuel shocks can influence planting decisions and production costs over a longer cycle.
+## Energy is another link
 
-## Why energy prices matter
+Oil and gas prices influence farming and logistics in multiple ways.
 
-Farms use energy directly through tractors, pumps, dryers and processing equipment.
+Higher fuel costs affect trucks and farm machinery.
 
-The food system also uses energy indirectly in fertilizer manufacturing, refrigeration, warehousing, trucking and maritime transport.
+Higher gas prices can raise fertilizer-production costs.
 
-That is why an energy shock can become a food-price shock without a major harvest failure.
+Higher energy costs can raise the cost of processing and refrigeration.
 
-Reuters reported that Brent crude rose above $100 per barrel in early October 2026 amid renewed tensions and supply concerns. Market prices can move quickly; the pass-through into food depends on local contracts, inventories and the length of the disruption.
+The effects compound when the same event also disrupts shipping.
 
-## Who is most exposed?
-
-Import-dependent countries can be more exposed when they rely heavily on overseas fuel, fertilizer or food.
-
-The impact can also be larger in regions where households spend a high share of their income on food. Even a moderate increase in an internationally traded commodity can become a significant affordability issue for vulnerable consumers.
-
-This is why our [Food Security hub](/food-security/) treats access and affordability as separate from global physical supply.
-
-## Does Hormuz mean a global food shortage?
+## Does a Hormuz disruption create a global food shortage?
 
 Not automatically.
 
-FAO's October 2026 cereal outlook still forecasts global cereal production of about 2.979 billion tonnes. Global production can remain high while specific inputs, routes or regions become stressed.
+A shipping disruption can raise costs without removing a large share of global agricultural production.
 
-The more realistic risk is a compound shock: energy, fertilizer, freight and weather pressure occurring together.
+The current global cereal picture illustrates this distinction. FAO's October 2026 forecast still puts global cereal production at about 2.979 billion tonnes, the second-highest harvest on record.
 
-## What would reduce the risk?
+That does not eliminate food-security risk, but it does argue against describing every trade disruption as proof that the world has run out of food.
 
-Several measures can improve resilience:
+## Who is most exposed?
 
-- diversified fertilizer suppliers;
-- alternative transport routes;
-- strategic reserves where appropriate;
-- better monitoring of fertilizer and freight markets;
-- efficient fertilizer use;
-- and targeted support for vulnerable farmers and households.
+Exposure depends on dependence on imported fertilizer, dependence on imported food, currency strength, available stocks, access to alternative suppliers and the duration of the disruption.
 
-FAO's 2026 agrifood assessment points to these kinds of measures, alongside efforts to stabilize trade routes.
+Two countries can experience the same global shock and see very different effects at home.
 
-Read our [Supply Chain hub](/supply-chain/) for shipping and logistics coverage and [Fertilizer](/fertilizer/) for agricultural-input risks.
+## What to monitor
+
+The most useful indicators are energy prices, fertilizer availability, shipping activity, freight and insurance costs, major cereal prices and revisions to crop forecasts.
+
+Read [Fertilizer Shortage 2026](/articles/fertilizer-shortage-2026/) for the upstream agricultural effect, [Oil, Energy and Food Prices](/articles/oil-energy-food-prices-2026/) for the energy channel, and [Food Prices](/food-prices/) for broader commodity-market changes.
 
 ## Bottom line
 
-The Strait of Hormuz matters to food security because food systems are connected to energy and fertilizer markets. The principal risk is not that the strait directly carries the world's food. It is that disruption can raise the cost and reduce the reliability of inputs and transport that agriculture depends on.
+The Strait of Hormuz matters to food security because food systems are connected.
 
-That is a supply-chain problem first—and potentially a food-price and food-security problem later.
+A disruption can raise energy, fertilizer and transport costs long before it produces any physical shortage of food.
+
+The most responsible way to follow the story is to separate observed shipping changes from market effects and forecasts about future harvests.

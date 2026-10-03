@@ -23,81 +23,78 @@ sources:
 related: []
 ---
 
-Sudan is a clear example of why a global food-supply site must distinguish physical production from food access.
+Sudan remains one of the world's most severe food-security emergencies, but the scale of the crisis needs to be described with care.
 
-In 2026, the country's food crisis is being driven heavily by conflict, displacement, loss of livelihoods and restrictions on humanitarian access.
+The most recent IPC analysis available for the 2026–27 period shows extremely high levels of acute food insecurity, with conflict, displacement and access constraints at the centre of the crisis.
 
-## How severe is the crisis?
+This is a country-specific humanitarian emergency. It should not be treated as evidence that the entire world is experiencing a food shortage.
 
-WFP's current Sudan emergency page reports more than 19 million people facing acute hunger, with some populations already in catastrophic conditions and multiple areas at risk of famine.
+## What the latest IPC analysis says
 
-The FAO–WFP Hunger Hotspots report published in June also placed Sudan among the four highest-concern hunger hotspots for the June-November 2026 outlook.
+The IPC analysis released in May 2026 estimated that nearly 19.5 million people, around 41% of Sudan's population, were experiencing high levels of acute food insecurity from February through May 2026.
 
-These figures describe acute food insecurity, not a claim that Sudan has physically run out of all food.
+That included about 135,000 people in IPC Phase 5 Catastrophe and more than 5 million in Emergency conditions.
 
-## Why conflict affects food security
+The analysis also identified 14 areas in North Darfur, South Darfur and South Kordofan at risk of Famine under a reasonable worst-case scenario involving further conflict and worsening humanitarian access.
 
-Conflict disrupts food security through several channels.
+The IPC assessment also cautions that geographic coverage changes between periods, so figures from different time windows should not be compared without checking the analysis area.
 
-Farmers may be displaced from land.
+## Why the crisis is so severe
 
-Markets can be interrupted.
+Conflict affects food security through several channels.
 
-Roads and supply routes can become unsafe.
+Farms can become inaccessible. Markets can close. Roads and bridges can become unsafe. Farmers can be displaced from their land. Families can lose income at the same time that food becomes harder to move.
 
-Livestock can be lost.
+Humanitarian access is another major factor.
 
-Humanitarian deliveries can be delayed.
+Even when food exists somewhere in the country, people may not be able to reach functioning markets or receive assistance.
 
-Household incomes can collapse while food prices rise.
+## Famine risk is not the same as confirmed Famine
 
-The result can be severe food insecurity even where food exists in another part of the country.
+This distinction matters.
 
-## Famine risk is regional
+The IPC identified areas at risk of Famine under a defined worst-case scenario. That is different from saying that the whole country, or those areas, are currently classified as Famine.
 
-IPC analysis for Sudan covers different periods and areas because conditions vary widely.
+Food-security analysis uses formal thresholds and evidence. Media coverage should preserve those distinctions.
 
-The May 2026 IPC analysis identified very large populations facing Crisis or worse levels of acute food insecurity and projected continuing severe risk into the harvest period.
+## Displacement adds pressure
 
-That regional variation is important. A country-level headline can hide extreme differences between provinces and communities.
+WFP reported in July 2026 that El Obeid was experiencing rapidly growing displacement and increasing pressure on food, water and fuel supplies.
 
-## The role of humanitarian access
+When cities and camps receive large numbers of displaced families, existing markets and services face additional demand.
 
-WFP describes humanitarian assistance as a critical lifeline.
+That can make a local food shock harder to absorb.
 
-But aid cannot fully compensate for a food system disrupted by conflict.
+## Why food access can deteriorate without a national crop failure
 
-Long-term recovery depends on restoring safe market access, protecting livelihoods, enabling farming and allowing humanitarian organizations to reach people in need.
+Food security is not simply a production problem.
 
-## How the global food system fits in
+Sudan's crisis illustrates why access, purchasing power, markets, safety and humanitarian assistance matter alongside agriculture.
 
-Sudan's emergency is connected to the wider food system.
+A country can have food available in some regions while people in another region face extreme shortages.
 
-Disruption to the Red Sea can increase the cost of food, fuel and fertilizer.
+## The wider regional context
 
-Regional conflict can also affect trade, displacement and agricultural production.
+The June-November 2026 FAO-WFP Hunger Hotspots report identifies Sudan, South Sudan, Yemen and Palestine among the world's highest-concern hotspots, while other countries are also experiencing serious deterioration.
 
-This shows why local food-security emergencies cannot be separated completely from global logistics and commodity markets.
+That does not make all crises identical. Each has its own drivers.
 
-See [Global Food Crisis](/global-food-crisis/) for the international picture and [Supply Chain](/supply-chain/) for trade-route risks.
+## What should improve conditions?
 
-## What should readers watch?
+Immediate priorities include safe humanitarian access, functioning markets, protection of food-producing livelihoods, water and health services, and assistance targeted to the most vulnerable households.
 
-The most important indicators are:
+Longer-term recovery depends on restoring agricultural activity, infrastructure, income opportunities and market connectivity.
 
-- conflict and displacement;
-- market prices;
-- crop and livestock conditions;
-- humanitarian access;
-- IPC classifications;
-- and funding for emergency assistance.
+## What readers should watch
 
-WFP and IPC updates should take priority over social-media claims about famine or food shortages.
+Useful signals include IPC classifications, WFP operational updates, market prices, displacement levels, harvest conditions, humanitarian access and changes in conflict.
+
+For the global context, read [Global Food Crisis 2026](/articles/global-food-crisis-2026/). For broader food-security conditions, see the [Food Security hub](/food-security/).
 
 ## Bottom line
 
-Sudan is one of the clearest 2026 examples of how conflict can create acute food insecurity through access and livelihoods rather than a simple global production shortage.
+Sudan demonstrates how a severe food crisis can be driven by conflict and access rather than by a simple lack of global food production.
 
-The evidence supports a severe and evolving humanitarian food crisis. The exact severity varies by location and period, so country reporting should always include the underlying IPC and humanitarian data.
+The numbers are serious, but the wording matters. A reported risk of Famine, a Catastrophe classification and a confirmed Famine are different findings.
 
-For the wider country series, follow our [Countries hub](/countries/).
+Good food-supply reporting keeps those distinctions visible.

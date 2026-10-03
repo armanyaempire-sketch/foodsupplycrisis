@@ -24,102 +24,90 @@ featured: true
 related: []
 ---
 
-Fertilizer is one of the least visible parts of the food system until it becomes expensive or difficult to obtain.
+Fertilizer is an upstream food-supply issue. Consumers usually notice food prices months before they ever hear about the fertilizer market, even though fertilizer decisions made before planting can influence later harvests.
 
-Farmers can sometimes absorb a short-term increase in input costs. But large or sustained fertilizer disruption can influence what gets planted, how much is applied and the expected yield of future crops.
+That makes fertilizer availability, price and transport important indicators for food-security planning in 2026 and 2027.
 
-That makes fertilizer a forward-looking food-security indicator.
+## What changed in 2026?
 
-## What is happening in 2026?
+Energy and fertilizer markets have been disrupted by the conflict and shipping problems around the Strait of Hormuz. FAO warned in May that fertilizer scarcity linked to those disruptions could lower yields and tighten food supplies in the second half of 2026 and into 2027.
 
-FAO has warned that disruptions in energy and fertilizer markets are creating food-system risks.
+In September, FAO also highlighted the importance of Gulf fertilizer exports and the connection between maritime disruption, energy markets and agricultural input costs.
 
-In September 2026, FAO said the Gulf supplies a substantial share of global urea, sulfur and ammonia exports. The organization also reported delays affecting fertilizer trade and a sharp reduction in tanker movements through the Strait of Hormuz.
+The exact effect will vary by crop, country and planting calendar. A fertilizer shock is not an automatic global food shortage. It is a risk that can become important when it persists across a large share of a farming system.
 
-FAO had already warned in May that fertilizer scarcity connected to the Hormuz disruption could lower yields and tighten food supplies during the second half of 2026 and into 2027.
+## Why fertilizer matters to food production
 
-## Why fertilizer affects food production
+Plants need nutrients to grow. The major commercial nutrient groups are nitrogen, phosphorus and potassium.
 
-Nitrogen, phosphate and potash fertilizers help crops access nutrients needed for growth.
+Farmers do not all use fertilizer in the same way. Soil fertility, rainfall, crop choice, farm size and irrigation all affect the response.
 
-The effect of a fertilizer shock depends on crop, soil, climate, farm size and local management. Some farmers have options to improve nutrient efficiency or shift application timing. Others have fewer alternatives.
+That matters because a price shock does not necessarily produce the same outcome everywhere.
 
-When fertilizer becomes too expensive, a farmer may apply less than planned. That decision can lower costs immediately but may also reduce yields.
+A farmer with healthy soil and good nutrient-management practices may be able to reduce fertilizer use without a large yield loss. Another farmer may be operating close to the agronomic limit and have fewer alternatives.
 
-At a national level, a widespread reduction in fertilizer use can affect future production.
+## How a fertilizer shock travels through the food system
 
-## Energy and fertilizer are linked
+The chain usually develops in stages.
 
-Modern fertilizer production is energy intensive, especially nitrogen fertilizer.
+First, the price or availability of fertilizer changes.
 
-That creates a connection between gas and electricity prices and fertilizer costs.
+Next, farmers decide whether to buy the required amount, delay a purchase, change the application rate or alter planting decisions.
 
-The food system therefore has a chain of linked exposures:
+Then the effect may appear in crop yields, production costs and expectations for the next harvest.
 
-energy costs affect fertilizer manufacturing;
+Only after that can the impact become visible in commodity prices or food markets.
 
-shipping affects fertilizer delivery;
+This lag is why fertilizer shortages are often described as a future food-supply risk rather than an immediate supermarket shortage.
 
-fertilizer affects farm costs;
+## Why energy prices matter
 
-farm costs affect planting and production;
+Nitrogen fertilizer production is closely tied to energy markets, especially natural gas.
 
-production affects commodity markets.
+When gas becomes expensive or production is disrupted, fertilizer manufacturers can face higher costs. Shipping disruption can add another layer through freight and insurance.
 
-The chain is not automatic, but it explains why fertilizer markets deserve attention even before a crop shortage appears.
+The food-system chain therefore looks like this:
 
-## Why the timing matters
+energy and gas → fertilizer production → fertilizer cost and availability → farm decisions → crop yields and production costs → commodity markets → food prices.
 
-A fertilizer shortage is different from an empty supermarket shelf.
+Every link matters, and not every shock passes through with the same strength.
 
-The impact may show up first as higher fertilizer quotations or delayed shipments.
+## Why the Gulf is important
 
-Next, farms may reduce application rates or change crop decisions.
+FAO's September 2026 statement highlighted the Gulf's large role in global urea, sulfur and ammonia trade and the importance of the Strait of Hormuz to fertilizer movements.
 
-Only later might lower output affect commodity markets.
+That creates a concentration risk.
 
-That lag is one reason early monitoring matters.
+If a major producing or transit region becomes difficult to access, importers may need alternative suppliers or more expensive routes.
 
-## What can reduce fertilizer risk?
+Countries with limited storage or limited purchasing power can be particularly exposed.
 
-Resilience does not necessarily mean maximizing fertilizer use.
+## Can farmers adapt?
 
-It can include:
+In many cases, yes, but adaptation has limits.
 
-- better nutrient management;
-- improved soil health;
-- precision application;
-- diversified import sources;
-- storage and logistics improvements;
-- recycling nutrients where safe and practical;
-- and policies that reduce extreme vulnerability to one trade route.
+Useful approaches include soil testing, precision application, better timing of nutrients, improved organic-matter management and crop choices suited to local conditions.
 
-FAO's recent work emphasizes that fertilizer and food security need to be considered together.
+At the market level, resilience can also come from diversified suppliers, adequate commercial stocks, better logistics and transparent price information.
 
-## Does a fertilizer shock guarantee a food shortage?
+## Does fertilizer scarcity guarantee a food shortage?
 
 No.
 
-The effect depends on how severe and long-lasting the disruption is, which crops are affected and how farmers and governments respond.
+The final effect depends on duration, crop sensitivity, starting stocks, farmer responses, weather and the ability of governments and traders to secure alternative supplies.
 
-Large existing stocks can cushion some shocks. Better nutrient efficiency can reduce the amount of additional fertilizer required. Favorable weather can also offset part of an input shock in some regions.
+A strong harvest can offset part of an input shock. Efficient nutrient management can lower the amount of fertilizer needed. Conversely, fertilizer disruption becomes more serious when it occurs at the same time as drought, heat, shipping problems or high energy costs.
 
-But simultaneous energy, fertilizer, weather and trade disruptions increase the overall risk.
+## What to monitor through 2026–27
 
-## The global picture
+Watch fertilizer prices by nutrient type, production and export interruptions, gas and energy costs, shipping availability, planting intentions, crop conditions and official production forecasts.
 
-FAO's October cereal forecast still projects a historically high global harvest.
-
-That is exactly why fertilizer reporting should focus on the direction of risk rather than using “shortage” as a synonym for immediate empty shelves.
-
-A strong global harvest and a serious fertilizer problem can coexist.
-
-Read [Food Supply](/food-supply/) for production and stocks, [Food Prices](/food-prices/) for market effects and [Solutions](/solutions/) for resilience measures.
+For the energy connection, read [Oil, Energy and Food Prices](/articles/oil-energy-food-prices-2026/). For the shipping route at the centre of the current risk, see [Strait of Hormuz Food Crisis](/articles/strait-of-hormuz-food-crisis-2026/).
 
 ## Bottom line
 
-Fertilizer is a classic example of a food-system risk that develops upstream.
+Fertilizer is a leading indicator because it affects food production before the harvest happens.
 
-By the time consumers notice the result in food prices, the original disruption may have happened months earlier.
+The important question is not whether every fertilizer disruption causes a food crisis. It is whether higher costs, delayed deliveries and reduced nutrient use persist long enough to affect production in important farming regions.
 
-That makes fertilizer availability, costs and trade routes important indicators to watch through the 2026/27 planting and harvest cycle.
+That is the risk the 2026–27 food system needs to watch.

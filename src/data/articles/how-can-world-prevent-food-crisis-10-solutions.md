@@ -24,96 +24,116 @@ sources:
 related: []
 ---
 
-A resilient food system does not depend on one crop, one shipping route or one fertilizer supplier.
+Food crises rarely have a single cause, so resilience rarely has a single solution.
 
-The events of 2026 illustrate why. Global cereal production remains historically high, yet food markets are facing pressure from weather, shipping, energy, fertilizer and regional conflict.
+A country may have strong farms but weak storage. Another may have enough food but poor household purchasing power. A third may depend on one fertilizer supplier or one shipping corridor.
 
-There is no single fix.
+The most useful strategy is to strengthen several parts of the food system at the same time.
 
-Here are ten practical areas that can reduce food-system vulnerability.
+## 1. Improve agricultural water management
 
-## 1. Improve water management
+Water is fundamental to food production. FAO reports that agriculture accounts for about 72% of global freshwater withdrawals.
 
-FAO says agriculture accounts for about 72% of global freshwater withdrawals.
+Better irrigation efficiency, groundwater management, soil-moisture practices and crop choices can improve resilience.
 
-Better irrigation efficiency, groundwater monitoring, watershed management and crop choices can help farms produce more reliably under water constraints.
+The goal is not simply to use more water. It is to produce more reliably from water that can be used sustainably.
 
 ## 2. Reduce food loss and waste
 
-Food that is produced but never eaten still consumes land, water, energy and labor.
+Food lost after harvest is still a loss of land, water, energy and labour.
 
-FAO's 2026 food-loss and waste work highlights the potential of reducing losses across agriculture, storage, transport and consumption.
+Better drying, storage, roads, cold chains, packaging and market coordination can keep more of the food already produced available for consumption.
 
-Better storage and cold chains are especially important for foods that spoil quickly.
+Reducing waste at the retail and household level matters too.
 
-## 3. Diversify trade routes
+## 3. Diversify suppliers and trade routes
 
-Dependence on a single port, maritime chokepoint or supplier can make a food system fragile.
+Dependence on one port, country, supplier or maritime chokepoint creates concentration risk.
 
-Alternative suppliers and routes can provide resilience when one corridor is disrupted.
+Multiple suppliers and alternative routes can give importers more options when one source is disrupted.
+
+Diversification does not require abandoning efficient trade. It means avoiding a system in which one failure has no practical alternative.
 
 ## 4. Improve fertilizer efficiency
 
-The objective is not simply more fertilizer.
+The best response to fertilizer risk is not automatically “use more fertilizer.”
 
-It is the right nutrient, in the right amount, at the right time and place.
+Better soil testing, precision application, correct timing and nutrient-balanced farming can improve productivity per unit of fertilizer.
 
-Better nutrient management can reduce costs and make farmers less exposed to international fertilizer shocks.
+That can lower costs while reducing exposure to international fertilizer shocks.
 
-## 5. Strengthen crop resilience
+## 5. Strengthen crop and livestock resilience
 
-Breeding, seed systems and farm management can improve tolerance to drought, heat, pests and changing rainfall.
+Breeding, seed systems, animal health, soil management and farm diversification can reduce exposure to drought, heat, pests and disease.
 
-The useful strategy is to match crop choices to local climate and water conditions.
+The right combination depends on local conditions.
 
 ## 6. Maintain appropriate food reserves
 
-Strategic and commercial stocks can cushion temporary supply disruptions.
+Strategic and commercial stocks can help absorb temporary shocks.
 
-But stocks work best as part of a broader system. They do not replace functioning trade, production and distribution.
+But reserves are not a substitute for functioning production and trade.
 
-## 7. Improve food-market monitoring
+Stocks work best when governments also understand where bottlenecks are and have clear rules for releasing and replenishing supplies.
 
-Governments and market participants need timely information on prices, crop conditions, shipping, stocks and input costs.
+## 7. Improve early-warning systems
 
-Earlier warnings allow earlier responses.
+Authorities and markets need timely information about rainfall, crop conditions, commodity prices, fertilizer availability, transport and nutrition.
+
+Early warning does not prevent every crisis, but it can create more time to respond before a local disruption becomes a larger emergency.
 
 ## 8. Protect household access to food
 
-Food security is not just about producing enough calories.
+Food security is about people, not only tonnes.
 
-A family can face hunger when food is available but too expensive.
+When prices rise, low-income households can cut both the quantity and nutritional quality of food they buy.
 
-Social protection, targeted assistance and stable market access can reduce the impact of price shocks on vulnerable households.
+Targeted social protection and humanitarian assistance can help protect access during severe shocks.
 
-## 9. Strengthen climate adaptation
+## 9. Strengthen logistics and storage
 
-Weather variability is becoming a larger planning issue.
+Ports, roads, railways, warehouses and cold-chain facilities are part of food security.
 
-Farmers need better forecasts, resilient infrastructure, soil-moisture strategies and region-specific adaptation measures.
+A crop cannot feed people if it cannot be moved or stored safely.
 
-## 10. Reduce dependence on fragile inputs
+Investment in infrastructure can reduce bottlenecks and make supply chains less vulnerable to disruption.
 
-Energy, fertilizer, seed and transport systems should not be exposed unnecessarily to one supplier or one route.
+## 10. Build several layers of resilience
 
-Diversification does not eliminate risk, but it can reduce the size of a single-point failure.
+No single policy should carry the entire burden.
 
-## What these solutions have in common
+Water efficiency, fertilizer efficiency, trade diversification, food-loss reduction, social protection and climate adaptation reinforce one another.
 
-The strongest resilience measures are usually boring before a crisis and valuable during one.
+## What should governments prioritize?
 
-Better storage is not dramatic.
+The priorities differ by country.
 
-Better irrigation is not dramatic.
+An import-dependent country may gain more from diversified trade and strategic stocks.
 
-Better market data is not dramatic.
+A drought-prone farming region may need water management and crop adaptation.
 
-But each can reduce how far a disruption spreads.
+A conflict-affected area may need humanitarian access and protection of local markets.
+
+A high-price environment may require social protection as well as supply-side measures.
+
+## What businesses and households can do
+
+Food companies can diversify suppliers, improve inventory visibility and maintain backup logistics options.
+
+Farmers can improve soil and water management and use better market information.
+
+Households can reduce waste and maintain sensible reserves rather than reacting to every alarming headline.
+
+## What the 2026 evidence suggests
+
+The current food-system risks are interconnected. FAO's recent work links water scarcity, fertilizer disruption, energy markets, weather and trade to food-system resilience.
+
+That means prevention should focus on reducing points of failure rather than predicting one “big” crisis.
+
+See [Water & Food](/water-food/) for the agricultural water challenge, [Fertilizer](/fertilizer/) for input risk, and [Supply Chains](/supply-chain/) for trade resilience.
 
 ## Bottom line
 
-Preventing a food crisis is less about finding one miracle technology and more about reducing vulnerability across the whole food system.
+Preventing food crises is less about finding one miracle solution and more about building systems that can absorb shocks.
 
-Water, fertilizer, trade, storage, climate adaptation, food loss and household affordability are connected.
-
-Explore the site's [Solutions hub](/solutions/), [Food Supply](/food-supply/) and [Food Security](/food-security/) coverage for the evidence behind each area.
+The strongest resilience comes from redundancy, timely information, efficient resource use, reliable infrastructure and protection for people who are least able to absorb higher prices or disrupted access.

@@ -23,88 +23,82 @@ sources:
 related: []
 ---
 
-Water is one of the most fundamental inputs in agriculture, but it is often less visible than fertilizer or fuel.
+Water is a basic input into food production, yet water stress often receives less attention than fertilizer or fuel.
 
-FAO says agriculture accounts for about 72% of global freshwater withdrawals. That makes water management a food-security issue as well as an environmental issue.
+That is changing as agriculture faces growing competition for water, more variable rainfall and higher crop water demand in some regions.
+
+FAO describes water as fundamental to agriculture and food security and reports that agriculture accounts for about 72% of global freshwater withdrawals.
 
 ## Why water shortages can become food shortages
 
 Crops need water during specific stages of growth.
 
-Livestock also depend on reliable water for drinking and feed production.
+A shortage during planting can delay establishment. Water stress during flowering or grain formation can reduce yields. For livestock systems, inadequate water can affect animal health and feed production.
 
-When water is unavailable at the wrong time, farmers can lose yields even when fertilizer and seed are available.
+The timing of the shortage can matter as much as the annual amount.
 
-The risk becomes more serious where irrigation depends on stressed rivers, reservoirs or groundwater.
+## Water stress is highly uneven
 
-## Water stress is highly regional
+Global averages can hide very severe local pressure.
 
-A global average can hide major differences.
+FAO estimates that large populations live in agricultural areas facing severe water constraints, while water stress is especially acute in parts of Western Asia and Northern Africa.
 
-FAO's 2026 SDG data notes that global water stress was about 17.6% in 2023, while Western Asia and Northern Africa experienced much more severe pressure.
+A region can therefore face a serious agricultural water crisis without causing a collapse in global food production.
 
-That means the food effect of water scarcity is not evenly distributed.
+## Climate can increase uncertainty
 
-A water crisis can be severe for a local agricultural region without causing a global production collapse.
+Higher temperatures can increase crop water demand.
 
-## Climate change increases uncertainty
+Changing rainfall patterns can also make irrigation planning harder.
 
-Changing rainfall patterns can make agricultural water supply less predictable.
+El Niño adds another layer because it can change seasonal rainfall and temperature patterns across regions.
 
-More heat can also increase crop water demand.
+This interaction matters because farms may face lower or less predictable water supply at the same time that crops require more water.
 
-This creates a double pressure: less reliable supply in some areas and greater demand from crops.
+## Irrigation helps—but has limits
 
-El Niño adds another layer because it can alter rainfall and temperature patterns across regions.
+Irrigation can reduce dependence on rainfall, but it is not a limitless response.
 
-## Irrigation is important—but not unlimited
+Where aquifers are declining or rivers are already overallocated, simply expanding irrigation can postpone the problem rather than solve it.
 
-Irrigation helps stabilize production, but it is not a limitless solution.
+Sustainable water management therefore matters as much as irrigation capacity.
 
-Where groundwater is being depleted or rivers are already overallocated, expanding irrigation can shift the problem into the future.
+FAO highlights measures such as irrigation modernization, water accounting, governance, groundwater management and water-productivity improvements.
 
-FAO therefore emphasizes better water management, including efficiency, accounting, governance and sustainable resource use.
+## Water and food prices are connected
 
-## How water shortages affect food prices
+A water shock can first appear as lower regional yields.
 
-A regional harvest decline can reduce local supply.
+If the affected crop is traded internationally, importers may look for alternative supplies.
 
-If the affected crop is widely traded, international prices may also move.
+That can increase demand elsewhere and raise commodity prices.
 
-The effect is stronger when several major producing regions experience weather stress at the same time.
+At household level, the impact can be more significant where consumers already spend a large share of income on food.
 
-Water risk can therefore move through the food system from farm yields to commodity markets and then to consumer prices.
+## Glacier and river systems matter too
 
-## What can strengthen water-food resilience?
+Mountain watersheds and glaciers support major river systems that serve farming regions.
 
-Useful approaches include:
+FAO has warned that long-term changes in glacier water supply can affect agriculture and food security downstream.
 
-- improving irrigation efficiency;
-- reducing water losses;
-- better groundwater monitoring;
-- matching crops to local water conditions;
-- soil moisture conservation;
-- drought-resilient varieties;
-- and stronger watershed governance.
+This is a longer-term risk than a single drought, but the mechanism is similar: less reliable water creates greater uncertainty for food production.
 
-The right solution depends on the local hydrology and farming system.
+## What makes a resilient water-food system?
 
-## Water and food security are connected
+Useful measures include efficient irrigation, reduced conveyance losses, soil-moisture conservation, crop choices matched to local water availability, groundwater monitoring, watershed governance and safe use of suitable non-conventional water sources.
 
-The UN and FAO increasingly treat water, food and energy as interconnected systems.
+The right combination depends on local hydrology and farming practices.
 
-A policy that saves water but increases energy demand can have a different overall result from one that improves both.
+## What should readers watch?
 
-That is why food-security planning needs to look beyond crop output alone.
+Useful indicators include precipitation, drought conditions, reservoir levels, groundwater trends, irrigation availability and regional crop forecasts.
 
-See our [Water & Food hub](/water-food/) for updates and [Food Security](/food-security/) for access and affordability.
+For the climate connection, read [Very Strong El Niño 2026](/articles/very-strong-el-nino-2026-food-production/). For the wider food-security picture, see [Food Security](/food-security/). For practical resilience, read [10 Food-Crisis Solutions](/articles/how-can-world-prevent-food-crisis-10-solutions/).
 
 ## Bottom line
 
-Water scarcity is one of the clearest long-term constraints on food production.
+Water scarcity is one of the clearest long-term constraints on agriculture.
 
-But the correct framing is regional and systems-based. Agriculture can adapt in many places, yet severe water stress can reduce production, raise costs and increase food-security risks when water management and resilience lag behind changing conditions.
+But the effect is regional, seasonal and crop-specific.
 
-## Related Food Supply Coverage
-
-Water is one part of a wider risk chain. See [the climate-and-production analysis](/articles/very-strong-el-nino-2026-food-production/), [the global food-crisis overview](/articles/global-food-crisis-2026/), and [10 approaches to strengthening food security](/articles/how-can-world-prevent-food-crisis-10-solutions/).
+A responsible food-crisis analysis therefore asks not only whether the world has enough water in aggregate, but whether the right farming regions will have sufficient reliable water at the right time.

@@ -1,0 +1,15 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const articles = (await getCollection("articles"))
+  .filter((article) => article.data.category === "Fertilizer")
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout title="Fertilizer and Food Supply | Food Supply Crisis Report" description="Understand fertilizer prices, availability, trade, nutrient efficiency and how fertilizer shocks can affect crop production and food costs.">
+  <section class="hero"><div class="shell"><p class="eyebrow">Topic Hub</p><h1>Fertilizer</h1><p>Fertilizer is a major agricultural input. We track prices, availability, trade disruptions and nutrient efficiency.</p></div></section>
+  <section class="section"><div class="shell"><div class="card-grid">
+    {articles.length ? articles.map((article) => (<article class="card"><h2><a href={`/articles/${article.id}/`}>{article.data.title}</a></h2><p>{article.data.description}</p></article>)) : <div class="callout"><strong>Fertilizer coverage:</strong> Upcoming reporting will examine input costs, supply, trade routes and implications for farm economics and crop production.</div>}
+  </div></div></section>
+</BaseLayout>

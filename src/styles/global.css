@@ -92,7 +92,8 @@ nav a:active{transform:translateY(1px)}
 .article-content table{width:100%;border-collapse:collapse;margin:28px 0;font-size:.95rem}
 .article-content th,.article-content td{padding:11px 12px;border:1px solid var(--line);text-align:left;vertical-align:top}
 .article-content th{background:var(--soft);color:var(--ink)}
-.article-hero{margin:28px 0 34px;overflow:hidden;border-radius:15px;border:1px solid var(--line)}
+.article-hero{margin:28px 0 34px;overflow:hidden;border-radius:15px;border:1px solid var(--line);background:#edf2f4}
+.article-flag-hero img{width:100%;aspect-ratio:16/9;height:auto;object-fit:cover;object-position:center}
 .source-box{margin-top:54px;padding:24px;background:var(--soft);border:1px solid var(--line);border-radius:15px}
 .source-box-primary{box-shadow:inset 4px 0 0 var(--green)}
 .source-box h2{margin-top:0}

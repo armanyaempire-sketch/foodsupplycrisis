@@ -44,11 +44,22 @@ const {
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, SITE.url).toString();
+
 const categorySlug = category.toLowerCase()
   .replace(/&/g, "and")
   .replace(/[^a-z0-9]+/g, "-")
   .replace(/^-|-$/g, "");
 
+const categoryPaths: Record<string, string> = {
+  "Global Food Crisis": "/global-food-crisis/",
+  "Food Prices": "/food-prices/",
+  "Food Supply": "/food-supply/",
+  "Countries": "/countries/",
+  "Climate & Agriculture": "/climate-agriculture/",
+  "Solutions": "/solutions/"
+};
+
+const categoryUrl = categoryPaths[category] ?? \`/categories/\${categorySlug}/\`;
 const schemaType = contentType === "news" ? "NewsArticle" : "Article";
 
 const articleJsonLd = {
@@ -89,7 +100,7 @@ const articleJsonLd = {
   authorName={author}
   breadcrumbs={[
     { name: "Home", url: "/" },
-    { name: category, url: \`/categories/\${categorySlug}/\` },
+    { name: category, url: categoryUrl },
     { name: title, url: canonical }
   ]}
 >
@@ -100,7 +111,7 @@ const articleJsonLd = {
       <nav class="breadcrumbs" aria-label="Breadcrumb">
         <a href="/">Home</a>
         <span aria-hidden="true">/</span>
-        <a href={\`/categories/\${categorySlug}/\`}>{category}</a>
+        <a href={categoryUrl}>{category}</a>
         <span aria-hidden="true">/</span>
         <span aria-current="page">{title}</span>
       </nav>

@@ -1,9 +1,15 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
+import AdSlot from "../components/AdSlot.astro";
 import { SITE } from "../config/site";
 
 interface Source {
   name: string;
+  url: string;
+}
+
+interface RelatedArticle {
+  title: string;
   url: string;
 }
 
@@ -16,8 +22,10 @@ interface Props {
   category: string;
   keywords: string[];
   sources: Source[];
+  related?: RelatedArticle[];
   image?: string;
   imageAlt?: string;
+  contentType?: "analysis" | "explainer" | "news";
 }
 
 const {
@@ -29,8 +37,10 @@ const {
   category,
   keywords,
   sources,
+  related = [],
   image = SITE.defaultImage,
-  imageAlt = title
+  imageAlt = title,
+  contentType = "analysis"
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, SITE.url).toString();
@@ -39,9 +49,11 @@ const categorySlug = category.toLowerCase()
   .replace(/[^a-z0-9]+/g, "-")
   .replace(/^-|-$/g, "");
 
+const schemaType = contentType === "news" ? "NewsArticle" : "Article";
+
 const articleJsonLd = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": schemaType,
   headline: title,
   description,
   datePublished: pubDate.toISOString(),
@@ -85,6 +97,14 @@ const articleJsonLd = {
 
   <article class="article-shell">
     <div class="article-main">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span aria-hidden="true">/</span>
+        <a href={\`/categories/\${categorySlug}/\`}>{category}</a>
+        <span aria-hidden="true">/</span>
+        <span aria-current="page">{title}</span>
+      </nav>
+
       <p class="eyebrow">{category}</p>
       <h1>{title}</h1>
       <p class="article-dek">{description}</p>
@@ -95,6 +115,8 @@ const articleJsonLd = {
         {updatedDate && <span>Updated {updatedDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>}
       </div>
 
+      <AdSlot slot="top-horizontal" minHeight={120} />
+
       {image !== SITE.defaultImage && (
         <figure class="article-hero">
           <img src={image} alt={imageAlt} width="1600" height="900" loading="eager" decoding="async" />
@@ -104,6 +126,19 @@ const articleJsonLd = {
       <div class="article-content">
         <slot />
       </div>
+
+      {related.length > 0 && (
+        <section class="section related-section" aria-labelledby="related-heading">
+          <h2 id="related-heading">Related Food Supply Coverage</h2>
+          <div class="card-grid">
+            {related.map((item) => (
+              <article class="card">
+                <h3><a href={item.url}>{item.title}</a></h3>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
 
       <section class="source-box" aria-labelledby="sources-heading">
         <h2 id="sources-heading">Sources & Further Reading</h2>
@@ -117,9 +152,7 @@ const articleJsonLd = {
     </div>
 
     <aside class="article-sidebar" aria-label="Article sidebar">
-      <div class="ad-slot ad-slot-vertical" data-adsterra-slot="sidebar-native">
-        <span>Advertisement</span>
-      </div>
+      <AdSlot slot="sidebar-native" minHeight={280} />
       <div class="sidebar-card">
         <h2>Evidence matters</h2>
         <p>We distinguish observed data, official forecasts, reported events and analysis.</p>

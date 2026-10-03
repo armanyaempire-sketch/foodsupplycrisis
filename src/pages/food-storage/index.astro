@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import AdPlacement from "../../components/AdPlacement.astro";
 
 const articles = (await getCollection("articles"))
   .filter((article) => article.data.category === "Food Storage")
@@ -9,6 +10,12 @@ const articles = (await getCollection("articles"))
 
 <BaseLayout title="Food Storage and Stockpiling | Food Supply Crisis Report" description="Evidence-based guides and reporting on household food storage, emergency planning, stockpiling behavior, shelf life and reducing food waste.">
   <section class="hero"><div class="shell"><p class="eyebrow">Topic Hub</p><h1>Food Storage & Stockpiling</h1><p>Practical information on food storage, household preparedness, stockpiling behavior, shelf life and sensible emergency planning.</p></div></section>
+
+  <section class="section page-native-ad" aria-label="Sponsored content">
+    <div class="shell">
+      <AdPlacement placement="native-horizontal" />
+    </div>
+  </section>
   <section class="section"><div class="shell"><div class="card-grid">
     {articles.length ? articles.map((article) => (<article class="card"><h2><a href={`/articles/${article.id}/`}>{article.data.title}</a></h2><p>{article.data.description}</p></article>)) : <div class="callout"><strong>Storage coverage:</strong> Upcoming reporting will distinguish practical preparedness from panic buying and explain safe, useful ways to plan household food supplies.</div>}
   </div></div></section>

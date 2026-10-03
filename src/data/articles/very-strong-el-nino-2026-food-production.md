@@ -121,3 +121,7 @@ A very strong El Niño can increase agricultural risk, but it does not by itself
 The effect will be regional and crop-specific. The key is to follow the actual weather, crop conditions and production forecasts as the season develops.
 
 That evidence-based approach is especially important when other shocks—energy, fertilizer and shipping—are already influencing food markets.
+
+## Related Food Supply Coverage
+
+Climate effects can interact with wider food-system risks. See [the global food-crisis overview](/articles/global-food-crisis-2026/), [water shortages and agriculture](/articles/water-crisis-food-crisis/), and [food-crisis prevention and resilience options](/articles/how-can-world-prevent-food-crisis-10-solutions/).

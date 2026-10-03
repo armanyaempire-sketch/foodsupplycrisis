@@ -1,5 +1,5 @@
 ---
-title: Strait of Hormuz Food Crisis: How Shipping and Energy Disruptions Can Affect Food Prices
+title: "Strait of Hormuz Food Crisis: How Shipping and Energy Disruptions Can Affect Food Prices"
 description: The Strait of Hormuz is important to food markets because energy, fertilizer, freight and trade disruptions can feed into agricultural costs and food prices.
 pubDate: 2026-10-04
 updatedDate: 2026-10-04

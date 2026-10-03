@@ -59,7 +59,7 @@ const categoryPaths: Record<string, string> = {
   "Solutions": "/solutions/"
 };
 
-const categoryUrl = categoryPaths[category] ?? \`/categories/\${categorySlug}/\`;
+const categoryUrl = categoryPaths[category] ?? `/categories/${categorySlug}/`;
 const schemaType = contentType === "news" ? "NewsArticle" : "Article";
 
 const articleJsonLd = {

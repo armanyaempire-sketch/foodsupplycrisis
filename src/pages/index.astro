@@ -37,9 +37,9 @@ const latest = articles.slice(0, 6);
           {featured.slice(0, 3).map((article) => (
             <article class="card">
               <p class="eyebrow">{article.data.category}</p>
-              <h2><a href={\`/articles/\${article.id}/\`}>{article.data.title}</a></h2>
+              <h2><a href={`/articles/${article.id}/`}>{article.data.title}</a></h2>
               <p>{article.data.description}</p>
-              <a href={\`/articles/\${article.id}/\`}>Read the analysis →</a>
+              <a href={`/articles/${article.id}/`}>Read the analysis →</a>
             </article>
           ))}
         </div>
@@ -56,7 +56,7 @@ const latest = articles.slice(0, 6);
           {latest.map((article) => (
             <article class="card">
               <p class="eyebrow">{article.data.category}</p>
-              <h3><a href={\`/articles/\${article.id}/\`}>{article.data.title}</a></h3>
+              <h3><a href={`/articles/${article.id}/`}>{article.data.title}</a></h3>
               <p>{article.data.description}</p>
               <small>Published {article.data.pubDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</small>
             </article>

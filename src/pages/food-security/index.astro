@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import AdPlacement from "../../components/AdPlacement.astro";
 
 const articles = (await getCollection("articles"))
   .filter((article) => article.data.category === "Food Security")
@@ -9,6 +10,12 @@ const articles = (await getCollection("articles"))
 
 <BaseLayout title="Food Security 2026 | Food Supply Crisis Report" description="Evidence-based reporting on food security, hunger, affordability, access to food and resilience across regions.">
   <section class="hero"><div class="shell"><p class="eyebrow">Topic Hub</p><h1>Food Security</h1><p>Food security depends on availability, access, affordability, stability and the ability of people and systems to withstand shocks.</p></div></section>
+
+  <section class="section page-native-ad" aria-label="Sponsored content">
+    <div class="shell">
+      <AdPlacement placement="native-horizontal" />
+    </div>
+  </section>
   <section class="section"><div class="shell"><div class="card-grid">
     {articles.length ? articles.map((article) => (<article class="card"><h2><a href={`/articles/${article.id}/`}>{article.data.title}</a></h2><p>{article.data.description}</p></article>)) : <div class="callout"><strong>Food security coverage:</strong> Upcoming reporting will connect hunger, prices, access, conflict, climate and resilience using primary sources.</div>}
   </div></div></section>

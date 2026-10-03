@@ -1,13 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-
-function slugify(value: string) {
-  return value.toLowerCase()
-    .replace(/&/g, "and")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
-}
+import { slugify } from "../../utils/slugify";
 
 export async function getStaticPaths() {
   const articles = await getCollection("articles");

@@ -82,7 +82,7 @@ const articleJsonLd = {
   publisher: {
     "@type": "Organization",
     name: SITE.name,
-    url: SITE.url,
+    url: new URL("/about/editorial-desk/", SITE.url).toString(),
     logo: {
       "@type": "ImageObject",
       url: new URL("/favicon.svg", SITE.url).toString()
@@ -130,6 +130,10 @@ const articleJsonLd = {
         <span>By {author}</span>
         <span>Published {pubDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>
         {updatedDate && <span>Updated {updatedDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>}
+      </div>
+
+      <div class="article-title-ad">
+        <AdPlacement placement="native-horizontal" />
       </div>
 
       {image !== SITE.defaultImage && (

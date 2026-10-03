@@ -1,5 +1,5 @@
 ---
-title: Very Strong El Niño 2026: Could It Reduce Global Food Production?
+title: "Very Strong El Niño 2026: Could It Reduce Global Food Production?"
 description: NOAA says El Niño is strengthening in late 2026, while FAO warns that changing rainfall and heat could increase risks to crop production in some regions.
 pubDate: 2026-10-04
 updatedDate: 2026-10-04

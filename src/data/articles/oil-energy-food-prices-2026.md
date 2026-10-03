@@ -1,5 +1,5 @@
 ---
-title: Oil, Energy and Food Prices: How an Energy Shock Reaches the Grocery Store
+title: "Oil, Energy and Food Prices: How an Energy Shock Reaches the Grocery Store"
 description: Energy costs affect farming, fertilizer, processing and transport, so oil and gas disruptions can feed into food prices without causing an immediate physical food shortage.
 pubDate: 2026-10-04
 updatedDate: 2026-10-04

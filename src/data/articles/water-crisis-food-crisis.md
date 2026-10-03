@@ -1,5 +1,5 @@
 ---
-title: Water Crisis and Food Crisis: How Water Shortages Threaten Agriculture
+title: "Water Crisis and Food Crisis: How Water Shortages Threaten Agriculture"
 description: Agriculture accounts for about 72% of global freshwater withdrawals, making water scarcity, drought and irrigation efficiency central to long-term food security.
 pubDate: 2026-10-04
 updatedDate: 2026-10-04

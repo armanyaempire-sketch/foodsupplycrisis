@@ -1,5 +1,5 @@
 ---
-title: Why Are People Stockpiling Food in 2026? Panic Buying, Real Risks and the Data
+title: "Why Are People Stockpiling Food in 2026? Panic Buying, Real Risks and the Data"
 description: Food stockpiling can reflect genuine insecurity, expected price increases or fear, but a buying rush is not by itself proof of a worldwide food shortage.
 pubDate: 2026-10-04
 updatedDate: 2026-10-04

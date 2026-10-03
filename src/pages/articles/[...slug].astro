@@ -4,13 +4,25 @@ import ArticleLayout from "../../layouts/ArticleLayout.astro";
 
 export async function getStaticPaths() {
   const articles = await getCollection("articles");
-  return articles.map((article) => ({
-    params: { slug: article.id },
-    props: { article }
-  }));
+
+  return articles.map((article) => {
+    const related = articles
+      .filter((candidate) => candidate.id !== article.id && candidate.data.category === article.data.category)
+      .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+      .slice(0, 3)
+      .map((candidate) => ({
+        title: candidate.data.title,
+        url: \`/articles/\${candidate.id}/\`
+      }));
+
+    return {
+      params: { slug: article.id },
+      props: { article, related }
+    };
+  });
 }
 
-const { article } = Astro.props;
+const { article, related } = Astro.props;
 const { Content } = await render(article);
 ---
 
@@ -23,8 +35,10 @@ const { Content } = await render(article);
   category={article.data.category}
   keywords={article.data.keywords}
   sources={article.data.sources}
+  related={related}
   image={article.data.heroImage}
   imageAlt={article.data.imageAlt}
+  contentType={article.data.type}
 >
   <Content />
 </ArticleLayout>

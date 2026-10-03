@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
 
 const countryArticles = (await getCollection("articles"))
   .filter((article) => article.data.category === "Countries")
@@ -24,12 +25,7 @@ const countryArticles = (await getCollection("articles"))
     <div class="shell">
       {countryArticles.length > 0 ? (
         <div class="card-grid">
-          {countryArticles.map((article) => (
-            <article class="card">
-              <h2><a href={"/articles/" + article.id + "/"}>{article.data.title}</a></h2>
-              <p>{article.data.description}</p>
-            </article>
-          ))}
+          {countryArticles.map((article) => <ArticleCard article={article} />)}
         </div>
       ) : (
         <div class="callout">

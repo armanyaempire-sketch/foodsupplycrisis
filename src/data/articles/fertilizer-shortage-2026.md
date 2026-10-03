@@ -21,7 +21,6 @@ sources:
   - name: FAO — Global Agrifood Implications of the 2026 Conflict in the Middle East
     url: https://www.fao.org/agrifood-economics/publications/detail/en/c/1758065/
 featured: true
-type: explainer
 related: []
 ---
 

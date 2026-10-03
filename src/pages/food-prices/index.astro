@@ -1,7 +1,6 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import AdPlacement from "../../components/AdPlacement.astro";
 
 const articles = (await getCollection("articles"))
   .filter((article) => article.data.category === "Food Prices")
@@ -10,12 +9,6 @@ const articles = (await getCollection("articles"))
 
 <BaseLayout title="Food Prices 2026 | Food Supply Crisis Report" description="Track food-price inflation, cereal prices, energy costs, fertilizer, shipping and the supply shocks that reach consumers.">
   <section class="hero"><div class="shell"><p class="eyebrow">Topic Hub</p><h1>Food Prices</h1><p>Why food prices move, where pressure is building and what the latest evidence says.</p></div></section>
-
-  <section class="section page-native-ad" aria-label="Sponsored content">
-    <div class="shell">
-      <AdPlacement placement="native-horizontal" />
-    </div>
-  </section>
   <section class="section"><div class="shell"><div class="card-grid">
     {articles.map((article) => (<article class="card"><h2><a href={`/articles/${article.id}/`}>{article.data.title}</a></h2><p>{article.data.description}</p></article>))}
   </div></div></section>

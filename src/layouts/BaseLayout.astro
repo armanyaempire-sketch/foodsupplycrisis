@@ -1,7 +1,6 @@
 ---
 import { SITE } from "../config/site";
 import Analytics from "../components/Analytics.astro";
-import AdPlacement from "../components/AdPlacement.astro";
 import "../styles/global.css";
 
 interface Props {
@@ -15,8 +14,6 @@ interface Props {
   modifiedTime?: Date;
   authorName?: string;
   breadcrumbs?: Array<{ name: string; url: string }>;
-  adProfile?: "standard" | "article";
-  adsEnabled?: boolean;
 }
 
 const {
@@ -30,8 +27,6 @@ const {
   modifiedTime,
   authorName = SITE.authorName,
   breadcrumbs = [],
-  adProfile = "standard",
-  adsEnabled = true
 } = Astro.props;
 
 const googleVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
@@ -83,6 +78,7 @@ const breadcrumbJsonLd = breadcrumbs.length
     <link rel="canonical" href={canonicalUrl} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="alternate" type="application/rss+xml" title={SITE.name} href="/rss.xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
 
     {googleVerification && <meta name="google-site-verification" content={googleVerification} />}
     {bingVerification && <meta name="msvalidate.01" content={bingVerification} />}
@@ -137,25 +133,8 @@ const breadcrumbJsonLd = breadcrumbs.length
     </header>
 
     <main id="main-content">
-      {adsEnabled && (
-        <div class="global-ad-band">
-          <div class="shell">
-            <AdPlacement placement="responsive-banner" />
-          </div>
-        </div>
-      )}
-
       <slot />
     </main>
-
-    {adsEnabled && (
-      <div class="global-ad-band global-ad-bottom">
-        <div class="shell ad-bottom-grid">
-          {adProfile === "standard" && <AdPlacement placement="banner-300x250" />}
-          <AdPlacement placement="smartlink" />
-        </div>
-      </div>
-    )}
 
     <footer class="site-footer">
       <div class="shell footer-grid">
@@ -180,6 +159,5 @@ const breadcrumbJsonLd = breadcrumbs.length
     </footer>
 
     <Analytics />
-    {adsEnabled && <script is:inline src="https://disregardpervertmural.com/d3/ca/67/d3ca679608bface2b124b9372cc865db.js"></script>}
   </body>
 </html>

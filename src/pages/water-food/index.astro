@@ -1,7 +1,6 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import AdPlacement from "../../components/AdPlacement.astro";
 
 const articles = (await getCollection("articles"))
   .filter((article) => article.data.category === "Water & Food")
@@ -10,12 +9,6 @@ const articles = (await getCollection("articles"))
 
 <BaseLayout title="Water and Food Supply | Food Supply Crisis Report" description="Track water stress, drought, irrigation, groundwater and the ways water availability can affect agriculture and food supply.">
   <section class="hero"><div class="shell"><p class="eyebrow">Topic Hub</p><h1>Water & Food</h1><p>Water availability is a core agricultural constraint. We examine drought, irrigation, groundwater and food-production risk.</p></div></section>
-
-  <section class="section page-native-ad" aria-label="Sponsored content">
-    <div class="shell">
-      <AdPlacement placement="native-horizontal" />
-    </div>
-  </section>
   <section class="section"><div class="shell"><div class="card-grid">
     {articles.length ? articles.map((article) => (<article class="card"><h2><a href={`/articles/${article.id}/`}>{article.data.title}</a></h2><p>{article.data.description}</p></article>)) : <div class="callout"><strong>Water and food coverage:</strong> Upcoming reporting will connect water conditions to crops, livestock, prices and regional food security.</div>}
   </div></div></section>

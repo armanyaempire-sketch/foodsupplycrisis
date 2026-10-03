@@ -1,5 +1,5 @@
 ---
-title: Black Sea Food Crisis 2026: How Grain and Shipping Disruptions Affect Global Food Supply
+title: "Black Sea Food Crisis 2026: How Grain and Shipping Disruptions Affect Global Food Supply"
 description: Black Sea disruption can affect wheat and maize trade, freight costs and international food prices even when global cereal production remains high.
 pubDate: 2026-10-04
 updatedDate: 2026-10-04

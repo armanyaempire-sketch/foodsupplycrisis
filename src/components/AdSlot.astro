@@ -8,6 +8,6 @@ interface Props {
 const { label = "Advertisement", slot = "generic", minHeight = 250 } = Astro.props;
 ---
 
-<div class="ad-slot" style={\`min-height: \${minHeight}px\`} data-adsterra-slot={slot} aria-label={label}>
+<div class="ad-slot" style={"min-height: " + minHeight + "px"} data-adsterra-slot={slot} aria-label={label}>
   <span>{label}</span>
 </div>

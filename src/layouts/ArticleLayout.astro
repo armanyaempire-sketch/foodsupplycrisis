@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
-import AdSlot from "../components/AdSlot.astro";
+import AdPlacement from "../components/AdPlacement.astro";
 import { SITE } from "../config/site";
 
 interface Source {
@@ -103,6 +103,7 @@ const articleJsonLd = {
   publishedTime={pubDate}
   modifiedTime={updatedDate ?? pubDate}
   authorName={author}
+  adProfile="article"
   breadcrumbs={[
     { name: "Home", url: "/" },
     { name: category, url: categoryUrl },
@@ -130,8 +131,6 @@ const articleJsonLd = {
         <span>Published {pubDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>
         {updatedDate && <span>Updated {updatedDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>}
       </div>
-
-      <AdSlot slot="top-horizontal" minHeight={120} />
 
       {image !== SITE.defaultImage && (
         <figure class="article-hero">
@@ -167,8 +166,21 @@ const articleJsonLd = {
       </section>
     </div>
 
-    <aside class="article-sidebar" aria-label="Article sidebar">
-      <AdSlot slot="sidebar-native" minHeight={280} />
+    <aside class="article-sidebar" aria-label="Article advertising and related information">
+      <AdPlacement placement="native-vertical" />
+
+      <div class="sidebar-ad-block">
+        <AdPlacement placement="banner-300x250" />
+      </div>
+
+      <div class="sidebar-ad-block desktop-tall-ad">
+        <AdPlacement placement="banner-160x600" />
+      </div>
+
+      <div class="sidebar-ad-block medium-tall-ad">
+        <AdPlacement placement="banner-160x300" />
+      </div>
+
       <div class="sidebar-card">
         <h2>Evidence matters</h2>
         <p>We distinguish observed data, official forecasts, reported events and analysis.</p>

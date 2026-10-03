@@ -52,6 +52,18 @@ nav a:active{transform:translateY(1px)}
 .section-explore{background:#f8faf8}
 .callout{padding:24px 26px;background:linear-gradient(135deg,#f1f8f4 0%,#f8fbf9 100%);border:1px solid #cfe2d8;border-left:5px solid var(--green);border-radius:14px;box-shadow:0 8px 24px rgba(18,34,53,.04)}
 .card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.card-grid .card:nth-child(6n+1){background:#f1f8f4;border-color:#cfe4d8}
+.card-grid .card:nth-child(6n+1)::before{background:#147a57}
+.card-grid .card:nth-child(6n+2){background:#eef5fb;border-color:#d3e1ee}
+.card-grid .card:nth-child(6n+2)::before{background:#397da5}
+.card-grid .card:nth-child(6n+3){background:#fff7e5;border-color:#f0dfb7}
+.card-grid .card:nth-child(6n+3)::before{background:#d39a2f}
+.card-grid .card:nth-child(6n+4){background:#fff0ec;border-color:#efd4cb}
+.card-grid .card:nth-child(6n+4)::before{background:#c96852}
+.card-grid .card:nth-child(6n+5){background:#f4effa;border-color:#ded3ed}
+.card-grid .card:nth-child(6n+5)::before{background:#7657a4}
+.card-grid .card:nth-child(6n){background:#edf7f7;border-color:#cfe3e3}
+.card-grid .card:nth-child(6n)::before{background:#3f8f8f}
 .card{position:relative;border:1px solid var(--line);border-radius:15px;padding:22px;background:#fff;box-shadow:0 8px 24px rgba(18,34,53,.045);transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
 .card::before{content:"";position:absolute;left:18px;top:0;width:46px;height:4px;border-radius:0 0 5px 5px;background:var(--green)}
 .card:hover{transform:translateY(-3px);border-color:#bfd2c8;box-shadow:0 16px 34px rgba(18,34,53,.09)}

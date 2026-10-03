@@ -13,7 +13,7 @@ export async function GET(context) {
       title: article.data.title,
       description: article.data.description,
       pubDate: article.data.pubDate,
-      link: \`/articles/\${article.id}/\`
+      link: `/articles/${article.id}/`
     })),
     customData: "<language>en-us</language>"
   });

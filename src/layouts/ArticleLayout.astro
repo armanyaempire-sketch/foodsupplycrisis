@@ -44,6 +44,44 @@ const {
 
 const canonical = new URL(Astro.url.pathname, SITE.url).toString();
 
+const flagForArticle = (title: string) => {
+  const t = title.toLowerCase();
+
+  const flags = [
+    { match: ["united states", "us food", "u.s. food", "american"], code: "us", name: "United States" },
+    { match: ["india"], code: "in", name: "India" },
+    { match: ["china"], code: "cn", name: "China" },
+    { match: ["egypt"], code: "eg", name: "Egypt" },
+    { match: ["philippines"], code: "ph", name: "Philippines" },
+    { match: ["nigeria", "borno"], code: "ng", name: "Nigeria" },
+    { match: ["japan rice", "japan"], code: "jp", name: "Japan" },
+    { match: ["brazil"], code: "br", name: "Brazil" },
+    { match: ["australia"], code: "au", name: "Australia" },
+    { match: ["bangladesh"], code: "bd", name: "Bangladesh" },
+    { match: ["pakistan"], code: "pk", name: "Pakistan" },
+    { match: ["turkey", "turkiye"], code: "tr", name: "Türkiye" },
+    { match: ["germany"], code: "de", name: "Germany" },
+    { match: ["indonesia", "southeast asia rice"], code: "id", name: "Indonesia" },
+    { match: ["thailand"], code: "th", name: "Thailand" },
+    { match: ["sudan"], code: "sd", name: "Sudan" },
+    { match: ["yemen"], code: "ye", name: "Yemen" },
+    { match: ["somalia"], code: "so", name: "Somalia" },
+    { match: ["uk", "united kingdom", "britain"], code: "gb", name: "United Kingdom" }
+  ];
+
+  const match = flags.find((flag) => flag.match.some((term) => t.includes(term)));
+  return match
+    ? {
+        ...match,
+        url: `https://flagcdn.com/w1600/${match.code}.png`
+      }
+    : null;
+};
+
+const detectedFlag = image === SITE.defaultImage ? flagForArticle(title) : null;
+const featuredImage = detectedFlag?.url ?? image;
+const featuredImageAlt = detectedFlag ? `${detectedFlag.name} national flag` : imageAlt;
+
 const categorySlug = category.toLowerCase()
   .replace(/&/g, "and")
   .replace(/[^a-z0-9]+/g, "-")
@@ -89,7 +127,7 @@ const articleJsonLd = {
   },
   mainEntityOfPage: canonical,
   keywords,
-  image: [new URL(image, SITE.url).toString()]
+  image: [new URL(featuredImage, SITE.url).toString()]
 };
 ---
 
@@ -98,7 +136,7 @@ const articleJsonLd = {
   description={description}
   canonical={canonical}
   type="article"
-  image={image}
+  image={featuredImage}
   publishedTime={pubDate}
   modifiedTime={updatedDate ?? pubDate}
   authorName={author}
@@ -130,9 +168,9 @@ const articleJsonLd = {
         {updatedDate && <span>Updated {updatedDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>}
       </div>
 
-      {image !== SITE.defaultImage && (
-        <figure class="article-hero">
-          <img src={image} alt={imageAlt} width="1600" height="900" loading="eager" decoding="async" />
+      {featuredImage !== SITE.defaultImage && (
+        <figure class="article-hero article-flag-hero">
+          <img src={featuredImage} alt={featuredImageAlt} width="1600" height="900" loading="eager" decoding="async" />
         </figure>
       )}
 

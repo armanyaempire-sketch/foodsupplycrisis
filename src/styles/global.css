@@ -76,10 +76,10 @@ nav a { font-size: 13px; font-weight: 700; text-decoration: none; color: var(--i
 .ad-responsive-shell { min-height: 90px; padding: 0; }
 .ad-responsive-target { width: 100%; height: 90px; min-height: 0; display: flex; align-items: center; justify-content: center; }
 .ad-native { overflow: visible; border: 0; background: transparent; border-radius: 0; }
-.ad-native-horizontal { width: min(728px, 100%); height: 182px; min-height: 182px; margin: 0 auto; }
-.ad-native-horizontal > div:not(.ad-label) { width: 100%; height: 182px; display: flex; justify-content: center; align-items: center; }
-.ad-native-vertical { width: 160px; height: 640px; min-height: 640px; margin-inline: auto; }
-.ad-native-vertical > div:not(.ad-label) { width: 160px; height: 640px; min-width: 160px; min-height: 640px; display: flex; justify-content: center; align-items: flex-start; }
+.ad-native-horizontal { width: 100%; max-width: 960px; margin: 0 auto; }
+.ad-native-horizontal > div:not(.ad-label) { width: 100%; display: flex; justify-content: center; align-items: flex-start; }
+.ad-native-vertical { width: 160px; max-width: 160px; margin-inline: auto; }
+.ad-native-vertical > div:not(.ad-label) { width: 160px; max-width: 160px; display: flex; justify-content: center; align-items: flex-start; }
 .ad-box-300 { min-height: 250px; width: 300px; max-width: 100%; }
 .ad-box-160 { width: 160px; min-height: 300px; margin-inline: auto; }
 .ad-tall { min-height: 600px; }
@@ -171,9 +171,6 @@ nav a { font-size: 13px; font-weight: 700; text-decoration: none; color: var(--i
 @media (max-width: 900px) {
   .ad-responsive-target { height: 60px; }
   .ad-responsive-shell { min-height: 60px; }
-  .ad-native-horizontal { width: min(468px, 100%); height: 117px; min-height: 117px; }
-  .ad-native-horizontal > div:not(.ad-label) { height: 117px; }
-
   .header-inner { align-items: flex-start; padding: 14px 0; flex-direction: column; }
   nav { justify-content: flex-start; }
   .article-shell { grid-template-columns: 1fr; gap: 28px; }
@@ -195,8 +192,6 @@ nav a { font-size: 13px; font-weight: 700; text-decoration: none; color: var(--i
   .global-ad-band { padding: 12px 0; }
   .ad-responsive-shell { min-height: 50px; }
   .ad-responsive-target { height: 50px; min-height: 0; }
-  .ad-native-horizontal { width: min(320px, 100%); height: 80px; min-height: 80px; }
-  .ad-native-horizontal > div:not(.ad-label) { height: 80px; }
   .ad-smartlink-wrap { flex-direction: column; align-items: flex-start; }
   .ad-smartlink { width: 100%; justify-content: center; }
 }

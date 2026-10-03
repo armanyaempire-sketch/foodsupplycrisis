@@ -54,12 +54,17 @@ const categoryPaths: Record<string, string> = {
   "Global Food Crisis": "/global-food-crisis/",
   "Food Prices": "/food-prices/",
   "Food Supply": "/food-supply/",
+  "Food Security": "/food-security/",
   "Countries": "/countries/",
   "Climate & Agriculture": "/climate-agriculture/",
+  "Water & Food": "/water-food/",
+  "Fertilizer": "/fertilizer/",
+  "Supply Chains": "/supply-chain/",
+  "Food Storage": "/food-storage/",
   "Solutions": "/solutions/"
 };
 
-const categoryUrl = categoryPaths[category] ?? `/categories/${categorySlug}/`;
+const categoryUrl = categoryPaths[category] ?? \`/categories/\${categorySlug}/\`;
 const schemaType = contentType === "news" ? "NewsArticle" : "Article";
 
 const articleJsonLd = {

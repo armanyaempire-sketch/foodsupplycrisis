@@ -13,11 +13,29 @@ const latest = articles.slice(0, 6);
   title="Food Supply Crisis Report | Global Food Supply, Prices & Food Security"
   description="Track global food supply risks, food prices, shortages, food security, climate, water, fertilizer and supply-chain disruptions with evidence and practical solutions."
 >
-  <section class="hero">
-    <div class="shell">
-      <p class="eyebrow">Global Food Supply Intelligence</p>
-      <h1>The Global Food Supply, Explained.</h1>
-      <p>We track food-supply risks, price shocks, agricultural pressures and food-security conditions — then explain the causes, evidence and practical solutions.</p>
+  <section class="hero hero-home">
+    <div class="shell hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Global Food Supply Intelligence</p>
+        <h1>The Global Food Supply, Explained.</h1>
+        <p>We track food-supply risks, price shocks, agricultural pressures and food-security conditions — then explain the causes, evidence and practical solutions.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#latest">Read the latest</a>
+          <a class="button button-secondary" href="#explore">Explore topics</a>
+        </div>
+      </div>
+      <aside class="hero-panel" aria-label="Coverage areas">
+        <span class="hero-panel-label">Coverage areas</span>
+        <div class="hero-topic-list">
+          <span>Food prices</span>
+          <span>Food supply</span>
+          <span>Food security</span>
+          <span>Climate & crops</span>
+          <span>Water & agriculture</span>
+          <span>Fertilizer & trade</span>
+        </div>
+        <p>Clear distinctions between verified data, forecasts, reported events and analysis.</p>
+      </aside>
     </div>
   </section>
 
@@ -47,7 +65,7 @@ const latest = articles.slice(0, 6);
     </section>
   )}
 
-  <section class="section">
+  <section class="section section-featured" id="latest">
     <div class="shell">
       <p class="eyebrow">Latest</p>
       <h2>Latest food-supply reporting and explainers</h2>
@@ -68,7 +86,7 @@ const latest = articles.slice(0, 6);
     </div>
   </section>
 
-  <section class="section">
+  <section class="section section-explore" id="explore">
     <div class="shell">
       <p class="eyebrow">Explore</p>
       <h2>Follow the drivers behind food-supply risk</h2>

@@ -10,6 +10,6 @@ const articles = (await getCollection("articles"))
 <BaseLayout title="Global Food Crisis | Food Supply Crisis Report" description="Evidence-based reporting on global food crises, hunger hotspots, food insecurity, price shocks and food-supply risks.">
   <section class="hero"><div class="shell"><p class="eyebrow">Topic Hub</p><h1>Global Food Crisis</h1><p>Understand the difference between global availability, regional shortages, high prices and acute food insecurity.</p></div></section>
   <section class="section"><div class="shell"><div class="card-grid">
-    {articles.map((article) => (<article class="card"><h2><a href={\`/articles/\${article.id}/\`}>{article.data.title}</a></h2><p>{article.data.description}</p></article>))}
+    {articles.map((article) => (<article class="card"><h2><a href={`/articles/${article.id}/`}>{article.data.title}</a></h2><p>{article.data.description}</p></article>))}
   </div></div></section>
 </BaseLayout>

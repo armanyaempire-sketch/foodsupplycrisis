@@ -1,0 +1,25 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const countries = [
+  ["India", "/countries/india/"],
+  ["United States", "/countries/united-states/"],
+  ["China", "/countries/china/"],
+  ["Australia", "/countries/australia/"],
+  ["Japan", "/countries/japan/"],
+  ["Philippines", "/countries/philippines/"],
+  ["Germany", "/countries/germany/"],
+  ["Brazil", "/countries/brazil/"],
+  ["Türkiye", "/countries/turkiye/"],
+  ["Saudi Arabia & Gulf", "/countries/gulf/"],
+  ["Sudan", "/countries/sudan/"],
+  ["Yemen", "/countries/yemen/"]
+];
+---
+
+<BaseLayout title="Food Crisis by Country | Food Supply Crisis Report" description="Country-by-country food supply, food-price and food-security reporting with evidence, data and source links.">
+  <section class="hero"><div class="shell"><p class="eyebrow">Country Watch</p><h1>Food Supply & Food Crisis by Country</h1><p>Country pages will distinguish acute humanitarian food crises from food-price, crop, water and supply-chain risks.</p></div></section>
+  <section class="section"><div class="shell"><div class="card-grid">
+    {countries.map(([name, href]) => (<article class="card"><h2><a href={href}>{name}</a></h2><p>Country food supply, food security and current risk coverage.</p></article>))}
+  </div></div></section>
+</BaseLayout>

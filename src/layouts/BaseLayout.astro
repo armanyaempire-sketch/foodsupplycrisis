@@ -29,6 +29,9 @@ const {
   breadcrumbs = []
 } = Astro.props;
 
+const googleVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
+const bingVerification = import.meta.env.PUBLIC_BING_SITE_VERIFICATION;
+
 const absoluteImage = image.startsWith("http") ? image : new URL(image, SITE.url).toString();
 const canonicalUrl = canonical.endsWith("/") ? canonical : canonical + "/";
 
@@ -76,6 +79,9 @@ const breadcrumbJsonLd = breadcrumbs.length
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="alternate" type="application/rss+xml" title={SITE.name} href="/rss.xml" />
 
+    {googleVerification && <meta name="google-site-verification" content={googleVerification} />}
+    {bingVerification && <meta name="msvalidate.01" content={bingVerification} />}
+
     <meta property="og:type" content={type} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -99,8 +105,10 @@ const breadcrumbJsonLd = breadcrumbs.length
     {breadcrumbJsonLd && <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />}
     <title>{title}</title>
   </head>
+
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
+
     <header class="site-header">
       <div class="shell header-inner">
         <a class="brand" href="/" aria-label={SITE.name}>
@@ -110,6 +118,7 @@ const breadcrumbJsonLd = breadcrumbs.length
             <small>{SITE.tagline}</small>
           </span>
         </a>
+
         <nav aria-label="Primary navigation">
           <a href="/global-food-crisis/">Global Crisis</a>
           <a href="/food-prices/">Food Prices</a>
@@ -120,7 +129,9 @@ const breadcrumbJsonLd = breadcrumbs.length
         </nav>
       </div>
     </header>
+
     <main id="main-content"><slot /></main>
+
     <footer class="site-footer">
       <div class="shell footer-grid">
         <div>
@@ -142,6 +153,7 @@ const breadcrumbJsonLd = breadcrumbs.length
         <span>Evidence-led global food-supply reporting.</span>
       </div>
     </footer>
+
     <Analytics />
   </body>
 </html>

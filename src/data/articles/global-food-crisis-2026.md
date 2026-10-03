@@ -108,3 +108,7 @@ It does support a serious investigation of regional hunger, food-price pressure,
 That distinction is the foundation of Food Supply Crisis Report: **what is happening, why it matters, and what can be done.**
 
 > **Editorial note:** Forecasts are not confirmed outcomes. Local shortages are not automatically global shortages. Current claims should be checked against the original sources linked below.
+
+## Related Food Supply Coverage
+
+For the main drivers behind food-system stress, see [why global food prices are rising](/articles/why-global-food-prices-rising-2026/), [the fertilizer shortage and food-price link](/articles/fertilizer-shortage-2026/), and [the relationship between water shortages and agriculture](/articles/water-crisis-food-crisis/).

@@ -106,3 +106,7 @@ The grocery-store effect of an energy shock is usually indirect.
 Oil and gas influence the costs of fertilizer, machinery, transport, processing and cold storage. Those costs can then affect commodity markets and household food prices.
 
 That is why our food-price coverage follows energy alongside crops, weather and trade rather than treating food inflation as a single-cause story.
+
+## Related Food Supply Coverage
+
+The energy channel connects with [global food-price pressures](/articles/why-global-food-prices-rising-2026/), while shipping disruption is discussed in the [Strait of Hormuz analysis](/articles/strait-of-hormuz-food-crisis-2026/) and [Black Sea food-supply analysis](/articles/black-sea-food-crisis-2026/).

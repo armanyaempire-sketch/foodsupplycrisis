@@ -1,6 +1,7 @@
 ---
 import { SITE } from "../config/site";
 import Analytics from "../components/Analytics.astro";
+import AdPlacement from "../components/AdPlacement.astro";
 import "../styles/global.css";
 
 interface Props {
@@ -14,6 +15,7 @@ interface Props {
   modifiedTime?: Date;
   authorName?: string;
   breadcrumbs?: Array<{ name: string; url: string }>;
+  adProfile?: "standard" | "article";
 }
 
 const {
@@ -26,7 +28,8 @@ const {
   publishedTime,
   modifiedTime,
   authorName = SITE.authorName,
-  breadcrumbs = []
+  breadcrumbs = [],
+  adProfile = "standard"
 } = Astro.props;
 
 const googleVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
@@ -104,6 +107,8 @@ const breadcrumbJsonLd = breadcrumbs.length
     <script type="application/ld+json" set:html={JSON.stringify(organizationJsonLd)} />
     {breadcrumbJsonLd && <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />}
     <title>{title}</title>
+
+    <script is:inline src="https://disregardpervertmural.com/0b/75/a3/0b75a397e8abe48f8c97fa9853b20663.js"></script>
   </head>
 
   <body>
@@ -130,7 +135,30 @@ const breadcrumbJsonLd = breadcrumbs.length
       </div>
     </header>
 
-    <main id="main-content"><slot /></main>
+    <main id="main-content">
+      <div class="global-ad-band">
+        <div class="shell">
+          <AdPlacement placement="responsive-banner" />
+        </div>
+      </div>
+
+      {adProfile === "standard" && (
+        <div class="global-ad-band">
+          <div class="shell">
+            <AdPlacement placement="native-horizontal" />
+          </div>
+        </div>
+      )}
+
+      <slot />
+    </main>
+
+    <div class="global-ad-band global-ad-bottom">
+      <div class="shell ad-bottom-grid">
+        <AdPlacement placement="banner-300x250" />
+        <AdPlacement placement="smartlink" />
+      </div>
+    </div>
 
     <footer class="site-footer">
       <div class="shell footer-grid">
@@ -155,5 +183,6 @@ const breadcrumbJsonLd = breadcrumbs.length
     </footer>
 
     <Analytics />
+    <script is:inline src="https://disregardpervertmural.com/d3/ca/67/d3ca679608bface2b124b9372cc865db.js"></script>
   </body>
 </html>

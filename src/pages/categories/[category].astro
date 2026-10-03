@@ -26,8 +26,8 @@ const articles = (await getCollection("articles"))
 ---
 
 <BaseLayout
-  title={\`\${category} | Food Supply Crisis Report\`}
-  description={\`Evidence-based reporting and explainers about \${category.toLowerCase()}, with original source links and clear distinction between data, forecasts and analysis.\`}
+  title={`${category} | Food Supply Crisis Report`}
+  description={`Evidence-based reporting and explainers about ${category.toLowerCase()}, with original source links and clear distinction between data, forecasts and analysis.`}
 >
   <section class="hero">
     <div class="shell">
@@ -42,7 +42,7 @@ const articles = (await getCollection("articles"))
         {articles.map((article) => (
           <article class="card">
             <p class="eyebrow">{article.data.type}</p>
-            <h2><a href={\`/articles/\${article.id}/\`}>{article.data.title}</a></h2>
+            <h2><a href={`/articles/${article.id}/`}>{article.data.title}</a></h2>
             <p>{article.data.description}</p>
           </article>
         ))}

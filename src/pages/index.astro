@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ArticleCard from "../components/ArticleCard.astro";
+import AdSlot from "../components/AdSlot.astro";
 
 const articles = (await getCollection("articles"))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
@@ -40,6 +41,8 @@ const latest = articles.slice(0, 6);
     </div>
   </section>
 
+  <AdSlot slot="top" />
+
   <section class="section">
     <div class="shell">
       <div class="callout">
@@ -57,6 +60,8 @@ const latest = articles.slice(0, 6);
         </div>
       </div>
     </section>
+
+    <AdSlot slot="home-1" />
   )}
 
   <section class="section section-featured" id="latest">
@@ -72,6 +77,8 @@ const latest = articles.slice(0, 6);
       )}
     </div>
   </section>
+
+  <AdSlot slot="home-2" />
 
   <section class="section section-explore" id="explore">
     <div class="shell">

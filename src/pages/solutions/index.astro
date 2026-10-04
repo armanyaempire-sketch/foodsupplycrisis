@@ -1,9 +1,12 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import AdSlot from "../../components/AdSlot.astro";
 ---
 
 <BaseLayout title="Food Crisis Solutions | Food Supply Crisis Report" description="Evidence-based solutions for resilient food systems, including water efficiency, crop resilience, storage, fertilizer efficiency, food-waste reduction and supply-chain diversification.">
   <section class="hero"><div class="shell"><p class="eyebrow">Solutions</p><h1>Solutions to Food Supply Risks</h1><p>We examine practical, evidence-based ways to make food systems more resilient.</p></div></section>
+  <AdSlot slot="top" />
+
   <section class="section"><div class="shell"><div class="card-grid">
     <article class="card"><h2>Water Efficiency</h2><p>Smarter irrigation, groundwater management and drought resilience.</p></article>
     <article class="card"><h2>Crop Resilience</h2><p>Crop diversification, resilient varieties and better farm practices.</p></article>

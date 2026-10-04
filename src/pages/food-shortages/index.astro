@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
+import AdSlot from "../../components/AdSlot.astro";
 
 const articles = (await getCollection("articles"))
   .filter((article) => article.data.category === "Food Shortages")
@@ -19,6 +20,8 @@ const articles = (await getCollection("articles"))
       <p>Understand where shortages are occurring, what is causing them, and how localized availability problems differ from broad food-price or global supply trends.</p>
     </div>
   </section>
+  <AdSlot slot="top" />
+
   <section class="section">
     <div class="shell">
       {articles.length ? (

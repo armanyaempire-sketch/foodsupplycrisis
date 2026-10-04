@@ -79,7 +79,6 @@ Follow:
 - exchange rates;
 - and government food-market measures.
 
-undefined
 
 ## Practical response: what to do if conditions worsen
 

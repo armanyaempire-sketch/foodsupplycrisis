@@ -4,12 +4,13 @@
  *   import AdLoader from '../components/AdLoader.astro';
  *   <AdLoader />
  *
- * The homepage hero uses the live 300×250 Adsterra unit configured below.
- * Other slots remain placeholders until their own Adsterra units are supplied.
+ * IMPORTANT: Ad credentials are site-specific. Do not copy a host or key
+ * from another project. The homepage hero remains a 300×250 placeholder until
+ * an Adsterra snippet explicitly provided for foodsupplycrisis.pages.dev is added.
  *
- * The hero unit loads eagerly because it is above the fold.
+ * The hero unit loads eagerly once its site-specific credentials are configured.
  */
-const HOST = 'disregardpervertmural.com';
+const HOST = 'YOUR_ADSTERRA_INVOKE_HOST'; // Must be provided specifically for foodsupplycrisis.pages.dev
 
 const ADS = {
   top:       { desktop: { key: 'YOUR_KEY_728x90',  w: 728, h: 90  }, mobile: { key: 'YOUR_KEY_320x50',    w: 320, h: 50  } },
@@ -18,7 +19,7 @@ const ADS = {
   end:       { desktop: { key: 'YOUR_KEY_728x90_END', w: 728, h: 90 }, mobile: { key: 'YOUR_KEY_300x250_C', w: 300, h: 250 } },
   'home-1':  { desktop: { key: 'YOUR_KEY_728x90_H1', w: 728, h: 90 }, mobile: { key: 'YOUR_KEY_300x250_H1', w: 300, h: 250 } },
   'home-2':  { desktop: { key: 'YOUR_KEY_728x90_H2', w: 728, h: 90 }, mobile: { key: 'YOUR_KEY_300x250_H2', w: 300, h: 250 } },
-  'home-hero': { desktop: { key: '023cb5e8e50e6076e33c2dde7383d706', w: 300, h: 250 }, mobile: { key: '023cb5e8e50e6076e33c2dde7383d706', w: 300, h: 250 } },
+  'home-hero': { desktop: { key: 'YOUR_KEY_300x250_FOODSUPPLY', w: 300, h: 250 }, mobile: { key: 'YOUR_KEY_300x250_FOODSUPPLY', w: 300, h: 250 } },
   sidebar:   { desktop: { key: 'YOUR_KEY_160x600', w: 160, h: 600 }, mobile: null },
 };
 ---

@@ -1,6 +1,5 @@
 ---
 import { SITE } from "../config/site";
-import Analytics from "../components/Analytics.astro";
 import "../styles/global.css";
 
 interface Props {
@@ -69,6 +68,13 @@ const breadcrumbJsonLd = breadcrumbs.length
 
 <html lang="en">
   <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EN1K0Q5XTB"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-EN1K0Q5XTB');
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
@@ -182,6 +188,5 @@ const breadcrumbJsonLd = breadcrumbs.length
       </div>
     </footer>
 
-    <Analytics />
   </body>
 </html>

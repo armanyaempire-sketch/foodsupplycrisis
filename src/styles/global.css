@@ -378,15 +378,7 @@ body.desktop-menu-open{overflow:auto}
     position:static;
     display:block;
   }
-  .article-side-ad .ad-slot::before,
-  .article-side-ad .native-ad-slot::before{
-    content:"Advertisement";
-    display:block;
-    margin:0 0 6px;
-    font:600 10px/1 system-ui,sans-serif;
-    letter-spacing:.1em;
-    text-transform:uppercase;
-    opacity:.55;
+  .article-side-ad .ad-slot::before{
     text-align:center;
   }
 }

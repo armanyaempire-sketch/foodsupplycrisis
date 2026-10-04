@@ -139,6 +139,24 @@ const breadcrumbJsonLd = breadcrumbs.length
           <span>Evidence-led reporting</span>
         </div>
 
+        <label class="translate-control" aria-label="Translate this page">
+          <span class="translate-icon" aria-hidden="true">文</span>
+          <span class="translate-label">Translate</span>
+          <select data-google-translate aria-label="Choose a translation language">
+            <option value="">Language</option>
+            <option value="hi">Hindi</option>
+            <option value="es">Spanish</option>
+            <option value="fr">French</option>
+            <option value="de">German</option>
+            <option value="ar">Arabic</option>
+            <option value="pt">Portuguese</option>
+            <option value="bn">Bengali</option>
+            <option value="id">Indonesian</option>
+            <option value="ja">Japanese</option>
+            <option value="zh-CN">Chinese</option>
+          </select>
+        </label>
+
         <button class="mobile-menu-button" type="button" aria-expanded="false" aria-controls="mobile-navigation">
           <span class="mobile-menu-icon" aria-hidden="true"><i></i><i></i><i></i></span>
           <span>Menu</span>
@@ -325,6 +343,28 @@ const breadcrumbJsonLd = breadcrumbs.length
       desktopButton?.addEventListener("click", () => setDesktopMenu(true));
       desktopCloseButtons.forEach((button) => button.addEventListener("click", () => setDesktopMenu(false)));
       desktopAside?.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => setDesktopMenu(false)));
+
+      const translateControl = document.querySelector("[data-google-translate]");
+
+      translateControl?.addEventListener("change", (event) => {
+        const target = event.currentTarget;
+        if (!(target instanceof HTMLSelectElement) || !target.value) return;
+
+        const sourceUrl = new URL(window.location.href);
+        const originalHost = new URL("https://foodsupplycrisis.pages.dev").hostname;
+        const translatedHost = originalHost.replace(/\\./g, "-") + ".translate.goog";
+        const translationUrl = new URL(`https://${translatedHost}${sourceUrl.pathname}`);
+
+        translationUrl.search = sourceUrl.search;
+        translationUrl.searchParams.set("_x_tr_sl", "en");
+        translationUrl.searchParams.set("_x_tr_tl", target.value);
+        translationUrl.searchParams.set("_x_tr_hl", "en");
+        translationUrl.searchParams.set("_x_tr_pto", "wapp");
+        translationUrl.hash = sourceUrl.hash;
+
+        window.open(translationUrl.toString(), "_blank", "noopener,noreferrer");
+        target.value = "";
+      });
 
       document.addEventListener("keydown", (event) => {
         if (event.key === "Escape") {

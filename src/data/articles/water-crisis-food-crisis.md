@@ -203,6 +203,64 @@ Official references:
 
 Preparedness should make daily life more resilient. It should not turn every forecast into a shopping emergency.
 
+
+## Practical decision framework
+
+### What to do first
+
+When a real disruption appears, start with verification and inventory. Identify the exact item or service affected, the location, the expected duration and the official source. Then count what is already available at home. This avoids buying twice and keeps a temporary problem from turning into unnecessary hoarding.
+
+### What to store
+
+A useful emergency layer combines safe water with familiar shelf-stable foods. Keep staple carbohydrates such as rice, oats, pasta or other foods your household routinely eats; protein such as beans, lentils, canned fish or other shelf-stable options; canned or dried fruits and vegetables; cooking oil and seasonings; and a small selection of ready-to-eat foods. Add infant, pet and special-diet supplies when needed.
+
+Keep dry goods sealed, dry and protected from pests. Keep canned foods away from persistent heat and direct sunlight. Check containers for leaks, swelling or severe damage. Do not keep food next to gasoline, pesticides, solvents or other chemicals.
+
+### Water storage
+
+CDC recommends at least one gallon of water per person per day for at least three days, with a longer supply considered where practical. Unopened commercially bottled water is the safest and most reliable emergency source. For self-filled water, use an appropriate food-grade container, sanitize it according to current guidance, fill with clean water, close tightly and label the storage date. CDC advises replacing self-filled water every six months and keeping it cool and away from sunlight and toxic substances.
+
+Do not use containers that previously held chemicals. Do not assume water contaminated with fuel or toxic chemicals can be made safe simply by disinfection. During an actual water emergency, local authority instructions take priority.
+
+### Food and power failures
+
+Keep some foods that do not require refrigeration or long cooking. During a power failure, keep refrigerator and freezer doors closed. USDA FSIS says an unopened refrigerator generally remains cold for about four hours, while a full freezer can stay cold for approximately 48 hours and a half-full freezer about 24 hours. Use an appliance thermometer when possible and follow current food-safety guidance before deciding what to keep.
+
+### A seven-day plan
+
+**Day 1:** verify the event and inventory food and water.
+
+**Day 2:** cover safe water and several days of familiar food.
+
+**Day 3:** substitute products that are scarce or expensive.
+
+**Day 4:** inspect packaging, storage conditions and refrigeration.
+
+**Day 5:** review official information and local availability.
+
+**Day 6:** use older stored foods and replenish only what was consumed.
+
+**Day 7:** reassess whether the disruption is improving, stable or worsening.
+
+### When not to increase the stockpile
+
+Stop buying when the household has safe water, several days of usable food, special-diet and pet supplies where needed, basic opening and cooking tools, and a rotation system that can be maintained. An enormous reserve can create financial strain, waste and storage problems. Food security includes affordability and safe storage as well as quantity.
+
+### Special caution for humanitarian crises
+
+Famine and severe acute food insecurity are not ordinary supermarket shortages. Where humanitarian need is occurring, people in affected communities should follow verified humanitarian and government assistance channels. People outside affected areas should not treat famine headlines as a reason to empty local stores.
+
+### Maintain the system
+
+Review supplies monthly. Put newer items behind older ones. Replace what has been consumed. Every three to six months, reassess household size, local hazards, water reliability, transport and electricity dependence.
+
+Useful official guidance:
+- CDC emergency water: https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html
+- USDA FSIS power-outage safety: https://ask.fsis.usda.gov/article/How-do-you-keep-food-safe-during-a-power-failure
+- USDA FSIS shelf-stable foods: https://ask.fsis.usda.gov/article/What-does-shelf-stable-mean
+
+A practical response is evidence-led and proportionate. Prepare enough to make a genuine interruption manageable, then let new evidence determine whether more action is justified.
+
 ## Bottom line
 
 Water scarcity is one of the clearest long-term constraints on agriculture.

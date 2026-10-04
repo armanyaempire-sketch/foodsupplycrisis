@@ -2,19 +2,22 @@
 import { getCollection, render } from "astro:content";
 import ArticleLayout from "../../layouts/ArticleLayout.astro";
 
-const normalizeKeyword = (keyword: string) =>
-  keyword.toLowerCase().replace(/[^a-z0-9\s-]/g, " ").replace(/\s+/g, " ").trim();
-
 export async function getStaticPaths() {
   const articles = await getCollection("articles");
 
   return articles.map((article) => {
-    const articleKeywords = new Set(article.data.keywords.map(normalizeKeyword));
+    const articleKeywords = new Set(
+      article.data.keywords.map((keyword) =>
+        keyword.toLowerCase().replace(/[^a-z0-9\s-]/g, " ").replace(/\s+/g, " ").trim()
+      )
+    );
 
     const related = articles
       .filter((candidate) => candidate.id !== article.id)
       .map((candidate) => {
-        const candidateKeywords = candidate.data.keywords.map(normalizeKeyword);
+        const candidateKeywords = candidate.data.keywords.map((keyword) =>
+          keyword.toLowerCase().replace(/[^a-z0-9\s-]/g, " ").replace(/\s+/g, " ").trim()
+        );
         const sharedKeywords = candidateKeywords.filter((keyword) => articleKeywords.has(keyword)).length;
         const sameCategory = candidate.data.category === article.data.category;
 

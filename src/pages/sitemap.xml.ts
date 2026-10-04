@@ -28,14 +28,22 @@ export async function GET() {
   ];
 
   const urls = [
-    ...staticPaths,
-    ...articles.map((article) => `/articles/${article.id}/`)
+    ...staticPaths.map((path) => ({ path, lastmod: null })),
+    ...articles.map((article) => ({
+      path: `/articles/${article.id}/`,
+      lastmod: article.data.updatedDate ?? article.data.pubDate
+    }))
   ];
 
   const xml = [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-    ...urls.map((path) => `  <url><loc>${new URL(path, SITE.url).toString()}</loc></url>`),
+    ...urls.map(({ path, lastmod }) => {
+      const loc = new URL(path, SITE.url).toString();
+      return lastmod
+        ? `  <url><loc>${loc}</loc><lastmod>${lastmod.toISOString()}</lastmod></url>`
+        : `  <url><loc>${loc}</loc></url>`;
+    }),
     '</urlset>'
   ].join("\n");
 

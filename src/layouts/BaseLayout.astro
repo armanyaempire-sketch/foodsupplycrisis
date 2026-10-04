@@ -34,6 +34,10 @@ const bingVerification = import.meta.env.PUBLIC_BING_SITE_VERIFICATION;
 const absoluteImage = image.startsWith("http") ? image : new URL(image, SITE.url).toString();
 const canonicalUrl = canonical.endsWith("/") ? canonical : canonical + "/";
 
+const currentPath = Astro.url.pathname;
+const isActive = (href: string) =>
+  href === "/" ? currentPath === "/" : currentPath.startsWith(href);
+
 const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -78,7 +82,7 @@ const breadcrumbJsonLd = breadcrumbs.length
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
-    <meta name="theme-color" content="#0b1220" />
+    <meta name="theme-color" content="#123c35" />
     <meta name="description" content={description} />
     <meta name="robots" content={noindex ? "noindex,nofollow" : "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"} />
     <link rel="canonical" href={canonicalUrl} />
@@ -112,7 +116,6 @@ const breadcrumbJsonLd = breadcrumbs.length
     <script type="application/ld+json" set:html={JSON.stringify(organizationJsonLd)} />
     {breadcrumbJsonLd && <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />}
     <title>{title}</title>
-
   </head>
 
   <body>
@@ -122,27 +125,89 @@ const breadcrumbJsonLd = breadcrumbs.length
       <div class="shell header-inner">
         <a class="brand" href="/" aria-label={SITE.name}>
           <span class="brand-mark" aria-hidden="true">FS</span>
-          <span>
+          <span class="brand-copy">
             <strong>{SITE.name}</strong>
             <small>{SITE.tagline}</small>
           </span>
         </a>
 
-        <nav aria-label="Primary navigation">
-          <a href="/global-food-crisis/">Global Crisis</a>
-          <a href="/food-prices/">Food Prices</a>
-          <a href="/food-supply/">Food Supply</a>
-          <a href="/food-security/">Food Security</a>
-          <a href="/countries/">Countries</a>
-          <a href="/climate-agriculture/">Climate & Crops</a>
-          <a href="/solutions/">Solutions</a>
-        </nav>
+        <div class="header-status" aria-label="Publication focus">
+          <span class="header-status-dot" aria-hidden="true"></span>
+          <span>Evidence-led reporting</span>
+        </div>
+
+        <details class="mobile-menu">
+          <summary>
+            <span class="mobile-menu-icon" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span>Menu</span>
+          </summary>
+          <nav class="mobile-nav" aria-label="Mobile primary navigation">
+            <a class={isActive("/global-food-crisis/") ? "is-active" : ""} href="/global-food-crisis/">Global Crisis</a>
+            <a class={isActive("/food-prices/") ? "is-active" : ""} href="/food-prices/">Food Prices</a>
+            <a class={isActive("/food-supply/") ? "is-active" : ""} href="/food-supply/">Food Supply</a>
+            <a class={isActive("/food-security/") ? "is-active" : ""} href="/food-security/">Food Security</a>
+            <a class={isActive("/countries/") ? "is-active" : ""} href="/countries/">Countries</a>
+            <a class={isActive("/climate-agriculture/") ? "is-active" : ""} href="/climate-agriculture/">Climate &amp; Crops</a>
+            <a class={isActive("/fertilizer/") ? "is-active" : ""} href="/fertilizer/">Fertilizer</a>
+            <a class={isActive("/solutions/") ? "is-active" : ""} href="/solutions/">Solutions</a>
+          </nav>
+        </details>
       </div>
     </header>
 
-    <main id="main-content">
-      <slot />
-    </main>
+    <div class="site-shell shell">
+      <aside class="site-sidebar" aria-label="Site navigation">
+        <div class="sidebar-card">
+          <div class="sidebar-label">Explore the site</div>
+          <nav class="sidebar-nav" aria-label="Desktop primary navigation">
+            <a class={isActive("/") ? "is-active sidebar-home" : "sidebar-home"} href="/">
+              <span class="sidebar-icon" aria-hidden="true">⌂</span>
+              <span>Home</span>
+            </a>
+            <a class={isActive("/global-food-crisis/") ? "is-active" : ""} href="/global-food-crisis/">
+              <span class="sidebar-icon" aria-hidden="true">◎</span>
+              <span>Global Crisis</span>
+            </a>
+            <a class={isActive("/food-prices/") ? "is-active" : ""} href="/food-prices/">
+              <span class="sidebar-icon" aria-hidden="true">$</span>
+              <span>Food Prices</span>
+            </a>
+            <a class={isActive("/food-supply/") ? "is-active" : ""} href="/food-supply/">
+              <span class="sidebar-icon" aria-hidden="true">↔</span>
+              <span>Food Supply</span>
+            </a>
+            <a class={isActive("/food-security/") ? "is-active" : ""} href="/food-security/">
+              <span class="sidebar-icon" aria-hidden="true">✓</span>
+              <span>Food Security</span>
+            </a>
+            <a class={isActive("/countries/") ? "is-active" : ""} href="/countries/">
+              <span class="sidebar-icon" aria-hidden="true">◌</span>
+              <span>Countries</span>
+            </a>
+            <a class={isActive("/climate-agriculture/") ? "is-active" : ""} href="/climate-agriculture/">
+              <span class="sidebar-icon" aria-hidden="true">☁</span>
+              <span>Climate &amp; Crops</span>
+            </a>
+            <a class={isActive("/fertilizer/") ? "is-active" : ""} href="/fertilizer/">
+              <span class="sidebar-icon" aria-hidden="true">✦</span>
+              <span>Fertilizer</span>
+            </a>
+            <a class={isActive("/solutions/") ? "is-active" : ""} href="/solutions/">
+              <span class="sidebar-icon" aria-hidden="true">→</span>
+              <span>Solutions</span>
+            </a>
+          </nav>
+          <div class="sidebar-note">
+            <strong>Follow the story</strong>
+            <p>Track prices, supply risks, climate pressures and practical responses in one place.</p>
+          </div>
+        </div>
+      </aside>
+
+      <main id="main-content" class="site-main">
+        <slot />
+      </main>
+    </div>
 
     <footer class="site-footer">
       <div class="shell footer-grid">
@@ -163,7 +228,7 @@ const breadcrumbJsonLd = breadcrumbs.length
             <a href="/food-prices/">Food Prices</a>
             <a href="/food-security/">Food Security</a>
             <a href="/countries/">Countries</a>
-            <a href="/climate-agriculture/">Climate & Agriculture</a>
+            <a href="/climate-agriculture/">Climate &amp; Agriculture</a>
             <a href="/fertilizer/">Fertilizer</a>
             <a href="/solutions/">Solutions</a>
           </div>
@@ -187,6 +252,5 @@ const breadcrumbJsonLd = breadcrumbs.length
         <span>Evidence-led global food-supply reporting.</span>
       </div>
     </footer>
-
   </body>
 </html>

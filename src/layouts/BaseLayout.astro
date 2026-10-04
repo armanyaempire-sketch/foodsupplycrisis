@@ -172,7 +172,7 @@ const breadcrumbJsonLd = breadcrumbs.length
       </nav>
     </div>
 
-    <div class="site-shell shell">
+    <div class={"site-shell shell" + (type === "article" ? " article-layout" : "")}>
       
       <button class="desktop-menu-toggle" type="button" aria-expanded="true" aria-controls="desktop-navigation">
       <span class="desktop-menu-toggle-icon" aria-hidden="true">☰</span>
@@ -223,9 +223,6 @@ const breadcrumbJsonLd = breadcrumbs.length
             <strong>Follow the story</strong>
             <p>Track prices, supply risks, climate pressures and practical responses in one place.</p>
           </div>
-          <NativeAdSlot ratio="1:4" />
-          <AdSlot slot="sidebar-small" />
-          <AdSlot slot="sidebar" />
         </div>
       </aside>
     </div>
@@ -233,6 +230,13 @@ const breadcrumbJsonLd = breadcrumbs.length
       <main id="main-content" class="site-main">
         <slot />
       </main>
+
+      {type === "article" && (
+        <aside class="article-side-ad" aria-label="Advertisement">
+          <NativeAdSlot ratio="1:4" />
+          <AdSlot slot="sidebar" />
+        </aside>
+      )}
     </div>
 
     <footer class="site-footer">

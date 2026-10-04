@@ -346,3 +346,39 @@ body.desktop-menu-open{overflow:auto}
 @media(max-width:820px){
   .site-top-ad .ad-slot{margin:10px auto}
 }
+
+
+/* Article-side vertical advertising rail: uses the existing Food Supply Crisis 1:4 native and 160x600 units. */
+.article-side-ad{
+  display:none;
+}
+@media(min-width:1260px){
+  .site-shell.article-layout{
+    display:grid;
+    grid-template-columns:minmax(0,1fr) 160px;
+    gap:20px;
+    align-items:start;
+  }
+  .article-side-ad{
+    display:block;
+    width:160px;
+    min-width:160px;
+    position:sticky;
+    top:112px;
+  }
+  .article-side-ad .native-ad-slot{
+    width:160px;
+    margin:0 0 20px;
+    padding:0;
+  }
+  .article-side-ad .ad-slot[data-slot="sidebar"]{
+    width:160px;
+    margin:0;
+    padding:0;
+    position:static;
+    display:block;
+  }
+  .article-side-ad .ad-slot::before{
+    text-align:center;
+  }
+}

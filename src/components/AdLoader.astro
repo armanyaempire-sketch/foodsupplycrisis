@@ -1,63 +1,86 @@
 ---
 /**
  * Food Supply Crisis ad loader.
- *
- * All credentials in this file are the exact ad codes supplied specifically
- * for foodsupplycrisis.pages.dev. Do not reuse credentials from another site.
+ * Every unit below uses only the exact advertising code supplied
+ * specifically for foodsupplycrisis.pages.dev.
  */
-const HOST = "disregardpervertmural.com";
-const NATIVE_ID = "10619e4f398ca4ebaa8f1fee1177a9ab";
-
 const ADS = {
   top: {
-    desktop: { key: "c4991b14b1a406d961cfe610cb1fcb2e", w: 728, h: 90 },
-    mobile: { key: "f3f2a864e3d1b573f35f44db68299cb3", w: 320, h: 50 }
+    desktop: { src: "/ads/728x90.html", w: 728, h: 90 },
+    mobile: { src: "/ads/320x50.html", w: 320, h: 50 }
   },
   "inline-1": {
-    desktop: { key: "21b2baf520df7218cf46936081c66fba", w: 300, h: 250 },
-    mobile: { key: "21b2baf520df7218cf46936081c66fba", w: 300, h: 250 }
+    desktop: { src: "/ads/300x250.html", w: 300, h: 250 },
+    mobile: { src: "/ads/300x250.html", w: 300, h: 250 }
   },
   "inline-2": {
-    desktop: { key: "21b2baf520df7218cf46936081c66fba", w: 300, h: 250 },
-    mobile: { key: "21b2baf520df7218cf46936081c66fba", w: 300, h: 250 }
+    desktop: { src: "/ads/300x250.html", w: 300, h: 250 },
+    mobile: { src: "/ads/300x250.html", w: 300, h: 250 }
   },
   end: {
-    desktop: { key: "80ec5671003b40ab7d6cba7e8e0ff7d7", w: 468, h: 60 },
-    mobile: { key: "f3f2a864e3d1b573f35f44db68299cb3", w: 320, h: 50 }
+    desktop: { src: "/ads/468x60.html", w: 468, h: 60 },
+    mobile: { src: "/ads/320x50.html", w: 320, h: 50 }
   },
   "home-1": {
-    desktop: { key: "80ec5671003b40ab7d6cba7e8e0ff7d7", w: 468, h: 60 },
-    mobile: { key: "f3f2a864e3d1b573f35f44db68299cb3", w: 320, h: 50 }
+    desktop: { src: "/ads/468x60.html", w: 468, h: 60 },
+    mobile: { src: "/ads/320x50.html", w: 320, h: 50 }
   },
   "home-2": {
-    desktop: { key: "c4991b14b1a406d961cfe610cb1fcb2e", w: 728, h: 90 },
-    mobile: { key: "f3f2a864e3d1b573f35f44db68299cb3", w: 320, h: 50 }
+    desktop: { src: "/ads/728x90.html", w: 728, h: 90 },
+    mobile: { src: "/ads/320x50.html", w: 320, h: 50 }
   },
   "home-hero": {
-    desktop: { key: "21b2baf520df7218cf46936081c66fba", w: 300, h: 250 },
-    mobile: { key: "21b2baf520df7218cf46936081c66fba", w: 300, h: 250 }
+    desktop: { src: "/ads/300x250.html", w: 300, h: 250 },
+    mobile: { src: "/ads/300x250.html", w: 300, h: 250 }
   },
   "sidebar-small": {
-    desktop: { key: "996af7817408d597f6bb2012e37c8ae4", w: 160, h: 300 },
+    desktop: { src: "/ads/160x300.html", w: 160, h: 300 },
     mobile: null
   },
   sidebar: {
-    desktop: { key: "39cfc9f3acd6df7af5eab9fbec1ce52e", w: 160, h: 600 },
+    desktop: { src: "/ads/160x600.html", w: 160, h: 600 },
     mobile: null
   }
 };
 ---
 
 <style is:global>
-  .ad-slot{margin:2rem auto;text-align:center;max-width:100%;clear:both;overflow:hidden}
-  .ad-slot::before{content:"Advertisement";display:block;margin-bottom:6px;font:600 10px/1 system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;opacity:.55}
+  .ad-slot{
+    margin:2rem auto;
+    text-align:center;
+    max-width:100%;
+    clear:both;
+    overflow:hidden;
+  }
+  .ad-slot::before{
+    content:"Advertisement";
+    display:block;
+    margin-bottom:6px;
+    font:600 10px/1 system-ui,sans-serif;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    opacity:.55;
+  }
   .ad-slot[hidden]{display:none}
-  .ad-slot iframe{display:block;border:0;max-width:100%;margin:0 auto}
-  .ad-slot[data-slot="sidebar"],.ad-slot[data-slot="sidebar-small"]{position:sticky;top:90px}
-  @media(max-width:1279px){.ad-slot[data-slot="sidebar"],.ad-slot[data-slot="sidebar-small"]{display:none}}
+  .ad-slot iframe{
+    display:block;
+    width:auto;
+    max-width:100%;
+    border:0;
+    margin:0 auto;
+  }
+  .ad-slot[data-slot="sidebar"],
+  .ad-slot[data-slot="sidebar-small"]{
+    position:sticky;
+    top:90px;
+  }
+  @media(max-width:1279px){
+    .ad-slot[data-slot="sidebar"],
+    .ad-slot[data-slot="sidebar-small"]{display:none}
+  }
 </style>
 
-<script is:inline define:vars={{ HOST, ADS, NATIVE_ID }}>
+<script is:inline define:vars={{ ADS }}>
   (function(){
     var desktopMQ=window.matchMedia("(min-width:768px)");
 
@@ -67,68 +90,70 @@ const ADS = {
       return desktopMQ.matches?cfg.desktop:cfg.mobile;
     }
 
-    function mountBanner(el,v,eager){
+    function mount(el,v,eager){
       var f=document.createElement("iframe");
+      f.src=v.src;
       f.width=v.w;
       f.height=v.h;
       f.title="Advertisement";
-      f.scrolling="no";
-      f.loading=eager?"eager":"lazy";
-      f.frameBorder="0";
-      f.srcdoc='<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body style="margin:0;padding:0;overflow:hidden">' +
-        '<script>atOptions={key:"'+v.key+'",format:"iframe",height:'+v.h+',width:'+v.w+',params:{}};<\\/script>' +
-        '<script src="https://'+HOST+'/'+v.key+'/invoke.js"><\\/script></body></html>';
+      f.setAttribute("scrolling","no");
+      f.setAttribute("frameborder","0");
+      f.setAttribute("loading",eager?"eager":"lazy");
+      f.style.width=v.w+"px";
+      f.style.height=v.h+"px";
+      f.style.maxWidth="100%";
+      f.style.border="0";
+      f.style.display="block";
+      f.style.margin="0 auto";
       el.appendChild(f);
+      el.setAttribute("data-ad-rendered","true");
     }
 
-    function mountNative(el,w,h,lazy){
+    function mountNative(el,src,w,h,eager){
       var f=document.createElement("iframe");
+      f.src=src;
       f.width=w;
       f.height=h;
       f.title="Native Advertisement";
-      f.scrolling="no";
-      f.loading=lazy?"lazy":"eager";
-      f.frameBorder="0";
-      f.style.display="block";
+      f.setAttribute("scrolling","no");
+      f.setAttribute("frameborder","0");
+      f.setAttribute("loading",eager?"eager":"lazy");
       f.style.width=w+"px";
       f.style.height=h+"px";
       f.style.maxWidth="100%";
-      f.style.margin="0 auto";
       f.style.border="0";
-      f.srcdoc='<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>html,body{margin:0;padding:0;background:transparent;overflow:hidden}#container-'+NATIVE_ID+'{width:100%;height:100%;min-height:100%}</style></head><body>' +
-        '<script async="async" data-cfasync="false" src="https://'+HOST+'/'+NATIVE_ID+'/invoke.js"><\\/script>' +
-        '<div id="container-'+NATIVE_ID+'"></div></body></html>';
-      el.appendChild(f);
+      f.style.display="block";
+      f.style.margin="0 auto";
+      el.querySelector(".native-ad-mount")?.appendChild(f);
+      el.setAttribute("data-ad-rendered","true");
     }
 
-    var io="IntersectionObserver" in window?new IntersectionObserver(function(entries){
-      entries.forEach(function(entry){
-        if(!entry.isIntersecting)return;
-        io.unobserve(entry.target);
-        var v=variantFor(entry.target.dataset.slot);
-        if(v)mountBanner(entry.target,v,false);
-      });
-    },{rootMargin:"300px 0px"}):null;
+    var io="IntersectionObserver" in window
+      ? new IntersectionObserver(function(entries){
+          entries.forEach(function(entry){
+            if(!entry.isIntersecting)return;
+            io.unobserve(entry.target);
+            var v=variantFor(entry.target.dataset.slot);
+            if(v)mount(entry.target,v,false);
+          });
+        },{rootMargin:"300px 0px"})
+      : null;
 
     document.querySelectorAll(".ad-slot[data-slot]").forEach(function(el){
       var v=variantFor(el.dataset.slot);
       if(!v){el.hidden=true;return}
       el.style.minHeight=(v.h+16)+"px";
-      if(el.dataset.slot==="home-hero"){mountBanner(el,v,true)}
-      else if(io){io.observe(el)}
-      else{mountBanner(el,v,false)}
+      if(el.dataset.slot==="home-hero")mount(el,v,true);
+      else if(io)io.observe(el);
+      else mount(el,v,false);
     });
 
     document.querySelectorAll(".native-ad-slot[data-native-ratio]").forEach(function(el){
       if(el.dataset.nativeMounted)return;
-      var ratio=el.dataset.nativeRatio;
-      var isWide=ratio==="4:1";
-      if(!isWide && ratio!=="1:4")return;
       el.dataset.nativeMounted="true";
-      var mount=el.querySelector(".native-ad-mount");
-      if(!mount)return;
-      if(isWide)mountNative(mount,640,160,true);
-      else mountNative(mount,160,600,true);
+      var ratio=el.dataset.nativeRatio;
+      if(ratio==="4:1")mountNative(el,"/ads/native-4x1.html",640,160,true);
+      else if(ratio==="1:4")mountNative(el,"/ads/native-1x4.html",160,600,true);
     });
   })();
 </script>

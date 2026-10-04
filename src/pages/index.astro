@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ArticleCard from "../components/ArticleCard.astro";
+import AdSlot from "../components/AdSlot.astro";
 
 const articles = (await getCollection("articles"))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
@@ -25,17 +26,8 @@ const latest = articles.slice(0, 6);
           <a class="button button-secondary" href="#explore">Explore topics</a>
         </div>
       </div>
-      <aside class="hero-panel" aria-label="Coverage areas">
-        <span class="hero-panel-label">Coverage areas</span>
-        <div class="hero-topic-list">
-          <span>Food prices</span>
-          <span>Food supply</span>
-          <span>Food security</span>
-          <span>Climate & crops</span>
-          <span>Water & agriculture</span>
-          <span>Fertilizer & trade</span>
-        </div>
-        <p>Clear distinctions between verified data, forecasts, reported events and analysis.</p>
+      <aside class="hero-panel hero-ad-panel" aria-label="Advertisement">
+        <AdSlot slot="home-hero" />
       </aside>
     </div>
   </section>

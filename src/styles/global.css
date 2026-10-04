@@ -300,3 +300,12 @@ body.desktop-menu-open{overflow:auto}
 @media(prefers-reduced-motion:reduce){
 .desktop-menu-toggle,.desktop-menu-backdrop,.site-sidebar{transition:none}
 }
+/* Homepage hero ad: replace the former Coverage areas panel with a true 300×250 unit */
+.hero-ad-panel{width:300px;max-width:100%;padding:0;justify-self:end;overflow:hidden;background:#fff}
+.hero-ad-panel .ad-slot{width:300px;max-width:100%;margin:0 auto}
+@media(max-width:1080px){
+.hero-ad-panel{justify-self:start}
+}
+@media(max-width:820px){
+.hero-ad-panel{justify-self:center;width:300px}
+}

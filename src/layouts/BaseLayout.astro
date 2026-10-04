@@ -143,6 +143,30 @@ const breadcrumbJsonLd = breadcrumbs.length
       </div>
     </header>
 
+    <div class="mobile-menu-layer" data-mobile-menu>
+      <button class="mobile-menu-backdrop" type="button" aria-label="Close menu" data-mobile-menu-close></button>
+      <nav id="mobile-navigation" class="mobile-drawer" aria-label="Mobile primary navigation" aria-hidden="true">
+        <div class="mobile-drawer-header">
+          <div>
+            <span>Browse</span>
+            <small>Food Supply Crisis</small>
+          </div>
+          <button class="mobile-drawer-close" type="button" aria-label="Close menu" data-mobile-menu-close>&times;</button>
+        </div>
+        <div class="mobile-drawer-links">
+          <a class={isActive("/") ? "is-active" : ""} href="/"><span class="mobile-nav-icon" aria-hidden="true">⌂</span><span>Home</span></a>
+          <a class={isActive("/global-food-crisis/") ? "is-active" : ""} href="/global-food-crisis/"><span class="mobile-nav-icon" aria-hidden="true">◎</span><span>Global Crisis</span></a>
+          <a class={isActive("/food-prices/") ? "is-active" : ""} href="/food-prices/"><span class="mobile-nav-icon" aria-hidden="true">$</span><span>Food Prices</span></a>
+          <a class={isActive("/food-supply/") ? "is-active" : ""} href="/food-supply/"><span class="mobile-nav-icon" aria-hidden="true">↔</span><span>Food Supply</span></a>
+          <a class={isActive("/food-security/") ? "is-active" : ""} href="/food-security/"><span class="mobile-nav-icon" aria-hidden="true">✓</span><span>Food Security</span></a>
+          <a class={isActive("/countries/") ? "is-active" : ""} href="/countries/"><span class="mobile-nav-icon" aria-hidden="true">◌</span><span>Countries</span></a>
+          <a class={isActive("/climate-agriculture/") ? "is-active" : ""} href="/climate-agriculture/"><span class="mobile-nav-icon" aria-hidden="true">☁</span><span>Climate &amp; Crops</span></a>
+          <a class={isActive("/fertilizer/") ? "is-active" : ""} href="/fertilizer/"><span class="mobile-nav-icon" aria-hidden="true">✦</span><span>Fertilizer</span></a>
+          <a class={isActive("/solutions/") ? "is-active" : ""} href="/solutions/"><span class="mobile-nav-icon" aria-hidden="true">→</span><span>Solutions</span></a>
+        </div>
+      </nav>
+    </div>
+
     <div class="site-shell shell">
       <aside class="site-sidebar" aria-label="Site navigation">
         <div class="sidebar-card">
@@ -240,5 +264,31 @@ const breadcrumbJsonLd = breadcrumbs.length
         <span>Evidence-led global food-supply reporting.</span>
       </div>
     </footer>
+    <script>
+      const menuLayer = document.querySelector("[data-mobile-menu]");
+      const menuButton = document.querySelector(".mobile-menu-button");
+      const mobileDrawer = document.getElementById("mobile-navigation");
+      const closeButtons = document.querySelectorAll("[data-mobile-menu-close]");
+
+      const setMobileMenu = (open) => {
+        if (!menuLayer || !menuButton || !mobileDrawer) return;
+        menuLayer.classList.toggle("is-open", open);
+        menuButton.setAttribute("aria-expanded", String(open));
+        mobileDrawer.setAttribute("aria-hidden", String(!open));
+        document.body.classList.toggle("mobile-menu-open", open);
+        if (open) {
+          mobileDrawer.querySelector("a")?.focus();
+        } else {
+          menuButton.focus();
+        }
+      };
+
+      menuButton?.addEventListener("click", () => setMobileMenu(true));
+      closeButtons.forEach((button) => button.addEventListener("click", () => setMobileMenu(false)));
+      mobileDrawer?.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => setMobileMenu(false)));
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") setMobileMenu(false);
+      });
+    </script>
   </body>
 </html>

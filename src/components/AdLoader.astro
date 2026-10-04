@@ -4,6 +4,8 @@
  * Every unit below uses only the exact advertising code supplied
  * specifically for foodsupplycrisis.pages.dev.
  */
+const { enabled = false } = Astro.props;
+
 const ADS = {
   top: {
     desktop: { src: "/ads/728x90.html", w: 728, h: 90 },
@@ -62,6 +64,7 @@ const ADS = {
     opacity:.55;
   }
   .ad-slot[hidden]{display:none}
+  .native-ad-slot[hidden]{display:none}
   .ad-slot iframe{
     display:block;
     width:auto;
@@ -80,8 +83,13 @@ const ADS = {
   }
 </style>
 
-<script is:inline define:vars={{ ADS }}>
+<script is:inline define:vars={{ ADS, enabled }}>
   (function(){
+    if(!enabled){
+      document.querySelectorAll(".ad-slot[data-slot], .native-ad-slot[data-native-ratio]").forEach(function(el){el.hidden=true;});
+      return;
+    }
+
     var desktopMQ=window.matchMedia("(min-width:768px)");
 
     function variantFor(name){

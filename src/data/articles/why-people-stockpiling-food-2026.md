@@ -127,7 +127,6 @@ For the wider crisis picture, read [Global Food Crisis 2026](/articles/global-fo
 
 For household preparedness, visit [Food Storage & Stockpiling](/food-storage/).
 
-undefined
 
 ## Practical response: what to do if conditions worsen
 

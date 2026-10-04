@@ -1,0 +1,96 @@
+---
+/**
+ * AdLoader.astro — include ONCE in your base layout, just before </body>.
+ *   import AdLoader from '../components/AdLoader.astro';
+ *   <AdLoader />
+ *
+ * 1. Replace HOST with the host used in YOUR Adsterra banner snippet
+ *    (the src="//HOST/KEY/invoke.js" part — it differs per account).
+ * 2. Replace each YOUR_KEY_* with the `key` from the matching Adsterra ad unit.
+ *    Slots left as YOUR_KEY_* stay hidden in production (no empty gaps),
+ *    and show a dashed placeholder on localhost so you can see the layout.
+ */
+const HOST = 'YOUR_ADSTERRA_INVOKE_HOST'; // e.g. www.highperformancedisplayformat.com
+
+const ADS = {
+  // Under the hero / page header (home + hub pages + article top)
+  top:       { desktop: { key: 'YOUR_KEY_728x90',  w: 728, h: 90  }, mobile: { key: 'YOUR_KEY_320x50',    w: 320, h: 50  } },
+  // After paragraph 3 of every article
+  'inline-1':{ desktop: { key: 'YOUR_KEY_300x250_A', w: 300, h: 250 }, mobile: { key: 'YOUR_KEY_300x250_A', w: 300, h: 250 } },
+  // Before the middle H2 of long articles
+  'inline-2':{ desktop: { key: 'YOUR_KEY_300x250_B', w: 300, h: 250 }, mobile: { key: 'YOUR_KEY_300x250_B', w: 300, h: 250 } },
+  // End of article, before Sources / Related
+  end:       { desktop: { key: 'YOUR_KEY_728x90_END', w: 728, h: 90 }, mobile: { key: 'YOUR_KEY_300x250_C', w: 300, h: 250 } },
+  // Homepage, between sections
+  'home-1':  { desktop: { key: 'YOUR_KEY_728x90_H1', w: 728, h: 90 }, mobile: { key: 'YOUR_KEY_300x250_H1', w: 300, h: 250 } },
+  'home-2':  { desktop: { key: 'YOUR_KEY_728x90_H2', w: 728, h: 90 }, mobile: { key: 'YOUR_KEY_300x250_H2', w: 300, h: 250 } },
+  // Optional sticky sidebar, desktop >= 1280px only (mobile left unset on purpose)
+  sidebar:   { desktop: { key: 'YOUR_KEY_160x600', w: 160, h: 600 }, mobile: null },
+};
+---
+
+<style is:global>
+  .ad-slot { margin: 2rem auto; text-align: center; max-width: 100%; clear: both; overflow: hidden; }
+  .ad-slot::before {
+    content: 'Advertisement'; display: block; margin-bottom: 6px;
+    font: 600 10px/1 system-ui, sans-serif; letter-spacing: .1em; text-transform: uppercase; opacity: .55;
+  }
+  .ad-slot[hidden] { display: none; }
+  .ad-slot iframe { border: 0; max-width: 100%; display: block; margin: 0 auto; }
+  .ad-slot .ad-dev { border: 2px dashed currentColor; opacity: .35; display: grid; place-items: center; font: 12px system-ui, sans-serif; margin: 0 auto; }
+  /* sidebar slot: only visible on wide desktops */
+  .ad-slot[data-slot="sidebar"] { position: sticky; top: 90px; }
+  @media (max-width: 1279px) { .ad-slot[data-slot="sidebar"] { display: none; } }
+</style>
+
+<script is:inline define:vars={{ HOST, ADS }}>
+  (function () {
+    var isDev = /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
+    var desktopMQ = window.matchMedia('(min-width: 768px)');
+
+    function variantFor(slotName) {
+      var cfg = ADS[slotName];
+      if (!cfg) return null;
+      var v = desktopMQ.matches ? cfg.desktop : cfg.mobile;
+      return v || null;
+    }
+    function configured(v) { return v && v.key && v.key.indexOf('YOUR_') !== 0 && HOST.indexOf('YOUR_') !== 0; }
+
+    function mount(el, v) {
+      var f = document.createElement('iframe');
+      f.width = v.w; f.height = v.h; f.title = 'Advertisement';
+      f.setAttribute('scrolling', 'no'); f.setAttribute('loading', 'lazy');
+      // iframe isolation: every Adsterra unit uses a global `atOptions`, so
+      // multiple units on one page would overwrite each other without this.
+      f.srcdoc = '<!doctype html><html><body style="margin:0">' +
+        '<script>atOptions={"key":"' + v.key + '","format":"iframe","height":' + v.h + ',"width":' + v.w + ',"params":{}};<\/script>' +
+        '<script src="//' + HOST + '/' + v.key + '/invoke.js"><\/script></body></html>';
+      el.appendChild(f);
+    }
+
+    var io = 'IntersectionObserver' in window ? new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        io.unobserve(e.target);
+        var v = variantFor(e.target.dataset.slot);
+        if (configured(v)) mount(e.target, v);
+      });
+    }, { rootMargin: '300px 0px' }) : null;
+
+    document.querySelectorAll('.ad-slot[data-slot]').forEach(function (el) {
+      var v = variantFor(el.dataset.slot);
+      if (!v) { el.hidden = true; return; }
+      if (!configured(v)) {
+        if (isDev) {
+          var d = document.createElement('div');
+          d.className = 'ad-dev'; d.style.width = v.w + 'px'; d.style.maxWidth = '100%'; d.style.height = v.h + 'px';
+          d.textContent = 'Ad slot: ' + el.dataset.slot + ' ' + v.w + '×' + v.h;
+          el.appendChild(d);
+        } else { el.hidden = true; }
+        return;
+      }
+      el.style.minHeight = (v.h + 16) + 'px'; // reserve space → no layout shift
+      if (io) io.observe(el); else mount(el, v);
+    });
+  })();
+</script>

@@ -109,7 +109,6 @@ and WFP/IPC food-security assessments.
 
 When several indicators improve together, the risk picture becomes more favorable.
 
-undefined
 
 ## Practical response: what to do if conditions worsen
 

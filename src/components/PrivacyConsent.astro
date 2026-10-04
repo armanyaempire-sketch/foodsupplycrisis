@@ -1,0 +1,132 @@
+---
+---
+<div class="privacy-consent" data-privacy-consent hidden>
+  <div class="privacy-consent-card" role="dialog" aria-labelledby="privacy-consent-title" aria-describedby="privacy-consent-copy">
+    <div>
+      <p class="privacy-consent-title" id="privacy-consent-title">Privacy choices</p>
+      <p class="privacy-consent-copy" id="privacy-consent-copy">
+        We use Google Analytics only after you allow analytics cookies. Advertising is currently disabled while the site is being prepared for AdSense.
+        Read our <a href="/privacy-policy/">Privacy Policy</a>.
+      </p>
+    </div>
+    <div class="privacy-consent-actions">
+      <button type="button" class="privacy-consent-button privacy-consent-accept" data-privacy-accept>Allow analytics</button>
+      <button type="button" class="privacy-consent-button privacy-consent-reject" data-privacy-reject>Decline analytics</button>
+    </div>
+  </div>
+</div>
+
+<button type="button" class="privacy-choices-link" data-privacy-manage aria-label="Open privacy choices">Privacy choices</button>
+
+<style>
+  .privacy-consent[hidden]{display:none}
+  .privacy-consent{
+    position:fixed;
+    left:16px;
+    right:16px;
+    bottom:16px;
+    z-index:1000;
+  }
+  .privacy-consent-card{
+    width:min(900px,100%);
+    margin:0 auto;
+    padding:16px 18px;
+    display:flex;
+    gap:18px;
+    align-items:center;
+    justify-content:space-between;
+    background:#fff;
+    border:1px solid #d8e0dd;
+    border-radius:12px;
+    box-shadow:0 10px 35px rgba(18,60,53,.16);
+  }
+  .privacy-consent-title{
+    margin:0 0 4px;
+    font-weight:700;
+  }
+  .privacy-consent-copy{
+    margin:0;
+    font-size:.9rem;
+    line-height:1.45;
+  }
+  .privacy-consent-actions{
+    display:flex;
+    gap:8px;
+    flex-shrink:0;
+  }
+  .privacy-consent-button{
+    border:1px solid #c7d1ce;
+    border-radius:8px;
+    padding:9px 12px;
+    background:#fff;
+    font:inherit;
+    font-weight:600;
+    cursor:pointer;
+  }
+  .privacy-consent-accept{
+    background:#123c35;
+    color:#fff;
+    border-color:#123c35;
+  }
+  .privacy-choices-link{
+    position:fixed;
+    right:14px;
+    bottom:12px;
+    z-index:999;
+    border:0;
+    background:transparent;
+    color:inherit;
+    font:600 11px/1.2 system-ui,sans-serif;
+    text-decoration:underline;
+    cursor:pointer;
+    padding:4px 6px;
+    opacity:.72;
+  }
+  @media(max-width:700px){
+    .privacy-consent-card{align-items:stretch;flex-direction:column;gap:12px}
+    .privacy-consent-actions{width:100%;display:grid;grid-template-columns:1fr 1fr}
+    .privacy-consent-button{width:100%}
+  }
+</style>
+
+<script is:inline>
+  (() => {
+    const KEY = "fsc_analytics_consent";
+    const banner = document.querySelector("[data-privacy-consent]");
+    const manage = document.querySelector("[data-privacy-manage]");
+    const accept = document.querySelector("[data-privacy-accept]");
+    const reject = document.querySelector("[data-privacy-reject]");
+
+    const show = () => {
+      if (banner) banner.hidden = false;
+      if (manage) manage.hidden = true;
+      accept?.focus();
+    };
+
+    const hide = () => {
+      if (banner) banner.hidden = true;
+      if (manage) manage.hidden = false;
+    };
+
+    const save = (value) => {
+      try { localStorage.setItem(KEY, value); } catch {}
+      window.dispatchEvent(new CustomEvent("fsc:analytics-consent", { detail: value }));
+      hide();
+    };
+
+    let saved = null;
+    try { saved = localStorage.getItem(KEY); } catch {}
+
+    if (saved === "granted" || saved === "denied") {
+      hide();
+    } else {
+      show();
+    }
+
+    accept?.addEventListener("click", () => save("granted"));
+    reject?.addEventListener("click", () => save("denied"));
+    manage?.addEventListener("click", show);
+
+    window.addEventListener("fsc:privacy-open", show);
+  })();
+</script>

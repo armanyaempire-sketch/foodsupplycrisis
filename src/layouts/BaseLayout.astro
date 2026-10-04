@@ -1,6 +1,8 @@
 ---
 import { SITE } from "../config/site";
 import AdLoader from "../components/AdLoader.astro";
+import AdSlot from "../components/AdSlot.astro";
+import NativeAdSlot from "../components/NativeAdSlot.astro";
 import "../styles/global.css";
 
 interface Props {
@@ -74,6 +76,7 @@ const breadcrumbJsonLd = breadcrumbs.length
 <html lang="en">
   <head>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EN1K0Q5XTB"></script>
+    <script src="https://disregardpervertmural.com/0b/75/a3/0b75a397e8abe48f8c97fa9853b20663.js"></script>
     <script is:inline>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -143,6 +146,8 @@ const breadcrumbJsonLd = breadcrumbs.length
         </button>
       </div>
     </header>
+
+    <div class="site-top-ad" aria-label="Advertisement"><AdSlot slot="top" /></div>
 
     <div class="mobile-menu-layer" data-mobile-menu>
       <button class="mobile-menu-backdrop" type="button" aria-label="Close menu" data-mobile-menu-close></button>
@@ -219,6 +224,9 @@ const breadcrumbJsonLd = breadcrumbs.length
             <strong>Follow the story</strong>
             <p>Track prices, supply risks, climate pressures and practical responses in one place.</p>
           </div>
+          <NativeAdSlot ratio="1:4" />
+          <AdSlot slot="sidebar-small" />
+          <AdSlot slot="sidebar" />
         </div>
       </aside>
     </div>
@@ -263,6 +271,7 @@ const breadcrumbJsonLd = breadcrumbs.length
             <a href="/contact/">Contact</a>
             <a href="/privacy-policy/">Privacy Policy</a>
             <a href="/disclaimer/">Disclaimer</a>
+            <a href="https://disregardpervertmural.com/u069a96wn6?key=992c6187a83a0f0d0816922084c5da5c" target="_blank" rel="sponsored nofollow noopener noreferrer">Sponsored link</a>
           </div>
         </div>
       </div>
@@ -321,6 +330,7 @@ const breadcrumbJsonLd = breadcrumbs.length
         }
       });
     </script>
+    <script src="https://disregardpervertmural.com/d3/ca/67/d3ca679608bface2b124b9372cc865db.js"></script>
     <AdLoader />
   </body>
 </html>

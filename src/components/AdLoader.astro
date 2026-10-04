@@ -4,12 +4,10 @@
  *   import AdLoader from '../components/AdLoader.astro';
  *   <AdLoader />
  *
- * Replace HOST with the host used in YOUR Adsterra banner snippet and replace
- * each YOUR_KEY_* with the key from the matching Adsterra ad unit.
+ * The homepage hero uses the live 300×250 Adsterra unit configured below.
+ * Other slots remain placeholders until their own Adsterra units are supplied.
  *
- * Unconfigured production slots stay hidden to avoid empty gaps, except the
- * homepage hero slot: it keeps a visible 300×250 placeholder so the ad
- * placement is obvious on the live site until the real Adsterra key is added.
+ * The hero unit loads eagerly because it is above the fold.
  */
 const HOST = 'disregardpervertmural.com';
 

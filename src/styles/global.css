@@ -309,3 +309,40 @@ body.desktop-menu-open{overflow:auto}
 @media(max-width:820px){
 .hero-ad-panel{justify-self:center;width:300px}
 }
+
+
+/* Food Supply Crisis advertising layout */
+.site-top-ad{
+  background:#fff;
+  border-bottom:1px solid #edf1f3;
+}
+.site-top-ad .ad-slot{
+  margin:12px auto;
+}
+.ad-section-compact{
+  padding:22px 0;
+}
+.ad-section-compact .ad-slot{
+  margin:0 auto;
+}
+.ad-section-native{
+  padding:30px 0;
+}
+.sidebar-card > .native-ad-slot{
+  margin:22px auto;
+  padding:0 4px;
+}
+.sidebar-card > .ad-slot{
+  margin:22px auto;
+  padding:0 4px;
+}
+.sidebar-card > .native-ad-1-4{
+  width:160px;
+}
+.sidebar-card .ad-slot[data-slot="sidebar-small"],
+.sidebar-card .ad-slot[data-slot="sidebar"]{
+  width:160px;
+}
+@media(max-width:820px){
+  .site-top-ad .ad-slot{margin:10px auto}
+}

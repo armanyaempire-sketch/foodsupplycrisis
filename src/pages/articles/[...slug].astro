@@ -2,46 +2,25 @@
 import { getCollection, render } from "astro:content";
 import ArticleLayout from "../../layouts/ArticleLayout.astro";
 
-const stopWords = new Set([
-  "2026", "2027", "food", "crisis", "supply", "prices", "price", "security",
-  "india", "global", "world", "risk", "report", "analysis", "what", "why",
-  "how", "will", "the", "and", "for", "from", "with", "into", "about"
-]);
-
-function tokenize(value: string): string[] {
-  return value.toLowerCase()
-    .replace(/&/g, " and ")
-    .replace(/[^a-z0-9\s-]/g, " ")
-    .split(/\s+/)
-    .filter((word) => word.length > 2 && !stopWords.has(word));
-}
+const normalizeKeyword = (keyword: string) =>
+  keyword.toLowerCase().replace(/[^a-z0-9\s-]/g, " ").replace(/\s+/g, " ").trim();
 
 export async function getStaticPaths() {
   const articles = await getCollection("articles");
 
   return articles.map((article) => {
-    const articleTerms = new Set([
-      ...article.data.keywords.flatMap(tokenize),
-      ...tokenize(article.data.title)
-    ]);
+    const articleKeywords = new Set(article.data.keywords.map(normalizeKeyword));
 
     const related = articles
       .filter((candidate) => candidate.id !== article.id)
       .map((candidate) => {
-        const candidateTerms = new Set([
-          ...candidate.data.keywords.flatMap(tokenize),
-          ...tokenize(candidate.data.title)
-        ]);
-
-        const sharedTerms = [...articleTerms].filter((term) => candidateTerms.has(term)).length;
+        const candidateKeywords = candidate.data.keywords.map(normalizeKeyword);
+        const sharedKeywords = candidateKeywords.filter((keyword) => articleKeywords.has(keyword)).length;
         const sameCategory = candidate.data.category === article.data.category;
-        const countryConnection =
-          article.data.category === "Countries" && candidate.data.category === "Countries";
 
         const score =
-          sharedTerms * 5 +
-          (sameCategory ? 8 : 0) +
-          (countryConnection ? 3 : 0);
+          sharedKeywords * 10 +
+          (sameCategory ? 8 : 0);
 
         return { candidate, score };
       })

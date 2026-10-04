@@ -1,6 +1,6 @@
 ---
 title: "PM Modi’s Warning on Economic Crisis: Understanding the Disaster Cycle and How India’s Middle Class Can Protect Itself"
-description: "PM Modi warned in The Hague that overlapping global crises could erase years of economic progress. Here is how an energy shock can spread through prices, rates, jobs and household finances in India."
+description: "PM Modi warned in The Hague that overlapping global crises could erase years of economic progress. Here is how an energy shock can spread through prices, jobs and household finances in India."
 pubDate: 2026-10-04
 updatedDate: 2026-10-04
 author: Food Supply Crisis Report Editorial Desk

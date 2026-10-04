@@ -382,3 +382,11 @@ body.desktop-menu-open{overflow:auto}
     text-align:center;
   }
 }
+
+
+/* Homepage mobile hero ad placement */
+@media(max-width:820px){
+  .home-top-ad{display:none}
+  .hero-home .hero-grid{grid-template-columns:1fr}
+  .hero-home .hero-ad-panel{grid-column:1;grid-row:2;justify-self:center;width:300px;max-width:100%;margin-top:20px;align-self:start}
+}

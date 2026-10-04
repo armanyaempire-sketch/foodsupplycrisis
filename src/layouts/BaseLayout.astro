@@ -142,14 +142,35 @@ const breadcrumbJsonLd = breadcrumbs.length
             <span>Menu</span>
           </summary>
           <nav class="mobile-nav" aria-label="Mobile primary navigation">
-            <a class={isActive("/global-food-crisis/") ? "is-active" : ""} href="/global-food-crisis/">Global Crisis</a>
-            <a class={isActive("/food-prices/") ? "is-active" : ""} href="/food-prices/">Food Prices</a>
-            <a class={isActive("/food-supply/") ? "is-active" : ""} href="/food-supply/">Food Supply</a>
-            <a class={isActive("/food-security/") ? "is-active" : ""} href="/food-security/">Food Security</a>
-            <a class={isActive("/countries/") ? "is-active" : ""} href="/countries/">Countries</a>
-            <a class={isActive("/climate-agriculture/") ? "is-active" : ""} href="/climate-agriculture/">Climate &amp; Crops</a>
-            <a class={isActive("/fertilizer/") ? "is-active" : ""} href="/fertilizer/">Fertilizer</a>
-            <a class={isActive("/solutions/") ? "is-active" : ""} href="/solutions/">Solutions</a>
+            <div class="mobile-nav-heading"><span>Browse</span><small>Food Supply Crisis</small></div>
+            <a class={isActive("/") ? "is-active" : ""} href="/">
+              <span class="mobile-nav-icon" aria-hidden="true">⌂</span>
+              <span>Home</span>
+            </a>
+            <a class={isActive("/global-food-crisis/") ? "is-active" : ""} href="/global-food-crisis/">
+              <span class="mobile-nav-icon" aria-hidden="true">◎</span><span>Global Crisis</span>
+            </a>
+            <a class={isActive("/food-prices/") ? "is-active" : ""} href="/food-prices/">
+              <span class="mobile-nav-icon" aria-hidden="true">$</span><span>Food Prices</span>
+            </a>
+            <a class={isActive("/food-supply/") ? "is-active" : ""} href="/food-supply/">
+              <span class="mobile-nav-icon" aria-hidden="true">↔</span><span>Food Supply</span>
+            </a>
+            <a class={isActive("/food-security/") ? "is-active" : ""} href="/food-security/">
+              <span class="mobile-nav-icon" aria-hidden="true">✓</span><span>Food Security</span>
+            </a>
+            <a class={isActive("/countries/") ? "is-active" : ""} href="/countries/">
+              <span class="mobile-nav-icon" aria-hidden="true">◌</span><span>Countries</span>
+            </a>
+            <a class={isActive("/climate-agriculture/") ? "is-active" : ""} href="/climate-agriculture/">
+              <span class="mobile-nav-icon" aria-hidden="true">☁</span><span>Climate &amp; Crops</span>
+            </a>
+            <a class={isActive("/fertilizer/") ? "is-active" : ""} href="/fertilizer/">
+              <span class="mobile-nav-icon" aria-hidden="true">✦</span><span>Fertilizer</span>
+            </a>
+            <a class={isActive("/solutions/") ? "is-active" : ""} href="/solutions/">
+              <span class="mobile-nav-icon" aria-hidden="true">→</span><span>Solutions</span>
+            </a>
           </nav>
         </details>
       </div>

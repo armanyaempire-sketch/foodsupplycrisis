@@ -47,6 +47,10 @@ const ADS = {
 ---
 
 <style is:global>
+  .ad-slot[data-slot],
+  .native-ad-slot[data-native-ratio]{
+    display:none;
+  }
   .ad-slot{
     margin:2rem auto;
     text-align:center;
@@ -63,7 +67,7 @@ const ADS = {
     text-transform:uppercase;
     opacity:.55;
   }
-  .ad-slot[hidden]{display:none}
+  .ad-slot[hidden],
   .native-ad-slot[hidden]{display:none}
   .ad-slot iframe{
     display:block;

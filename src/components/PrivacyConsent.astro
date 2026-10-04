@@ -5,7 +5,7 @@
     <div>
       <p class="privacy-consent-title" id="privacy-consent-title">Privacy choices</p>
       <p class="privacy-consent-copy" id="privacy-consent-copy">
-        We use Google Analytics only after you allow analytics cookies. Advertising is currently disabled while the site is being prepared for AdSense.
+        Google Analytics is optional and loads only after you allow analytics cookies. Google AdSense handles advertising consent where required.
         Read our <a href="/privacy-policy/">Privacy Policy</a>.
       </p>
     </div>
@@ -16,7 +16,8 @@
   </div>
 </div>
 
-<button type="button" class="privacy-choices-link" data-privacy-manage aria-label="Open privacy choices">Privacy choices</button>
+<button type="button" class="privacy-choices-link" data-privacy-manage aria-label="Open analytics privacy choices">Analytics privacy choices</button>
+<a class="google-privacy-link" data-google-privacy-link href="#" hidden>Google privacy &amp; cookie settings</a>
 
 <style>
   .privacy-consent[hidden]{display:none}
@@ -68,7 +69,8 @@
     color:#fff;
     border-color:#123c35;
   }
-  .privacy-choices-link{
+  .privacy-choices-link,
+  .google-privacy-link{
     position:fixed;
     right:14px;
     bottom:12px;
@@ -81,6 +83,11 @@
     cursor:pointer;
     padding:4px 6px;
     opacity:.72;
+    text-decoration:underline;
+  }
+  .google-privacy-link{
+    right:14px;
+    bottom:34px;
   }
   @media(max-width:700px){
     .privacy-consent-card{align-items:stretch;flex-direction:column;gap:12px}
@@ -96,6 +103,7 @@
     const manage = document.querySelector("[data-privacy-manage]");
     const accept = document.querySelector("[data-privacy-accept]");
     const reject = document.querySelector("[data-privacy-reject]");
+    const googlePrivacy = document.querySelector("[data-google-privacy-link]");
 
     const show = () => {
       if (banner) banner.hidden = false;
@@ -128,5 +136,18 @@
     manage?.addEventListener("click", show);
 
     window.addEventListener("fsc:privacy-open", show);
+
+    window.googlefc = window.googlefc || {};
+    window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+    window.googlefc.callbackQueue.push({
+      "CONSENT_API_READY": () => {
+        if (!googlePrivacy || !window.googlefc?.showRevocationMessage) return;
+        googlePrivacy.hidden = false;
+        googlePrivacy.addEventListener("click", (event) => {
+          event.preventDefault();
+          window.googlefc.showRevocationMessage();
+        }, { once: false });
+      }
+    });
   })();
 </script>

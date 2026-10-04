@@ -1,0 +1,15 @@
+---
+interface Props {
+  enabled?: boolean;
+}
+
+const { enabled = true } = Astro.props;
+---
+
+{enabled && (
+  <script
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4245594685213859"
+    crossorigin="anonymous"
+  ></script>
+)}

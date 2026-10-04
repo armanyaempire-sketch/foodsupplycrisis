@@ -108,7 +108,6 @@ But fertilizer independence is not the same as food-price independence.
 
 US farms still operate within global commodity, energy and logistics markets.
 
-undefined
 
 ## Practical response: what to do if conditions worsen
 

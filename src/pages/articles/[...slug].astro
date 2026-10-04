@@ -8,12 +8,13 @@ const stopWords = new Set([
   "how", "will", "the", "and", "for", "from", "with", "into", "about"
 ]);
 
-const tokenize = (value: string) =>
-  value.toLowerCase()
+function tokenize(value: string): string[] {
+  return value.toLowerCase()
     .replace(/&/g, " and ")
     .replace(/[^a-z0-9\s-]/g, " ")
     .split(/\s+/)
     .filter((word) => word.length > 2 && !stopWords.has(word));
+}
 
 export async function getStaticPaths() {
   const articles = await getCollection("articles");

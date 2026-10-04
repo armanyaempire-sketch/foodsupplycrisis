@@ -1,10 +1,7 @@
 ---
 import { SITE } from "../config/site";
-import AdLoader from "../components/AdLoader.astro";
 import PrivacyConsent from "../components/PrivacyConsent.astro";
 import AdSense from "../components/AdSense.astro";
-import AdSlot from "../components/AdSlot.astro";
-import NativeAdSlot from "../components/NativeAdSlot.astro";
 import "../styles/global.css";
 
 interface Props {
@@ -177,7 +174,6 @@ const breadcrumbJsonLd = breadcrumbs.length
       </div>
     </header>
 
-    {showAds && <div class:list={["site-top-ad", isHomePage && "home-top-ad"]} aria-label="Advertisement"><AdSlot slot="top" /></div>}
 
     <div class="mobile-menu-layer" data-mobile-menu>
       <button class="mobile-menu-backdrop" type="button" aria-label="Close menu" data-mobile-menu-close></button>
@@ -261,13 +257,6 @@ const breadcrumbJsonLd = breadcrumbs.length
       <main id="main-content" class="site-main">
         <slot />
       </main>
-
-      {showAds && type === "article" && (
-        <aside class="article-side-ad" aria-label="Advertisement">
-          <NativeAdSlot ratio="1:4" />
-          <AdSlot slot="sidebar" />
-        </aside>
-      )}
     </div>
 
     <footer class="site-footer">
@@ -305,7 +294,7 @@ const breadcrumbJsonLd = breadcrumbs.length
             <a href="/contact/">Contact</a>
             <a href="/privacy-policy/">Privacy Policy</a>
             <a href="/disclaimer/">Disclaimer</a>
-            <a href="https://disregardpervertmural.com/u069a96wn6?key=992c6187a83a0f0d0816922084c5da5c" target="_blank" rel="sponsored nofollow noopener noreferrer">Sponsored link</a>
+            <span>Advertising: Google AdSense</span>
           </div>
         </div>
       </div>
@@ -365,6 +354,5 @@ const breadcrumbJsonLd = breadcrumbs.length
         }
       });
     </script>
-    {showAds && <AdLoader />}
   </body>
 </html>

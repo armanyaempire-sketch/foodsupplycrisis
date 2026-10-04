@@ -1,0 +1,49 @@
+---
+const { ratio } = Astro.props;
+---
+
+<aside class={`native-ad-slot native-ad-${ratio.replace(":", "-")}`} data-native-ratio={ratio} aria-label="Advertisement">
+  <div class="native-ad-mount"></div>
+</aside>
+
+<style>
+  .native-ad-slot{
+    width:min(640px,100%);
+    max-width:100%;
+    margin:2rem auto;
+    text-align:center;
+    clear:both;
+    overflow:hidden;
+  }
+  .native-ad-slot::before{
+    content:"Advertisement";
+    display:block;
+    margin-bottom:6px;
+    font:600 10px/1 system-ui,sans-serif;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    opacity:.55;
+  }
+  .native-ad-mount{
+    width:min(640px,100%);
+    height:160px;
+    max-width:100%;
+    margin:0 auto;
+  }
+  .native-ad-1-4{
+    width:min(160px,100%);
+  }
+  .native-ad-1-4 .native-ad-mount{
+    width:160px;
+    height:600px;
+  }
+  .native-ad-slot iframe{
+    display:block;
+    width:100%;
+    height:100%;
+    max-width:100%;
+    border:0;
+    margin:0 auto;
+    overflow:hidden;
+  }
+</style>

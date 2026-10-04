@@ -2,15 +2,55 @@
 import { getCollection, render } from "astro:content";
 import ArticleLayout from "../../layouts/ArticleLayout.astro";
 
+const stopWords = new Set([
+  "2026", "2027", "food", "crisis", "supply", "prices", "price", "security",
+  "india", "global", "world", "risk", "report", "analysis", "what", "why",
+  "how", "will", "the", "and", "for", "from", "with", "into", "about"
+]);
+
+const tokenize = (value: string) =>
+  value.toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9\s-]/g, " ")
+    .split(/\s+/)
+    .filter((word) => word.length > 2 && !stopWords.has(word));
+
 export async function getStaticPaths() {
   const articles = await getCollection("articles");
 
   return articles.map((article) => {
+    const articleTerms = new Set([
+      ...article.data.keywords.flatMap(tokenize),
+      ...tokenize(article.data.title)
+    ]);
+
     const related = articles
-      .filter((candidate) => candidate.id !== article.id && candidate.data.category === article.data.category)
-      .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+      .filter((candidate) => candidate.id !== article.id)
+      .map((candidate) => {
+        const candidateTerms = new Set([
+          ...candidate.data.keywords.flatMap(tokenize),
+          ...tokenize(candidate.data.title)
+        ]);
+
+        const sharedTerms = [...articleTerms].filter((term) => candidateTerms.has(term)).length;
+        const sameCategory = candidate.data.category === article.data.category;
+        const countryConnection =
+          article.data.category === "Countries" && candidate.data.category === "Countries";
+
+        const score =
+          sharedTerms * 5 +
+          (sameCategory ? 8 : 0) +
+          (countryConnection ? 3 : 0);
+
+        return { candidate, score };
+      })
+      .filter(({ score }) => score > 0)
+      .sort((a, b) =>
+        b.score - a.score ||
+        b.candidate.data.pubDate.valueOf() - a.candidate.data.pubDate.valueOf()
+      )
       .slice(0, 3)
-      .map((candidate) => ({
+      .map(({ candidate }) => ({
         title: candidate.data.title,
         url: `/articles/${candidate.id}/`
       }));

@@ -222,3 +222,14 @@ html{scroll-behavior:auto}
 .mobile-menu summary{min-height:42px}
 .mobile-menu .mobile-nav{top:74px;height:calc(100vh - 74px)}
 }
+
+/* Final header color guard */
+.site-header,
+.site-header::before,
+.site-header::after{background-color:#123c35 !important}
+.site-header{background:#123c35 !important;background-image:linear-gradient(135deg,#123c35 0%,#0b5a40 48%,#176b56 100%) !important}
+.site-header .header-inner{background:transparent !important}
+.site-header .brand,
+.site-header .brand-copy strong,
+.site-header .brand-copy small{color:#fff !important}
+.site-header .header-status{color:#d8ebe4 !important}

@@ -98,7 +98,6 @@ Food prices become a food-security issue when families cannot absorb the increas
 
 Read [Global Food Crisis 2026](/articles/global-food-crisis-2026/) for the wider context, [Oil, Energy and Food Prices](/articles/oil-energy-food-prices-2026/) for the energy link, and [Black Sea Food Crisis 2026](/articles/black-sea-food-crisis-2026/) for the trade route.
 
-undefined
 
 ## Practical response: what to do if conditions worsen
 

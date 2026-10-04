@@ -103,7 +103,6 @@ Resilience measures include drought- and heat-tolerant varieties, irrigation whe
 
 No measure eliminates climate risk. The objective is to reduce the size of the shock.
 
-undefined
 
 ## Practical response: what to do if conditions worsen
 

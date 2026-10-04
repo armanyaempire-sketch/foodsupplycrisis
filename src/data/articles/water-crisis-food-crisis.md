@@ -95,7 +95,6 @@ Useful indicators include precipitation, drought conditions, reservoir levels, g
 
 For the climate connection, read [Very Strong El Niño 2026](/articles/very-strong-el-nino-2026-food-production/). For the wider food-security picture, see [Food Security](/food-security/). For practical resilience, read [10 Food-Crisis Solutions](/articles/how-can-world-prevent-food-crisis-10-solutions/).
 
-undefined
 
 ## Practical response: what to do if conditions worsen
 

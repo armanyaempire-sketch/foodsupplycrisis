@@ -88,7 +88,6 @@ The most useful action is to follow current assessments from IPC, WFP and FAO ra
 
 Country-level updates should be read by date and geographic coverage.
 
-undefined
 
 ## Practical response: what to do if conditions worsen
 

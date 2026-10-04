@@ -110,7 +110,6 @@ Follow current GOV.UK emergency-preparedness guidance rather than relying on old
 
 For the wider stockpiling debate, read [Why Are People Stockpiling Food in 2026?](/articles/why-people-stockpiling-food-2026/).
 
-undefined
 
 ## Practical response: what to do if conditions worsen
 

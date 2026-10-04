@@ -11,7 +11,7 @@
  * homepage hero slot: it keeps a visible 300×250 placeholder so the ad
  * placement is obvious on the live site until the real Adsterra key is added.
  */
-const HOST = 'YOUR_ADSTERRA_INVOKE_HOST'; // e.g. www.highperformancedisplayformat.com
+const HOST = 'disregardpervertmural.com';
 
 const ADS = {
   top:       { desktop: { key: 'YOUR_KEY_728x90',  w: 728, h: 90  }, mobile: { key: 'YOUR_KEY_320x50',    w: 320, h: 50  } },
@@ -20,7 +20,7 @@ const ADS = {
   end:       { desktop: { key: 'YOUR_KEY_728x90_END', w: 728, h: 90 }, mobile: { key: 'YOUR_KEY_300x250_C', w: 300, h: 250 } },
   'home-1':  { desktop: { key: 'YOUR_KEY_728x90_H1', w: 728, h: 90 }, mobile: { key: 'YOUR_KEY_300x250_H1', w: 300, h: 250 } },
   'home-2':  { desktop: { key: 'YOUR_KEY_728x90_H2', w: 728, h: 90 }, mobile: { key: 'YOUR_KEY_300x250_H2', w: 300, h: 250 } },
-  'home-hero': { desktop: { key: 'YOUR_KEY_300x250_HERO', w: 300, h: 250 }, mobile: { key: 'YOUR_KEY_300x250_HERO', w: 300, h: 250 } },
+  'home-hero': { desktop: { key: '023cb5e8e50e6076e33c2dde7383d706', w: 300, h: 250 }, mobile: { key: '023cb5e8e50e6076e33c2dde7383d706', w: 300, h: 250 } },
   sidebar:   { desktop: { key: 'YOUR_KEY_160x600', w: 160, h: 600 }, mobile: null },
 };
 ---
@@ -72,13 +72,13 @@ const ADS = {
       return !!(v && v.key && v.key.indexOf('YOUR_') !== 0 && HOST.indexOf('YOUR_') !== 0);
     }
 
-    function mount(el, v) {
+    function mount(el, v, eager) {
       var f = document.createElement('iframe');
       f.width = v.w;
       f.height = v.h;
       f.title = 'Advertisement';
       f.setAttribute('scrolling', 'no');
-      f.setAttribute('loading', 'lazy');
+      f.setAttribute('loading', eager ? 'eager' : 'lazy');
       f.srcdoc = '<!doctype html><html><body style="margin:0">' +
         '<script>atOptions={"key":"' + v.key + '","format":"iframe","height":' + v.h + ',"width":' + v.w + ',"params":{}};<\\/script>' +
         '<script src="//' + HOST + '/' + v.key + '/invoke.js"><\\/script></body></html>';
@@ -101,7 +101,7 @@ const ADS = {
         if (!e.isIntersecting) return;
         io.unobserve(e.target);
         var v = variantFor(e.target.dataset.slot);
-        if (configured(v)) mount(e.target, v);
+        if (configured(v)) mount(e.target, v, false);
       });
     }, { rootMargin: '300px 0px' }) : null;
 

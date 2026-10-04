@@ -168,45 +168,50 @@ const breadcrumbJsonLd = breadcrumbs.length
     </div>
 
     <div class="site-shell shell">
-      <aside class="site-sidebar" aria-label="Site navigation">
+      
+      <button class="desktop-menu-toggle" type="button" aria-expanded="true" aria-controls="desktop-navigation">
+      <span class="desktop-menu-toggle-icon" aria-hidden="true">☰</span>
+      <span class="desktop-menu-toggle-text">Menu</span>
+    </button>
+
+    <div class="desktop-menu-layer" data-desktop-menu>
+      <button class="desktop-menu-backdrop" type="button" aria-label="Close navigation" data-desktop-menu-close></button>
+      <aside class="site-sidebar" id="desktop-navigation" aria-label="Site navigation" aria-hidden="false">
         <div class="sidebar-card">
-          <div class="sidebar-label">Explore the site</div>
+          <div class="sidebar-card-header">
+            <div>
+              <div class="sidebar-label">Explore the site</div>
+              <span class="sidebar-kicker">Food Supply Crisis</span>
+            </div>
+            <button class="sidebar-close" type="button" aria-label="Close navigation" data-desktop-menu-close>&times;</button>
+          </div>
           <nav class="sidebar-nav" aria-label="Desktop primary navigation">
             <a class={isActive("/") ? "is-active sidebar-home" : "sidebar-home"} href="/">
-              <span class="sidebar-icon" aria-hidden="true">⌂</span>
-              <span>Home</span>
+              <span class="sidebar-icon" aria-hidden="true">⌂</span><span>Home</span>
             </a>
             <a class={isActive("/global-food-crisis/") ? "is-active" : ""} href="/global-food-crisis/">
-              <span class="sidebar-icon" aria-hidden="true">◎</span>
-              <span>Global Crisis</span>
+              <span class="sidebar-icon" aria-hidden="true">◎</span><span>Global Crisis</span>
             </a>
             <a class={isActive("/food-prices/") ? "is-active" : ""} href="/food-prices/">
-              <span class="sidebar-icon" aria-hidden="true">$</span>
-              <span>Food Prices</span>
+              <span class="sidebar-icon" aria-hidden="true">$</span><span>Food Prices</span>
             </a>
             <a class={isActive("/food-supply/") ? "is-active" : ""} href="/food-supply/">
-              <span class="sidebar-icon" aria-hidden="true">↔</span>
-              <span>Food Supply</span>
+              <span class="sidebar-icon" aria-hidden="true">↔</span><span>Food Supply</span>
             </a>
             <a class={isActive("/food-security/") ? "is-active" : ""} href="/food-security/">
-              <span class="sidebar-icon" aria-hidden="true">✓</span>
-              <span>Food Security</span>
+              <span class="sidebar-icon" aria-hidden="true">✓</span><span>Food Security</span>
             </a>
             <a class={isActive("/countries/") ? "is-active" : ""} href="/countries/">
-              <span class="sidebar-icon" aria-hidden="true">◌</span>
-              <span>Countries</span>
+              <span class="sidebar-icon" aria-hidden="true">◌</span><span>Countries</span>
             </a>
             <a class={isActive("/climate-agriculture/") ? "is-active" : ""} href="/climate-agriculture/">
-              <span class="sidebar-icon" aria-hidden="true">☁</span>
-              <span>Climate &amp; Crops</span>
+              <span class="sidebar-icon" aria-hidden="true">☁</span><span>Climate &amp; Crops</span>
             </a>
             <a class={isActive("/fertilizer/") ? "is-active" : ""} href="/fertilizer/">
-              <span class="sidebar-icon" aria-hidden="true">✦</span>
-              <span>Fertilizer</span>
+              <span class="sidebar-icon" aria-hidden="true">✦</span><span>Fertilizer</span>
             </a>
             <a class={isActive("/solutions/") ? "is-active" : ""} href="/solutions/">
-              <span class="sidebar-icon" aria-hidden="true">→</span>
-              <span>Solutions</span>
+              <span class="sidebar-icon" aria-hidden="true">→</span><span>Solutions</span>
             </a>
           </nav>
           <div class="sidebar-note">
@@ -215,6 +220,7 @@ const breadcrumbJsonLd = breadcrumbs.length
           </div>
         </div>
       </aside>
+    </div>
 
       <main id="main-content" class="site-main">
         <slot />
@@ -276,18 +282,42 @@ const breadcrumbJsonLd = breadcrumbs.length
         menuButton.setAttribute("aria-expanded", String(open));
         mobileDrawer.setAttribute("aria-hidden", String(!open));
         document.body.classList.toggle("mobile-menu-open", open);
-        if (open) {
-          mobileDrawer.querySelector("a")?.focus();
-        } else {
-          menuButton.focus();
-        }
+        if (open) mobileDrawer.querySelector("a")?.focus();
+        else menuButton.focus();
       };
 
       menuButton?.addEventListener("click", () => setMobileMenu(true));
-      closeButtons.forEach((button) => button.addEventListener("click", () => setMobileMenu(false)));
+      closeButtons.forEach((button) => button.addEventListener("click", () => {
+        if (button.closest(".desktop-menu-layer")) setDesktopMenu(false);
+        else setMobileMenu(false);
+      }));
       mobileDrawer?.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => setMobileMenu(false)));
+
+      const desktopLayer = document.querySelector("[data-desktop-menu]");
+      const desktopButton = document.querySelector(".desktop-menu-toggle");
+      const desktopAside = document.getElementById("desktop-navigation");
+      const desktopCloseButtons = document.querySelectorAll("[data-desktop-menu-close]");
+
+      const setDesktopMenu = (open) => {
+        if (!desktopLayer || !desktopButton || !desktopAside) return;
+        desktopLayer.classList.toggle("is-open", open);
+        desktopButton.classList.toggle("is-hidden", open);
+        desktopButton.setAttribute("aria-expanded", String(open));
+        desktopAside.setAttribute("aria-hidden", String(!open));
+        document.body.classList.toggle("desktop-menu-open", open);
+        if (open) desktopAside.querySelector("a")?.focus();
+        else desktopButton.focus();
+      };
+
+      desktopButton?.addEventListener("click", () => setDesktopMenu(true));
+      desktopCloseButtons.forEach((button) => button.addEventListener("click", () => setDesktopMenu(false)));
+      desktopAside?.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => setDesktopMenu(false)));
+
       document.addEventListener("keydown", (event) => {
-        if (event.key === "Escape") setMobileMenu(false);
+        if (event.key === "Escape") {
+          setDesktopMenu(false);
+          setMobileMenu(false);
+        }
       });
     </script>
   </body>

@@ -2,6 +2,7 @@
 import { SITE } from "../config/site";
 import AdLoader from "../components/AdLoader.astro";
 import PrivacyConsent from "../components/PrivacyConsent.astro";
+import AdSense from "../components/AdSense.astro";
 import AdSlot from "../components/AdSlot.astro";
 import NativeAdSlot from "../components/NativeAdSlot.astro";
 import "../styles/global.css";
@@ -122,6 +123,7 @@ const breadcrumbJsonLd = breadcrumbs.length
     <link rel="sitemap" href="/sitemap.xml" />
     <meta name="google-site-verification" content="ENViJVJLLA4VH_FH9dZ8kABAqV8tldQadYiNu0oMGAU" />
     <meta name="google-adsense-account" content="ca-pub-4245594685213859" />
+    {showAds && <AdSense />}
 
     {googleVerification && <meta name="google-site-verification" content={googleVerification} />}
     {bingVerification && <meta name="msvalidate.01" content={bingVerification} />}

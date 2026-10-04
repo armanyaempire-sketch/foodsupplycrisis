@@ -1,6 +1,7 @@
 ---
 import { SITE } from "../config/site";
 import AdLoader from "../components/AdLoader.astro";
+import PrivacyConsent from "../components/PrivacyConsent.astro";
 import AdSlot from "../components/AdSlot.astro";
 import NativeAdSlot from "../components/NativeAdSlot.astro";
 import "../styles/global.css";
@@ -16,6 +17,7 @@ interface Props {
   modifiedTime?: Date;
   authorName?: string;
   breadcrumbs?: Array<{ name: string; url: string }>;
+  showAds?: boolean;
 }
 
 const {
@@ -29,6 +31,7 @@ const {
   modifiedTime,
   authorName = SITE.authorName,
   breadcrumbs = [],
+  showAds = true,
 } = Astro.props;
 
 const googleVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
@@ -76,12 +79,36 @@ const breadcrumbJsonLd = breadcrumbs.length
 
 <html lang="en">
   <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EN1K0Q5XTB"></script>
     <script is:inline>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-EN1K0Q5XTB');
+      (function () {
+        const GA_ID = "G-EN1K0Q5XTB";
+        const CONSENT_KEY = "fsc_analytics_consent";
+        let loaded = false;
+
+        function loadAnalytics() {
+          if (loaded) return;
+          let consent = null;
+          try { consent = localStorage.getItem(CONSENT_KEY); } catch {}
+          if (consent !== "granted") return;
+
+          loaded = true;
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+          window.gtag("js", new Date());
+          window.gtag("config", GA_ID);
+
+          const script = document.createElement("script");
+          script.async = true;
+          script.src = "https://www.googletagmanager.com/gtag/js?id=" + GA_ID;
+          document.head.appendChild(script);
+        }
+
+        window.addEventListener("fsc:analytics-consent", function (event) {
+          if (event.detail === "granted") loadAnalytics();
+        });
+
+        loadAnalytics();
+      })();
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -148,7 +175,7 @@ const breadcrumbJsonLd = breadcrumbs.length
       </div>
     </header>
 
-    <div class:list={["site-top-ad", isHomePage && "home-top-ad"]} aria-label="Advertisement"><AdSlot slot="top" /></div>
+    {showAds && <div class:list={["site-top-ad", isHomePage && "home-top-ad"]} aria-label="Advertisement"><AdSlot slot="top" /></div>}
 
     <div class="mobile-menu-layer" data-mobile-menu>
       <button class="mobile-menu-backdrop" type="button" aria-label="Close menu" data-mobile-menu-close></button>
@@ -233,7 +260,7 @@ const breadcrumbJsonLd = breadcrumbs.length
         <slot />
       </main>
 
-      {type === "article" && (
+      {showAds && type === "article" && (
         <aside class="article-side-ad" aria-label="Advertisement">
           <NativeAdSlot ratio="1:4" />
           <AdSlot slot="sidebar" />
@@ -285,6 +312,7 @@ const breadcrumbJsonLd = breadcrumbs.length
         <span>Evidence-led global food-supply reporting.</span>
       </div>
     </footer>
+    <PrivacyConsent />
     <script>
       const menuLayer = document.querySelector("[data-mobile-menu]");
       const menuButton = document.querySelector(".mobile-menu-button");
@@ -335,6 +363,6 @@ const breadcrumbJsonLd = breadcrumbs.length
         }
       });
     </script>
-    <AdLoader />
+    {showAds && <AdLoader enabled />}
   </body>
 </html>

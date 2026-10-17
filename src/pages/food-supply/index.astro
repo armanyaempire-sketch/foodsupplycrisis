@@ -10,6 +10,20 @@ const articles = (await getCollection("articles"))
 
 <BaseLayout title="Food Supply 2026 | Food Supply Crisis Report" description="Follow grain, rice, stocks, imports, exports, production forecasts and supply-chain risks shaping the global food system.">
   <section class="hero"><div class="shell"><p class="eyebrow">Topic Hub</p><h1>Food Supply</h1><p>Production, stocks, imports, exports and supply-chain resilience across the global food system.</p></div></section>
+  <section class="section">
+    <div class="shell">
+      <h2>Four measures that should not be confused</h2>
+      <div class="card-grid">
+        <article class="card"><h3>Production</h3><p>How much was harvested or is forecast to be harvested. Production estimates can be revised as weather, yields and harvest surveys change.</p></article>
+        <article class="card"><h3>Stocks</h3><p>What remains in storage at a defined date. Stock numbers need a commodity, location, agency and comparison period to be useful.</p></article>
+        <article class="card"><h3>Trade</h3><p>How imports and exports move supplies between regions. Export restrictions, port capacity, shipping routes and freight costs can reshape availability.</p></article>
+        <article class="card"><h3>Access</h3><p>Whether food reaches shops and households at prices people can pay. Ample national supplies do not automatically protect every region or income group.</p></article>
+      </div>
+      <p>FAO's <a href="https://www.fao.org/worldfoodsituation/csdb" target="_blank" rel="noopener noreferrer">Cereal Supply and Demand Brief</a> is a starting point for international cereal output, utilization, stocks and trade. Pair it with national agriculture statistics and market information before drawing conclusions about a specific crop or country.</p>
+      <p>For example, FAO's 2 October 2026 assessment forecast global cereal production at 2.979 billion tonnes for 2026—still the second-largest harvest on record—while expecting cereal trade to fall from the prior season's record. The combination illustrates why high production and logistics risk can occur at the same time.</p>
+    </div>
+  </section>
+
   <section class="section"><div class="shell"><div class="card-grid">
     {articles.map((article) => <ArticleCard article={article} />)}
   </div></div></section>

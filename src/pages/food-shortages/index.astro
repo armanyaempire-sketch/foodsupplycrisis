@@ -21,6 +21,22 @@ const articles = (await getCollection("articles"))
   </section>
   <section class="section">
     <div class="shell">
+      <h2>How we distinguish a shortage from a warning</h2>
+      <p>A shortage claim should state which food is affected, where it is affected, when the problem occurred and whether it is temporary or persistent. A photograph of an empty shelf can document an individual moment, but it cannot establish the scale or cause of a wider supply problem by itself.</p>
+      <div class="card-grid">
+        <article class="card"><h3>Local stock-out</h3><p>Check the specific product, store or area and whether normal deliveries restore availability.</p></article>
+        <article class="card"><h3>Regional distribution problem</h3><p>Look for evidence across multiple markets, transport routes, wholesalers or local authority notices.</p></article>
+        <article class="card"><h3>National supply stress</h3><p>Compare production, stocks, imports, exports, policy changes and price data from current official sources.</p></article>
+        <article class="card"><h3>Acute food insecurity</h3><p>Use humanitarian assessments that identify affected populations and severity rather than assuming it from retail availability alone.</p></article>
+      </div>
+      <h3>A simple verification sequence</h3>
+      <p>First find the original source and its publication date. Next verify the place and the commodity. Then seek a second independent indicator: market data for a stock-out, crop and stock data for a supply claim, or IPC/WFP evidence for acute food insecurity. Keep forecasts labelled as forecasts. Our <a href="/articles/food-collapse-fact-check-2026/">food-collapse fact check</a> shows how to apply this test to common viral claims.</p>
+      <p>We do not treat preparedness guidance, price inflation and famine risk as interchangeable. Each can be important, but the evidence and the appropriate response differ.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
       {articles.length ? (
         <div class="card-grid">
           {articles.map((article) => <ArticleCard article={article} />)}

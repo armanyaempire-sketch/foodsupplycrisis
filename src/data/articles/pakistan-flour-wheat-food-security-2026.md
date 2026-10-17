@@ -95,6 +95,17 @@ For weather and agricultural context, compare Pakistan’s official crop reports
 
 The practical test for a nationwide shortage is evidence of a persistent, broad constraint across production, stocks, trade and markets—not just an isolated flour-price spike. If the problem is affordability, support for vulnerable households may be more directly relevant than a claim that the country has run out of wheat. If the problem is distribution, logistics and predictable market releases deserve attention. Those distinctions make the analysis more useful to readers and less likely to amplify panic.
 
+
+## Wheat prices and flour prices need separate tracking
+
+Wheat is the agricultural commodity; flour is a processed product. Between the two are cleaning, milling, electricity, packaging, distribution, market margins and sometimes public procurement or release policies. Flour can therefore move differently from wheat, especially when transport or energy costs change or when local supply is uneven. A story that quotes only one wholesale wheat price should not claim that it explains the full retail price of flour.
+
+Keep a dated series for the same product and market. If possible, compare official wheat and flour prices with market arrivals, procurement and any announced releases. Note whether the quote is a government issue price, wholesale transaction, or retail price paid by a household. These are different measures; mixing them can make a trend look larger or smaller than it is.
+
+The weather and harvest side needs the same discipline. Floods, heat or irregular rain can affect different growing regions and crop stages differently. An early estimate can be revised as the harvest develops, while stocks from an earlier season may buffer a temporary production loss. To assess exposure, compare the latest official crop estimate with its baseline, then check whether the forecast change is accompanied by tighter stocks or higher prices.
+
+For international context, see FAO’s [Cereal Supply and Demand Brief](https://www.fao.org/worldfoodsituation/csdb); for humanitarian access, use the relevant current [WFP Pakistan information](https://www.wfp.org/countries/pakistan) and available IPC assessments. These sources should not be treated as direct substitutes for domestic market data. The conclusion should say whether the evidence points to crop risk, distribution pressure, high prices, or a household access problem.
+
 ## Bottom line
 
 Use the evidence in this article to judge whether the risk is real and local. Prepare proportionately: secure water, keep a modest rotating food buffer, protect refrigeration, follow official guidance and avoid panic buying.

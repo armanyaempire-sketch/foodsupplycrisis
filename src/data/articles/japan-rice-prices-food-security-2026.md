@@ -102,6 +102,22 @@ For domestic statistics, use the [Statistics Bureau of Japan](https://www.stat.g
 
 A sound update asks whether released rice was delivered, whether retail prices changed after the release, and how those changes compare with other costs and available supply. It also distinguishes a price problem from an outright absence of rice. That is the difference between analysing a reserve policy and merely repeating the most eye-catching number in a news headline.
 
+
+## How to tell whether the rice market is stabilizing
+
+A useful price check should compare like with like over time. Record the exact product or grade, whether the number is a retail price or wholesale quotation, the reference week or month, and whether the series is adjusted for seasonal effects. If package sizes change or a report uses a different grade of rice, a simple comparison can be misleading.
+
+The supply side should be tracked at the same time. Domestic harvest estimates, imports, private inventories, reserve releases and government purchases can all influence available supply, but they operate on different schedules. Rice released from public reserves may take time to pass through wholesale distribution and retail channels. Meanwhile, purchasing reserves back can support future security but may change the amount of grain available immediately.
+
+| Signal | Why it matters | What would strengthen the conclusion |
+|---|---|---|
+| Retail prices decline over several releases | Consumers may be seeing relief | Use a consistent official series and check whether the decline persists |
+| Reserve rice reaches wholesale or retail markets | The intervention is affecting available supply | Confirm delivered volume and timing, not only the announcement |
+| Domestic crop and import outlook improves | More supply may be available over the coming months | Check updated production and import data |
+| Prices diverge by region or retailer | Distribution, quality or local demand may matter | Compare multiple areas and product grades |
+
+Use the [Statistics Bureau of Japan](https://www.stat.go.jp/english/) for official prices and the agriculture ministry for rice market updates, then compare with the [FAO cereal outlook](https://www.fao.org/worldfoodsituation/csdb). A price decrease is evidence of improvement for the series being measured; it is not automatically proof that every household’s food budget has recovered or that all rice-market risks have disappeared.
+
 ## Bottom line
 
 A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.

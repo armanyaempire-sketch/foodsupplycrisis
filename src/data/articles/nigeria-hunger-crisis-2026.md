@@ -88,6 +88,17 @@ Follow [WFP Nigeria](https://www.wfp.org/countries/nigeria), current [IPC analys
 
 The indicators of improvement are also local: safer access to farms and markets, fewer displacement-related barriers, better household purchasing power, adequate funding and delivery of assistance, and updated assessments showing that fewer people face severe food-consumption gaps. A small change in the global food-price index would not by itself prove that conditions in an insecure district have improved.
 
+
+## What an improvement would look like in the affected communities
+
+A change in the humanitarian outlook should be assessed through the same indicators used to describe the crisis. If conflict is preventing access to farms or markets, improved access and reduced displacement barriers matter. If prices are the main constraint, household purchasing power and staple-food prices need to improve. If humanitarian funding is the limiting factor, the share of planned assistance actually delivered is a more direct measure than an announcement that a response has been funded.
+
+A reliable update should distinguish projected food insecurity during a lean season from a count measured in a survey period. It should also keep Borno and other affected states distinct from Nigeria as a whole. Conditions in a conflict-affected district should not be inferred from national agricultural output, and a country-wide average should not erase localized severity.
+
+For public readers, the safest way to follow new reports is to record the source, report date, geographic coverage and number or classification being quoted. Compare the new assessment with the previous edition: did the population change, did severity change, or did the report simply cover a different period? This avoids presenting revised scope as sudden improvement or deterioration.
+
+Use the current [WFP Nigeria page](https://www.wfp.org/countries/nigeria), [IPC analyses](https://www.ipcinfo.org/) and FAO’s food-security information. A change in the global commodity index may matter to the broader economy, but it is not a direct measure of the ability of a displaced household to find food, reach a market or receive assistance. The most meaningful indicators are the ones tied to access, consumption, safety and delivery in the specific communities facing the crisis.
+
 ## Bottom line
 
 A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.

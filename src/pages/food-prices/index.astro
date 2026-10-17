@@ -10,6 +10,21 @@ const articles = (await getCollection("articles"))
 
 <BaseLayout title="Food Prices 2026 | Food Supply Crisis Report" description="Track food-price inflation, cereal prices, energy costs, fertilizer, shipping and the supply shocks that reach consumers.">
   <section class="hero"><div class="shell"><p class="eyebrow">Topic Hub</p><h1>Food Prices</h1><p>Why food prices move, where pressure is building and what the latest evidence says.</p></div></section>
+  <section class="section">
+    <div class="shell">
+      <h2>Understand the difference between world prices and your grocery bill</h2>
+      <p>The FAO Food Price Index follows international quotations for major globally traded food commodities. It is not a direct consumer-price index for any individual country. Local prices also depend on exchange rates, domestic harvests, transport, storage, taxes, retailer contracts and household purchasing power.</p>
+      <div class="card-grid">
+        <article class="card"><h3>International benchmark</h3><p>Check the <a href="https://www.fao.org/worldfoodsituation/foodpricesindex/en/" target="_blank" rel="noopener noreferrer">FAO monthly index</a> and its commodity-group sub-indices. A change in cereals can differ from movements in meat, dairy, sugar or vegetable oils.</p></article>
+        <article class="card"><h3>Local transmission</h3><p>Compare the world-market signal with the relevant national consumer-price release, currency movements and local wholesale prices. Pass-through can be delayed or partly absorbed.</p></article>
+        <article class="card"><h3>Household impact</h3><p>A price rise becomes a food-security problem when budgets cannot absorb it. Compare prices for foods actually purchased and look at income and access—not just the global index.</p></article>
+      </div>
+      <h3>Latest dated reference</h3>
+      <p>FAO reported a September 2026 index value of 136.0 points on 2 October, up 1.5% from August and 5.8% year over year. Its release reported higher cereal, sugar and vegetable-oil quotations but lower meat prices and a slight fall in dairy. See the <a href="https://www.fao.org/newsroom/detail/fao-food-price-index-rises-in-september-amid-weather-concerns-and-transport-disruptions/en" target="_blank" rel="noopener noreferrer">original release</a> for detail and check for newer monthly data before quoting it.</p>
+      <p>Related reading: <a href="/articles/why-global-food-prices-rising-2026/">Why global food prices are rising</a> and <a href="/articles/global-food-prices-september-2026/">the September 2026 breakdown</a>.</p>
+    </div>
+  </section>
+
   <section class="section"><div class="shell"><div class="card-grid">
     {articles.map((article) => <ArticleCard article={article} />)}
   </div></div></section>

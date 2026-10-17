@@ -104,6 +104,17 @@ A resilience plan should be evaluated against actual outcomes: availability at p
 
 To judge current market exposure, compare official national input data with the [FAO Cereal Supply and Demand Brief](https://www.fao.org/worldfoodsituation/csdb) and the [AMIS Market Monitor](https://www.amis-outlook.org/). Keep price changes separate from physical availability and note when the crop must receive the input. If a supply problem occurs after the relevant application window, a later price decline may not reverse its effect on that season’s production.
 
+
+## Measure fertilizer resilience by farm outcomes
+
+A national fertilizer strategy should be evaluated at the point where inputs are used: can farmers obtain the right nutrient, in the right quantity and before the crop’s application window? Counting domestic production alone can overstate resilience if factories depend on imported gas or raw materials, if distribution is uneven, or if the product is unavailable in the region where it is needed.
+
+A useful dashboard combines the price and availability of each nutrient with delivery timing, import concentration, farm application and crop outcomes. It should also track soil testing and environmental impacts. Applying less fertilizer may lower cost and runoff where past use was excessive, but indiscriminate reductions can reduce yield. The purpose of nutrient efficiency is to match application to crop need, not to replace technical advice with a blanket “use less” rule.
+
+For public programmes, three distinctions are important. **Capacity** measures whether production or import options exist. **Access** measures whether suppliers and farmers can actually obtain and distribute the product. **Effectiveness** measures whether timely use supports crop productivity and farm viability. An effective strategy publishes information on all three, including the price farmers pay and the constraints that remain.
+
+The [AMIS Market Monitor](https://www.amis-outlook.org/) and FAO’s [cereal market outlook](https://www.fao.org/worldfoodsituation/csdb) can help establish international context. Pair these with dated national fertilizer and agriculture releases. A market report should not imply a yield loss until crop or farm evidence supports it, and should not call a country independent when essential feedstocks still depend on external supply. A realistic strategy reduces concentrated risks while preserving access to the inputs needed for productive farming.
+
 ## Bottom line
 
 Fertilizer independence should not be interpreted as isolation.

@@ -2,7 +2,7 @@
 title: "When Will the Food Crisis End? What Would Need to Change"
 description: "There is no single end date for the 2026 food crisis. Track shipping, fertilizer, weather, harvests and food insecurity to see when pressure is actually easing."
 pubDate: 2026-10-04
-updatedDate: 2026-10-04
+updatedDate: 2026-10-17
 author: Food Supply Crisis Report Editorial Desk
 category: Global Food Crisis
 keywords:
@@ -108,6 +108,29 @@ El Niño and regional weather;
 and WFP/IPC food-security assessments.
 
 When several indicators improve together, the risk picture becomes more favorable.
+
+## A monthly scorecard is more useful than an end-date prediction
+
+A transparent assessment should separate market pressure from humanitarian need. The following scorecard describes the evidence to look for; it is not a numerical forecast and does not claim that every indicator must return to an old level before conditions improve.
+
+| Indicator | Evidence of improvement | Important limitation |
+|---|---|---|
+| International food prices | Several monthly releases show a sustained easing across key commodities | Lower world prices may not quickly reach local shops |
+| Cereal output and stocks | Production estimates stabilize and stocks remain sufficient relative to expected use | Aggregate stocks do not guarantee access in every country |
+| Shipping and trade | Export flows become more reliable and freight or insurance pressure eases | Some importers may still face currency or port constraints |
+| Fertilizer availability | Farmers can obtain suitable nutrients before the relevant planting or application window | A price decline after the application window may arrive too late for that crop |
+| Weather and crop conditions | Rainfall, soil moisture and field reports support better harvest prospects in exposed regions | El Niño does not affect all regions and crops in the same way |
+| Acute food insecurity | Local food access, household purchasing power and humanitarian assessments improve in the worst-affected areas | Global commodity prices cannot measure famine conditions by themselves |
+
+The latest FAO cereal assessment is a good example of why the picture can be mixed. On 2 October 2026, FAO forecast global cereal production at 2.979 billion tonnes: 2.1% below the previous year’s record but still the second-largest harvest on record. At the same time, FAO forecast world cereal trade to decline by 3.5% from the 2025/26 record, in part because of constraints on Black Sea shipping routes. See the [Cereal Supply and Demand Brief](https://www.fao.org/worldfoodsituation/csdb). Strong total production can coexist with tighter trade and higher prices.
+
+## Define which crisis is easing
+
+For a household facing higher grocery bills, improvement means that the foods it buys become more affordable relative to income. For an importer, it may mean reliable access to grain, fertilizer, fuel and shipping. For a farmer, it may mean that rainfall, inputs and expected crop prices make planting viable. For a community facing acute hunger, it means food is physically reachable and economically or otherwise accessible—not merely that international commodity prices have moved lower.
+
+Readers can repeat this assessment each month by recording the same small set of sources: FAO’s Food Price Index, FAO’s cereal production and trade update, relevant national crop and price statistics, and the latest WFP or IPC assessments for humanitarian hotspots. Note each source’s publication date and geographic coverage. If two reports appear to disagree, check whether they measure different commodities, time periods or populations before treating the difference as a contradiction.
+
+A credible sign of recovery is a pattern across several indicators, not one encouraging headline. The method also allows the site to report deterioration honestly if trade, harvest or household access worsens again.
 
 ## Bottom line
 

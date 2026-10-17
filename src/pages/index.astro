@@ -7,7 +7,9 @@ const articles = (await getCollection("articles"))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const featured = articles.filter((article) => article.data.featured);
-const latest = articles.slice(0, 6);
+const featuredForHome = featured.slice(0, 3);
+const featuredIds = new Set(featuredForHome.map((article) => article.id));
+const latest = articles.filter((article) => !featuredIds.has(article.id)).slice(0, 6);
 ---
 
 <BaseLayout
@@ -37,12 +39,51 @@ const latest = articles.slice(0, 6);
     </div>
   </section>
 
-  {featured.length > 0 && (
+  <section class="section" id="current-evidence">
+    <div class="shell">
+      <p class="eyebrow">Current evidence snapshot</p>
+      <h2>What the latest global data does—and does not—say</h2>
+      <p>As of the FAO releases dated 2 October 2026, the global food picture is mixed rather than a simple story of either abundance or collapse.</p>
+      <div class="card-grid">
+        <article class="card">
+          <h3>International prices</h3>
+          <p>FAO’s Food Price Index averaged 136.0 points in September, up 1.5% from August and 5.8% from a year earlier.</p>
+          <p><a href="https://www.fao.org/newsroom/detail/fao-food-price-index-rises-in-september-amid-weather-concerns-and-transport-disruptions/en" target="_blank" rel="noopener noreferrer">Read FAO’s September price release</a></p>
+        </article>
+        <article class="card">
+          <h3>Global cereal production</h3>
+          <p>FAO forecast 2026 production at 2.979 billion tonnes—2.1% below the previous year’s record, but still the second-largest harvest on record.</p>
+          <p><a href="https://www.fao.org/worldfoodsituation/csdb" target="_blank" rel="noopener noreferrer">Read the cereal outlook</a></p>
+        </article>
+        <article class="card">
+          <h3>Trade and access</h3>
+          <p>FAO also expected global cereal trade to decline. Large output totals can coexist with shipping constraints, high prices and acute hunger in particular regions.</p>
+          <p><a href="/articles/global-food-crisis-2026/">Explore the global risk assessment</a></p>
+        </article>
+      </div>
+      <p class="small-note">This is a dated snapshot, not a live feed. Check the linked sources for revisions and newer releases before relying on these figures.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <p class="eyebrow">How to use this site</p>
+      <h2>Check a food-crisis claim in three steps</h2>
+      <div class="card-grid">
+        <article class="card"><h3>1. Define the claim</h3><p>Separate a price increase, a temporary stock-out, a harvest forecast and a confirmed humanitarian emergency.</p></article>
+        <article class="card"><h3>2. Match the source to the question</h3><p>Use production and stocks data for availability, price data for costs, and WFP or IPC assessments for acute food insecurity.</p></article>
+        <article class="card"><h3>3. Check the date and location</h3><p>Record when the data was published and whether it applies to the whole world, a country, or a specific region.</p></article>
+      </div>
+      <p>Start with our <a href="/articles/food-collapse-fact-check-2026/">food-collapse fact check</a>, review the <a href="/sources/">source directory</a>, or read our <a href="/editorial-policy/">editorial policy</a> to understand how claims are handled.</p>
+    </div>
+  </section>
+
+  {featuredForHome.length > 0 && (
     <section class="section">
       <div class="shell">
         <p class="eyebrow">Featured analysis</p>
         <div class="card-grid">
-          {featured.slice(0, 3).map((article) => <ArticleCard article={article} featured />)}
+          {featuredForHome.map((article) => <ArticleCard article={article} featured />)}
         </div>
       </div>
     </section>

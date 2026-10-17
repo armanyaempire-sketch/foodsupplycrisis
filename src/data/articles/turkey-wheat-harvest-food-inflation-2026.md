@@ -108,6 +108,17 @@ For consumer costs, compare the price of flour or bread to wheat prices over sev
 
 Use current national agriculture and statistics publications alongside the [FAO Cereal Supply and Demand Brief](https://www.fao.org/worldfoodsituation/csdb). Every update should state the date and measure, link to the source, and distinguish a forecast from a final result. This allows the site to show whether risk is building, easing or simply unresolved without turning routine volatility into a certainty claim.
 
+
+## A reporting checklist for the next crop and inflation release
+
+When new data are published, keep a dated table rather than replacing the previous value without explanation. Record the issuing agency, reference period, wheat production estimate, comparison baseline, relevant import or stock figures, and one consumer-price measure for flour or bread. If the new number has been revised, indicate whether the revision reflects new field data, a change in assumptions or a different reporting period.
+
+A few common comparisons deserve caution. Wheat output is measured by weight, while a consumer-price index measures change in a basket; they should not be placed side by side as if they share a unit. Wholesale wheat prices and retail bread prices reflect different stages of processing. A year-over-year inflation rate also cannot be compared directly with a month-over-month price movement without noting the basis.
+
+When the evidence is mixed, say so. A better harvest forecast could ease one supply risk while currency movements or energy costs continue to push up retail prices. Stable wholesale wheat prices could coexist with higher bread prices if labour, transport or other costs rise. Neither situation proves that the other data are wrong.
+
+The most useful update explains what the new release changes in the assessment and what still needs to be observed. Use current national agriculture and statistical publications alongside FAO’s [Cereal Supply and Demand Brief](https://www.fao.org/worldfoodsituation/csdb), and link directly to the official release. This gives readers a method they can repeat and makes the article more valuable than a one-time summary of an uncertain forecast.
+
 ## Bottom line
 
 Turkey's 2026 wheat recovery is a useful reminder that food security has two dimensions.

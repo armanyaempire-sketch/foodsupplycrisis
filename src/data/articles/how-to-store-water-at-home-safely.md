@@ -117,6 +117,17 @@ Keep water preparation separate from food planning. Dry staples, ready-to-eat fo
 
 For updated procedures, use the [CDC emergency water guidance](https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html) as a U.S. reference and follow the relevant local authority for your location. During an incident, local instructions may change as test results and infrastructure conditions change.
 
+
+## Safe storage is only one part of water preparedness
+
+A household water plan should also consider how water is used and what to do when an official advisory is issued. Drinking, cooking, brushing teeth and basic hygiene may have different instructions during a boil-water notice or contamination event. Follow the local water authority’s instructions for that specific event and do not assume that boiling removes every contaminant.
+
+The container and surrounding location are as important as the amount stored. Use a container intended for drinking water, close it tightly, label it, and keep it away from chemicals, fuel and persistent heat. Do not store water in a container that previously held toxic substances. For self-filled water, follow current authority instructions for cleaning and treatment; for commercial bottled water, check packaging integrity and the printed date guidance.
+
+A storage log can be simple: date filled or purchased, volume, container type, storage location and review date. Inspect it on a regular schedule and replace water according to the official recommendation that applies to that source and container. If a seal is broken, a container is damaged or the water may have been contaminated, use a verified alternative rather than trying to judge safety by appearance alone.
+
+The CDC’s [emergency water supply guidance](https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html) is useful U.S. reference material, but local rules and quantities can differ. During a real disruption, current public-health instructions take priority over a generic article. A prepared household should know where its safe water is, how much is available, and which official channel will provide updated instructions.
+
 ## Bottom line
 
 A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.

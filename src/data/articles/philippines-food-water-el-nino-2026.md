@@ -93,6 +93,17 @@ Use current information from [PAGASA](https://www.pagasa.dost.gov.ph/) for clima
 
 A proportionate household response is to maintain normal, safe drinking-water and food supplies according to local guidance, avoid wasting water and keep track of official announcements. Buying more rice than a household can safely store may add pressure to local retail stocks without solving the underlying water or distribution problem. The most important response is tied to the confirmed constraint: water management where supplies are stressed, crop and market monitoring where production is exposed, and targeted support where households lose access.
 
+
+## What would confirm that water risk is affecting food production?
+
+The chain should be followed from the local source to the crop and then to the market. A stronger El Niño forecast is an early signal; observed rainfall, water storage, irrigation availability and the crop calendar show whether the risk is materializing. Updated planting and production estimates can then indicate whether farmers or agricultural agencies expect a measurable output effect. Retail prices and import data show a later stage of the chain.
+
+The island geography of the Philippines also means that water risk is not uniform. A local water-supply advisory may affect households but not all crop regions, while an irrigation restriction may matter for a particular rice area without implying a countrywide production decline. Use regional data rather than applying a national climate statement to every province.
+
+When updating the article, identify which agency issued the water or weather information, when it was published, and the locality it covers. Then compare it with agriculture and price data from the [Philippine Statistics Authority](https://psa.gov.ph/) and weather updates from [PAGASA](https://www.pagasa.dost.gov.ph/). If a forecast has changed but the crop data have not yet responded, keep the claim in forecast language and say what will be checked next.
+
+That method also helps identify the right response. A water delivery problem calls for local water-authority instructions; an agricultural drought needs crop- and region-specific monitoring; a food-price shock requires market information and household budgeting; and a verified access crisis may call for targeted assistance. A generic stockpiling recommendation cannot solve all these different problems.
+
 ## Bottom line
 
 Use the evidence in this article to judge whether the risk is real and local. Prepare proportionately: secure water, keep a modest rotating food buffer, protect refrigeration, follow official guidance and avoid panic buying.

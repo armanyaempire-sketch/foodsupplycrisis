@@ -117,6 +117,17 @@ Public reserves are also not the same as a reserve that can be freely sold into 
 
 When evaluating a country’s position, compare a dated government stock report with crop production, expected consumption, planned imports and actual market prices. FAO’s [cereal balance sheet](https://www.fao.org/worldfoodsituation/csdb) gives global context, while country ministries and food agencies are needed for national details. A responsible conclusion should specify the commodity and date rather than describing an undated stock figure as a guarantee against every food-security risk.
 
+
+## How to evaluate a reserve announcement
+
+Reserve announcements often report tonnage, but tonnage is only the starting point. To understand whether a reserve can stabilize a market, a reader needs to know the commodity, the reference date, who owns the stock, whether it is fit for use, how it is distributed and the conditions under which it can be released. A reserve designed for a public distribution programme may not be the same as a buffer available to respond to any market disruption.
+
+Compare reserve totals with expected use and replenishment. A large stock may cover only a limited period if demand is high; a smaller reserve can still be useful if the supply chain is reliable and new production arrives soon. The stock’s geographic location matters too. A national total cannot tell whether food can be moved quickly to a region whose roads, ports or markets are disrupted.
+
+A reserve assessment should also disclose the trade-off between current market supply and future insurance. When government agencies buy large quantities, purchases can support farmers but may influence local prices. When agencies release stocks, supplies can increase, but the buffer is reduced until replenishment. The result depends on timing, the market share involved, private inventories and the next harvest.
+
+For international comparison, use the [FAO Cereal Supply and Demand Brief](https://www.fao.org/worldfoodsituation/csdb) for aggregate production, stocks and trade, and the country’s official food or agriculture agency for the national reserve figure. Check the publication date and stock definition. A reliable report says what is held, for which purpose, when it can be accessed and what evidence shows the intervention has affected availability or prices.
+
 ## Bottom line
 
 A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.

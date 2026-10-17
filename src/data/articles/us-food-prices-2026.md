@@ -126,6 +126,17 @@ The [Bureau of Labor Statistics CPI release](https://www.bls.gov/cpi/) is the pr
 
 For households, compare the prices of the products actually purchased, account for package size, and plan substitutions that are nutritionally and financially practical. For analysis, separate observed price data from hypotheses about why prices changed. The strongest explanation ties a specific food category to evidence about production, cost or distribution instead of blaming every increase on a single global crisis.
 
+
+## Which US grocery categories should be watched separately?
+
+The Bureau of Labor Statistics publishes separate food series because food at home, food away from home and individual categories can move differently. A household that spends a large share of its budget on meat, dairy, cereals or fruit may experience a different change from the headline food index. A single annual percentage can conceal both the products driving the average and products whose prices are stable or falling.
+
+When a new CPI release arrives, compare food-at-home with food-away-from-home, then review the categories relevant to the article’s claim. Note whether the figures are seasonally adjusted and whether the comparison is monthly or year over year. If the article says fertilizer is driving a retail increase, also check whether there is evidence of a relevant farm-cost or production effect; the timing of the pass-through may be delayed.
+
+This does not mean each grocery price can be precisely forecast from agricultural inputs. Retail prices reflect many stages, including processing, wages, rents, contracts and promotions. Category data can establish where inflation is occurring; supply-chain analysis can then test possible explanations. Keeping measurement and explanation separate makes the reporting stronger.
+
+For every new update, record the date of the [BLS CPI release](https://www.bls.gov/cpi/), the reference month, the relevant table and the comparison basis. If a number is revised or the series is updated, link to the new release and clarify what changed. That simple update discipline makes the article more useful than a headline that only repeats that grocery prices are high.
+
 ## Bottom line
 
 The US food-price risk in 2026 is best understood as a chain of costs rather than one shortage story.

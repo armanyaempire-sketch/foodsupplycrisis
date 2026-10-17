@@ -85,6 +85,22 @@ Low water on an important inland route can limit vessel loads or increase transp
 
 A useful update should name the route, dates, commodity and alternative capacity. Look for a documented change in freight or delivery rather than assuming that every logistics warning will affect retail food. It is the interaction between weather, production, transport and market conditions that determines how much the risk matters to households.
 
+
+## A three-part test for a drought-to-price claim
+
+A drought report and a bread-price forecast refer to different points in a long chain. First, there must be observed or likely stress in a defined crop area and season. Second, the stress must change the harvest outlook or quality in a way that matters for available grain. Third, the change must affect milling, logistics or market prices enough to reach consumers. If a report has evidence for only the first step, the later steps remain risks rather than confirmed outcomes.
+
+| Stage | Evidence to use | Example of careful wording |
+|---|---|---|
+| Weather | Measured rainfall, soil moisture, river levels and official outlooks | “Dry conditions are increasing risk in the affected area” |
+| Crop | Crop-condition reports and a dated production estimate | “The forecast was revised down from the previous estimate” |
+| Transport | Water levels, vessel loading constraints and freight information | “Low river levels may raise costs or reduce cargo capacity” |
+| Retail | Dated flour or bread prices and the relevant official consumer-price series | “The retail data show a change over this period” |
+
+Use the [German Federal Statistical Office (Destatis)](https://www.destatis.de/EN/Themes/Economy/Prices/Consumer-Price-Index/_node.html) for consumer-price data and official agricultural and weather agencies for crop and water conditions. FAO’s [Cereal Supply and Demand Brief](https://www.fao.org/worldfoodsituation/csdb) can provide wider grain context, but global cereal output should not be used as a substitute for Germany-specific evidence.
+
+The transport issue is worth monitoring separately. Inland waterways move more than grain, and low water can affect cargo volumes or logistics costs across several industries. But the impact depends on how long the restriction lasts, whether road or rail alternatives are available and which commodities are affected. A careful update identifies the stretch of river, the period and the operational effect before predicting a consumer-price result.
+
 ## Bottom line
 
 Germany's drought is a real agricultural loss.

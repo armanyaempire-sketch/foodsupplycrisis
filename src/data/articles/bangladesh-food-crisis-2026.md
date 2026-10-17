@@ -109,6 +109,17 @@ Use the [FAO GIEWS country information](https://www.fao.org/giews/countrybrief/c
 
 This chain also identifies when a response is most useful. If the constraint is late input delivery, logistics and timely distribution may matter most. If domestic output is adequate but prices rise, imports, market competition and targeted support may matter more. If vulnerable households cannot afford food, a national production figure is not enough to describe their immediate situation. Each conclusion should name the evidence and the population it applies to.
 
+
+## Which numbers would confirm that cost pressure is reaching households?
+
+A higher input cost is an upstream warning. A claim that the crisis has worsened for households needs evidence from the food and income side as well. Track a consistent set of measures: the latest rice price in a defined market, overall food inflation, the availability and cost of fertilizer, the status of imports or public procurement, and the most recent humanitarian assessment for vulnerable populations. Note the month covered by each source because these indicators are published on different schedules.
+
+The comparison should distinguish price level from price change. A high price may be a long-running affordability problem even if the latest month is stable; a sharp increase from a lower base may have a different effect. Likewise, a national average can hide stronger pressure in urban markets, rural areas or communities affected by flooding, displacement or income loss. State what the data can show and which groups it does not directly measure.
+
+When crop or import forecasts change, document the previous estimate as well as the latest one. An updated forecast may reflect revised assumptions about production, weather, imports or stocks. If there is no current published figure, say so rather than extending an older estimate as if it were current.
+
+Use the [FAO GIEWS Bangladesh brief](https://www.fao.org/giews/countrybrief/country.jsp?code=BGD), current [WFP Bangladesh information](https://www.wfp.org/countries/bangladesh), and relevant official market and statistical sources. The goal is to build an evidence chain from input costs and crop conditions to available food and household access. That chain helps readers understand whether a development is an early warning, a confirmed market effect or a humanitarian consequence.
+
 ## Bottom line
 
 Bangladesh's 2026 food risk is a good example of how energy and agriculture are connected.

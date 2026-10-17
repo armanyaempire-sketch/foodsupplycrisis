@@ -104,6 +104,17 @@ Europe’s food system spans domestic farming, imports, processing, cold chains,
 
 For the wider supply picture, compare official national data with the [FAO cereal outlook](https://www.fao.org/worldfoodsituation/csdb). For household action, use the current emergency-preparedness instructions published by your own country. A useful preparedness plan is modest, rotated and suitable for the household: it should not require panic buying or assume the same food list works for every climate, diet or housing situation.
 
+
+## The national and household layers should reinforce each other
+
+A household reserve can help during the first hours or days of an interruption, but it is not a substitute for a functioning food system. National resilience depends on farming, imports, storage, power, transport, processing, cold chains and retail distribution. A short-term household buffer buys time; it does not fix a prolonged port closure, a poor harvest or an affordability problem affecting a large population.
+
+This is why public advice, strategic reserves and agricultural policy should be reported as separate layers. Emergency guidance tells individuals how to manage a temporary disruption. Reserve policy concerns available stocks and the rules for using them. Crop policy concerns the next harvest and the inputs, water and labour needed to produce it. A story should describe which layer an announcement addresses instead of presenting all preparedness activity as proof of an imminent shortage.
+
+For readers, check the authority in the country where they live, the date on the current guidance, and whether it recommends a particular duration or list of supplies. The [European Commission preparedness information](https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/promoting-our-european-way-life/preparedness_en) provides a broader EU-level context, while national civil-protection agencies publish the local instructions. Different housing arrangements, climates, household sizes and health requirements affect what preparation is useful.
+
+A strong food-security assessment also looks at affordability. A supermarket can remain well stocked while some households struggle to pay for food. That problem should be measured through official consumer-price, income and food-security evidence rather than inferred from whether an emergency pantry is recommended. Clear distinctions help readers prepare calmly and help the site avoid repeating sensational claims that the source does not support.
+
 ## Bottom line
 
 Europe's preparedness message should not be confused with a confirmed continental food shortage.

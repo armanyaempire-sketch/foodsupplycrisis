@@ -117,6 +117,25 @@ For the baseline, use the [FAO Food Price Index](https://www.fao.org/worldfoodsi
 
 If the data points in different directions, report a mixed outlook. For example, prices may rise while production remains historically high, or a market may ease while food insecurity persists in a conflict-affected region. Those are not contradictions if the indicators measure different parts of the food system.
 
+
+## A monthly update template for the 2027 outlook
+
+For each update, record the source release date, the newest period covered, the previous estimate and the revised estimate. Then explain what changed: crop expectations, shipment volumes, fertilizer availability, energy costs, currency movements or domestic prices. This makes the page a monitored scenario analysis instead of an evergreen page that repeats the same forecast every month.
+
+A compact monthly record can use five indicators:
+
+| Indicator | Track consistently | Why |
+|---|---|---|
+| FAO Food Price Index | Monthly level and percentage changes | Shows international commodity-price direction |
+| Cereal outlook | Output, trade and stocks revisions | Helps distinguish high prices from a worsening global balance |
+| Fertilizer and energy | Price and availability evidence | Signals pressure on future crop costs |
+| Shipping and trade | Routes, freight and exporter availability | Tests whether logistics risk is easing or spreading |
+| Domestic food inflation | Official local consumer-price series | Shows whether global pressure is reaching household budgets |
+
+The report should also say what changed in the interpretation. If global commodity prices rise while production forecasts remain historically strong, explain the market and distribution mechanisms instead of calling it a global production collapse. If prices fall but a conflict-affected population still cannot access food, report that humanitarian conditions require a different measure.
+
+Use the newest releases from the [FAO Food Price Index](https://www.fao.org/worldfoodsituation/foodpricesindex/en/) and [Cereal Supply and Demand Brief](https://www.fao.org/worldfoodsituation/csdb), plus national statistical data for local outcomes. Do not fill a gap with an invented figure when a source has not yet published the period. Label the latest available data with its actual month and update the scenario when a source provides new evidence.
+
 ## Bottom line
 
 Food prices could rise in 2027, stay elevated or moderate.

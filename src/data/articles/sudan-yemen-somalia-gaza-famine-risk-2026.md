@@ -105,6 +105,17 @@ The authoritative starting points are [IPC](https://www.ipcinfo.org/), [WFP publ
 
 For readers outside these affected areas, the most constructive response is to use credible humanitarian organizations and avoid spreading claims that exaggerate or merge conditions. A price rise in a distant market is not a substitute for the evidence of food access, malnutrition, mortality and humanitarian reach in the affected community. Reporting should keep urgency and specificity together.
 
+
+## How to compare updates without mixing unlike populations
+
+Humanitarian reports often use different reference periods, survey methods and geographic boundaries. One report may estimate the number of people in a defined severity phase during a current period; another may project a larger or smaller number for a later lean season under specified assumptions. Those figures cannot be compared responsibly unless the periods, population and methodology are clear.
+
+For each location, keep a short source record: report title, issuing organization, publication date, assessment window, affected districts or population, classification or scenario, and the main drivers described. When an assessment is updated, identify whether the change reflects improved or worsened conditions, new data, changes in access, or a different area of analysis. This prevents a change in methodology from being mistaken for a sudden humanitarian turnaround.
+
+Also separate food availability from food access. A shipment or market stock can improve availability without resolving affordability or access for displaced people. Conversely, a national production estimate may be adequate while conflict, road closures or insecurity leave one community cut off from supplies. Humanitarian need must be described with the evidence for the population at risk, not inferred from world food prices alone.
+
+Use current [IPC assessments](https://www.ipcinfo.org/), [WFP publications](https://www.wfp.org/publications) and [FAO hunger-hotspot material](https://www.fao.org/giews/). For formal famine claims, quote the current technical assessment exactly and do not label a forecast or risk statement as a formal declaration. The public deserves urgency without confusion: a clear description of the place, period, severity and uncertainty helps readers understand what is known and why assistance is needed.
+
 ## Bottom line
 
 The severe hunger emergencies of 2026 are real, but they are not one uniform phenomenon.

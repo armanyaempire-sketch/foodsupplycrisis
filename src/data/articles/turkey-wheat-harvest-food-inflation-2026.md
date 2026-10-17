@@ -97,6 +97,17 @@ Use the relevant Turkish official agriculture and statistics releases alongside 
 
 The key reporting question is whether the evidence shows a crop risk, a market-price change, or a household affordability problem. Those are connected but not equivalent findings. A careful article identifies the stage of the chain at which the pressure is visible and updates that conclusion when new data arrive.
 
+
+## A dated monitoring sheet for the next harvest update
+
+Readers can follow wheat risk more reliably by keeping a small, dated series rather than relying on individual headlines. The series should record the official production forecast and its previous version, domestic and imported supply where available, the relevant wholesale wheat price, flour or bread prices, and the reference periods for each figure. A change in any one measure should not automatically be attributed to another without a clear link.
+
+The crop calendar is important. A weather event before planting, during grain development or near harvest can have different effects. A statement about drought should therefore name the region and crop stage and use observed conditions when available. If the official estimate is still provisional, the article should say so; later revisions may reflect better surveys rather than an abrupt change in conditions.
+
+For consumer costs, compare the price of flour or bread to wheat prices over several releases. If wheat falls but bread remains expensive, review energy, labour, transport, currency and contract timing. If both rise, check whether crop or import supply changed as well. This avoids overstating the explanatory power of a single commodity quote.
+
+Use current national agriculture and statistics publications alongside the [FAO Cereal Supply and Demand Brief](https://www.fao.org/worldfoodsituation/csdb). Every update should state the date and measure, link to the source, and distinguish a forecast from a final result. This allows the site to show whether risk is building, easing or simply unresolved without turning routine volatility into a certainty claim.
+
 ## Bottom line
 
 Turkey's 2026 wheat recovery is a useful reminder that food security has two dimensions.

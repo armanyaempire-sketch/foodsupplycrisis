@@ -111,6 +111,17 @@ For context, compare the [FAO Cereal Supply and Demand Brief](https://www.fao.or
 
 Importing countries may respond through alternative suppliers, release of appropriate reserves or targeted assistance, depending on the product and the actual constraint. The best assessment names the affected commodity and market, shows what data changed, and explains what remains uncertain. That is more reliable than translating every port incident into a global food-shortage claim.
 
+
+## What importers should monitor after a route disruption
+
+Importers should compare commitments with actual delivery. A tender or announced purchase shows intent; a vessel departure, port arrival or customs record offers stronger evidence of a physical flow. Even then, cargo may take time to clear, be milled or distributed to domestic markets. For that reason, updates should distinguish trade intentions, shipped volumes, arrivals and retail availability.
+
+Alternative suppliers can reduce exposure, but substitutions have limits. Grain quality and protein specifications may differ; nearby exporters may have their own harvest constraints; rail and port capacity can become scarce; and a change of supplier can require new contracts and financing. These factors help explain why the same Black Sea disruption can affect importing countries differently.
+
+A practical monitoring list includes the commodity concerned, the affected export corridor, observed shipment volumes, freight and insurance, alternative supplier offers, the importer’s stock position and local prices. Compare these with the latest [FAO cereal balance](https://www.fao.org/worldfoodsituation/csdb) and [AMIS market updates](https://www.amis-outlook.org/). Note the date for each data point because conditions may change faster than annual crop statistics.
+
+If the available data show that exports are moving through alternative routes and import markets remain supplied, describe the disruption as a cost or timing risk rather than a physical shortage. If arrivals fall, local stocks tighten and prices rise persistently, report that evidence specifically. The difference between a potential supply shock and a confirmed market impact is the difference between useful trade reporting and speculation.
+
 ## Bottom line
 
 Use the evidence in this article to judge whether the risk is real and local. Prepare proportionately: secure water, keep a modest rotating food buffer, protect refrigeration, follow official guidance and avoid panic buying.

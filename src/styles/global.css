@@ -226,8 +226,8 @@ html{scroll-behavior:auto}
 /* Final header color guard */
 .site-header,
 .site-header::before,
-.site-header::after{background-color:#123c35 !important}
-.site-header{background:#123c35 !important;background-image:linear-gradient(135deg,#123c35 0%,#0b5a40 48%,#176b56 100%) !important}
+.site-header::after{background-color:#800000 !important}
+.site-header{background:#800000 !important;background-image:linear-gradient(135deg,#800000 0%,#68001b 48%,#4f0015 100%) !important}
 .site-header .header-inner{background:transparent !important}
 .site-header .brand,
 .site-header .brand-copy strong,

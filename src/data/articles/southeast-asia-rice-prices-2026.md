@@ -96,6 +96,17 @@ The FAO rice market and cereal outlook are helpful starting points, but they sho
 
 A stronger regional warning would combine a crop or export revision, evidence of a tighter available balance, and sustained price pressure in the affected market. A single high retail price or an El Niño forecast is not sufficient to prove a regional shortage. Keep each conclusion tied to the particular country, commodity, date and source, and explain whether the pressure appears to involve physical availability, distribution or household affordability.
 
+
+## Do not compare national rice prices without the same definitions
+
+Rice prices are often reported using different grades, pack sizes, market levels and currencies. A local retail quote cannot be compared directly with an export quotation or a wholesale index. When comparing Indonesia, Thailand, Vietnam or import-dependent markets, record whether the value refers to milled rice, broken-rice grade, fragrant rice, paddy or another category, then check the date, unit and exchange rate.
+
+Policy also changes how international prices reach consumers. Export restrictions, import licensing, public procurement, subsidies or reserve releases can affect availability and incentives. Those measures can be necessary in particular circumstances, but they can also shift pressure between domestic consumers, farmers and trading partners. An accurate article should explain the stated policy and the evidence of its effect instead of assuming that an announcement immediately changes the amount of rice on store shelves.
+
+For regional context, follow the [FAO cereal balance](https://www.fao.org/worldfoodsituation/csdb) and [AMIS](https://www.amis-outlook.org/), then consult the relevant national statistics and agriculture agencies. If the data show that export prices have risen while domestic stocks remain comfortable, describe those as separate signals. If local retail prices remain high after international prices ease, investigate distribution costs, currency, inventory and timing before assuming that the series contradicts one another.
+
+This discipline is especially useful during El Niño coverage. The climate outlook should be connected to observed rainfall, irrigation and crop estimates, while the price outlook should be connected to production, trade and local market data. A dated, commodity-specific evidence chain is more useful than a broad claim that the entire region is either secure or facing a uniform rice shortage.
+
 ## Bottom line
 
 Use the evidence in this article to judge whether the risk is real and local. Prepare proportionately: secure water, keep a modest rotating food buffer, protect refrigeration, follow official guidance and avoid panic buying.

@@ -2,7 +2,7 @@
 title: "Why Are Global Food Prices Rising in 2026?"
 description: Global food prices rose again in September 2026 as cereals, sugar and vegetable oils increased amid transport disruptions, weather risks and higher input costs.
 pubDate: 2026-10-04
-updatedDate: 2026-10-04
+updatedDate: 2026-10-17
 author: Food Supply Crisis Report Editorial Desk
 category: Food Prices
 keywords:
@@ -97,6 +97,33 @@ The risk increases when several pressures occur together: poor harvests in major
 Food prices become a food-security issue when families cannot absorb the increase.
 
 Read [Global Food Crisis 2026](/articles/global-food-crisis-2026/) for the wider context, [Oil, Energy and Food Prices](/articles/oil-energy-food-prices-2026/) for the energy link, and [Black Sea Food Crisis 2026](/articles/black-sea-food-crisis-2026/) for the trade route.
+
+## What the September 2026 numbers tell us
+
+FAO’s 2 October release gives a more detailed picture than the headline index alone. The Food Price Index averaged 136.0 points in September, up 1.5% from August and 5.8% year over year. Commodity groups did not all move together.
+
+| FAO measure | September movement | How to interpret it |
+|---|---:|---|
+| Overall Food Price Index | +1.5% month over month | Broad international food-commodity prices rose |
+| Cereal Price Index | +5.1% month over month | Grain markets were a major source of pressure |
+| Wheat quotations | +6.3% month over month | Black Sea logistics and dry conditions ahead of sowing were among the reported drivers |
+| Maize quotations | +5.6% month over month | Yield concerns, lower Brazilian export availability and trade disruption mattered |
+| Sugar Price Index | +6.1% month over month | Markets anticipated tighter supplies in 2026/27 |
+| Meat Price Index | −1.1% month over month | The increase was not universal across food categories |
+
+These figures come from FAO’s [September 2026 release](https://www.fao.org/newsroom/detail/fao-food-price-index-rises-in-september-amid-weather-concerns-and-transport-disruptions/en). The figures measure international quotations, not the price a family pays in a local store. They also show why a single index can hide important differences between wheat, rice, sugar, oils, meat and dairy.
+
+## How global prices reach a household budget
+
+The pass-through usually takes several steps. An importer first faces the international commodity price, the exchange rate and freight or insurance costs. A mill, food processor or wholesaler then adds local energy, labour, packaging, storage and financing costs. Retail prices reflect those costs alongside domestic harvests, competition, taxes, subsidies and retailers’ existing contracts.
+
+That is why a 5.8% annual rise in the FAO index should not be interpreted as a 5.8% rise in every country’s grocery bill. Some costs can be absorbed temporarily; others may arrive with a delay. A country that imports a large share of a commodity and whose currency weakens may experience more pressure than a country with a strong local harvest. Even within one country, bread, cooking oil, vegetables and dairy can follow different paths.
+
+## A useful dashboard for the next release
+
+To check whether September was an isolated jump or part of a sustained trend, compare three consecutive monthly releases rather than reacting to one data point. Watch the overall index and its individual commodity groups; review the FAO cereal production and trade outlook; and compare those trends with local consumer-price data and currency movements. A further rise in international grain prices becomes more consequential when supply forecasts are revised down, import costs increase and household incomes fail to keep pace.
+
+For readers, the practical response is to track the prices of the foods actually purchased, compare unit prices, substitute when reasonable and avoid assuming that every commodity will rise equally. For analysts, the central question is whether price pressure is spreading across products and persisting long enough to affect access to food, not whether one index number can be turned into a universal shortage prediction.
 
 ## Bottom line
 

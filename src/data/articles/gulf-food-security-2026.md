@@ -112,6 +112,17 @@ For the international cereal balance, use the [FAO Cereal Supply and Demand Brie
 
 The response should also be proportional. A shipping warning may justify monitoring and contingency planning; persistent delivery failures or documented market disruption may justify stronger action. Household panic buying can worsen a temporary local stock-out, so preparedness is best organized through official guidance, a manageable reserve and updated evidence.
 
+
+## What the evidence should show before calling it a food crisis
+
+An exposure report should describe a mechanism and show its status. For example, a higher freight quote is a cost signal; a delayed shipment is a logistics event; lower arrival volumes or tighter wholesale stocks are evidence of supply impact; and households struggling to afford food are an access issue. These stages can be connected, but one should not be used as proof of the next without supporting information.
+
+For the Gulf, a repeated monthly monitoring note can track the following: major staple import requirements; concentration by supplier and route; dated public or commercial stock information where available; freight and insurance costs; changes in currency or import-financing conditions; and food-price indicators in each country. Those indicators vary across the Gulf states, so regional statements should be checked against country-level sources before publication.
+
+A route disruption should also be compared with the practical alternatives. Can a shipment be rerouted through another port? Would the new route require longer transit or higher insurance? Is the cargo a staple food, animal feed, fertilizer or fuel? Can existing stock bridge the delay, and how quickly could alternative supplies arrive? These questions explain why two commodities exposed to the same regional event can have different market outcomes.
+
+For the global reference point, use FAO’s [Cereal Supply and Demand Brief](https://www.fao.org/worldfoodsituation/csdb) and [AMIS Market Monitor](https://www.amis-outlook.org/). For domestic impacts, consult current national statistics, trade or food-agency releases. If only the international cost has moved, report the potential pressure and the next indicator to monitor. If actual shipments, local stocks or household access have deteriorated, identify those measurements specifically. A dated chain of evidence is more helpful than a blanket forecast of shortages across the entire region.
+
 ## Bottom line
 
 A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.

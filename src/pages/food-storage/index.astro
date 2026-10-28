@@ -10,6 +10,20 @@ const articles = (await getCollection("articles"))
 
 <BaseLayout title="Food Storage and Stockpiling | Food Supply Crisis Report" description="Evidence-based guides and reporting on household food storage, emergency planning, stockpiling behavior, shelf life and reducing food waste.">
   <section class="hero"><div class="shell"><p class="eyebrow">Topic Hub</p><h1>Food Storage & Stockpiling</h1><p>Practical information on food storage, household preparedness, stockpiling behavior, shelf life and sensible emergency planning.</p></div></section>
+  <section class="section">
+    <div class="shell">
+      <h2>A useful reserve is safe, modest and rotated</h2>
+      <p>Household preparation works best when it starts with ordinary consumption. Count what is already available, include special diets and pets, and fill the gaps gradually. The aim is to make a realistic interruption manageable—not to predict that a shortage will happen or to buy so much that food expires.</p>
+      <div class="card-grid">
+        <article class="card"><h3>Choose familiar food</h3><p>Use shelf-stable foods the household normally eats and can prepare with the likely cooking and water arrangements.</p></article>
+        <article class="card"><h3>Plan safe water</h3><p>Use clean, closed containers intended for water. Keep stored water away from heat and chemicals, and follow local public-health advice.</p></article>
+        <article class="card"><h3>Rotate monthly</h3><p>Use older products first, inspect packaging and replace what was consumed. A reserve that is never checked can become waste.</p></article>
+      </div>
+      <p>Read <a href="/articles/how-to-stockpile-food-and-water-sensibly-2026/">How to Stockpile Food and Water Sensibly</a> for a practical quantity-planning example and a rotation checklist. For water safety, consult the relevant local authority; the <a href="https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html" target="_blank" rel="noopener noreferrer">CDC guidance</a> is a useful US reference, not a universal rule.</p>
+    </div>
+  </section>
+
+
   <section class="section"><div class="shell"><div class="card-grid">
     {articles.length ? articles.map((article) => (<article class="card"><h2><a href={`/articles/${article.id}/`}>{article.data.title}</a></h2><p>{article.data.description}</p></article>)) : <div class="callout"><strong>Storage coverage:</strong> Upcoming reporting will distinguish practical preparedness from panic buying and explain safe, useful ways to plan household food supplies.</div>}
   </div></div></section>

@@ -10,6 +10,22 @@ const articles = (await getCollection("articles"))
 
 <BaseLayout title="Fertilizer and Food Supply | Food Supply Crisis Report" description="Understand fertilizer prices, availability, trade, nutrient efficiency and how fertilizer shocks can affect crop production and food costs.">
   <section class="hero"><div class="shell"><p class="eyebrow">Topic Hub</p><h1>Fertilizer</h1><p>Fertilizer is a major agricultural input. We track prices, availability, trade disruptions and nutrient efficiency.</p></div></section>
+  <section class="section">
+    <div class="shell">
+      <h2>Why fertilizer timing matters as much as price</h2>
+      <p>Fertilizer is an upstream input, so a disruption can affect food production with a delay. A change in energy prices may raise manufacturing and transport costs; restricted exports or shipping can affect availability; and a late delivery can be especially damaging if it misses the crop's nutrient-application window.</p>
+      <div class="card-grid">
+        <article class="card"><h3>Availability</h3><p>Check whether the relevant nutrient and product can reach farmers in time—not only whether an international benchmark is higher.</p></article>
+        <article class="card"><h3>Crop and region</h3><p>Exposure differs by crop, soil, application practice and local supply. One shortage does not affect all farms equally.</p></article>
+        <article class="card"><h3>Cost transmission</h3><p>Farmers may absorb costs, change application plans or alter crop choices; retail food-price effects can be delayed and uneven.</p></article>
+      </div>
+      <h3>Evidence to follow</h3>
+      <p>Pair fertilizer price data with trade and shipment information, national fertilizer availability, the timing of planting and application, and crop-condition reports. Then compare the outlook with food prices and production estimates. Do not treat a fertilizer-price spike as proof that a harvest has already failed.</p>
+      <p>For upstream risk, read <a href="/articles/fertilizer-shortage-2026/">Fertilizer Shortage 2026</a> and the analysis of <a href="/articles/strait-of-hormuz-food-crisis-2026/">the Strait of Hormuz and food supply</a>.</p>
+    </div>
+  </section>
+
+
   <section class="section"><div class="shell"><div class="card-grid">
     {articles.length ? articles.map((article) => (<article class="card"><h2><a href={`/articles/${article.id}/`}>{article.data.title}</a></h2><p>{article.data.description}</p></article>)) : <div class="callout"><strong>Fertilizer coverage:</strong> Upcoming reporting will examine input costs, supply, trade routes and implications for farm economics and crop production.</div>}
   </div></div></section>

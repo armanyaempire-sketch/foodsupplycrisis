@@ -145,4 +145,4 @@ First, name the exact product rather than saying “food” in general. Second, 
 
 ## Bottom line
 
-A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.
+A credible shortage claim should identify a specific product, location and period, then show persistent supply failure across more than one restocking cycle. When that information is absent, describe the evidence as a price concern, temporary stockout or unverified report rather than a confirmed shortage.

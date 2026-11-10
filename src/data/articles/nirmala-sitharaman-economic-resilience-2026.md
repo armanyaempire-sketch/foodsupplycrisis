@@ -502,7 +502,9 @@ The objective is to become **harder to destabilize, faster to adapt and better a
 
 ## Translate the resilience agenda into measurable food-system outcomes
 
-For food supply, the resilience agenda becomes concrete when it can be measured at the level of critical inputs and logistics. Relevant indicators include concentration among fertilizer suppliers, the share of imports moving through a single route, port and warehouse capacity, cold-chain losses, irrigation reliability and the time required to move produce from farms to wholesale markets. These indicators show where a global shock could turn into a domestic production or distribution problem.\n\nResearch and development also matter, but the link should be specific. Agricultural research can improve seed performance, water efficiency, storage, crop monitoring and fertilizer use; private investment can help scale technologies and infrastructure. The value of a resilience strategy is not the number of initiatives announced. It is whether dependency, downtime, post-harvest losses and the cost of delivering food fall over time while trade remains open and competitive.
+For food supply, the resilience agenda becomes concrete when it can be measured at the level of critical inputs and logistics. Relevant indicators include concentration among fertilizer suppliers, the share of imports moving through a single route, port and warehouse capacity, cold-chain losses, irrigation reliability and the time required to move produce from farms to wholesale markets. These indicators show where a global shock could turn into a domestic production or distribution problem.
+
+Research and development also matter, but the link should be specific. Agricultural research can improve seed performance, water efficiency, storage, crop monitoring and fertilizer use; private investment can help scale technologies and infrastructure. The value of a resilience strategy is not the number of initiatives announced. It is whether dependency, downtime, post-harvest losses and the cost of delivering food fall over time while trade remains open and competitive.
 
 ## Bottom line
 

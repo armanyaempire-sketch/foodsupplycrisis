@@ -90,7 +90,9 @@ Bangladesh readers should monitor:
 
 ## Why the timing of gas supply matters to fertilizer
 
-A gas interruption is not automatically a rice shortage. The first question is whether fertilizer plants can operate and deliver product during the application window that farmers need. A disruption outside that window may have a different effect from a shutdown immediately before a major planting or top-dressing period. The location of available urea, transport to farm markets and the split between domestic production and imports also matter.\n\nA useful Bangladesh monitoring sequence is: gas allocation to fertilizer plants, reported plant operating days, urea distribution by region, retail fertilizer prices and the crop calendar for aman and boro rice. Then compare those input indicators with rice arrivals, wholesale prices and household food inflation. This creates a traceable link from an energy constraint to farm decisions and finally to consumers, instead of treating every gas headline as proof that rice supplies are running out.
+A gas interruption is not automatically a rice shortage. The first question is whether fertilizer plants can operate and deliver product during the application window that farmers need. A disruption outside that window may have a different effect from a shutdown immediately before a major planting or top-dressing period. The location of available urea, transport to farm markets and the split between domestic production and imports also matter.
+
+A useful Bangladesh monitoring sequence is: gas allocation to fertilizer plants, reported plant operating days, urea distribution by region, retail fertilizer prices and the crop calendar for aman and boro rice. Then compare those input indicators with rice arrivals, wholesale prices and household food inflation. This creates a traceable link from an energy constraint to farm decisions and finally to consumers, instead of treating every gas headline as proof that rice supplies are running out.
 
 ## Follow the gas–fertilizer–rice chain step by step
 

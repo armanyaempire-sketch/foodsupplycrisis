@@ -134,7 +134,9 @@ The CDC’s [emergency water supply guidance](https://www.cdc.gov/water-emergenc
 
 ## Stored water is only safe when the container and handling are safe too
 
-Water quality can be compromised before a container is filled, while it is stored or when it is opened. Use containers intended for drinking water, clean and sanitize them according to the relevant public-health guidance, keep lids closed and store them away from chemicals, fuels, direct sunlight and other contamination risks. Never use a container that previously held a toxic substance.\n\nKeep a clear label showing the fill date and whether the water was commercially packaged or filled at home. Inspect containers periodically for leaks, discoloration, damage or unusual odour, and replace supplies according to the guidance for the container and water source. If authorities issue a boil-water or do-not-drink notice, follow that local instruction; stored water is not a substitute for an official treatment advisory. Purification tablets, filters and boiling each have limitations, so choose a method that matches the contaminant and local recommendations.
+Water quality can be compromised before a container is filled, while it is stored or when it is opened. Use containers intended for drinking water, clean and sanitize them according to the relevant public-health guidance, keep lids closed and store them away from chemicals, fuels, direct sunlight and other contamination risks. Never use a container that previously held a toxic substance.
+
+Keep a clear label showing the fill date and whether the water was commercially packaged or filled at home. Inspect containers periodically for leaks, discoloration, damage or unusual odour, and replace supplies according to the guidance for the container and water source. If authorities issue a boil-water or do-not-drink notice, follow that local instruction; stored water is not a substitute for an official treatment advisory. Purification tablets, filters and boiling each have limitations, so choose a method that matches the contaminant and local recommendations.
 
 ## Bottom line
 

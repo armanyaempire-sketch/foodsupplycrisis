@@ -1,16 +1,16 @@
 ---
-title: "Southeast Asia Rice Prices 2026: Thailand, Indonesia and the El Niño Risk"
-description: Thailand and Indonesia illustrate why rice prices can stay high even when national production or strategic stocks appear adequate.
+title: "Southeast Asia Rice Prices 2026: Indonesia and Thailand Compared"
+description: "Compare Indonesia’s domestic rice-price pressure with Thailand’s role as an exporter, while separating local retail markets from export quotations and El Niño risk."
 pubDate: 2026-10-04
-updatedDate: 2026-10-17
+updatedDate: "2026-11-10"
 author: Food Supply Crisis Report Editorial Desk
 category: Food Prices
 keywords:
-  - rice prices 2026
-  - Thailand rice price
-  - Indonesia rice prices
-  - Indonesia rice stockpile
-  - El Niño rice
+  - Indonesia Thailand rice prices 2026
+  - Indonesia rice retail price
+  - Thailand rice export prices
+  - Southeast Asia rice supply
+  - El Niño rice harvest 2027
 type: analysis
 sources:
   - name: Reuters — Indonesia rice prices and El Niño, 1 October 2026
@@ -20,6 +20,9 @@ sources:
   - name: Financial Times — Southeast Asia and severe El Niño
     url: https://www.ft.com/content/390fafe6-88bf-4564-978d-4774e2b75e8d
 related: []
+seoTitle: "Southeast Asia Rice Prices 2026: Indonesia vs Thailand"
+primaryKeyword: "Indonesia Thailand rice prices 2026"
+searchIntent: "comparison"
 ---
 
 Rice is a useful commodity for understanding how climate risk, stocks, production and prices can move in different directions.
@@ -106,6 +109,10 @@ Policy also changes how international prices reach consumers. Export restriction
 For regional context, follow the [FAO cereal balance](https://www.fao.org/worldfoodsituation/csdb) and [AMIS](https://www.amis-outlook.org/), then consult the relevant national statistics and agriculture agencies. If the data show that export prices have risen while domestic stocks remain comfortable, describe those as separate signals. If local retail prices remain high after international prices ease, investigate distribution costs, currency, inventory and timing before assuming that the series contradicts one another.
 
 This discipline is especially useful during El Niño coverage. The climate outlook should be connected to observed rainfall, irrigation and crop estimates, while the price outlook should be connected to production, trade and local market data. A dated, commodity-specific evidence chain is more useful than a broad claim that the entire region is either secure or facing a uniform rice shortage.
+
+## Domestic rice prices and export quotations answer different questions
+
+Indonesia’s retail rice market reflects domestic distribution, procurement, stock policy and household demand. Thailand’s export quotations reflect the price at which internationally traded rice is offered to buyers. Those prices can move in different directions because the countries have different harvest calendars, market structures, currency conditions and policy choices. A regional average can conceal that divergence.\n\nFor a clean comparison, use the same rice grade, unit and reference date wherever possible. Record whether a figure is retail, wholesale, farm-gate or export price, and identify the government agency or market source. Then compare it with harvest estimates, public stocks, imports and export policy. El Niño may affect the next crop through rainfall and irrigation, but the price response also depends on inventories and trade decisions. Avoid calling the whole region short of rice from one national retail price spike.
 
 ## Bottom line
 

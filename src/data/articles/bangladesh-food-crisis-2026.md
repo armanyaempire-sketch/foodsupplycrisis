@@ -10,7 +10,8 @@ keywords:
   - Bangladesh urea fertilizer supply
   - Bangladesh gas shortage agriculture
   - Bangladesh rice import costs
-  - Bangladesh food affordabilitytype: analysis
+  - Bangladesh food affordability
+type: analysis
 sources:
   - name: The Financial Express — Bangladesh food inflation
     url: https://thefinancialexpress.com.bd/views/iran-war-rising-cost-of-living-in-bangladesh

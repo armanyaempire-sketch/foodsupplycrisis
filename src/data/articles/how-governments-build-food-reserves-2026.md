@@ -137,4 +137,4 @@ Reserve design involves trade-offs. Large public purchases can support farmers a
 
 ## Bottom line
 
-A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.
+The test of a reserve system is operational: can the authority identify the stock, verify its quality, authorize a release and deliver the commodity to a functioning market at the required time? Stock size matters, but governance and distribution determine whether that buffer can be used.

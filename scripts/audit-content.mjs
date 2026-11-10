@@ -45,11 +45,6 @@ const knownLowValueBoilerplate = [
   "prepare proportionately secure water keep a modest rotating food buffer protect refrigeration",
   "the most successful pantry is therefore one that can be consumed normally replenished gradually"
 ];
-const knownLowValueBoilerplate = [
-  "use the evidence in this article to judge whether the risk is real and local",
-  "prepare proportionately secure water keep a modest rotating food buffer protect refrigeration",
-  "the most successful pantry is therefore one that can be consumed normally replenished gradually"
-];
 const allowedIntents = new Set(["informational", "how-to", "comparison", "analysis", "reference"]);
 
 for (const file of articleFiles) {

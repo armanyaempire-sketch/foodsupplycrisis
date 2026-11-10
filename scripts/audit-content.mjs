@@ -106,6 +106,10 @@ for (const file of articleFiles) {
   rememberUnique("primaryKeyword", primaryKeyword, file);
 
   const body = content.slice(secondDivider + 4);
+  if (body.includes("\\\\n")) {
+    failures.push(`${file}: contains a literal escaped newline; use real Markdown line breaks`);
+  }
+
   const normalizedBody = normalizeParagraph(body);
   for (const phrase of knownLowValueBoilerplate) {
     if (normalizedBody.includes(phrase)) {

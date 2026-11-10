@@ -130,7 +130,9 @@ The defensible conclusion is therefore conditional: India has important buffers,
 
 ## Separate the central stock position from state-level market access
 
-India’s central grain stocks are an important national buffer, but they do not describe every commodity or every district. Procurement, storage location, movement between states, public distribution requirements and the quality of stored grain all affect how quickly the buffer can be used. Rice and wheat stocks also say little about the availability or affordability of pulses, edible oils, vegetables and milk.\n\nA useful India dashboard should therefore pair Food Corporation of India stock releases with procurement and distribution data, state-level mandi prices, retail CPI food inflation, reservoir and rainfall reports, fertilizer deliveries and crop-condition updates. The same national stock figure can coexist with a localized transport bottleneck or a price increase in a different food category. Reporting each measure separately avoids turning a large grain reserve into a claim that every household is protected from every food-price shock.
+India’s central grain stocks are an important national buffer, but they do not describe every commodity or every district. Procurement, storage location, movement between states, public distribution requirements and the quality of stored grain all affect how quickly the buffer can be used. Rice and wheat stocks also say little about the availability or affordability of pulses, edible oils, vegetables and milk.
+
+A useful India dashboard should therefore pair Food Corporation of India stock releases with procurement and distribution data, state-level mandi prices, retail CPI food inflation, reservoir and rainfall reports, fertilizer deliveries and crop-condition updates. The same national stock figure can coexist with a localized transport bottleneck or a price increase in a different food category. Reporting each measure separately avoids turning a large grain reserve into a claim that every household is protected from every food-price shock.
 
 ## Bottom line
 

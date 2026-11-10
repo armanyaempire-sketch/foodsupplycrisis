@@ -10,7 +10,8 @@ keywords:
   - Brazil soybean crop outlook
   - Brazil maize production risks
   - Brazil agricultural input costs
-  - Brazil El Niño crop risktype: analysis
+  - Brazil El Niño crop risk
+type: analysis
 sources:
   - name: Brazil Ministry of Development — Fertilizer trade data
     url: https://balanca.economia.gov.br/balanca/publicacoes_dados_consolidados/pg.html

@@ -1,17 +1,16 @@
 ---
-title: "Which Countries Are Most Exposed to the Food Crisis? A Comparison Guide"
-description: Countries face different food risks depending on food imports, fertilizer dependence, reserves, climate exposure and household purchasing power.
+title: "Food Import Dependence by Country: How to Compare Food-System Risk"
+description: "Compare country food-system exposure through import concentration, foreign-exchange access, reserves, shipping routes and household affordability rather than a simplistic ranking."
 pubDate: 2026-10-04
-updatedDate: 2026-10-17
+updatedDate: "2026-11-10"
 author: Food Supply Crisis Report Editorial Desk
 category: Countries
 keywords:
-  - countries most vulnerable to food crisis
   - food import dependent countries
-  - food security countries
-  - global food crisis countries
-  - food supply risk
-type: analysis
+  - country food security vulnerability
+  - food import concentration risk
+  - strategic food reserves comparison
+  - food affordability by countrytype: analysis
 sources:
   - name: FAO — Global Agrifood Implications of the 2026 Middle East Conflict
     url: https://www.fao.org/agrifood-economics/publications/detail/en/c/1758065/
@@ -22,6 +21,9 @@ sources:
   - name: Australia — ABARES Crop Report September 2026
     url: https://www.agriculture.gov.au/abares/research-topics/agricultural-outlook/australian-crop-report/september-2026
 related: []
+seoTitle: "Food Import Dependence by Country: A Risk Comparison"
+primaryKeyword: "food import dependence by country"
+searchIntent: "comparison"
 ---
 
 There is no single list of countries that are “safe” or “unsafe” from food-system shocks.
@@ -137,6 +139,10 @@ The weights matter. If a score treats import dependence and acute conflict risk 
 For example, the [FAO GIEWS Egypt brief](https://www.fao.org/giews/countrybrief/country.jsp?code=EGY), with a reference date of 30 June 2026, forecast above-average domestic wheat production while also projecting above-average cereal imports for the 2026/27 marketing year, including imports of maize for feed. These can coexist: domestic wheat procurement, demand for feed grains, flour exports and household food access describe different parts of the system. Because the figures are forecasts with a stated reference date, they should not be repeated later as final outcomes without checking the next release.
 
 A useful country comparison should state the commodity, evidence date and reason for exposure, then update the assessment when official figures change. Use the [FAO cereal outlook](https://www.fao.org/worldfoodsituation/csdb) for global context and current [WFP](https://www.wfp.org/publications) or [IPC](https://www.ipcinfo.org/) assessments for acute hunger. Production, import dependence and humanitarian need should remain separate measures even when one country faces more than one of them.
+
+## A transparent comparison method is better than a league table
+
+A country comparison should first define what is being compared. Import dependence can mean the share of a commodity that is imported, the share of total dietary energy supplied by imports, or reliance on a small number of supplier countries. Those measures are not interchangeable. A country may import most of its wheat but produce rice domestically; another may produce enough calories but depend on imported fertilizer, fuel or animal feed.\n\nFor a defensible comparison, record the commodity, year, unit and denominator for every import statistic. Then assess supplier concentration, foreign-exchange availability, port and storage capacity, government reserve policy and the income of households most exposed to price changes. Do not turn these dimensions into a single vulnerability score unless the weights and data coverage are published. The purpose of this framework is to show where a shock could travel and which buffer might fail first.
 
 ## Bottom line
 

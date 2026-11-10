@@ -128,4 +128,4 @@ When the government releases rice from reserves, the first measurable result is 
 
 ## Bottom line
 
-A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.
+In Japan, the signal to watch is whether government stock releases reach wholesalers and retailers in comparable grades and quantities, and whether new-crop supply replenishes reserves. A change in retail price should be interpreted with auction terms and product quality, not just the public stock announcement.

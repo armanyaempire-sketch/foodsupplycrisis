@@ -31,6 +31,16 @@ The JPMorgan 2027 scenario article contained a lengthy household stockpiling che
 
 The article's market context was also refreshed with FAO's 6 November 2026 release: the Food Price Index averaged 133.9 points in October, 1.2% below September and 5.9% above October 2025. The September 2026 value is now labelled as an earlier baseline rather than the latest release.
 
+### Markdown rendering and formatting errors
+
+A repository-wide source check found 47 of the 49 article files contained two literal escaped newline sequences in an appended analytical paragraph. These were replaced with actual Markdown line breaks so the text renders as separate paragraphs rather than displaying escape characters. The editorial audit now fails if a future article body contains a literal escaped newline sequence.
+
+### Time-sensitive data and primary-source corrections
+
+- The evergreen global food-price explainer now uses FAO's October 2026 index (published 6 November 2026) as the latest reading, and retains the September report as historical context. The source names and URLs now match the release dates.
+- The UK food-shortage article was rebuilt around the official Be Ready emergency campaign and Defra's 2025 food-origin, import and household-affordability statistics. It distinguishes emergency continuity advice from evidence of a national food shortage, and explains the definitions and limits of the reported measures.
+- The long JPMorgan 2027 scenario article now focuses on the actual conditional inflation scenario rather than repeating the site's household pantry instructions. Household advice points to the dedicated storage guides.
+
 ### Reader-facing source transparency
 
 Every article's source box now links to the Editorial Policy, which explains the source hierarchy, how forecasts and uncertainty are described, the publication byline, the possible use of AI-assisted tools, material updates and corrections.
@@ -39,7 +49,7 @@ Every article's source box now links to the Editorial Policy, which explains the
 
 The editorial content audit now rejects several known generic conclusion patterns that were identified during this review. The existing checks for repeated long paragraphs, unique titles, unique descriptions, unique primary keywords and source metadata remain in place.
 
-The automated check is a guardrail, not a substitute for editorial judgment. It does not decide whether a statistic is correct, whether a source truly supports a claim, or whether a page is sufficiently useful to a reader. Those checks require review of the original source and the article's subject.
+The automated check now also detects literal escaped-newline artifacts and the known generic conclusions found during this audit. It is a guardrail, not a substitute for editorial judgment. It does not decide whether a statistic is correct, whether a source truly supports a claim, or whether a page is sufficiently useful to a reader. Those checks require review of the original source and the article's subject.
 
 ## Standard for future articles and updates
 

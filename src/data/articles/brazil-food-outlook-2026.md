@@ -95,7 +95,9 @@ The most useful indicators are:
 
 ## Why planting calendars change the fertilizer risk
 
-Brazil’s exposure should be assessed by crop season, not from a single annual import figure. Fertilizer bought before planting must arrive, be financed, distributed and applied at the right time. A delayed shipment can create a different problem from a price increase after the farmer has already secured the required input. Soybean and second-crop maize schedules also mean that the consequences of a disruption can differ across regions and months.\n\nFor this reason, a useful dashboard separates import volumes and supplier concentration from port arrivals, local fertilizer prices, farm credit conditions and planted-area decisions. If farmers respond to higher costs by changing application rates or crop choices, the effect may show up in yields or acreage later. Brazil’s export strength is a buffer for global markets, but it does not eliminate the farm-level cash-flow and input-timing risks faced by individual producers.
+Brazil’s exposure should be assessed by crop season, not from a single annual import figure. Fertilizer bought before planting must arrive, be financed, distributed and applied at the right time. A delayed shipment can create a different problem from a price increase after the farmer has already secured the required input. Soybean and second-crop maize schedules also mean that the consequences of a disruption can differ across regions and months.
+
+For this reason, a useful dashboard separates import volumes and supplier concentration from port arrivals, local fertilizer prices, farm credit conditions and planted-area decisions. If farmers respond to higher costs by changing application rates or crop choices, the effect may show up in yields or acreage later. Brazil’s export strength is a buffer for global markets, but it does not eliminate the farm-level cash-flow and input-timing risks faced by individual producers.
 
 ## Separate export strength from input resilience
 

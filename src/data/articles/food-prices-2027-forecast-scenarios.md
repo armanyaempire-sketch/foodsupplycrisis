@@ -161,7 +161,9 @@ Use the newest releases from the [FAO Food Price Index](https://www.fao.org/worl
 
 ## Use observable triggers instead of assigning false precision to a forecast
 
-A scenario is useful only when it specifies what would have to happen. In a normalization scenario, freight and fertilizer availability improve, major crop forecasts remain stable and export restrictions do not expand. In a weather-disruption scenario, crop-condition reports deteriorate across more than one major producing region. In an input-cost scenario, fertilizer and energy costs remain high through planting periods. A compound-shock scenario requires several of those pressures to overlap.\n\nDo not assign a probability to these paths unless a transparent forecasting model supports it. Instead, keep a dated log of the signals: FAO commodity indices, national crop forecasts, fertilizer prices, freight rates, export policy and local consumer inflation. Each month, record what changed, which scenario gained or lost support, and what evidence is still missing. This makes the outlook auditable and prevents a single dramatic headline from becoming a supposedly certain prediction.
+A scenario is useful only when it specifies what would have to happen. In a normalization scenario, freight and fertilizer availability improve, major crop forecasts remain stable and export restrictions do not expand. In a weather-disruption scenario, crop-condition reports deteriorate across more than one major producing region. In an input-cost scenario, fertilizer and energy costs remain high through planting periods. A compound-shock scenario requires several of those pressures to overlap.
+
+Do not assign a probability to these paths unless a transparent forecasting model supports it. Instead, keep a dated log of the signals: FAO commodity indices, national crop forecasts, fertilizer prices, freight rates, export policy and local consumer inflation. Each month, record what changed, which scenario gained or lost support, and what evidence is still missing. This makes the outlook auditable and prevents a single dramatic headline from becoming a supposedly certain prediction.
 
 ## Bottom line
 

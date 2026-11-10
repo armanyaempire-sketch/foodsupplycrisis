@@ -112,7 +112,9 @@ This discipline is especially useful during El Niño coverage. The climate outlo
 
 ## Domestic rice prices and export quotations answer different questions
 
-Indonesia’s retail rice market reflects domestic distribution, procurement, stock policy and household demand. Thailand’s export quotations reflect the price at which internationally traded rice is offered to buyers. Those prices can move in different directions because the countries have different harvest calendars, market structures, currency conditions and policy choices. A regional average can conceal that divergence.\n\nFor a clean comparison, use the same rice grade, unit and reference date wherever possible. Record whether a figure is retail, wholesale, farm-gate or export price, and identify the government agency or market source. Then compare it with harvest estimates, public stocks, imports and export policy. El Niño may affect the next crop through rainfall and irrigation, but the price response also depends on inventories and trade decisions. Avoid calling the whole region short of rice from one national retail price spike.
+Indonesia’s retail rice market reflects domestic distribution, procurement, stock policy and household demand. Thailand’s export quotations reflect the price at which internationally traded rice is offered to buyers. Those prices can move in different directions because the countries have different harvest calendars, market structures, currency conditions and policy choices. A regional average can conceal that divergence.
+
+For a clean comparison, use the same rice grade, unit and reference date wherever possible. Record whether a figure is retail, wholesale, farm-gate or export price, and identify the government agency or market source. Then compare it with harvest estimates, public stocks, imports and export policy. El Niño may affect the next crop through rainfall and irrigation, but the price response also depends on inventories and trade decisions. Avoid calling the whole region short of rice from one national retail price spike.
 
 ## Bottom line
 

@@ -133,7 +133,9 @@ For international comparison, use the [FAO Cereal Supply and Demand Brief](https
 
 ## A reserve system should be judged by governance as well as size
 
-Reserve design involves trade-offs. Large public purchases can support farmers and provide a visible buffer, but they also require storage, finance, rotation and transparent release decisions. Compulsory private reserves distribute some carrying costs across businesses, while commercial inventories respond to market signals and can change quickly. Household reserves serve a much shorter continuity purpose. These mechanisms should not be added together without checking ownership and availability.\n\nA useful reserve-policy review asks who owns the stock, which commodities are covered, where it is stored, how losses and quality are measured, who can authorize a release, and how stock is replenished. It should also disclose the fiscal and operational cost. A reserve announcement is not proof that food can be delivered to the locations or households that need it; the distribution system is part of the policy, not an afterthought.
+Reserve design involves trade-offs. Large public purchases can support farmers and provide a visible buffer, but they also require storage, finance, rotation and transparent release decisions. Compulsory private reserves distribute some carrying costs across businesses, while commercial inventories respond to market signals and can change quickly. Household reserves serve a much shorter continuity purpose. These mechanisms should not be added together without checking ownership and availability.
+
+A useful reserve-policy review asks who owns the stock, which commodities are covered, where it is stored, how losses and quality are measured, who can authorize a release, and how stock is replenished. It should also disclose the fiscal and operational cost. A reserve announcement is not proof that food can be delivered to the locations or households that need it; the distribution system is part of the policy, not an afterthought.
 
 ## Bottom line
 

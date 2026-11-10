@@ -113,4 +113,4 @@ A seasonal climate forecast does not show how much irrigation water is available
 
 ## Bottom line
 
-Use the evidence in this article to judge whether the risk is real and local. Prepare proportionately: secure water, keep a modest rotating food buffer, protect refrigeration, follow official guidance and avoid panic buying.
+The Philippines' El Niño food risk should be tested through the connection between water systems and rice production. A useful update records reservoir levels and inflows, irrigation releases, the area planted and harvested, crop-condition reports, and the resulting farm-gate and retail rice prices. These measures must be tied to the same watershed, province and crop season: a low reservoir in one area does not establish a national rice shortage. The key question is whether water constraints persist through the crop's sensitive growth stages and are reflected in official harvest estimates.

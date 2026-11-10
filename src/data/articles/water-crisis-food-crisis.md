@@ -117,7 +117,9 @@ Responses should fit the diagnosed problem. More efficient irrigation may help w
 
 ## Measure water productivity as well as water availability
 
-A region may have water in a river or reservoir and still face agricultural stress if it cannot deliver that water when crops need it. The key measures include soil moisture, groundwater levels, reservoir storage, irrigation reliability, water quality and the timing of rainfall. Total annual rainfall alone can conceal a dry spell during flowering or grain filling.\n\nLong-term resilience also depends on how much crop output is produced per unit of water. Better scheduling, leak reduction, soil organic matter, drought-tolerant varieties and crop choices suited to local conditions can improve water productivity, although each intervention has costs and limits. Groundwater pumping should be assessed alongside recharge: an irrigation system that raises yields today may reduce future resilience if it draws down an aquifer faster than it recovers. This is why water policy, farm economics and crop planning need to be evaluated together.
+A region may have water in a river or reservoir and still face agricultural stress if it cannot deliver that water when crops need it. The key measures include soil moisture, groundwater levels, reservoir storage, irrigation reliability, water quality and the timing of rainfall. Total annual rainfall alone can conceal a dry spell during flowering or grain filling.
+
+Long-term resilience also depends on how much crop output is produced per unit of water. Better scheduling, leak reduction, soil organic matter, drought-tolerant varieties and crop choices suited to local conditions can improve water productivity, although each intervention has costs and limits. Groundwater pumping should be assessed alongside recharge: an irrigation system that raises yields today may reduce future resilience if it draws down an aquifer faster than it recovers. This is why water policy, farm economics and crop planning need to be evaluated together.
 
 ## Bottom line
 

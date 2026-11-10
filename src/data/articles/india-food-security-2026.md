@@ -13,12 +13,18 @@ keywords:
   - India food inflation data
 type: analysis
 sources:
-  - name: Government of India — Ministry of Statistics and Programme Implementation
-    url: https://www.mospi.gov.in/
-  - name: FAO Food Price Monitoring and Analysis
+  - name: Reserve Bank of India — Annual Report 2025-26, published 29 May 2026
+    url: https://www.rbi.org.in/Scripts/AnnualReportPublications.aspx?Id=1462
+  - name: Ministry of Consumer Affairs — OMSS rice sales and weekly stock-disclosure order, 6 November 2026
+    url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2333623&lang=2&reg=3
+  - name: MoSPI — Consumer Price Index, September 2026, published 12 October 2026
+    url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322244&lang=1&reg=3
+  - name: Ministry of Agriculture — Second Advance Estimates for 2025-26, 10 March 2026
+    url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2237560&lang=1&reg=3
+  - name: FAO — Cereal Supply and Demand Brief
+    url: https://www.fao.org/worldfoodsituation/csdb/en/
+  - name: FAO — Food Price Monitoring and Analysis
     url: https://www.fao.org/giews/food-prices/home/en/
-  - name: FAO Cereal Supply and Demand Brief
-    url: https://www.fao.org/worldfoodsituation/csdb
 related: []
 seoTitle: "India Food Security 2026: Rice Stocks and Monsoon Risk"
 primaryKeyword: "India food security rice stocks 2026"
@@ -119,6 +125,27 @@ A useful India food-security assessment should not combine unlike indicators int
 | Household food access | National production does not show whether every household can afford a balanced diet | Current food-inflation measures, employment and available public-support programmes |
 
 FAO’s 2 October 2026 cereal update forecast world rice output at 552.5 million tonnes and said lower production prospects in India, attributed largely to poorly distributed monsoon rains, outweighed improved forecasts in Japan and Nepal. This is a global rice outlook, not a national estimate of India’s harvest or a direct measure of domestic stocks. The distinction is important: use the [FAO Cereal Supply and Demand Brief](https://www.fao.org/worldfoodsituation/csdb) for global context, then check the relevant Indian official release for domestic figures.
+
+## India's latest stock, production and price signals
+
+The most useful recent figures come from different reporting periods, so they should not be presented as if they were one live stock count. The Reserve Bank of India's Annual Report 2025–26, published on 29 May 2026, reproduces the Ministry of Agriculture's second advance estimates for the 2025–26 crop year and reports the Food Corporation of India's public stock position at the end of March 2026. A separate government announcement on 6 November 2026 describes more recent rice-market interventions.
+
+| Indicator | Latest figure in the cited release | What it does—and does not—tell us |
+|---|---:|---|
+| 2025–26 foodgrain production, second advance estimate | 348.66 million tonnes | An estimate for the crop year, not a final harvest result |
+| 2025–26 rice production, second advance estimate | 140.65 million tonnes | A crop estimate; it is not the same as public rice stocks |
+| 2025–26 wheat production, second advance estimate | 120.21 million tonnes | A crop estimate; it does not show local market availability by itself |
+| FCI public foodgrain stocks at end-March 2026 | More than four times the buffer requirement | A dated public-stock position, described by RBI as mainly reflecting high rice stocks; not a November 2026 inventory figure |
+| 2026–27 OMSS(D) rice sale target | 50 lakh metric tonnes; 25 lakh tonnes sold through e-auctions up to 31 October 2026 | A market-stabilisation release target and progress figure, not an estimate of national shortage |
+| Consumer Food Price Index, September 2026 | 7.74% year-on-year; 8.06% rural and 7.18% urban | A food-price inflation measure, not a measure of physical stock-outs |
+
+The RBI report says FCI's public foodgrain stocks at end-March 2026 exceeded four times the buffer requirement, mainly because of rice. It also records 2025–26 second advance estimates of 348.66 million tonnes for foodgrains, 140.65 million tonnes for rice and 120.21 million tonnes for wheat. These are useful national buffers and production estimates, but their dates and definitions matter. A March public-stock position cannot be described as the current stock position on 10 November, and an advance estimate should not be presented as a final crop outcome. See the [RBI Annual Report 2025–26](https://www.rbi.org.in/Scripts/AnnualReportPublications.aspx?Id=1462).
+
+On 6 November 2026, the Ministry of Consumer Affairs said it had doubled the 2026–27 OMSS(D) rice sale target from 25 to 50 lakh metric tonnes, with 25 lakh tonnes sold through e-auctions up to 31 October. The same release made stock disclosure mandatory for rice and paddy stocking entities, with weekly Friday updates through the [Food Stock Portal](https://foodstock.dfpd.gov.in/), and said five southern states could impose stock limits where considered necessary through 31 January 2027. These steps show active price and supply monitoring. They do not, by themselves, prove that India is facing a nationwide physical food shortage. Read the [6 November government announcement](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2333623&lang=2&reg=3) for the scope and terms.
+
+For household affordability, the latest official release available on 10 November is the September 2026 CPI, published by MoSPI on 12 October. Combined food inflation was 7.74% year-on-year, with 8.06% in rural areas and 7.18% in urban areas; headline CPI inflation was 5.54%. Food inflation can therefore be higher than the overall index without implying that food is physically unavailable. The [MoSPI September CPI release](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322244&lang=1&reg=3) gives the definitions and geographic split. The October CPI release should be used when it is published; it should not be guessed in advance.
+
+Taken together, these figures show why India's food-security position needs more than one headline. Public stocks and crop estimates provide important buffers, the government is actively releasing rice and increasing stock transparency, and household food inflation remains an affordability concern. The right conclusion depends on the commodity, date, market and population being discussed.
 
 ## Watch the crop calendar, not only the headline
 

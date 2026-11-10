@@ -106,22 +106,14 @@ for (const file of articleFiles) {
   rememberUnique("primaryKeyword", primaryKeyword, file);
 
   const body = content.slice(secondDivider + 4);
-  if (body.includes("\\\\n")) {
+  if (body.includes(String.fromCharCode(92) + "n")) {
     failures.push(`${file}: contains a literal escaped newline; use real Markdown line breaks`);
   }
 
   const normalizedBody = normalizeParagraph(body);
   for (const phrase of knownLowValueBoilerplate) {
     if (normalizedBody.includes(phrase)) {
-      failures.push(`${file}: remove repeated generic boilerplate; write a conclusion specific to this article's subject`);
-      break;
-    }
-  }
-
-  const normalizedBody = normalizeParagraph(body);
-  for (const phrase of knownLowValueBoilerplate) {
-    if (normalizedBody.includes(phrase)) {
-      failures.push(`${file}: remove repeated generic boilerplate; write a conclusion specific to this article's subject`);
+      failures.push(`${file}: remove repeated generic boilerplate; write a conclusion specific to its subject`);
       break;
     }
   }

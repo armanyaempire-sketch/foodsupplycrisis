@@ -129,7 +129,9 @@ This method allows readers to distinguish a monthly market signal from a sustain
 
 ## Read the component indices before interpreting the headline
 
-The headline index is a weighted basket, so it can move in one direction even when individual food groups move differently. In October 2026, FAO reported a lower overall index while rice and sugar quotations rose and cereal, meat and dairy components moved differently. That is not a contradiction; it is the reason the sub-indices matter.\n\nWhen you read a monthly release, record the month covered, publication date, revised comparison month and annual change. Then check which component contributed most to the movement and whether the change reflects export quotations, production expectations or logistics. Finally, keep the FAO series separate from national consumer-price indices. A global export-price benchmark cannot tell you the exact increase in a household’s local food basket, where exchange rates, domestic crops, taxes, subsidies and retail costs also matter.
+The headline index is a weighted basket, so it can move in one direction even when individual food groups move differently. In October 2026, FAO reported a lower overall index while rice and sugar quotations rose and cereal, meat and dairy components moved differently. That is not a contradiction; it is the reason the sub-indices matter.
+
+When you read a monthly release, record the month covered, publication date, revised comparison month and annual change. Then check which component contributed most to the movement and whether the change reflects export quotations, production expectations or logistics. Finally, keep the FAO series separate from national consumer-price indices. A global export-price benchmark cannot tell you the exact increase in a household’s local food basket, where exchange rates, domestic crops, taxes, subsidies and retail costs also matter.
 
 ## Bottom line
 

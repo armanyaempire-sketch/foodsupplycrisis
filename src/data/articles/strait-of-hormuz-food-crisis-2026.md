@@ -114,7 +114,9 @@ The strongest conclusion is a traceable chain from the reported disruption to th
 
 ## The critical link is fertilizer availability during the crop calendar
 
-The Strait of Hormuz matters to agriculture because it connects regional energy and fertilizer trade to global production costs. A disruption can raise freight and insurance costs or delay fertilizer shipments; the agricultural consequence then depends on which nutrients are affected, where alternative supplies are available and whether the delivery misses a planting or application window. Food itself does not need to pass through the strait for the disruption to matter.\n\nTo evaluate the channel, track fertilizer product availability and export flows separately from oil and gas prices. Record the destination markets, shipping delay and local inventory position. Then compare those figures with planting calendars and farm-gate fertilizer prices. A higher oil price alone is not proof of a fertilizer shortage, and a fertilizer warning alone is not proof of a crop loss. Each step needs its own evidence.
+The Strait of Hormuz matters to agriculture because it connects regional energy and fertilizer trade to global production costs. A disruption can raise freight and insurance costs or delay fertilizer shipments; the agricultural consequence then depends on which nutrients are affected, where alternative supplies are available and whether the delivery misses a planting or application window. Food itself does not need to pass through the strait for the disruption to matter.
+
+To evaluate the channel, track fertilizer product availability and export flows separately from oil and gas prices. Record the destination markets, shipping delay and local inventory position. Then compare those figures with planting calendars and farm-gate fertilizer prices. A higher oil price alone is not proof of a fertilizer shortage, and a fertilizer warning alone is not proof of a crop loss. Each step needs its own evidence.
 
 ## Bottom line
 

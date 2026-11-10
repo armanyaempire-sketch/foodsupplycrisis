@@ -111,7 +111,9 @@ For international context, see FAO’s [Cereal Supply and Demand Brief](https://
 
 ## Follow the wheat-to-flour conversion, not only the national crop estimate
 
-Wheat production is only the first stage of the flour market. Grain has to reach procurement centres or private buyers, move to mills, be processed and distributed to wholesale and retail outlets. Milling capacity, storage losses, transport costs, market regulation and the timing of public releases can all influence the price consumers face. A strong harvest may improve availability but take time to reach the flour market.\n\nFor a useful Pakistan tracker, compare wheat arrivals and procurement progress with mill-gate flour prices, retail flour prices in major cities, transport conditions and the timing of government stock releases. Keep wheat prices and flour prices separate because milling, packaging and distribution add costs. Also record the market and grade: a national average can hide a substantial difference between urban, rural and conflict-affected locations.
+Wheat production is only the first stage of the flour market. Grain has to reach procurement centres or private buyers, move to mills, be processed and distributed to wholesale and retail outlets. Milling capacity, storage losses, transport costs, market regulation and the timing of public releases can all influence the price consumers face. A strong harvest may improve availability but take time to reach the flour market.
+
+For a useful Pakistan tracker, compare wheat arrivals and procurement progress with mill-gate flour prices, retail flour prices in major cities, transport conditions and the timing of government stock releases. Keep wheat prices and flour prices separate because milling, packaging and distribution add costs. Also record the market and grade: a national average can hide a substantial difference between urban, rural and conflict-affected locations.
 
 ## Bottom line
 

@@ -10,7 +10,8 @@ keywords:
   - Black Sea grain freight costs
   - wheat shipment delays
   - grain export insurance risk
-  - food import delivery pricestype: analysis
+  - food import delivery prices
+type: analysis
 sources:
   - name: FAO Cereal Supply and Demand Brief — 2 October 2026
     url: https://www.fao.org/worldfoodsituation/csdb

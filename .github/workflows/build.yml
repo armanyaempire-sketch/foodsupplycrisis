@@ -2,7 +2,7 @@ name: Build
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "adsense-low-value-content"]
   pull_request:
     branches: ["main"]
 
@@ -22,6 +22,9 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+
+      - name: Audit editorial content
+        run: npm run audit:content
 
       - name: Build site
         run: npm run build

@@ -10,6 +10,22 @@ const articles = (await getCollection("articles"))
 
 <BaseLayout title="Food Security 2026 | Food Supply Crisis Report" description="Evidence-based reporting on food security, hunger, affordability, access to food and resilience across regions.">
   <section class="hero"><div class="shell"><p class="eyebrow">Topic Hub</p><h1>Food Security</h1><p>Food security depends on availability, access, affordability, stability and the ability of people and systems to withstand shocks.</p></div></section>
+  <section class="section">
+    <div class="shell">
+      <h2>Food security is more than whether food exists</h2>
+      <p>A useful food-security analysis separates four connected questions. Food may be available nationally but unaffordable to some households; a household may have money but live where markets or transport are disrupted; a temporary shock can also destabilize a system that usually works.</p>
+      <div class="card-grid">
+        <article class="card"><h3>Availability</h3><p>Are food supplies produced, imported, stored and distributed in sufficient quantities?</p></article>
+        <article class="card"><h3>Access and affordability</h3><p>Can people physically reach food and afford a sufficient, nutritious diet?</p></article>
+        <article class="card"><h3>Utilization and safety</h3><p>Is food safe and suitable for people's nutritional needs, with adequate water and sanitation?</p></article>
+        <article class="card"><h3>Stability</h3><p>Can households and supply systems maintain access when prices, conflict, weather or logistics change?</p></article>
+      </div>
+      <h3>Choose evidence that matches the question</h3>
+      <p>Use national production and stock data to assess availability, consumer-price and income measures to examine affordability, and current <a href="https://www.ipcinfo.org/" target="_blank" rel="noopener noreferrer">IPC</a> or <a href="https://www.wfp.org/publications" target="_blank" rel="noopener noreferrer">WFP</a> assessments for acute food insecurity. These sources are related but not interchangeable; global commodity prices alone do not measure famine or household hunger.</p>
+      <p>We aim to identify the place, population, date and uncertainty behind each claim. For methodology, see the <a href="/editorial-policy/">editorial policy</a> and <a href="/sources/">source directory</a>.</p>
+    </div>
+  </section>
+
   <section class="section"><div class="shell"><div class="card-grid">
     {articles.length ? articles.map((article) => (<article class="card"><h2><a href={`/articles/${article.id}/`}>{article.data.title}</a></h2><p>{article.data.description}</p></article>)) : <div class="callout"><strong>Food security coverage:</strong> Upcoming reporting will connect hunger, prices, access, conflict, climate and resilience using primary sources.</div>}
   </div></div></section>

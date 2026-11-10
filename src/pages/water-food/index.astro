@@ -10,6 +10,21 @@ const articles = (await getCollection("articles"))
 
 <BaseLayout title="Water and Food Supply | Food Supply Crisis Report" description="Track water stress, drought, irrigation, groundwater and the ways water availability can affect agriculture and food supply.">
   <section class="hero"><div class="shell"><p class="eyebrow">Topic Hub</p><h1>Water & Food</h1><p>Water availability is a core agricultural constraint. We examine drought, irrigation, groundwater and food-production risk.</p></div></section>
+  <section class="section">
+    <div class="shell">
+      <h2>Water risk must be measured locally</h2>
+      <p>Rainfall totals alone do not tell the full agricultural story. Crop impacts depend on when rain arrives, soil moisture, reservoir and groundwater conditions, irrigation access, crop stage and competition for water. A region can have a near-normal seasonal total and still experience damaging dry periods at a sensitive point in the growing cycle.</p>
+      <div class="card-grid">
+        <article class="card"><h3>Rain and soil moisture</h3><p>Compare seasonal forecasts with observed rainfall and local crop-condition information as the season develops.</p></article>
+        <article class="card"><h3>Groundwater and irrigation</h3><p>Short-term irrigation can soften a dry spell, but long-term groundwater stress can limit how resilient farming remains over repeated seasons.</p></article>
+        <article class="card"><h3>Water competition</h3><p>Agriculture shares water with households, industry and ecosystems. Allocation, infrastructure and efficiency affect who experiences the shortage.</p></article>
+      </div>
+      <p>To link water conditions to food output, look for an evidence chain: measured water stress, affected crop or livestock system, resulting production or cost change, and any effect on market availability. Climate warnings are important early indicators, but they are not by themselves proof of crop failure.</p>
+      <p>For related context, see <a href="/articles/water-crisis-food-crisis/">Water Crisis and Food Crisis</a> and the <a href="/articles/very-strong-el-nino-2026-food-production/">El Niño food-production risk analysis</a>.</p>
+    </div>
+  </section>
+
+
   <section class="section"><div class="shell"><div class="card-grid">
     {articles.length ? articles.map((article) => (<article class="card"><h2><a href={`/articles/${article.id}/`}>{article.data.title}</a></h2><p>{article.data.description}</p></article>)) : <div class="callout"><strong>Water and food coverage:</strong> Upcoming reporting will connect water conditions to crops, livestock, prices and regional food security.</div>}
   </div></div></section>

@@ -9,7 +9,10 @@ const articles = defineCollection({
   }),
   schema: z.object({
     title: z.string(),
+    seoTitle: z.string().min(25).max(70).optional(),
     description: z.string().min(80).max(180),
+    primaryKeyword: z.string().min(3).max(100),
+    searchIntent: z.enum(["informational", "how-to", "comparison", "analysis", "reference"]).default("informational"),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     author: z.string().default("Food Supply Crisis Report Editorial Desk"),

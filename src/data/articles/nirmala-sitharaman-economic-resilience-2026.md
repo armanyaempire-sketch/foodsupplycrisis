@@ -1,21 +1,16 @@
 ---
-title: "Uncertainty Is the New Normal: Nirmala Sitharaman on Building India’s Economic Resilience"
-description: "At Kautilya Economic Conclave 2026, Nirmala Sitharaman said global uncertainty is now a standing condition. Here is what her resilience agenda means for India."
+title: "Nirmala Sitharaman’s 2026 Resilience Agenda: Trade, Inputs and Food Security"
+description: "What India’s economic-resilience agenda means for strategic inputs, research investment, reliable trade and the systems that support agricultural and food supply."
 pubDate: 2026-10-03
-updatedDate: 2026-10-04
+updatedDate: "2026-11-10"
 author: Food Supply Crisis Report Editorial Desk
 category: Countries
 keywords:
-  - Nirmala Sitharaman economic resilience
-  - uncertainty is the new normal India
-  - Kautilya Economic Conclave 2026
-  - India strategic resource security
-  - India supply chain resilience
-  - India private investment R&D
-  - India innovation economy
-  - India trade policy 2026
-  - economic resilience India
-  - food supply resilience India
+  - Nirmala Sitharaman economic resilience 2026
+  - Kautilya Economic Conclave resilience
+  - India strategic input security
+  - India supply chain diversification
+  - food system resilience India
 type: analysis
 sources:
   - name: "Press Information Bureau — 5th Kautilya Economic Conclave to be held in New Delhi"
@@ -32,6 +27,9 @@ related:
   - india-food-security-2026
   - global-food-crisis-2026
   - oil-energy-food-prices-2026
+seoTitle: "Sitharaman’s 2026 Resilience Agenda: Trade and Food Security"
+primaryKeyword: "Nirmala Sitharaman economic resilience 2026"
+searchIntent: "analysis"
 ---
 
 The global economy is entering a period in which disruption can no longer be treated as a rare interruption between otherwise predictable years. Wars, energy shocks, trade restrictions, technology competition, supply-chain concentration and changing financial conditions can arrive together or in quick succession.
@@ -501,6 +499,12 @@ It can also mean permanent adaptation.
 For India, the objective is not to become immune to global shocks. No large open economy can achieve that.
 
 The objective is to become **harder to destabilize, faster to adapt and better able to keep essential systems operating while the shock is still unfolding**.
+
+## Translate the resilience agenda into measurable food-system outcomes
+
+For food supply, the resilience agenda becomes concrete when it can be measured at the level of critical inputs and logistics. Relevant indicators include concentration among fertilizer suppliers, the share of imports moving through a single route, port and warehouse capacity, cold-chain losses, irrigation reliability and the time required to move produce from farms to wholesale markets. These indicators show where a global shock could turn into a domestic production or distribution problem.
+
+Research and development also matter, but the link should be specific. Agricultural research can improve seed performance, water efficiency, storage, crop monitoring and fertilizer use; private investment can help scale technologies and infrastructure. The value of a resilience strategy is not the number of initiatives announced. It is whether dependency, downtime, post-harvest losses and the cost of delivering food fall over time while trade remains open and competitive.
 
 ## Bottom line
 

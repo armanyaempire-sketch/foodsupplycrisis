@@ -15,7 +15,9 @@ interface RelatedArticle {
 
 interface Props {
   title: string;
+  seoTitle?: string;
   description: string;
+  primaryKeyword: string;
   pubDate: Date;
   updatedDate?: Date;
   author: string;
@@ -30,7 +32,9 @@ interface Props {
 
 const {
   title,
+  seoTitle,
   description,
+  primaryKeyword,
   pubDate,
   updatedDate,
   author,
@@ -95,13 +99,13 @@ const articleJsonLd = {
     }
   },
   mainEntityOfPage: canonical,
-  keywords,
+  keywords: [primaryKeyword, ...keywords.filter((keyword) => keyword.toLowerCase() !== primaryKeyword.toLowerCase())],
   image: [new URL(featuredImage.url, SITE.url).toString()]
 };
 ---
 
 <BaseLayout
-  title={title}
+  title={seoTitle ?? title}
   description={description}
   canonical={canonical}
   type="article"
@@ -161,6 +165,7 @@ const articleJsonLd = {
       <section class="source-box source-box-primary" aria-labelledby="sources-heading">
         <h2 id="sources-heading">Sources & Further Reading</h2>
         <p>Important figures, forecasts and current-event claims should be checked against the original material linked below.</p>
+        <p>Our source-selection, update and correction standards are explained in the <a href="/editorial-policy/">editorial policy</a>.</p>
         <ul>
           {sources.map((source) => (
             <li><a href={source.url} rel="noopener noreferrer" target="_blank">{source.name}</a></li>

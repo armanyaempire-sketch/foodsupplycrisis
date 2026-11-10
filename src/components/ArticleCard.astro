@@ -9,6 +9,7 @@ interface Props {
       description: string;
       category: string;
       pubDate: Date;
+      updatedDate?: Date;
       heroImage?: string;
       imageAlt?: string;
       type?: string;
@@ -35,7 +36,11 @@ const featuredImage = getArticleImage({
   <p>{article.data.description}</p>
   <div class="card-meta">
     <span>{article.data.type ?? "analysis"}</span>
-    <span>{article.data.pubDate.toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" })}</span>
+{article.data.updatedDate && article.data.updatedDate.valueOf() > article.data.pubDate.valueOf() ? (
+      <span>Updated {article.data.updatedDate.toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" })}</span>
+    ) : (
+      <span>Published {article.data.pubDate.toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" })}</span>
+    )}
   </div>
   <a class="card-read" href={`/articles/${article.id}/`}>Read the analysis →</a>
 </article>

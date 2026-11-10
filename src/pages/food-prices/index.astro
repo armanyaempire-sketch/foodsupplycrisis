@@ -10,6 +10,22 @@ const articles = (await getCollection("articles"))
 
 <BaseLayout title="Food Prices 2026 | Food Supply Crisis Report" description="Track food-price inflation, cereal prices, energy costs, fertilizer, shipping and the supply shocks that reach consumers.">
   <section class="hero"><div class="shell"><p class="eyebrow">Topic Hub</p><h1>Food Prices</h1><p>Why food prices move, where pressure is building and what the latest evidence says.</p></div></section>
+  <section class="section">
+    <div class="shell">
+      <h2>Understand the difference between world prices and your grocery bill</h2>
+      <p>The FAO Food Price Index follows international quotations for major globally traded food commodities. It is not a direct consumer-price index for any individual country. Local prices also depend on exchange rates, domestic harvests, transport, storage, taxes, retailer contracts and household purchasing power.</p>
+      <div class="card-grid">
+        <article class="card"><h3>International benchmark</h3><p>Check the <a href="https://www.fao.org/worldfoodsituation/foodpricesindex/en/" target="_blank" rel="noopener noreferrer">FAO monthly index</a> and its commodity-group sub-indices. A change in cereals can differ from movements in meat, dairy, sugar or vegetable oils.</p></article>
+        <article class="card"><h3>Local transmission</h3><p>Compare the world-market signal with the relevant national consumer-price release, currency movements and local wholesale prices. Pass-through can be delayed or partly absorbed.</p></article>
+        <article class="card"><h3>Household impact</h3><p>A price rise becomes a food-security problem when budgets cannot absorb it. Compare prices for foods actually purchased and look at income and access—not just the global index.</p></article>
+      </div>
+      <h3>Latest dated reference: October 2026</h3>
+      <p>FAO’s 6 November release reports that the Food Price Index averaged 133.9 points in October, 1.2% below September but 5.9% above October 2025. The cereal price sub-index fell 4.5% as wheat quotations eased; the All Rice Price Index rose 1.6%; sugar prices increased 6.6%; and meat and dairy indices declined. This is why the headline should not be treated as a uniform movement in every food market.</p>
+      <p>The FAO index measures international commodity quotations—not retail prices paid by a household in India, the United States or any other country. For local impact, compare the index with national consumer-price data, exchange rates and the foods that households actually buy. Read the <a href="https://www.fao.org/newsroom/detail/fao-food-price-index-edges-down-in-october-amid-subdued-demand/" target="_blank" rel="noopener noreferrer">original 6 November FAO release</a> and its methodology before reusing the figures.</p>
+      <p>Use our <a href="/food-budget-calculator/">food budget scenario calculator</a> to model what a hypothetical price change could mean for a monthly basket. It is a planning aid, not an inflation forecast. Related reading: <a href="/articles/why-global-food-prices-rising-2026/">Why global food prices are rising</a> and <a href="/articles/fao-food-price-index-explained-2026/">how the FAO index works</a>.</p>
+    </div>
+  </section>
+
   <section class="section"><div class="shell"><div class="card-grid">
     {articles.map((article) => <ArticleCard article={article} />)}
   </div></div></section>

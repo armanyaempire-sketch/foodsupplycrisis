@@ -1,17 +1,16 @@
 ---
-title: "How to Cut Your Grocery Bill When Food Prices Rise"
-description: "Practical ways to lower grocery spending when food prices rise: compare unit prices, plan meals, substitute intelligently and reduce household food waste."
+title: "How to Reduce Your Grocery Bill: Unit Prices, Meal Planning and Waste"
+description: "Reduce grocery spending with unit-price comparisons, flexible meal plans, planned substitutions and food-waste checks that protect nutrition while controlling costs."
 pubDate: 2026-10-04
-updatedDate: 2026-10-17
+updatedDate: "2026-11-10"
 author: Food Supply Crisis Report Editorial Desk
 category: Food Prices
 keywords:
   - reduce grocery bill
-  - save money on food
-  - food inflation tips
-  - cheaper groceries
-  - grocery budget
-type: explainer
+  - save money on groceries
+  - compare unit prices food
+  - meal planning on a budget
+  - reduce household food wastetype: explainer
 sources:
   - name: USDA — Food price and consumer resources
     url: https://www.usda.gov/
@@ -20,6 +19,9 @@ sources:
   - name: FAO Food Price Index — September 2026
     url: https://www.fao.org/worldfoodsituation/foodpricesindex/en/
 related: []
+seoTitle: "How to Reduce Your Grocery Bill: 7 Practical Methods"
+primaryKeyword: "how to reduce grocery bill"
+searchIntent: "how-to"
 ---
 
 When food prices rise, the most useful response is usually not to buy everything before it gets more expensive.
@@ -134,6 +136,10 @@ The cheapest unit price is not always the lowest-cost decision. A larger package
 When comparing prices over several weeks, record the product size and unit price because manufacturers may change package sizes. Also note temporary discounts; they can make a monthly comparison misleading if one product was on promotion and another was not.
 
 If the household budget is under pressure, prioritize a workable meal plan and current bills before building a large reserve. Food inflation is an affordability issue as much as a supply issue. A small, maintained pantry can support flexibility, but panic buying uses cash that may be needed for utilities, transport and normal groceries.
+
+## Compare the price of the amount you will actually use
+
+Package price is not the same as value. Divide the shelf price by the net weight or volume to find the unit price, then compare like-for-like products. A larger pack is only cheaper when the household can use it before quality declines and when storage space is available. For fresh food, include the portion that is likely to be discarded: a lower price per kilogram may not be a saving if much of the purchase spoils.\n\nA simple weekly review can reveal where changes matter. Group receipts into staples, fresh foods and discretionary items; identify the three products responsible for the largest spend; and test one substitution at a time. Keep a record of price per unit for those products rather than relying on memory. This makes it possible to distinguish a genuine price increase from changes in package size, brand choice or quantity purchased.
 
 ## Bottom line
 

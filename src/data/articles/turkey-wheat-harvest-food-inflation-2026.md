@@ -124,7 +124,9 @@ The most useful update explains what the new release changes in the assessment a
 
 ## A crop recovery and a fall in grocery inflation are not the same event
 
-A larger wheat crop can reduce the need for imports or increase domestic grain availability, but the benefit reaches consumers only through the market chain. Farmers sell grain at farm-gate prices; traders and millers incur storage, financing and transport costs; bakeries pay for flour, energy, labour and rent. Currency depreciation can also raise the cost of imported inputs even when the domestic harvest improves.\n\nTo test whether the 2026 crop is easing pressure, compare the final production estimate with wheat imports, farm-gate prices, mill-gate flour quotations and retail bread prices over the same months. Note the exchange rate and policy interventions. If grain prices fall but bread prices remain high, the difference may reflect processing and distribution costs or wider inflation rather than a failure of the harvest to improve supply.
+A larger wheat crop can reduce the need for imports or increase domestic grain availability, but the benefit reaches consumers only through the market chain. Farmers sell grain at farm-gate prices; traders and millers incur storage, financing and transport costs; bakeries pay for flour, energy, labour and rent. Currency depreciation can also raise the cost of imported inputs even when the domestic harvest improves.
+
+To test whether the 2026 crop is easing pressure, compare the final production estimate with wheat imports, farm-gate prices, mill-gate flour quotations and retail bread prices over the same months. Note the exchange rate and policy interventions. If grain prices fall but bread prices remain high, the difference may reflect processing and distribution costs or wider inflation rather than a failure of the harvest to improve supply.
 
 ## Bottom line
 

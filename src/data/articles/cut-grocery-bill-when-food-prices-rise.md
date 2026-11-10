@@ -140,7 +140,9 @@ If the household budget is under pressure, prioritize a workable meal plan and c
 
 ## Compare the price of the amount you will actually use
 
-Package price is not the same as value. Divide the shelf price by the net weight or volume to find the unit price, then compare like-for-like products. A larger pack is only cheaper when the household can use it before quality declines and when storage space is available. For fresh food, include the portion that is likely to be discarded: a lower price per kilogram may not be a saving if much of the purchase spoils.\n\nA simple weekly review can reveal where changes matter. Group receipts into staples, fresh foods and discretionary items; identify the three products responsible for the largest spend; and test one substitution at a time. Keep a record of price per unit for those products rather than relying on memory. This makes it possible to distinguish a genuine price increase from changes in package size, brand choice or quantity purchased.
+Package price is not the same as value. Divide the shelf price by the net weight or volume to find the unit price, then compare like-for-like products. A larger pack is only cheaper when the household can use it before quality declines and when storage space is available. For fresh food, include the portion that is likely to be discarded: a lower price per kilogram may not be a saving if much of the purchase spoils.
+
+A simple weekly review can reveal where changes matter. Group receipts into staples, fresh foods and discretionary items; identify the three products responsible for the largest spend; and test one substitution at a time. Keep a record of price per unit for those products rather than relying on memory. This makes it possible to distinguish a genuine price increase from changes in package size, brand choice or quantity purchased.
 
 ## Bottom line
 

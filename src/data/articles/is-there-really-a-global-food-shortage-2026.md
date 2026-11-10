@@ -1,16 +1,16 @@
 ---
-title: "Is There Really a Global Food Shortage? What the 2026 Data Shows"
-description: "Global cereal output remains very large, but food prices and regional insecurity are serious. This guide separates production, availability, affordability and actual shortages."
+title: "How to Tell If a Food Shortage Is Real: Five Evidence Checks"
+description: "A practical method for checking whether a shortage is real: identify the product, location, duration, replenishment pattern and evidence from supply and retail sources."
 pubDate: 2026-10-04
-updatedDate: 2026-10-17
+updatedDate: "2026-11-10"
 author: Food Supply Crisis Report Editorial Desk
 category: Food Shortages
 keywords:
-  - global food shortage
-  - food shortage 2026
-  - is there a food shortage
-  - global food supply
-  - world food shortage
+  - how to tell if a food shortage is real
+  - food shortage evidence checklist
+  - local food stockout versus shortage
+  - food supply availability test
+  - verify supermarket shortage claims
 type: explainer
 sources:
   - name: FAO Cereal Supply and Demand Brief
@@ -20,6 +20,9 @@ sources:
   - name: FAO–WFP Hunger Hotspots — June to November 2026
     url: https://www.wfp.org/publications/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-june-november-2026
 related: []
+seoTitle: "How to Tell If a Food Shortage Is Real: 5 Checks"
+primaryKeyword: "how to tell if a food shortage is real"
+searchIntent: "reference"
 ---
 
 When people see higher food prices, empty shelves or reports of families going hungry, it is natural to ask whether the world is facing a global food shortage.
@@ -135,6 +138,10 @@ FAO’s 2 October 2026 cereal update provides an important counterweight to a si
 For updates, use the [FAO Cereal Supply and Demand Brief](https://www.fao.org/worldfoodsituation/csdb), the [FAO Food Price Index](https://www.fao.org/worldfoodsituation/foodpricesindex/en/), and current [IPC](https://www.ipcinfo.org/) or [WFP](https://www.wfp.org/publications) assessments. Record each source’s release date, geography and unit. When figures conflict, first check whether one refers to a forecast while another refers to an observed result, or whether the source covers different countries, crops or periods.
 
 The best answer to “Is there a global food shortage?” is not a dramatic yes/no if the indicators do not support one. State which part of the system is under pressure, where the evidence applies and what is still uncertain. That produces a more useful risk assessment than turning separate warnings into a single narrative of worldwide scarcity.
+
+## Use a five-part test before calling an event a shortage
+
+First, name the exact product rather than saying “food” in general. Second, identify the location: one shop, one town, a region or a national market. Third, measure duration across replenishment cycles; an empty shelf that is restocked the next morning is not the same as a persistent inability to obtain a product. Fourth, check whether alternative brands, suppliers or substitutes remain available. Fifth, compare the retail observation with wholesale, distribution or official supply evidence.\n\nThis method distinguishes a temporary stockout, a localized distribution problem, an affordability crisis and a physical supply shortage. The terms should not be swapped. A price increase may leave food available but unaffordable; a delivery delay can empty one shelf while the wider market remains supplied. When writing or sharing a shortage claim, state the product, place, dates and evidence. If those details are missing, the conclusion is not yet established.
 
 ## Bottom line
 

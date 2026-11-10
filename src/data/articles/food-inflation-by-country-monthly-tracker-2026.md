@@ -1,16 +1,16 @@
 ---
-title: "Food Inflation by Country: Monthly Tracker for 2026"
-description: "Track food inflation across major markets using official national statistics, FAO data and consistent definitions. Updated figures should replace older monthly readings."
+title: "Food Inflation by Country: How to Compare Official Data Correctly"
+description: "Compare national food inflation using each country’s official CPI release, matching periods, categories and definitions instead of mixing unlike global and domestic indices."
 pubDate: 2026-10-04
-updatedDate: 2026-10-17
+updatedDate: "2026-11-10"
 author: Food Supply Crisis Report Editorial Desk
 category: Food Prices
 keywords:
-  - food inflation by country
-  - global food inflation
-  - food prices by country
-  - food inflation 2026
-  - country food price tracker
+  - food inflation by country comparison
+  - compare national food CPI
+  - official food inflation statistics
+  - global versus domestic food prices
+  - country food price data
 type: analysis
 sources:
   - name: FAO Food Price Monitoring and Analysis
@@ -22,6 +22,9 @@ sources:
   - name: FAO Food Price Index
     url: https://www.fao.org/worldfoodsituation/foodpricesindex/en/
 related: []
+seoTitle: "Food Inflation by Country: A Comparison Method"
+primaryKeyword: "food inflation by country comparison methodology"
+searchIntent: "comparison"
 ---
 
 Food inflation is one of the easiest food-system indicators to understand and one of the easiest to misuse.
@@ -139,6 +142,10 @@ A good comparison page should avoid treating the highest percentage as automatic
 Use FAO's [Food Price Monitoring and Analysis resources](https://www.fao.org/prices/home/food-price-monitoring---analysis-%28fpma%29/) for international context and the relevant national statistical agency for domestic consumer prices. Keep FAO's index separate from a national CPI: the first tracks international traded commodity quotations, while the second measures the prices consumers face under a country's own basket and methodology.
 
 When updating this tracker, keep earlier values in a dated series instead of overwriting them without an audit trail. If a statistical agency revises a number, note the revision. If a country has not yet published the latest month, label the latest available period rather than filling the gap with a guess. That makes the tracker more useful to readers who need to verify a trend instead of simply scanning a headline number.
+
+## A fair country comparison needs the same period and the same basket definition
+
+A country table can mislead when one figure is year-over-year food CPI, another is a month-over-month change and a third is an international commodity index. Before comparing values, record the statistical agency, reference month, annual or monthly rate, food category coverage, base year and whether the series is seasonally adjusted. If a country revises its CPI, note the revision rather than silently mixing series.\n\nFor an apples-to-apples view, use national food CPI for household price changes and keep the FAO Food Price Index in a separate column as an international commodity benchmark. Add the currency and exchange-rate context when import costs matter. Do not rank countries by the percentage alone: the same inflation rate can affect households differently depending on income, subsidies, food budget share and the speed at which prices are changing.
 
 ## Bottom line
 

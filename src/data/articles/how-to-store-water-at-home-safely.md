@@ -138,4 +138,4 @@ Water quality can be compromised before a container is filled, while it is store
 
 ## Bottom line
 
-A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.
+For a household water plan, the most important routine is inspection: check container integrity, labels, storage conditions and local safety advice. Replace water or containers when guidance indicates, and follow public-health instructions during an actual boil-water or do-not-drink advisory.

@@ -141,7 +141,9 @@ The best answer to “Is there a global food shortage?” is not a dramatic yes/
 
 ## Use a five-part test before calling an event a shortage
 
-First, name the exact product rather than saying “food” in general. Second, identify the location: one shop, one town, a region or a national market. Third, measure duration across replenishment cycles; an empty shelf that is restocked the next morning is not the same as a persistent inability to obtain a product. Fourth, check whether alternative brands, suppliers or substitutes remain available. Fifth, compare the retail observation with wholesale, distribution or official supply evidence.\n\nThis method distinguishes a temporary stockout, a localized distribution problem, an affordability crisis and a physical supply shortage. The terms should not be swapped. A price increase may leave food available but unaffordable; a delivery delay can empty one shelf while the wider market remains supplied. When writing or sharing a shortage claim, state the product, place, dates and evidence. If those details are missing, the conclusion is not yet established.
+First, name the exact product rather than saying “food” in general. Second, identify the location: one shop, one town, a region or a national market. Third, measure duration across replenishment cycles; an empty shelf that is restocked the next morning is not the same as a persistent inability to obtain a product. Fourth, check whether alternative brands, suppliers or substitutes remain available. Fifth, compare the retail observation with wholesale, distribution or official supply evidence.
+
+This method distinguishes a temporary stockout, a localized distribution problem, an affordability crisis and a physical supply shortage. The terms should not be swapped. A price increase may leave food available but unaffordable; a delivery delay can empty one shelf while the wider market remains supplied. When writing or sharing a shortage claim, state the product, place, dates and evidence. If those details are missing, the conclusion is not yet established.
 
 ## Bottom line
 

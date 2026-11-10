@@ -15,7 +15,9 @@ interface RelatedArticle {
 
 interface Props {
   title: string;
+  seoTitle?: string;
   description: string;
+  primaryKeyword: string;
   pubDate: Date;
   updatedDate?: Date;
   author: string;
@@ -30,7 +32,9 @@ interface Props {
 
 const {
   title,
+  seoTitle,
   description,
+  primaryKeyword,
   pubDate,
   updatedDate,
   author,
@@ -95,13 +99,13 @@ const articleJsonLd = {
     }
   },
   mainEntityOfPage: canonical,
-  keywords,
+  keywords: [primaryKeyword, ...keywords.filter((keyword) => keyword.toLowerCase() !== primaryKeyword.toLowerCase())],
   image: [new URL(featuredImage.url, SITE.url).toString()]
 };
 ---
 
 <BaseLayout
-  title={title}
+  title={seoTitle ?? title}
   description={description}
   canonical={canonical}
   type="article"

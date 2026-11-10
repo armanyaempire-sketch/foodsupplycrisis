@@ -90,7 +90,9 @@ These indicators can show whether the pressure is mainly financial or becoming a
 
 ## Follow procurement, public stocks and the subsidized bread system separately
 
-Egypt’s wheat position cannot be measured from import dependence alone. The government’s procurement calendar, the share bought locally, contracted imports, port arrivals and public stock levels all affect the amount available to the subsidized bread system. A change in world wheat prices may influence the cost of procurement before a household sees any change in the price of subsidized loaves.\n\nThat is why four indicators should be kept separate: international wheat quotations, the cost and timing of government tenders, domestic harvest deliveries and the budget required to maintain bread support. A shipping disruption matters most when it coincides with procurement needs or limited stocks. For households, the relevant outcome is access to affordable bread; for the state, it is whether the procurement and subsidy system can continue to deliver that access without unsustainable fiscal pressure.
+Egypt’s wheat position cannot be measured from import dependence alone. The government’s procurement calendar, the share bought locally, contracted imports, port arrivals and public stock levels all affect the amount available to the subsidized bread system. A change in world wheat prices may influence the cost of procurement before a household sees any change in the price of subsidized loaves.
+
+That is why four indicators should be kept separate: international wheat quotations, the cost and timing of government tenders, domestic harvest deliveries and the budget required to maintain bread support. A shipping disruption matters most when it coincides with procurement needs or limited stocks. For households, the relevant outcome is access to affordable bread; for the state, it is whether the procurement and subsidy system can continue to deliver that access without unsustainable fiscal pressure.
 
 ## The latest available country brief shows a mixed picture
 

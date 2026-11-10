@@ -1,16 +1,17 @@
 ---
-title: "When Will Food-System Pressure Ease? Five Recovery Signals to Track"
-description: "There is no single end date for a food crisis; track shipping, fertilizer, harvests, food prices and humanitarian access separately to see which pressures are easing."
+title: "When Will the Global Food Crisis End? Five Signs to Watch"
+description: "There is no confirmed end date for the global food crisis. Track food prices, harvests, shipping, fertilizer and humanitarian access to see what is improving."
 pubDate: 2026-10-04
 updatedDate: "2026-11-10"
 author: Food Supply Crisis Report Editorial Desk
 category: Global Food Crisis
 keywords:
-  - food crisis recovery indicators 2026
+  - when will the food crisis end
+  - when will global food crisis end
   - when will food prices fall
-  - food supply disruption recovery
-  - fertilizer and harvest recovery
-  - humanitarian food access trends
+  - food shortage recovery
+  - food crisis recovery indicators
+  - global food supply recovery
 type: analysis
 sources:
   - name: FAO Food Price Index
@@ -20,18 +21,16 @@ sources:
   - name: FAO–WFP Hunger Hotspots 2026
     url: https://www.wfp.org/publications/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-june-november-2026
 related: []
-seoTitle: "When Will the Food Crisis Ease? 5 Recovery Signals"
-primaryKeyword: "food crisis recovery indicators 2026"
+seoTitle: "When Will the Global Food Crisis End? 5 Signs"
+primaryKeyword: "when will the food crisis end"
 searchIntent: "reference"
 ---
 
-A global food crisis does not end on one date.
+There is no confirmed date for when the global food crisis will end. Different parts of the food system recover at different speeds, and the answer depends on which crisis a reader means: high grocery prices, disrupted supply, regional shortages or acute hunger. Shipping can improve while fertilizer remains expensive; a strong harvest can lower grain prices while households in conflict zones still cannot safely access food.
 
-Different parts of the system recover at different speeds.
+The practical answer is to follow five recovery signals and check whether improvement lasts across several reporting periods. As of the 6 November 2026 FAO update, global cereal production remained historically high and stocks were forecast to rise, while cereal trade was expected to contract and 41 countries or territories still required external food assistance. That is not a single global end-date signal: availability, trade and humanitarian access are moving on different timelines.
 
-A shipping route can reopen while fertilizer prices remain high. A strong harvest can lower grain prices while households in a conflict zone still face severe hunger.
-
-The useful question is therefore: what evidence would show that food-system pressure is easing?
+## When will the food crisis end?
 
 ## 1. Shipping disruption would need to decline
 
@@ -59,7 +58,7 @@ If harvests remain healthy across major exporting regions, one source of risk co
 
 High production and stocks create a buffer.
 
-FAO's October 2026 forecast remains historically large.
+FAO’s 6 November 2026 outlook estimates cereal production at 2,999 million tonnes and a 32.4% stocks-to-use ratio. These figures provide an aggregate buffer, but the forecast contraction in cereal trade and continuing food-assistance needs show why high production alone cannot establish recovery.
 
 The longer those supplies remain available, the more room markets have to absorb individual shocks.
 
@@ -126,7 +125,7 @@ A transparent assessment should separate market pressure from humanitarian need.
 | Weather and crop conditions | Rainfall, soil moisture and field reports support better harvest prospects in exposed regions | El Niño does not affect all regions and crops in the same way |
 | Acute food insecurity | Local food access, household purchasing power and humanitarian assessments improve in the worst-affected areas | Global commodity prices cannot measure famine conditions by themselves |
 
-The latest FAO cereal assessment is a good example of why the picture can be mixed. On 2 October 2026, FAO forecast global cereal production at 2.979 billion tonnes: 2.1% below the previous year’s record but still the second-largest harvest on record. At the same time, FAO forecast world cereal trade to decline by 3.5% from the 2025/26 record, in part because of constraints on Black Sea shipping routes. See the [Cereal Supply and Demand Brief](https://www.fao.org/worldfoodsituation/csdb). Strong total production can coexist with tighter trade and higher prices.
+The 6 November 2026 FAO update provides a newer baseline: world cereal production is forecast at 2,999 million tonnes, global cereal stocks at 1.8% higher, and 2026/27 cereal trade at 507.7 million tonnes, down 3.3%. The [November Cereal Supply and Demand Brief](https://www.fao.org/worldfoodsituation/csdb/en/) describes the aggregate market balance; it does not measure whether every household can afford food or whether aid can reach every conflict-affected area. Strong production can coexist with a difficult recovery for particular communities.
 
 ## Define which crisis is easing
 

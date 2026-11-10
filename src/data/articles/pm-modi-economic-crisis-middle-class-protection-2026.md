@@ -490,7 +490,9 @@ That is the principle of financial resilience:
 
 ## Separate a warning about global shocks from a forecast of household hardship
 
-A public warning about a sequence of global shocks is not a quantified forecast of recession, job losses or higher food prices for every Indian household. To assess possible household effects, identify the transmission channel and its evidence. Energy costs may affect transport and production; imported inputs may affect industry; exchange-rate changes may raise the rupee cost of imports; and tighter financial conditions may alter borrowing costs. Each channel has its own timing and exposure.\n\nFor readers, a practical assessment should track official consumer inflation, employment data, policy interest rates and the household’s own fixed-cost commitments. An emergency fund or debt review is a general financial-planning practice, not a prediction that a crisis is certain. Keep claims about actual price changes tied to government data and distinguish them from scenarios about what could happen if several shocks intensify together.
+A public warning about a sequence of global shocks is not a quantified forecast of recession, job losses or higher food prices for every Indian household. To assess possible household effects, identify the transmission channel and its evidence. Energy costs may affect transport and production; imported inputs may affect industry; exchange-rate changes may raise the rupee cost of imports; and tighter financial conditions may alter borrowing costs. Each channel has its own timing and exposure.
+
+For readers, a practical assessment should track official consumer inflation, employment data, policy interest rates and the household’s own fixed-cost commitments. An emergency fund or debt review is a general financial-planning practice, not a prediction that a crisis is certain. Keep claims about actual price changes tied to government data and distinguish them from scenarios about what could happen if several shocks intensify together.
 
 ## Bottom line
 

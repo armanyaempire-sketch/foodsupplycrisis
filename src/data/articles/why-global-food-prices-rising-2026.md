@@ -1,6 +1,6 @@
 ---
 title: "Why Global Food Prices Change: Weather, Freight, Energy and Market Costs"
-description: "Understand the mechanisms behind global food-price movements, from crop expectations and export restrictions to freight, fertilizer, energy and currency effects."
+description: "See why global food prices change, using the latest October 2026 FAO index, commodity-level movements and the route from import costs to household prices."
 pubDate: 2026-10-04
 updatedDate: "2026-11-10"
 author: Food Supply Crisis Report Editorial Desk
@@ -14,31 +14,31 @@ keywords:
 featured: true
 type: analysis
 sources:
-  - name: FAO Food Price Index — September 2026
+  - name: FAO Food Price Index — monthly series
     url: https://www.fao.org/worldfoodsituation/foodpricesindex/en/
-  - name: FAO Food Price Index rises in September 2026
+  - name: FAO — Food Price Index edges down in October, published 6 November 2026
     url: https://www.fao.org/newsroom/detail/fao-food-price-index-edges-down-in-october-amid-subdued-demand/
-  - name: FAO Cereal Supply and Demand Brief — October 2026
-    url: https://www.fao.org/worldfoodsituation/csdb
+  - name: FAO — Food Price Index rises in September, published 2 October 2026
+    url: https://www.fao.org/newsroom/detail/fao-food-price-index-rises-in-september-amid-weather-concerns-and-transport-disruptions/en
+  - name: FAO — Cereal Supply and Demand Brief, November 2026
+    url: https://www.fao.org/worldfoodsituation/csdb/en/
 related: []
 seoTitle: "Why Global Food Prices Change: 5 Cost Drivers"
 primaryKeyword: "why global food prices change"
 searchIntent: "informational"
 ---
 
-Global food prices rose again in September 2026, but the increase needs context.
+The latest FAO Food Price Index reading available on 10 November 2026 covers October: it averaged **133.9 points**, down 1.2% from September but still 5.9% above October 2025. That decline is important, but it does not mean every food market or household is seeing lower costs. Commodity groups moved in different directions, and domestic prices also depend on exchange rates, processing, transport, contracts, taxes and local harvests.
 
-FAO's Food Price Index averaged 136.0 points in September, up 1.5% from August and 5.8% from September 2025. FAO said transportation disruptions and weather concerns were among the factors behind the latest move.
-
-The increase does not mean the world is running out of food. It means internationally traded food commodities are experiencing renewed price pressure.
+The September 2026 reading of 136.0 points is now a previous-month comparison, not the latest figure. Reading both months together gives a more accurate picture: the international headline eased, while the year-on-year level remained higher and some products continued to rise.
 
 ## What the FAO index tells us
 
 The FAO Food Price Index tracks international prices across major food commodity groups.
 
-In September 2026, cereal, vegetable-oil and sugar quotations increased. Meat prices declined and dairy was broadly stable.
+In October 2026, the cereal, meat and dairy indices declined, while sugar and rice moved higher. The headline index therefore hides important differences between the commodities tracked.
 
-The index is useful because it shows the direction of global commodity markets. It is not a direct measure of the price of a supermarket basket in any one country.
+The index is useful because it shows the direction of international commodity markets. It is not a direct measure of the price of a supermarket basket in any one country.
 
 Local prices depend on domestic production, currency movements, transport, taxes, wages, storage and retail competition.
 
@@ -100,39 +100,42 @@ Food prices become a food-security issue when families cannot absorb the increas
 
 Read [Global Food Crisis 2026](/articles/global-food-crisis-2026/) for the wider context, [Oil, Energy and Food Prices](/articles/oil-energy-food-prices-2026/) for the energy link, and [Black Sea Food Crisis 2026](/articles/black-sea-food-crisis-2026/) for the trade route.
 
-## What the September 2026 numbers tell us
+## What the latest October 2026 data tells us
 
-FAO’s 2 October release gives a more detailed picture than the headline index alone. The Food Price Index averaged 136.0 points in September, up 1.5% from August and 5.8% year over year. Commodity groups did not all move together.
+FAO published its October Food Price Index on 6 November 2026. The overall index averaged **133.9 points**, down 1.2% from September and 5.9% higher than October 2025. The monthly decline was driven largely by the cereal, meat and dairy indices, while sugar prices rose sharply and the rice sub-index also increased.
 
-| FAO measure | September movement | How to interpret it |
+| FAO measure | October 2026 movement | What the movement says |
 |---|---:|---|
-| Overall Food Price Index | +1.5% month over month | Broad international food-commodity prices rose |
-| Cereal Price Index | +5.1% month over month | Grain markets were a major source of pressure |
-| Wheat quotations | +6.3% month over month | Black Sea logistics and dry conditions ahead of sowing were among the reported drivers |
-| Maize quotations | +5.6% month over month | Yield concerns, lower Brazilian export availability and trade disruption mattered |
-| Sugar Price Index | +6.1% month over month | Markets anticipated tighter supplies in 2026/27 |
-| Meat Price Index | −1.1% month over month | The increase was not universal across food categories |
+| Overall Food Price Index | 133.9 points; −1.2% month on month; +5.9% year on year | The headline eased from September but remained above its year-earlier level |
+| Cereal Price Index | −4.5% month on month | International cereal quotations fell; wheat prices declined after four consecutive monthly increases |
+| All Rice Price Index | +1.6% month on month | Rice moved against the broader cereal decline, with harvest delays and weather-related pressure cited by FAO |
+| Vegetable Oil Price Index | +0.3% month on month | The group was slightly higher despite the overall index decline |
+| Meat Price Index | −1.2% month on month | International meat quotations eased |
+| Dairy Price Index | −1.1% month on month | Dairy prices declined from September |
+| Sugar Price Index | +6.6% month on month | Sugar was the strongest upward-moving group in the October release |
 
-These figures come from FAO’s [September 2026 release](https://www.fao.org/newsroom/detail/fao-food-price-index-rises-in-september-amid-weather-concerns-and-transport-disruptions/en). The figures measure international quotations, not the price a family pays in a local store. They also show why a single index can hide important differences between wheat, rice, sugar, oils, meat and dairy.
+Source: FAO’s [October 2026 Food Price Index release, published 6 November](https://www.fao.org/newsroom/detail/fao-food-price-index-edges-down-in-october-amid-subdued-demand/). These are international commodity-price benchmarks, not national retail inflation rates. They also show why a single headline can conceal divergent product markets: cereal prices fell while rice and sugar moved higher.
 
 ## How global prices reach a household budget
 
 The pass-through usually takes several steps. An importer first faces the international commodity price, the exchange rate and freight or insurance costs. A mill, food processor or wholesaler then adds local energy, labour, packaging, storage and financing costs. Retail prices reflect those costs alongside domestic harvests, competition, taxes, subsidies and retailers’ existing contracts.
 
-That is why a 5.8% annual rise in the FAO index should not be interpreted as a 5.8% rise in every country’s grocery bill. Some costs can be absorbed temporarily; others may arrive with a delay. A country that imports a large share of a commodity and whose currency weakens may experience more pressure than a country with a strong local harvest. Even within one country, bread, cooking oil, vegetables and dairy can follow different paths.
+That is why the FAO index's 5.9% year-on-year increase in October should not be interpreted as a 5.9% rise in every country's grocery bill. The annual comparison is an international commodity benchmark, not a local household basket. Some costs can be absorbed temporarily; others may arrive with a delay. A country that imports a large share of a commodity and whose currency weakens may experience more pressure than a country with a strong local harvest. Even within one country, bread, cooking oil, vegetables and dairy can follow different paths.
 
 ## A useful dashboard for the next release
 
-To check whether September was an isolated jump or part of a sustained trend, compare three consecutive monthly releases rather than reacting to one data point. Watch the overall index and its individual commodity groups; review the FAO cereal production and trade outlook; and compare those trends with local consumer-price data and currency movements. A further rise in international grain prices becomes more consequential when supply forecasts are revised down, import costs increase and household incomes fail to keep pace.
+To check whether October's decline marks a sustained easing, compare at least three consecutive monthly releases rather than reacting to one reading. Watch the overall index and its components; review the latest FAO cereal production, stocks and trade outlook; and compare those trends with domestic consumer-price data and exchange rates. A lower international index becomes more meaningful for households when local food prices also ease and purchasing power improves. A further rise in international grain prices becomes more consequential when supply forecasts are revised down, import costs increase and household incomes fail to keep pace.
 
 For readers, the practical response is to track the prices of the foods actually purchased, compare unit prices, substitute when reasonable and avoid assuming that every commodity will rise equally. For analysts, the central question is whether price pressure is spreading across products and persisting long enough to affect access to food, not whether one index number can be turned into a universal shortage prediction.
 
 ## Distinguish the cause of a commodity move from the way it reaches consumers
 
-A global commodity quotation can move because buyers expect a smaller crop, an exporter changes policy, shipping becomes more expensive or demand shifts between origins. Those drivers influence the international benchmark, but they do not pass through to every consumer at the same speed. Import contracts, exchange rates, tariffs, subsidies, domestic harvests, storage and retailer pricing all shape the final household price.\n\nFAO’s October 2026 index illustrates why the components matter: the headline index eased from September while individual commodity groups did not all move together. For a clear causal account, identify the product first, then connect the relevant production or trade event to a market quotation and finally to domestic price data. This avoids explaining a supermarket increase with a global statistic that measures a different product or a different stage of the chain.
+A global commodity quotation can move because buyers expect a smaller crop, an exporter changes policy, shipping becomes more expensive or demand shifts between origins. Those drivers influence the international benchmark, but they do not pass through to every consumer at the same speed. Import contracts, exchange rates, tariffs, subsidies, domestic harvests, storage and retailer pricing all shape the final household price.
+
+FAO's October 2026 release illustrates why the components matter: the overall index fell 1.2% from September, but sugar and rice increased while several other groups declined. For a clear causal account, identify the product first, then connect the relevant production or trade event to a market quotation and finally to domestic price data. This avoids explaining a supermarket increase with a global statistic that measures a different product or a different stage of the chain.
 
 ## Bottom line
 
-The September 2026 increase is a genuine global price signal, but it is not proof of a universal food shortage.
+The October 2026 FAO index eased month on month but remained 5.9% above its year-earlier level. The different movements in cereal, rice, sugar, vegetable oils, meat and dairy show why the headline alone cannot explain every market.
 
-The better question is which commodities are under pressure, where trade is constrained, how much of the cost is reaching consumers and whether the pressure persists.
+The better question is which commodity is under pressure, where trade or production is constrained, how much of the cost is reaching consumers and whether the pressure persists. An international price movement is important evidence, but it is not proof of a universal physical food shortage.

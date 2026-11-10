@@ -80,7 +80,9 @@ A strong starting point gives the system a buffer, but the quality of that buffe
 
 ## A reserve is useful only when its grain is accessible and fit for use
 
-A national reserve figure should be interpreted with care. Public reporting may not disclose every reserve quantity, location or release rule, and different grain categories cannot always be added together meaningfully. The practical questions are whether stocks are the right quality, stored in locations that can supply deficit regions, rotated before deterioration and available for release when market conditions require it.\n\nThe 2026 summer grain result is one part of China’s food-security position. Rice, maize, soybeans, feed demand, livestock production, regional harvests and transport connections add other dimensions. A strong wheat harvest can reduce pressure in one segment without guaranteeing lower prices for every food. Compare the National Bureau of Statistics harvest release with reserve-policy announcements, import data and domestic wholesale prices before drawing conclusions about the whole food system.
+A national reserve figure should be interpreted with care. Public reporting may not disclose every reserve quantity, location or release rule, and different grain categories cannot always be added together meaningfully. The practical questions are whether stocks are the right quality, stored in locations that can supply deficit regions, rotated before deterioration and available for release when market conditions require it.
+
+The 2026 summer grain result is one part of China’s food-security position. Rice, maize, soybeans, feed demand, livestock production, regional harvests and transport connections add other dimensions. A strong wheat harvest can reduce pressure in one segment without guaranteeing lower prices for every food. Compare the National Bureau of Statistics harvest release with reserve-policy announcements, import data and domestic wholesale prices before drawing conclusions about the whole food system.
 
 ## The indicators that matter beyond a strong harvest
 

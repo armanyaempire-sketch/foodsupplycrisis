@@ -127,7 +127,9 @@ For the global reference point, use FAO’s [Cereal Supply and Demand Brief](htt
 
 ## Resilience depends on the full import chain, not only the sea lane
 
-The exposure of Gulf states is not simply that food is imported. The operational question is whether cargoes can be contracted, financed, insured, unloaded, stored and moved to retail markets when a route becomes more expensive or unreliable. Alternative ports and suppliers reduce concentration risk only when they have enough capacity and the necessary cold-chain, warehousing and inland transport links.\n\nReserve policy also needs more than a headline tonnage. Stocks have to be rotated, monitored for quality, stored near distribution networks and released under rules that can respond to a disruption. A reserve of grain cannot directly replace every imported food category, and it does not prevent a rise in freight or retail costs. Country comparisons should therefore distinguish strategic stocks, commercial inventories and household affordability instead of treating them as one regional buffer.
+The exposure of Gulf states is not simply that food is imported. The operational question is whether cargoes can be contracted, financed, insured, unloaded, stored and moved to retail markets when a route becomes more expensive or unreliable. Alternative ports and suppliers reduce concentration risk only when they have enough capacity and the necessary cold-chain, warehousing and inland transport links.
+
+Reserve policy also needs more than a headline tonnage. Stocks have to be rotated, monitored for quality, stored near distribution networks and released under rules that can respond to a disruption. A reserve of grain cannot directly replace every imported food category, and it does not prevent a rise in freight or retail costs. Country comparisons should therefore distinguish strategic stocks, commercial inventories and household affordability instead of treating them as one regional buffer.
 
 ## Bottom line
 

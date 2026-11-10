@@ -108,4 +108,4 @@ A national food-production figure cannot explain whether displaced families in B
 
 ## Bottom line
 
-A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.
+In Borno, response effectiveness depends on safe access to affected communities, continuity of market activity, livelihood support and predictable humanitarian funding. National food output cannot substitute for those local conditions; the evidence must be reported at the level of the people and areas being assessed.

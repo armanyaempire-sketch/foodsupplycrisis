@@ -119,7 +119,9 @@ A solid follow-up report should identify the commodity, route and time window; e
 
 ## Separate port capacity, vessel movements and delivered cost
 
-A port can remain technically open while the trade becomes slower or more expensive. To understand the corridor, distinguish three measures: the capacity available at ports and terminals, the number and size of vessels actually loading or departing, and the delivered cost faced by the importer after freight, insurance and rerouting. A headline about an attack or a port closure does not answer all three questions.\n\nImporters also respond differently depending on their existing stocks, contract timing, alternative suppliers and the type of grain required. A buyer with several weeks of inventory and access to other origins may absorb a delay more easily than a buyer purchasing spot cargoes. The useful signal is sustained change in shipment volumes, freight and insurance quotes, not one incident in isolation. Use the FAO cereal balance for the global context, then country customs or port data to test whether a disruption is affecting a specific market.
+A port can remain technically open while the trade becomes slower or more expensive. To understand the corridor, distinguish three measures: the capacity available at ports and terminals, the number and size of vessels actually loading or departing, and the delivered cost faced by the importer after freight, insurance and rerouting. A headline about an attack or a port closure does not answer all three questions.
+
+Importers also respond differently depending on their existing stocks, contract timing, alternative suppliers and the type of grain required. A buyer with several weeks of inventory and access to other origins may absorb a delay more easily than a buyer purchasing spot cargoes. The useful signal is sustained change in shipment volumes, freight and insurance quotes, not one incident in isolation. Use the FAO cereal balance for the global context, then country customs or port data to test whether a disruption is affecting a specific market.
 
 ## Bottom line
 

@@ -10,7 +10,8 @@ keywords:
   - best shelf stable foods
   - non perishable foods for emergencies
   - emergency pantry meal planning
-  - food storage rotationtype: explainer
+  - food storage rotation
+type: explainer
 sources:
   - name: Ready.gov — Food
     url: https://www.ready.gov/food

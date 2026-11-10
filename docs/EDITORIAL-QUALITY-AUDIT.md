@@ -41,6 +41,16 @@ A repository-wide source check found 47 of the 49 article files contained two li
 - The UK food-shortage article was rebuilt around the official Be Ready emergency campaign and Defra's 2025 food-origin, import and household-affordability statistics. It distinguishes emergency continuity advice from evidence of a national food shortage, and explains the definitions and limits of the reported measures.
 - The long JPMorgan 2027 scenario article now focuses on the actual conditional inflation scenario rather than repeating the site's household pantry instructions. Household advice points to the dedicated storage guides.
 
+### Country-specific primary data added
+
+Several country pages were strengthened with dated official data rather than generic descriptions of exposure:
+
+- **United Kingdom:** rebuilt around the official Be Ready campaign and Defra's 2025 food-origin, import-value and household-affordability figures. The page explains why the food-origin share and production-to-supply ratio are different measures.
+- **India:** added RBI's 2025–26 foodgrain production estimates and March 2026 FCI buffer comparison; the 6 November 2026 OMSS rice-sale target and weekly rice/paddy stock disclosures; and the latest published September 2026 Consumer Food Price Index. Dates and definitions are stated so figures are not misrepresented as a single live stock total.
+- **Brazil:** added Conab's first 2026/27 crop survey with total grain, soybean, maize, rice and wheat estimates, showing why a strong aggregate crop forecast can coexist with lower projections for specific crops.
+- **China:** added National Bureau of Statistics measurements for 2026 summer grain area, yield, total output and wheat output, and distinguished the October interim autumn-harvest outlook from a final result.
+- **Global food-price explainer:** refreshed the current baseline to FAO's October 2026 index (133.9 points, −1.2% month on month and +5.9% year on year) while preserving the separate September snapshot as historical coverage.
+
 ### Reader-facing source transparency
 
 Every article's source box now links to the Editorial Policy, which explains the source hierarchy, how forecasts and uncertainty are described, the publication byline, the possible use of AI-assisted tools, material updates and corrections.

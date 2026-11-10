@@ -89,7 +89,9 @@ Watch:
 
 ## Why the exportable surplus matters more than the headline crop
 
-ABARES’ national crop estimate is a production measure, not a direct estimate of grain available to overseas buyers. Domestic use, seed, feed, carry-in stocks, quality and logistics all affect the exportable surplus. A smaller harvest can therefore matter more to importers when it coincides with weak crops elsewhere, but the effect is not automatic.\n\nFor Australian households, the same crop number travels through a different channel. Wheat is only one input into bread and processed foods; milling, labour, packaging, transport, retail contracts and the exchange rate also matter. Track three separate series rather than treating them as one: the ABARES crop forecast, export shipment data and Australian consumer food-price data. A revision to the crop estimate should not be described as a supermarket shortage unless retail availability or prices provide evidence of that additional step.
+ABARES’ national crop estimate is a production measure, not a direct estimate of grain available to overseas buyers. Domestic use, seed, feed, carry-in stocks, quality and logistics all affect the exportable surplus. A smaller harvest can therefore matter more to importers when it coincides with weak crops elsewhere, but the effect is not automatic.
+
+For Australian households, the same crop number travels through a different channel. Wheat is only one input into bread and processed foods; milling, labour, packaging, transport, retail contracts and the exchange rate also matter. Track three separate series rather than treating them as one: the ABARES crop forecast, export shipment data and Australian consumer food-price data. A revision to the crop estimate should not be described as a supermarket shortage unless retail availability or prices provide evidence of that additional step.
 
 ## Why exporter status does not eliminate household price risk
 

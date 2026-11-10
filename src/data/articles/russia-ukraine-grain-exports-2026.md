@@ -1,6 +1,6 @@
 ---
 title: "Russia and Ukraine Grain Exports 2026: Ports, Routes and Shipments"
-description: "Track Russian and Ukrainian grain exports through port operations, alternative routes, vessel movements and buyer logistics rather than treating the Black Sea as one closed corridor."
+description: "Track Russian and Ukrainian grain exports through port capacity, vessel movements and alternative routes rather than treating the Black Sea as one closed corridor."
 pubDate: 2026-10-04
 updatedDate: "2026-11-10"
 author: Food Supply Crisis Report Editorial Desk

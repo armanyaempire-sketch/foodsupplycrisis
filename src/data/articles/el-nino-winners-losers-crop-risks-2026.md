@@ -131,7 +131,9 @@ The defensible question is always specific: which crop, in which region, during 
 
 ## Compare the crop calendar, not just the climate label
 
-The same El Niño phase can produce different agricultural outcomes because crops are planted and harvested in different months, irrigation access varies, and local rainfall responses are not identical. A country-level label such as “winner” or “loser” hides those differences. A more useful comparison records the crop, growing stage, region and exposure pathway.\n\nFor rice, check reservoir levels and irrigation releases during planting and flowering. For wheat, examine soil moisture before sowing and rainfall during establishment. For maize, pay attention to heat and water stress around flowering, when yield sensitivity can be high. Compare the seasonal forecast with observed rainfall and crop-condition reports as the season unfolds. The result should be a map of crop-specific watch areas, not a prediction that entire countries will gain or lose from one climate event.
+The same El Niño phase can produce different agricultural outcomes because crops are planted and harvested in different months, irrigation access varies, and local rainfall responses are not identical. A country-level label such as “winner” or “loser” hides those differences. A more useful comparison records the crop, growing stage, region and exposure pathway.
+
+For rice, check reservoir levels and irrigation releases during planting and flowering. For wheat, examine soil moisture before sowing and rainfall during establishment. For maize, pay attention to heat and water stress around flowering, when yield sensitivity can be high. Compare the seasonal forecast with observed rainfall and crop-condition reports as the season unfolds. The result should be a map of crop-specific watch areas, not a prediction that entire countries will gain or lose from one climate event.
 
 ## Bottom line
 

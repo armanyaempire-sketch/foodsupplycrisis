@@ -131,4 +131,4 @@ A country can harvest grain without exporting the same volume on schedule. Expor
 
 ## Bottom line
 
-Use the evidence in this article to judge whether the risk is real and local. Prepare proportionately: secure water, keep a modest rotating food buffer, protect refrigeration, follow official guidance and avoid panic buying.
+The Black Sea grain story is best measured as a flow of cargo, not as a single headline about port danger. Follow the sequence from exportable surplus and port loadings to vessel departures, insurance and freight, arrival volumes, and the importer's delivered cost. A disruption matters most when it delays or removes cargo that buyers cannot replace from another origin within the relevant purchasing window. Keep expected shipments separate from completed exports, and keep a regional trade disruption separate from a claim that the world has run out of grain.

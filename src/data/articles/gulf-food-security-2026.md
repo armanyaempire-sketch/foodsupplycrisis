@@ -131,4 +131,4 @@ The exposure of Gulf states is not simply that food is imported. The operational
 
 ## Bottom line
 
-A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.
+For Gulf governments and importers, the practical priority is to know which ports, suppliers, storage sites and inland distribution routes can substitute for one another during a disruption. Published reserve figures should be checked against commodity coverage, age and release capacity before being treated as a measure of resilience.

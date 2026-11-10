@@ -10,7 +10,8 @@ keywords:
   - country food security vulnerability
   - food import concentration risk
   - strategic food reserves comparison
-  - food affordability by countrytype: analysis
+  - food affordability by country
+type: analysis
 sources:
   - name: FAO — Global Agrifood Implications of the 2026 Middle East Conflict
     url: https://www.fao.org/agrifood-economics/publications/detail/en/c/1758065/

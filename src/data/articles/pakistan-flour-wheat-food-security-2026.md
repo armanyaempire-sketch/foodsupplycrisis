@@ -115,4 +115,4 @@ Wheat production is only the first stage of the flour market. Grain has to reach
 
 ## Bottom line
 
-Use the evidence in this article to judge whether the risk is real and local. Prepare proportionately: secure water, keep a modest rotating food buffer, protect refrigeration, follow official guidance and avoid panic buying.
+Pakistan's wheat and flour position should be evaluated at three separate stages: wheat available to mills, flour produced and distributed, and the price households actually pay. A higher national harvest estimate does not guarantee that mills receive grain on time or that flour remains affordable in every city. For the next update, compare procurement and market arrivals with mill-gate and retail flour prices for the same dates and grades. Report provincial and city differences rather than treating one national number as the experience of every household.

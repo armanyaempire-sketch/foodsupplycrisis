@@ -120,7 +120,9 @@ The [AMIS Market Monitor](https://www.amis-outlook.org/) and FAO’s [cereal mar
 
 ## Measure resilience by nutrient access at the farm gate
 
-A country can build a fertilizer plant and still leave farmers exposed if the plant depends on imported gas, phosphate rock, potash or spare parts. Domestic capacity is only one layer. The more useful measure is whether farmers can obtain the right nutrient, in the right quantity, at an affordable price and during the correct application window.\n\nA resilience plan should therefore track supplier concentration, shipping routes, plant utilization, distributor inventories, seasonal delivery performance and the share of farms using soil tests or balanced nutrient plans. Diversification can include multiple import origins, local production where it is competitive, recycling of suitable nutrients and agronomic practices that reduce avoidable losses. The aim is not complete self-sufficiency at any cost; it is to prevent a disruption at one point in the chain from becoming a missed planting or reduced-yield problem.
+A country can build a fertilizer plant and still leave farmers exposed if the plant depends on imported gas, phosphate rock, potash or spare parts. Domestic capacity is only one layer. The more useful measure is whether farmers can obtain the right nutrient, in the right quantity, at an affordable price and during the correct application window.
+
+A resilience plan should therefore track supplier concentration, shipping routes, plant utilization, distributor inventories, seasonal delivery performance and the share of farms using soil tests or balanced nutrient plans. Diversification can include multiple import origins, local production where it is competitive, recycling of suitable nutrients and agronomic practices that reduce avoidable losses. The aim is not complete self-sufficiency at any cost; it is to prevent a disruption at one point in the chain from becoming a missed planting or reduced-yield problem.
 
 ## Bottom line
 

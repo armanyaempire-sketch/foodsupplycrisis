@@ -117,7 +117,9 @@ For a strong update, identify the route or input affected, the period of disrupt
 
 ## Map the cost chain instead of assuming oil and food move together
 
-There is no fixed percentage relationship between an oil-price change and a grocery-price change. Energy enters food production through several channels, each with a different timing and cost share. Natural gas can affect nitrogen fertilizer production; diesel can affect field operations and trucking; electricity is used for irrigation, refrigeration and processing; and marine fuel and insurance influence international freight. Contracts, subsidies and hedging can delay the effect.\n\nFor a particular product, identify which stages are energy-intensive and whether the cost is likely to be absorbed by a processor, passed to a retailer or offset by other inputs. A change in crude oil is therefore an upstream signal, not a direct forecast for bread, milk or vegetables. To test whether the signal is reaching consumers, compare energy prices with fertilizer quotations, freight rates, producer prices and finally the relevant national food CPI category.
+There is no fixed percentage relationship between an oil-price change and a grocery-price change. Energy enters food production through several channels, each with a different timing and cost share. Natural gas can affect nitrogen fertilizer production; diesel can affect field operations and trucking; electricity is used for irrigation, refrigeration and processing; and marine fuel and insurance influence international freight. Contracts, subsidies and hedging can delay the effect.
+
+For a particular product, identify which stages are energy-intensive and whether the cost is likely to be absorbed by a processor, passed to a retailer or offset by other inputs. A change in crude oil is therefore an upstream signal, not a direct forecast for bread, milk or vegetables. To test whether the signal is reaching consumers, compare energy prices with fertilizer quotations, freight rates, producer prices and finally the relevant national food CPI category.
 
 ## Bottom line
 

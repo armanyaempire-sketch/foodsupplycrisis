@@ -10,7 +10,8 @@ keywords:
   - China summer grain harvest
   - China wheat production 2026
   - China food import dependence
-  - China grain security policytype: analysis
+  - China grain security policy
+type: analysis
 sources:
   - name: National Bureau of Statistics of China — 2026 Summer Grain Output
     url: https://www.stats.gov.cn/english/PressRelease/202607/t20260713_1964103.html

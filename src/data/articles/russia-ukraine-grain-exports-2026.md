@@ -127,7 +127,9 @@ If the available data show that exports are moving through alternative routes an
 
 ## Exports are a flow: follow the cargo from origin to buyer
 
-A country can harvest grain without exporting the same volume on schedule. Export performance depends on port loading capacity, inland transport, storage, vessel availability, insurance, inspection and the timing of contracts. Alternative routes may keep some trade moving, but they can have different costs, transit times and capacity limits.\n\nWhen comparing Russian and Ukrainian exports, record the commodity, marketing year, route, shipment date and whether the figure represents a forecast, contract or completed cargo. Avoid combining wheat, maize and other grains into one undifferentiated total. Buyers also respond according to their inventory and supplier mix: a delayed shipment can trigger a change of origin without creating a global shortage. These details explain how the trade is adapting even when the wider Black Sea risk remains elevated.
+A country can harvest grain without exporting the same volume on schedule. Export performance depends on port loading capacity, inland transport, storage, vessel availability, insurance, inspection and the timing of contracts. Alternative routes may keep some trade moving, but they can have different costs, transit times and capacity limits.
+
+When comparing Russian and Ukrainian exports, record the commodity, marketing year, route, shipment date and whether the figure represents a forecast, contract or completed cargo. Avoid combining wheat, maize and other grains into one undifferentiated total. Buyers also respond according to their inventory and supplier mix: a delayed shipment can trigger a change of origin without creating a global shortage. These details explain how the trade is adapting even when the wider Black Sea risk remains elevated.
 
 ## Bottom line
 

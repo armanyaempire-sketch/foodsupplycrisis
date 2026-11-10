@@ -1,17 +1,16 @@
 ---
-title: "Water Crisis and Food Crisis: How Water Shortages Threaten Agriculture"
-description: Agriculture accounts for about 72% of global freshwater withdrawals, making water scarcity, drought and irrigation efficiency central to long-term food security.
+title: "Agricultural Water Scarcity: How Drought and Irrigation Affect Food"
+description: "Explain how water stress affects crop yields through soil moisture, irrigation, groundwater and river systems, and why water productivity matters for long-term food security."
 pubDate: 2026-10-04
-updatedDate: 2026-10-17
+updatedDate: "2026-11-10"
 author: Food Supply Crisis Report Editorial Desk
 category: Water & Food
 keywords:
-  - water crisis food crisis
-  - water scarcity agriculture
-  - agricultural drought
-  - irrigation food security
-  - water and food
-  - crop water stress
+  - agricultural water scarcity food production
+  - water stress crop yields
+  - irrigation efficiency food security
+  - groundwater depletion agriculture
+  - drought and food supply
 type: explainer
 sources:
   - name: FAO — Agricultural water management and water scarcity
@@ -21,6 +20,9 @@ sources:
   - name: UN-Water — World Water Development Report 2026
     url: https://www.unwater.org/publications/un-world-water-development-report-2026
 related: []
+seoTitle: "Agricultural Water Scarcity: How It Affects Food Supply"
+primaryKeyword: "agricultural water scarcity and food production"
+searchIntent: "informational"
 ---
 
 Water is a basic input into food production, yet water stress often receives less attention than fertilizer or fuel.
@@ -112,6 +114,10 @@ A strong analysis should specify the water source and geography, then ask whethe
 Use local hydrological and agricultural agencies for specific regions, with FAO’s [Cereal Supply and Demand Brief](https://www.fao.org/worldfoodsituation/csdb) and [AMIS Market Monitor](https://www.amis-outlook.org/) for broader market context. If a source reports groundwater stress, do not treat it as an immediate crop-loss estimate unless it connects that condition to current irrigation or production.
 
 Responses should fit the diagnosed problem. More efficient irrigation may help where water delivery is the constraint, but it does not create an unlimited water supply. Soil management and crop choices can reduce exposure but need to suit local conditions. Infrastructure, allocation and water governance may matter as much as farm technology. Report the expected benefit, the limitations and the time horizon rather than implying that one intervention eliminates water-related food risk.
+
+## Measure water productivity as well as water availability
+
+A region may have water in a river or reservoir and still face agricultural stress if it cannot deliver that water when crops need it. The key measures include soil moisture, groundwater levels, reservoir storage, irrigation reliability, water quality and the timing of rainfall. Total annual rainfall alone can conceal a dry spell during flowering or grain filling.\n\nLong-term resilience also depends on how much crop output is produced per unit of water. Better scheduling, leak reduction, soil organic matter, drought-tolerant varieties and crop choices suited to local conditions can improve water productivity, although each intervention has costs and limits. Groundwater pumping should be assessed alongside recharge: an irrigation system that raises yields today may reduce future resilience if it draws down an aquifer faster than it recovers. This is why water policy, farm economics and crop planning need to be evaluated together.
 
 ## Bottom line
 

@@ -25,7 +25,7 @@ for (const file of articleFiles) {
   const metadata = frontmatter[1];
   if (!/^title:\s*\S/im.test(metadata)) failures.push(`${file}: missing title`);
   if (!/^description:\s*\S/im.test(metadata)) failures.push(`${file}: missing description`);
-  if (!/^sources:\s*\n/m.test(metadata) || !/^\s+url:\s*https?:\/\//im.test(metadata)) {
+  if (!/^sources:[ \t]*$/m.test(metadata) || !/^[ \t]+url:[ \t]*https?:\/\//im.test(metadata)) {
     failures.push(`${file}: add at least one direct, valid HTTP(S) source URL`);
   }
   if (repeatedHeading.test(content)) {

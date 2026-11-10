@@ -128,4 +128,4 @@ The FAO–WFP hotspot list identifies places where acute food insecurity is expe
 
 ## Bottom line
 
-A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.
+For humanitarian teams, the value of the hotspot assessment lies in the geography and timing of projected deterioration. Read it alongside country-level IPC analyses, operational access reports and funding data so that warnings lead to targeted assistance rather than a misleading global ranking.

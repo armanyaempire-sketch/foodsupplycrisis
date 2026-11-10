@@ -270,7 +270,9 @@ A new headline should not automatically mean a new global crisis.
 
 ## Read the global balance sheet in separate layers
 
-The global balance sheet has to be read as a sequence rather than one headline. Production describes the crop harvested; utilization describes how much is consumed, used as feed or otherwise absorbed; stocks show the buffer carried forward; trade shows what is expected to cross borders. Price indices add a market signal, while humanitarian assessments describe whether people can obtain food. Each series has its own unit and reference period.\n\nThe November FAO outlook combines a very large cereal crop with higher forecast stocks and lower trade volumes. That mix does not prove that every market is secure: import access, foreign-exchange availability, domestic distribution and household income still determine who benefits from the global supply. It also does not prove a worldwide shortage. A sound global assessment names which layer has changed, states the release date and identifies the regions or populations affected.
+The global balance sheet has to be read as a sequence rather than one headline. Production describes the crop harvested; utilization describes how much is consumed, used as feed or otherwise absorbed; stocks show the buffer carried forward; trade shows what is expected to cross borders. Price indices add a market signal, while humanitarian assessments describe whether people can obtain food. Each series has its own unit and reference period.
+
+The November FAO outlook combines a very large cereal crop with higher forecast stocks and lower trade volumes. That mix does not prove that every market is secure: import access, foreign-exchange availability, domestic distribution and household income still determine who benefits from the global supply. It also does not prove a worldwide shortage. A sound global assessment names which layer has changed, states the release date and identifies the regions or populations affected.
 
 ## Bottom line
 

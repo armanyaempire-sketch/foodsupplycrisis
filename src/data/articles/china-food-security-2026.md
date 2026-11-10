@@ -13,12 +13,10 @@ keywords:
   - China grain security policy
 type: analysis
 sources:
-  - name: National Bureau of Statistics of China — 2026 Summer Grain Output
+  - name: National Bureau of Statistics of China — 2026 Summer Grain Output, 10 July 2026
     url: https://www.stats.gov.cn/english/PressRelease/202607/t20260713_1964103.html
-  - name: CGTN — China's agriculture and El Niño
-    url: https://news.cgtn.com/news/2026-09-22/China-s-agriculture-is-well-positioned-to-tackle-El-Ni-o-NDRC-1QEet3Riy4w/p.html
-  - name: China Daily HK — Food security coverage
-    url: https://www.chinadailyhk.com/article/639907
+  - name: National Bureau of Statistics of China — First Three Quarters of 2026, 19 October 2026
+    url: https://www.stats.gov.cn/english/PressRelease/202610/t20261019_1965619.html
 related: []
 seoTitle: "China Grain Reserves 2026: Harvest and Import Risk"
 primaryKeyword: "China grain reserves and food security 2026"
@@ -31,11 +29,22 @@ The country's summer grain harvest provides an important buffer. But buffers do 
 
 ## A strong summer grain harvest
 
-China's National Bureau of Statistics reported 2026 summer grain output of 150.746 million tonnes, up 0.7% from 2025. Wheat output reached 138.952 million tonnes.
+China's National Bureau of Statistics reported 2026 summer grain output of **150.746 million tonnes**, up 0.7% from 2025. Wheat output reached **138.952 million tonnes**, up 0.6%. The survey also reported a slight decline in sown area and higher yield per hectare.
 
-Those numbers matter because wheat is a major staple and a large domestic harvest reduces pressure on imports.
+| Measure | 2026 result | Year-on-year change |
+|---|---:|---:|
+| Summer grain sown area | 26.532 million hectares | −0.2% |
+| Summer grain yield | 5,681.6 kg per hectare | +0.8% |
+| Total summer grain output | 150.746 million tonnes | +0.7% |
+| Wheat sown area | 23.007 million hectares | −0.3% |
+| Wheat yield | 6,039.6 kg per hectare | +0.9% |
+| Wheat output | 138.952 million tonnes | +0.6% |
 
-A good harvest, however, does not answer every food-security question. China also needs to manage feed grains, oilseeds, fertilizer, water and distribution.
+The figures come from the [National Bureau of Statistics summer-grain bulletin dated 10 July 2026](https://www.stats.gov.cn/english/PressRelease/202607/t20260713_1964103.html). They describe the summer-grain harvest, not all Chinese food production or the final 2026 annual grain total. Summer grain is one seasonal component of a much larger system.
+
+In its 19 October release covering the first three quarters of 2026, the National Bureau of Statistics said autumn-grain production was progressing well and another bumper harvest was expected. That was a positive assessment, not a published final autumn-grain result. The [third-quarter economic release](https://www.stats.gov.cn/english/PressRelease/202610/t20261019_1965619.html) should therefore be read as an interim signal.
+
+A good harvest, however, does not answer every food-security question. China also needs to manage feed grains, oilseeds, fertilizer, water, reserves and distribution.
 
 ## Why reserves matter
 

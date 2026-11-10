@@ -120,6 +120,9 @@ A high-price environment may require social protection as well as supply-side me
 
 ## What businesses and households can do
 
+Businesses can map supplier concentration, review storage and transport contingencies, and measure avoidable food loss. Households can reduce waste and plan purchases around their own budgets, but household action cannot replace public investment in water, logistics or humanitarian access.
+
+
 Food companies can diversify suppliers, improve inventory visibility and maintain backup logistics options.
 
 Farmers can improve soil and water management and use better market information.
@@ -128,30 +131,8 @@ Households can reduce waste and maintain sensible reserves rather than reacting 
 
 ## What the 2026 evidence suggests
 
-The current food-system risks are interconnected. FAO's recent work links water scarcity, fertilizer disruption, energy markets, weather and trade to food-system resilience.
-
-That means prevention should focus on reducing points of failure rather than predicting one “big” crisis.
-
-See [Water & Food](/water-food/) for the agricultural water challenge, [Fertilizer](/fertilizer/) for input risk, and [Supply Chains](/supply-chain/) for trade resilience.
-
-## Choose interventions by the point where the system is failing
-
-Food-system resilience improves when governments identify the actual bottleneck rather than applying the same response to every crisis. A drought-related production loss, a port delay, a jump in international prices and a conflict that blocks market access are different problems. They may overlap, but the first useful action depends on which constraint is binding and how quickly it can be changed.
-
-| Problem observed | Evidence to confirm it | Response to assess |
-|---|---|---|
-| Crop yields or planting are threatened | Local weather, crop condition, inputs and revised production estimates | Water management, farm advice, suitable seed and timely input access |
-| Food is lost after harvest | Measured losses at drying, storage, processing or transport stages | Storage, handling, cooling, pest control and logistics improvements |
-| Import supply is concentrated | Import shares, route usage, alternative exporters and delivery times | Supplier diversification, contingency routes and predictable trade policy |
-| Prices rise faster than incomes | Commodity-specific prices, consumer inflation and household budgets | Targeted support and monitoring of whether the shock is reaching vulnerable groups |
-| Acute hunger is worsening | Current IPC/WFP assessments and evidence about access or displacement | Humanitarian access, adequate funding and assistance suited to the affected population |
-
-The decision should include time horizon and distributional effects. A new irrigation project may improve future resilience but cannot solve an urgent food-access crisis next week. A temporary subsidy may help households through a short shock but will not repair a damaged logistics corridor. A public reserve can bridge a disruption only if stock is good quality, release rules are clear and the food can reach affected markets.
-
-A credible programme should also publish measurable results. For storage, report how much product is lost before and after an intervention. For fertilizer efficiency, assess yield, costs and environmental effects rather than only counting lower input use. For early-warning systems, assess whether alerts reached the agencies and communities that needed to act. For food assistance, report the population reached and coverage gaps.
-
-FAO’s [Cereal Supply and Demand Brief](https://www.fao.org/worldfoodsituation/csdb), [Food Price Index](https://www.fao.org/worldfoodsituation/foodpricesindex/en/) and current [IPC assessments](https://www.ipcinfo.org/) provide different parts of the evidence. Use them together without treating one as a substitute for the others. The strongest strategy combines prevention, resilient trade, appropriate buffers and a rapid response when people’s actual access to food deteriorates.
+Use evidence from production, stocks, prices and acute-food-insecurity assessments to identify which intervention is appropriate in each region. A large harvest may reduce availability risk while leaving affordability and logistics constraints unresolved.
 
 ## Prioritize interventions by the failure point they address
 
-The ten measures in this article are not substitutes for one another. Better irrigation addresses water availability at the farm; nutrient efficiency addresses the cost and loss of fertilizer; storage and cold chains address post-harvest loss; diversified trade addresses dependence on a small number of suppliers; social protection addresses household purchasing power. A country that invests heavily in one area can still remain exposed elsewhere.\n\nA useful sequence is to identify the binding constraint in each food system, fund the interventions with measurable outcomes, and publish indicators that can be checked. Examples include water productivity per unit of crop output, post-harvest loss rates, storage loss, supplier concentration, time required to move grain from port to market and the proportion of vulnerable households covered by assistance. “Resilience” becomes meaningful when a policy names the risk it reduces and shows whether that risk actually fell.
+The ten measures above work best as a portfolio with a clear sequence. Start with the constraint that is currently reducing access or output, assign a measurable indicator to it, and compare the cost of addressing it with the likely benefit. For example, a water-stressed irrigation district needs a different investment sequence from a grain-importing country whose main vulnerability is port congestion or foreign-exchange access. A household affordability problem may require targeted transfers even when production and storage are adequate.

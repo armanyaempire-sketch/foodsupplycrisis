@@ -1,17 +1,16 @@
 ---
-title: "Sudan Food Crisis 2026: Conflict, Hunger and the Risk of Famine"
-description: Sudan remains one of the world's most severe food-insecurity emergencies in 2026, with conflict, displacement and access constraints worsening hunger.
+title: "Sudan Food Crisis 2026: IPC Hunger Levels, Conflict and Famine Risk"
+description: "Understand Sudan’s 2026 acute food insecurity through IPC classifications, conflict-related access limits, displacement and the difference between famine risk and confirmed Famine."
 pubDate: 2026-10-04
-updatedDate: 2026-10-17
+updatedDate: "2026-11-10"
 author: Food Supply Crisis Report Editorial Desk
 category: Countries
 keywords:
-  - Sudan food crisis 2026
-  - Sudan hunger 2026
-  - Sudan famine risk
-  - Sudan food insecurity
-  - acute food insecurity Sudan
-  - WFP Sudan
+  - Sudan acute food insecurity IPC 2026
+  - Sudan famine risk assessment
+  - Sudan conflict food access
+  - Sudan displacement and hunger
+  - IPC Sudan population estimates
 type: analysis
 sources:
   - name: WFP Sudan emergency update
@@ -21,6 +20,9 @@ sources:
   - name: IPC Sudan Acute Food Insecurity Analysis 2026–2027
     url: https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1163315/
 related: []
+seoTitle: "Sudan Food Crisis 2026: IPC Hunger and Famine Risk"
+primaryKeyword: "Sudan acute food insecurity IPC 2026"
+searchIntent: "analysis"
 ---
 
 Sudan remains one of the world's most severe food-security emergencies, but the scale of the crisis needs to be described with care.
@@ -108,6 +110,10 @@ Famine is a formal technical classification, not a general synonym for severe hu
 Use the current [IPC analysis portal](https://www.ipcinfo.org/) and [WFP Sudan information](https://www.wfp.org/countries/sudan), checking report dates and geography before summarizing them. If a newer assessment changes the status, explain what changed and when rather than silently combining incompatible figures.
 
 The signs of improvement are not just a change in international commodity prices. They include safer access, functioning markets, adequate assistance, lower displacement-related barriers and updated evidence of improved food consumption in the affected populations. A reliable article should state what is known, what remains uncertain and where readers can see the underlying humanitarian assessment.
+
+## Report the IPC phase, population and assessment period together
+
+An IPC finding is meaningful only when its geographic coverage, population estimate and time period are stated. A figure for the whole country should not be confused with a local-area estimate, and a projection under a reasonable worst-case scenario should not be described as an observed outcome. The distinction between Phase 4 Emergency, Phase 5 Catastrophe and a formal Famine classification also matters.\n\nConflict and displacement affect food access through several mechanisms: households may lose land or income, markets may stop functioning, roads can become unsafe and humanitarian deliveries may be blocked. These conditions can create extreme hunger even when food exists elsewhere in the country. For each update, compare the latest IPC analysis with WFP operational reporting and information about access and displacement. This provides a more accurate picture than relying on a single headline number.
 
 ## Bottom line
 

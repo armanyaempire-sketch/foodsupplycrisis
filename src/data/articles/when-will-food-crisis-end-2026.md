@@ -137,7 +137,9 @@ A credible sign of recovery is a pattern across several indicators, not one enco
 
 ## Define which part of the crisis is improving before declaring it over
 
-A recovery can begin in one part of the system while another remains under pressure. Freight rates may fall before fertilizer deliveries normalize; a new harvest may improve grain availability while households still face high retail prices; humanitarian access may improve in one district but remain blocked elsewhere. A single global end date would hide those different timelines.\n\nUse five separate recovery signals: reliable shipping and port operations, fertilizer availability before planting windows, improved crop forecasts that are confirmed by harvest data, a sustained easing in relevant national food prices, and better food access in the affected humanitarian populations. Record the geographic scope and date for each. A temporary monthly fall in one index is an encouraging sign, but not proof that household affordability or acute hunger has recovered. The crisis is easing only where the relevant measure shows a durable improvement.
+A recovery can begin in one part of the system while another remains under pressure. Freight rates may fall before fertilizer deliveries normalize; a new harvest may improve grain availability while households still face high retail prices; humanitarian access may improve in one district but remain blocked elsewhere. A single global end date would hide those different timelines.
+
+Use five separate recovery signals: reliable shipping and port operations, fertilizer availability before planting windows, improved crop forecasts that are confirmed by harvest data, a sustained easing in relevant national food prices, and better food access in the affected humanitarian populations. Record the geographic scope and date for each. A temporary monthly fall in one index is an encouraging sign, but not proof that household affordability or acute hunger has recovered. The crisis is easing only where the relevant measure shows a durable improvement.
 
 ## Bottom line
 

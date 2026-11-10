@@ -118,4 +118,4 @@ The Strait of Hormuz matters to agriculture because it connects regional energy 
 
 ## Bottom line
 
-Use the evidence in this article to judge whether the risk is real and local. Prepare proportionately: secure water, keep a modest rotating food buffer, protect refrigeration, follow official guidance and avoid panic buying.
+A Strait of Hormuz disruption becomes a food-system issue only through identifiable channels. For fertilizer, check which product and origin are affected, whether cargoes are delayed or rerouted, how much alternative supply is available, and whether deliveries miss the relevant farm application window. For energy and freight, trace the cost through production, processing and transport rather than assuming an oil-price move translates directly into a fixed grocery-price increase. The evidence chain should show the affected cargo, destination market and time period before the event is described as a food shortage.

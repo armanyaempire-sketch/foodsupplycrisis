@@ -124,7 +124,9 @@ The strongest conclusion is one that states the stage reached. “Fertilizer quo
 
 ## The timing of an input shock determines which harvest is exposed
 
-A fertilizer price increase and a fertilizer delivery failure are not the same event. If farmers can still obtain the required nutrient, they may adjust cash flow or substitute suppliers. If delivery arrives after the crop’s application window, the farmer may have fewer options even when product becomes available later. Nutrient type matters too: nitrogen, phosphate and potash play different roles and cannot be treated as interchangeable.\n\nTo evaluate the risk, identify the crop calendar in the affected region, the fertilizer product involved, the date it is normally applied and the source of local supply. Then look for evidence of delayed deliveries, lower application rates or changes in planted area. A global shipping warning is an upstream signal; actual farm-level access and subsequent crop-condition reports are needed before claiming that a harvest loss has occurred.
+A fertilizer price increase and a fertilizer delivery failure are not the same event. If farmers can still obtain the required nutrient, they may adjust cash flow or substitute suppliers. If delivery arrives after the crop’s application window, the farmer may have fewer options even when product becomes available later. Nutrient type matters too: nitrogen, phosphate and potash play different roles and cannot be treated as interchangeable.
+
+To evaluate the risk, identify the crop calendar in the affected region, the fertilizer product involved, the date it is normally applied and the source of local supply. Then look for evidence of delayed deliveries, lower application rates or changes in planted area. A global shipping warning is an upstream signal; actual farm-level access and subsequent crop-condition reports are needed before claiming that a harvest loss has occurred.
 
 ## Bottom line
 

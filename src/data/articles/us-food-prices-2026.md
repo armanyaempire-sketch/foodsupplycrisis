@@ -143,7 +143,9 @@ For every new update, record the date of the [BLS CPI release](https://www.bls.g
 
 ## Different grocery categories have different exposure to fertilizer
 
-A fertilizer cost change does not affect every food category equally or at the same time. Crops that receive substantial nutrient inputs may face a direct farm-cost channel; livestock products can be affected through feed crops; highly processed foods include packaging, energy and labour costs that may dominate the raw agricultural input. Imports and long-term purchasing contracts can further delay the effect.\n\nFor US consumers, compare farm input indices with producer prices and the relevant CPI category rather than applying one fertilizer percentage to the whole grocery basket. Check crop season, acreage and yields before estimating a supply effect. The USDA programme to expand domestic fertilizer supply is a policy response to input-market exposure; it is not evidence that a nationwide grocery shortage is occurring. The key question is whether farm costs, production decisions and consumer prices are moving together in a particular category.
+A fertilizer cost change does not affect every food category equally or at the same time. Crops that receive substantial nutrient inputs may face a direct farm-cost channel; livestock products can be affected through feed crops; highly processed foods include packaging, energy and labour costs that may dominate the raw agricultural input. Imports and long-term purchasing contracts can further delay the effect.
+
+For US consumers, compare farm input indices with producer prices and the relevant CPI category rather than applying one fertilizer percentage to the whole grocery basket. Check crop season, acreage and yields before estimating a supply effect. The USDA programme to expand domestic fertilizer supply is a policy response to input-market exposure; it is not evidence that a nationwide grocery shortage is occurring. The key question is whether farm costs, production decisions and consumer prices are moving together in a particular category.
 
 ## Bottom line
 

@@ -124,7 +124,9 @@ Use the [Statistics Bureau of Japan](https://www.stat.go.jp/english/) for offici
 
 ## A public stock release is not the same as a retail price reduction
 
-When the government releases rice from reserves, the first measurable result is additional supply entering a procurement or wholesale channel. The retail effect depends on the price at which rice is sold, who wins the contract, how quickly wholesalers and retailers receive it, the quality and grade of the rice, and whether competing costs remain high. A delayed retail response does not necessarily mean the stock release failed; the supply chain has several stages.\n\nTo evaluate stabilization, follow the quantity released, tender or auction terms, delivery dates, wholesale quotations and retail prices for comparable rice grades. Also track new-crop arrivals and the replenishment of public reserves. A lower price for one grade or package should not be compared with a different product without noting quality, origin and pack size. This turns the story from a simple “shortage” headline into a test of how policy inventory reaches consumers.
+When the government releases rice from reserves, the first measurable result is additional supply entering a procurement or wholesale channel. The retail effect depends on the price at which rice is sold, who wins the contract, how quickly wholesalers and retailers receive it, the quality and grade of the rice, and whether competing costs remain high. A delayed retail response does not necessarily mean the stock release failed; the supply chain has several stages.
+
+To evaluate stabilization, follow the quantity released, tender or auction terms, delivery dates, wholesale quotations and retail prices for comparable rice grades. Also track new-crop arrivals and the replenishment of public reserves. A lower price for one grade or package should not be compared with a different product without noting quality, origin and pack size. This turns the story from a simple “shortage” headline into a test of how policy inventory reaches consumers.
 
 ## Bottom line
 

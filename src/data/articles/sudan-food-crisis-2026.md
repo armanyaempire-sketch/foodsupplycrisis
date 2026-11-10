@@ -117,4 +117,4 @@ An IPC finding is meaningful only when its geographic coverage, population estim
 
 ## Bottom line
 
-Use the evidence in this article to judge whether the risk is real and local. Prepare proportionately: secure water, keep a modest rotating food buffer, protect refrigeration, follow official guidance and avoid panic buying.
+Sudan's food crisis must be reported at the geography and assessment period used by the IPC, not reduced to one countrywide label. A useful update states the population estimated in each relevant IPC phase, the locations covered, the assessment dates and the assumptions behind any Famine-risk projection. It then checks whether conflict, displacement, market access, prices and humanitarian delivery have changed in those same locations. National production or aggregate import figures cannot substitute for evidence about whether households can safely reach food and assistance.

@@ -143,7 +143,9 @@ A useful country comparison should state the commodity, evidence date and reason
 
 ## A transparent comparison method is better than a league table
 
-A country comparison should first define what is being compared. Import dependence can mean the share of a commodity that is imported, the share of total dietary energy supplied by imports, or reliance on a small number of supplier countries. Those measures are not interchangeable. A country may import most of its wheat but produce rice domestically; another may produce enough calories but depend on imported fertilizer, fuel or animal feed.\n\nFor a defensible comparison, record the commodity, year, unit and denominator for every import statistic. Then assess supplier concentration, foreign-exchange availability, port and storage capacity, government reserve policy and the income of households most exposed to price changes. Do not turn these dimensions into a single vulnerability score unless the weights and data coverage are published. The purpose of this framework is to show where a shock could travel and which buffer might fail first.
+A country comparison should first define what is being compared. Import dependence can mean the share of a commodity that is imported, the share of total dietary energy supplied by imports, or reliance on a small number of supplier countries. Those measures are not interchangeable. A country may import most of its wheat but produce rice domestically; another may produce enough calories but depend on imported fertilizer, fuel or animal feed.
+
+For a defensible comparison, record the commodity, year, unit and denominator for every import statistic. Then assess supplier concentration, foreign-exchange availability, port and storage capacity, government reserve policy and the income of households most exposed to price changes. Do not turn these dimensions into a single vulnerability score unless the weights and data coverage are published. The purpose of this framework is to show where a shock could travel and which buffer might fail first.
 
 ## Bottom line
 

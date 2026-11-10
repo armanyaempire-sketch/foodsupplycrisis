@@ -46,7 +46,7 @@ for (const file of articleFiles) {
   const fullPath = join(articleDirectory, file);
   const content = await readFile(fullPath, "utf8");
   const firstDivider = content.indexOf("---");
-  const secondDivider = content.indexOf("\\n---", firstDivider + 3);
+  const secondDivider = content.indexOf("\n---", firstDivider + 3);
 
   if (firstDivider !== 0 || secondDivider < 0) {
     failures.push(`${file}: missing YAML frontmatter`);

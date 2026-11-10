@@ -22,13 +22,13 @@ Each article has one primary keyword and one distinct reader intent. The primary
 | `fertilizer-shortage-2026` | fertilizer shortage impact on crop yields | Analysis | Input timing, planting windows and possible yield pathway |
 | `food-collapse-fact-check-2026` | food shortage claims fact check 2026 | Reference | Evidence tests for viral food-collapse claims |
 | `food-inflation-by-country-monthly-tracker-2026` | food inflation by country comparison methodology | Comparison | Apples-to-apples CPI comparison and data definitions |
-| `food-prices-2027-forecast-scenarios` | food price forecast 2027 scenarios | Analysis | Conditional scenarios and observable triggers |
+| `food-prices-2027-forecast-scenarios` | food shortage 2027 list | Analysis | Seven observable risk signals, current baseline and conditional 2027 scenarios |
 | `germany-harvest-drought-food-prices-2026` | Germany grain harvest forecast 2026 drought | Analysis | Crop loss, river freight and bread-price transmission |
-| `global-food-crisis-2026` | global food supply outlook 2026 | Analysis | Global production, stocks, trade, prices and humanitarian need |
+| `global-food-crisis-2026` | global food crisis | Analysis | Direct answer to the global-crisis query with current production, stocks, trade, prices and humanitarian evidence |
 | `global-food-crisis-2027-jpmorgan-warning` | JPMorgan food inflation forecast 2027 | Analysis | A conditional 5% inflation scenario and its assumptions |
 | `global-food-prices-september-2026` | FAO food price index September 2026 | Analysis | Historical September 2026 commodity snapshot |
 | `gulf-food-security-2026` | Gulf food import dependence and food security | Analysis | Import chain, ports, cold chain and reserve operations |
-| `how-can-world-prevent-food-crisis-10-solutions` | food system resilience solutions | Informational | Government and system-level interventions by failure point |
+| `how-can-world-prevent-food-crisis-10-solutions` | food security solutions | How-to | Ten interventions, emergency food distribution, food safety and a crisis-management plan |
 | `how-governments-build-food-reserves-2026` | strategic food reserves policy models | Comparison | Public, compulsory private and commercial reserve models |
 | `how-to-stockpile-food-and-water-sensibly-2026` | household emergency food storage rotation plan | How-to | A finite, rotating household reserve and stopping rule |
 | `how-to-store-water-at-home-safely` | safe emergency water storage at home | How-to | Containers, sanitation, storage and treatment guidance |
@@ -52,7 +52,7 @@ Each article has one primary keyword and one distinct reader intent. The primary
 | `us-food-prices-2026` | US fertilizer costs and food prices 2026 | Analysis | Fertilizer costs and category-specific US grocery transmission |
 | `very-strong-el-nino-2026-food-production` | very strong El Niño 2026 crop risks | Analysis | NOAA ENSO signal and the evidence needed to confirm crop impact |
 | `water-crisis-food-crisis` | agricultural water scarcity and food production | Informational | Water productivity, irrigation, groundwater and crop stress |
-| `when-will-food-crisis-end-2026` | food crisis recovery indicators 2026 | Reference | Separate recovery signals for shipping, inputs, harvests, prices and access |
+| `when-will-food-crisis-end-2026` | when will the food crisis end | Reference | Direct timing answer and separate recovery signals for shipping, inputs, harvests, prices and access |
 | `why-global-food-prices-rising-2026` | why global food prices change | Informational | The causes of commodity moves and the path to consumer prices |
 | `why-people-stockpiling-food-2026` | why households stockpile food 2026 | Analysis | Household behaviour, expectations and temporary retail stockouts |
 
@@ -69,3 +69,25 @@ Each article has one primary keyword and one distinct reader intent. The primary
 ## Measurement limitation
 
 This keyword map is based on distinct article topics and search intent. Search-volume, competition and current query-to-page performance have not been validated with this site's Search Console data in this pass because the connected GSC Wizard account currently requires an active subscription. Do not treat these targets as measured search-volume opportunities. After Search Console access is restored, review query impressions and page overlap and adjust the map to actual search demand.
+
+
+## Search Console query-led changes — 10 November 2026
+
+The supplied Search Console query export shows impressions but no clicks in the displayed period. The changes below map query intent to one authoritative page instead of creating multiple near-duplicate pages.
+
+| Query cluster from Search Console | Observed signal | Target page | On-page change |
+|---|---:|---|---|
+| global food crisis | 36 impressions; average position 33.64 | `/articles/global-food-crisis-2026/` | Exact primary keyword, direct answer, updated evidence and contextual links |
+| food security solutions; food crisis management; how to prevent a food crisis; emergency food distribution; food safety | 67 impressions combined across the supplied rows | `/articles/how-can-world-prevent-food-crisis-10-solutions/` | Rebuilt as a distinct how-to guide with policy measures, a four-phase management plan, distribution and food-safety sections |
+| food shortage 2027 list | 5 impressions; average position 5.8 | `/articles/food-prices-2027-forecast-scenarios/` | Reframed as seven conditional 2027 risks, with current FAO baseline and a clear distinction between a risk list and confirmed country shortages |
+| when will it end; when will the food crisis last; when will food prices fall | Small impression count; positions shown between 1 and 4 | `/articles/when-will-food-crisis-end-2026/` | Direct end-date answer, current November baseline and measurable recovery indicators |
+
+The query list includes ambiguous or educational wording. The solution guide answers the underlying topic naturally but does not promise an exact fill-in-the-blank word when the original textbook or source sentence is unavailable. The row "solutions for food safety" is addressed as food safety, not treated as a synonym for food security.
+
+### Measurement and iteration
+
+- The supplied average positions are query-level averages, not guarantees that every searcher sees the same position.
+- The query export does not identify the landing page for each query. Confirm the page assignment in Search Console's query-to-page view before making redirects or canonical changes.
+- Compare the same date range after the updated pages have been crawled. Review clicks, impressions, CTR, average position and the page receiving each query.
+- Do not create a second page for a query already owned by one of these targets unless Search Console shows a genuinely different intent and a distinct evidence base.
+- These query counts are site-specific observations, not market-wide search volume.

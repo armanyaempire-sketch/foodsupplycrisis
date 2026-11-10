@@ -1,17 +1,16 @@
 ---
-title: "How Can the World Prevent a Food Crisis? 10 Solutions That Could Strengthen Food Security"
-description: Better water management, lower food loss, diversified trade, efficient fertilizer use, climate adaptation and support for vulnerable households strengthen food-system resilience.
+title: "10 Food-System Resilience Solutions: What Governments Can Do First"
+description: "Ten practical food-system measures target different failure points, from water and soil to storage, trade, nutrition, early warning and household purchasing power."
 pubDate: 2026-10-04
-updatedDate: 2026-10-17
+updatedDate: "2026-11-10"
 author: Food Supply Crisis Report Editorial Desk
 category: Solutions
 keywords:
-  - food crisis solutions
-  - food security solutions
-  - prevent food shortages
-  - resilient food systems
-  - food loss reduction
-  - agriculture resilience
+  - food system resilience solutions
+  - how to improve food security
+  - reduce food loss and waste
+  - agricultural water management
+  - food supply chain resilience
 featured: true
 type: analysis
 sources:
@@ -22,6 +21,9 @@ sources:
   - name: FAO — Food Outlook 2026
     url: https://www.fao.org/markets-and-trade/do-not-touch/all-widgets/food-outlook---biannual-report-on-global-food-markets/en
 related: []
+seoTitle: "10 Food-System Resilience Solutions That Work Together"
+primaryKeyword: "food system resilience solutions"
+searchIntent: "informational"
 ---
 
 Food crises rarely have a single cause, so resilience rarely has a single solution.
@@ -149,3 +151,7 @@ The decision should include time horizon and distributional effects. A new irrig
 A credible programme should also publish measurable results. For storage, report how much product is lost before and after an intervention. For fertilizer efficiency, assess yield, costs and environmental effects rather than only counting lower input use. For early-warning systems, assess whether alerts reached the agencies and communities that needed to act. For food assistance, report the population reached and coverage gaps.
 
 FAO’s [Cereal Supply and Demand Brief](https://www.fao.org/worldfoodsituation/csdb), [Food Price Index](https://www.fao.org/worldfoodsituation/foodpricesindex/en/) and current [IPC assessments](https://www.ipcinfo.org/) provide different parts of the evidence. Use them together without treating one as a substitute for the others. The strongest strategy combines prevention, resilient trade, appropriate buffers and a rapid response when people’s actual access to food deteriorates.
+
+## Prioritize interventions by the failure point they address
+
+The ten measures in this article are not substitutes for one another. Better irrigation addresses water availability at the farm; nutrient efficiency addresses the cost and loss of fertilizer; storage and cold chains address post-harvest loss; diversified trade addresses dependence on a small number of suppliers; social protection addresses household purchasing power. A country that invests heavily in one area can still remain exposed elsewhere.\n\nA useful sequence is to identify the binding constraint in each food system, fund the interventions with measurable outcomes, and publish indicators that can be checked. Examples include water productivity per unit of crop output, post-harvest loss rates, storage loss, supplier concentration, time required to move grain from port to market and the proportion of vulnerable households covered by assistance. “Resilience” becomes meaningful when a policy names the risk it reduces and shows whether that risk actually fell.

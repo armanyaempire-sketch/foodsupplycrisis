@@ -13,12 +13,14 @@ keywords:
   - Brazil El Niño crop risk
 type: analysis
 sources:
+  - name: Conab — First Grain Crop Survey 2026/27, 15 October 2026
+    url: https://www.gov.br/conab/pt-br/assuntos/noticias/primeiro-levantamento-da-safra-de-graos-2026-27-estima-producao-acima-de-367-milhoes-de-toneladas
+  - name: Conab — 2025/26 Grain Crop Survey, updated 28 October 2026
+    url: https://www.gov.br/conab/pt-br/assuntos/noticias/conab-estima-producao-de-361-7-milhoes-de-toneladas-de-graos-na-safra-2025-26
   - name: Brazil Ministry of Development — Fertilizer trade data
     url: https://balanca.economia.gov.br/balanca/publicacoes_dados_consolidados/pg.html
-  - name: Purdue Commercial Agriculture — Brazil production outlook
-    url: https://ag.purdue.edu/commercialag/home/wp-content/uploads/2026/06/20260616_Colussi_BrazilProductionContinue-1.pdf
-  - name: Rabobank — Brazil Agribusiness Quarterly
-    url: https://www.rabobank.com/knowledge/q011334955-brazil-agribusiness-quarterly
+  - name: FAO — Cereal Supply and Demand Brief
+    url: https://www.fao.org/worldfoodsituation/csdb/en/
 related: []
 seoTitle: "Brazil Agriculture 2026: Fertilizer Imports and Crop Risk"
 primaryKeyword: "Brazil fertilizer import dependence agriculture"
@@ -28,6 +30,23 @@ searchIntent: "analysis"
 Brazil is one of the world's most important agricultural producers, so changes in its farm economics can matter to both Brazilian consumers and global commodity markets.
 
 The 2026 story is not that Brazil is running out of food. It is that a major exporter is managing exposure to fertilizer, energy, weather and international market conditions while preparing for another uncertain season.
+
+## What the latest Conab crop outlook estimates
+
+Conab's first grain survey for 2026/27, published on 15 October 2026, estimates Brazilian grain production at **367.1 million tonnes**, 1.4% above the 2025/26 season. The projected planted area is 85.4 million hectares, up 2.3%. The headline total is not a uniform forecast across crops:
+
+| Crop or measure | Conab 2026/27 estimate | Change or context |
+|---|---:|---|
+| Total grains | 367.1 million tonnes | +1.4% from 2025/26 |
+| Soybeans | 181.6 million tonnes | +0.7% |
+| Maize, all seasons | 148 million tonnes | +2.4% |
+| Rice | 10.8 million tonnes | −2.9% |
+| Wheat, 2026 winter crop | 5.7 million tonnes | About −27.2% from the previous crop |
+| Planted area, all grains | 85.4 million hectares | +2.3% |
+
+The estimate shows why a strong national grain total can coexist with a tighter outlook for an individual crop. Soybean and maize projections are higher, while rice and wheat are forecast lower. These numbers are an initial survey, not final harvest totals; planting progress, weather, yields and revisions can change the outcome. See Conab's [first 2026/27 survey, published 15 October](https://www.gov.br/conab/pt-br/assuntos/noticias/primeiro-levantamento-da-safra-de-graos-2026-27-estima-producao-acima-de-367-milhoes-de-toneladas) and its [2025/26 crop estimate, updated 28 October](https://www.gov.br/conab/pt-br/assuntos/noticias/conab-estima-producao-de-361-7-milhoes-de-toneladas-de-graos-na-safra-2025-26).
+
+Do not compare a forecast for one crop with a completed national grain harvest as if both were final measurements. For each update, record the survey number, publication date, crop season, crop definition and whether the estimate is preliminary or revised.
 
 ## Why Brazil matters globally
 

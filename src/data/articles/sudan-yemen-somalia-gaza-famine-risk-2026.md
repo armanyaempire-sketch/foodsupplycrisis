@@ -121,7 +121,9 @@ Use current [IPC assessments](https://www.ipcinfo.org/), [WFP publications](http
 
 ## Compare the four settings without merging unlike populations
 
-The four settings share severe food-access problems, but their drivers and assessment coverage are not identical. In one place, conflict may block market access; in another, displacement or drought may reduce household income and food availability; elsewhere, restrictions on movement and damaged infrastructure may shape what aid can reach people. A single regional total would hide those differences.\n\nA responsible comparison uses the same questions for each location: which authority assessed the situation, what population and area were included, which period was measured, what classification was reported, and what assumptions underpin a forward-looking risk warning? Keep the latest estimate for each setting beside its own date and source. Do not infer that a Famine classification in one area automatically applies to an entire country or to the other locations. This comparison is intended to clarify the evidence, not to create a severity league table.
+The four settings share severe food-access problems, but their drivers and assessment coverage are not identical. In one place, conflict may block market access; in another, displacement or drought may reduce household income and food availability; elsewhere, restrictions on movement and damaged infrastructure may shape what aid can reach people. A single regional total would hide those differences.
+
+A responsible comparison uses the same questions for each location: which authority assessed the situation, what population and area were included, which period was measured, what classification was reported, and what assumptions underpin a forward-looking risk warning? Keep the latest estimate for each setting beside its own date and source. Do not infer that a Famine classification in one area automatically applies to an entire country or to the other locations. This comparison is intended to clarify the evidence, not to create a severity league table.
 
 ## Bottom line
 

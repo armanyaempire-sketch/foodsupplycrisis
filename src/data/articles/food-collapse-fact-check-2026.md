@@ -140,7 +140,9 @@ Corrections also need to be visible and specific. When a primary source revises 
 
 ## Match each headline to the evidence that could prove or disprove it
 
-A claim about a global harvest needs production and stocks data. A claim about a port closure needs port operations, vessel movements and shipment data. A claim about supermarket availability needs evidence from the affected product, retailers and location over more than one restocking cycle. A claim about famine needs the relevant humanitarian classification and population coverage. No single chart can answer all four questions.\n\nUse a short verification record: quote the exact claim, name the place and period, locate the original source, record what it measures, and state what it does not measure. If a social post uses a photograph, check when and where it was taken before using it as evidence of a current shortage. This turns fact-checking into a repeatable method and prevents a real local event from being generalized into a claim about the entire world.
+A claim about a global harvest needs production and stocks data. A claim about a port closure needs port operations, vessel movements and shipment data. A claim about supermarket availability needs evidence from the affected product, retailers and location over more than one restocking cycle. A claim about famine needs the relevant humanitarian classification and population coverage. No single chart can answer all four questions.
+
+Use a short verification record: quote the exact claim, name the place and period, locate the original source, record what it measures, and state what it does not measure. If a social post uses a photograph, check when and where it was taken before using it as evidence of a current shortage. This turns fact-checking into a repeatable method and prevents a real local event from being generalized into a claim about the entire world.
 
 ## Bottom line
 

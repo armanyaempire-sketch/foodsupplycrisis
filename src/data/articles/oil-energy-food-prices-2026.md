@@ -121,4 +121,4 @@ There is no fixed percentage relationship between an oil-price change and a groc
 
 ## Bottom line
 
-A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.
+The energy-cost chain should be checked product by product. Track fuel, electricity and fertilizer costs at the stages where they enter production or distribution, then compare them with producer and retail prices. There is no reliable one-step conversion from a crude-oil movement to a grocery-bill percentage.

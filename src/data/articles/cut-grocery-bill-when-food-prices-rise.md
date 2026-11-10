@@ -10,7 +10,8 @@ keywords:
   - save money on groceries
   - compare unit prices food
   - meal planning on a budget
-  - reduce household food wastetype: explainer
+  - reduce household food waste
+type: explainer
 sources:
   - name: USDA — Food price and consumer resources
     url: https://www.usda.gov/

@@ -40,6 +40,11 @@ const normalizeParagraph = (paragraph) =>
   paragraph.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 
 const longParagraphs = new Map();
+const knownLowValueBoilerplate = [
+  "use the evidence in this article to judge whether the risk is real and local",
+  "prepare proportionately secure water keep a modest rotating food buffer protect refrigeration",
+  "the most successful pantry is therefore one that can be consumed normally replenished gradually"
+];
 const allowedIntents = new Set(["informational", "how-to", "comparison", "analysis", "reference"]);
 
 for (const file of articleFiles) {
@@ -96,6 +101,14 @@ for (const file of articleFiles) {
   rememberUnique("primaryKeyword", primaryKeyword, file);
 
   const body = content.slice(secondDivider + 4);
+  const normalizedBody = normalizeParagraph(body);
+  for (const phrase of knownLowValueBoilerplate) {
+    if (normalizedBody.includes(phrase)) {
+      failures.push(`${file}: remove repeated generic boilerplate; write a conclusion specific to this article's subject`);
+      break;
+    }
+  }
+
   if (body.includes("## How to read the country risk correctly")) {
     failures.push(`${file}: repeated country-risk template heading remains`);
   }
@@ -121,5 +134,5 @@ if (failures.length > 0) {
   for (const failure of failures) console.error(` - ${failure}`);
   process.exitCode = 1;
 } else {
-  console.log(`Editorial SEO audit passed for ${articleFiles.length} articles: unique primary keywords, titles and descriptions; required sources; no repeated boilerplate or identical long paragraphs.`);
+  console.log(`Editorial SEO audit passed for ${articleFiles.length} articles: unique primary keywords, titles and descriptions; required sources; no repeated boilerplate or identical long paragraphs; known generic conclusions are blocked.`);
 }

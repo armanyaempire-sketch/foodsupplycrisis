@@ -10,7 +10,8 @@ keywords:
   - Egypt bread subsidy system
   - Egypt grain procurement
   - Egypt wheat supply risk
-  - Black Sea wheat shipments Egypttype: analysis
+  - Black Sea wheat shipments Egypt
+type: analysis
 sources:
   - name: Al Manassa — Egypt wheat supply reporting
     url: https://almanassa.com/en/news/33630

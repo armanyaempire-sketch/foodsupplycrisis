@@ -116,4 +116,4 @@ Indonesia’s retail rice market reflects domestic distribution, procurement, st
 
 ## Bottom line
 
-Use the evidence in this article to judge whether the risk is real and local. Prepare proportionately: secure water, keep a modest rotating food buffer, protect refrigeration, follow official guidance and avoid panic buying.
+Indonesia's retail rice market and Thailand's export market cannot be compared using price figures alone. Before drawing a regional conclusion, align the reporting month, rice grade and processing stage, currency, unit of measure and whether the quotation is farm-gate, wholesale, retail or export. Then compare each market with domestic harvest expectations, usable public and commercial stocks, imports and policy changes. A lower export quotation does not guarantee a lower retail price in another country, and one country's retail increase does not prove a Southeast Asian shortage.

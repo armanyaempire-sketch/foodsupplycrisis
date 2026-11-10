@@ -153,7 +153,9 @@ The stopping rule is simple: pause buying when the plan covers realistic meals, 
 
 ## Design the month as meals, not as a shopping list
 
-Start with the meals your household already eats. Write down a small set of breakfasts, lunches and dinners that can be made from shelf-stable ingredients, then count how often each meal appears across 30 days. Multiply ingredients by the number of people and portions, and subtract food already in the cupboard. This avoids buying arbitrary package counts that do not add up to meals.\n\nSeparate the plan into foods that need no cooking, foods that need only hot water and foods that require a stove or electricity. That distinction becomes important during a power or fuel interruption. Add foods for allergies, infants, older adults, pets and medically required diets before adding optional treats. Finally, label purchases with dates and use the oldest suitable stock first. A pantry is useful when it fits normal meals and can be rotated into everyday eating, not when it becomes a forgotten emergency pile.
+Start with the meals your household already eats. Write down a small set of breakfasts, lunches and dinners that can be made from shelf-stable ingredients, then count how often each meal appears across 30 days. Multiply ingredients by the number of people and portions, and subtract food already in the cupboard. This avoids buying arbitrary package counts that do not add up to meals.
+
+Separate the plan into foods that need no cooking, foods that need only hot water and foods that require a stove or electricity. That distinction becomes important during a power or fuel interruption. Add foods for allergies, infants, older adults, pets and medically required diets before adding optional treats. Finally, label purchases with dates and use the oldest suitable stock first. A pantry is useful when it fits normal meals and can be rotated into everyday eating, not when it becomes a forgotten emergency pile.
 
 ## Bottom line
 

@@ -1,138 +1,150 @@
 ---
-title: "10 Food-System Resilience Solutions: What Governments Can Do First"
-description: "Ten practical food-system measures target different failure points, from water and soil to storage, trade, nutrition, early warning and household purchasing power."
+title: "Food Security Solutions: 10 Ways to Prevent a Food Crisis"
+description: "Explore practical food security solutions, a food crisis management plan, emergency distribution measures and policies that protect food access, safety and supply."
 pubDate: 2026-10-04
 updatedDate: "2026-11-10"
 author: Food Supply Crisis Report Editorial Desk
 category: Solutions
 keywords:
-  - food system resilience solutions
-  - how to improve food security
-  - reduce food loss and waste
-  - agricultural water management
-  - food supply chain resilience
+  - food security solutions
+  - food crisis management
+  - food crisis management plan
+  - emergency food distribution solutions
+  - solutions for food safety
+  - how to prevent food crisis
+  - food security policy solutions
+  - food and water security
+  - solutions to food insecurity
+  - food shortage solutions
 featured: true
 type: analysis
 sources:
-  - name: FAO — Reducing food loss and waste, 2026
-    url: https://www.fao.org/newsroom/detail/reducing-food-loss-and-waste-to-protect-forests-and-transform-agrifood-systems/en
+  - name: FAO — Food security and the four dimensions of food security
+    url: https://www.fao.org/in-action/resilient-caribbean-initiative/faqs/en
   - name: FAO — Agricultural water management and food security
     url: https://www.fao.org/land-water/water/agricultural-water-management/water-scarcity/
-  - name: FAO — Food Outlook 2026
-    url: https://www.fao.org/markets-and-trade/do-not-touch/all-widgets/food-outlook---biannual-report-on-global-food-markets/en
-related: []
-seoTitle: "10 Food-System Resilience Solutions That Work Together"
-primaryKeyword: "food system resilience solutions"
-searchIntent: "informational"
+  - name: FAO — Reducing food loss and waste
+    url: https://www.fao.org/newsroom/detail/reducing-food-loss-and-waste-to-protect-forests-and-transform-agrifood-systems/en
+  - name: WHO — Food safety, 4 June 2026
+    url: https://www.who.int/news-room/fact-sheets/detail/food-safety
+seoTitle: "Food Security Solutions: 10 Ways to Prevent a Crisis"
+primaryKeyword: "food security solutions"
+searchIntent: "how-to"
 ---
 
-Food crises rarely have a single cause, so resilience rarely has a single solution.
+Food security solutions must do more than increase the amount of food a country produces. They must make food reliably available, affordable, physically reachable, safe to eat and accessible through good and bad seasons. That means combining agricultural policy with trade, water management, storage, public health, social protection and emergency planning.
 
-A country may have strong farms but weak storage. Another may have enough food but poor household purchasing power. A third may depend on one fertilizer supplier or one shipping corridor.
+**The most effective way to prevent a food crisis is to identify the weakest part of the food system early and fix that constraint before it cuts off supply or household access.** The measures below explain what governments, humanitarian agencies, businesses and communities can do—and which problem each measure is designed to solve.
 
-The most useful strategy is to strengthen several parts of the food system at the same time.
+## What does food security mean?
 
-## 1. Improve agricultural water management
+The FAO describes food security through four connected dimensions: availability, access, utilization and stability. Availability asks whether enough food exists. Access asks whether people can obtain and afford it. Utilization includes nutrition, safe water and food safety. Stability asks whether the other three dimensions can be maintained over time.
 
-Water is fundamental to food production. FAO reports that agriculture accounts for about 72% of global freshwater withdrawals.
+This distinction matters. Increasing national production may improve availability but will not automatically help a household that has lost its income, a town cut off by conflict or a community receiving unsafe water. A strong food security policy addresses all four dimensions.
 
-Better irrigation efficiency, groundwater management, soil-moisture practices and crop choices can improve resilience.
+## 10 practical food security solutions
 
-The goal is not simply to use more water. It is to produce more reliably from water that can be used sustainably.
+### 1. Protect agricultural production before a shock
 
-## 2. Reduce food loss and waste
+Invest in locally suitable seeds, soil health, crop diversification, extension services, plant and animal health, and climate information that farmers can use. The objective is not to promise that every harvest will be good. It is to reduce the chance that one pest, heat event, drought or input failure causes a severe regional production loss.
 
-Food lost after harvest is still a loss of land, water, energy and labour.
+Track crop conditions and planting progress by crop and region. National production totals can hide a local failure that matters to a particular population or export market.
 
-Better drying, storage, roads, cold chains, packaging and market coordination can keep more of the food already produced available for consumption.
+### 2. Manage water as a food-security input
 
-Reducing waste at the retail and household level matters too.
+Reliable water is needed for crops, livestock, processing and household use. Practical measures include repairing irrigation leaks, scheduling water according to crop needs, protecting watersheds, monitoring groundwater withdrawals, improving soil moisture and selecting crops suited to local water availability.
 
-## 3. Diversify suppliers and trade routes
+Food and water security need joint planning, but agricultural irrigation and safe drinking water are different systems. A water plan should record both: how much water farms can sustainably use and whether households can access safe water. See the separate [agricultural water and food-crisis analysis](/articles/water-crisis-food-crisis/).
 
-Dependence on one port, country, supplier or maritime chokepoint creates concentration risk.
+### 3. Make fertilizer and other farm inputs more reliable
 
-Multiple suppliers and alternative routes can give importers more options when one source is disrupted.
+A fertilizer shortage can affect output when it arrives before or during a crop's planting and nutrient-application window. Governments and businesses can reduce exposure by diversifying import sources, improving port and inland storage, publishing transparent market information, supporting soil testing and helping farmers apply nutrients at the right rate and time.
 
-Diversification does not require abandoning efficient trade. It means avoiding a system in which one failure has no practical alternative.
+The goal is reliable, efficient access—not indiscriminate fertilizer use or permanent dependence on emergency subsidies. The [fertilizer resilience guide](/articles/fertilizer-independence-resilient-farming/) explains ways to reduce import exposure.
 
-## 4. Improve fertilizer efficiency
+### 4. Prevent food loss between harvest and market
 
-The best response to fertilizer risk is not automatically “use more fertilizer.”
+Food can be lost through poor drying, pests, inadequate storage, weak roads, delayed transport, unreliable electricity or a lack of cold-chain capacity. Better warehouses, moisture control, hermetic storage where appropriate, refrigerated transport and market information can preserve more of the crop already produced.
 
-Better soil testing, precision application, correct timing and nutrient-balanced farming can improve productivity per unit of fertilizer.
+Measure losses at specific stages and commodities. A national estimate of food waste does not tell officials whether the biggest bottleneck is farm-level storage, wholesale handling, retail spoilage or household waste. Interventions should follow the measured loss point.
 
-That can lower costs while reducing exposure to international fertilizer shocks.
+### 5. Diversify suppliers, import routes and market access
 
-## 5. Strengthen crop and livestock resilience
+Import-dependent countries should assess concentration by supplier, commodity, port and transport corridor. Long-term contracts, alternative suppliers, functioning border procedures and backup routes can reduce the impact of a disruption.
 
-Breeding, seed systems, animal health, soil management and farm diversification can reduce exposure to drought, heat, pests and disease.
+Diversification is not the same as closing markets. Predictable trade can allow food to move from surplus areas to deficit areas. Emergency export restrictions may protect one domestic market temporarily but can also make import access harder for other buyers if several exporters act at once.
 
-The right combination depends on local conditions.
+### 6. Maintain accountable food reserves with clear release rules
 
-## 6. Maintain appropriate food reserves
+Public and commercial stocks can bridge a temporary supply disruption, stabilize emergency distribution and buy time for imports or harvests to arrive. They work best when reserve quality, ownership, location, rotation and release authority are known before a crisis.
 
-Strategic and commercial stocks can help absorb temporary shocks.
+A reserve policy should publish the conditions for release and replenishment. Stocks that are inaccessible, poorly stored or released too late will not protect consumers. Compare different [government food-reserve models](/articles/how-governments-build-food-reserves-2026/).
 
-But reserves are not a substitute for functioning production and trade.
+### 7. Protect household purchasing power
 
-Stocks work best when governments also understand where bottlenecks are and have clear rules for releasing and replenishing supplies.
+Food may be available in shops while families cannot afford a nutritious diet. Targeted cash transfers, food vouchers, school meals, nutrition support and temporary income protection can help households maintain access during a price shock or income loss.
 
-## 7. Improve early-warning systems
+The response should be designed around local market conditions. Cash assistance can work where shops are supplied and prices respond; direct food assistance may be more appropriate where markets are disrupted, supplies are absent or safe access is impossible. Monitor whether assistance reaches the intended households and whether it keeps pace with local food costs.
 
-Authorities and markets need timely information about rainfall, crop conditions, commodity prices, fertilizer availability, transport and nutrition.
+### 8. Build emergency food-distribution networks before they are needed
 
-Early warning does not prevent every crisis, but it can create more time to respond before a local disruption becomes a larger emergency.
+Emergency food distribution is a logistics and accountability task, not simply the movement of sacks from a warehouse. Agencies need rapid needs assessments, agreed eligibility criteria, accurate beneficiary records, safe storage, transport plans, accessible distribution points and a way for recipients to report exclusion or problems.
 
-## 8. Protect household access to food
+Choose the delivery method based on evidence. Use food deliveries when markets cannot supply the required items or people cannot safely reach them. Consider cash or vouchers when markets are functioning, goods are available and recipients can use the assistance safely. Monitor delivery times, stock-outs, access for older people and people with disabilities, and whether aid is reaching the affected locations.
 
-Food security is about people, not only tonnes.
+### 9. Protect food safety, nutrition and safe water
 
-When prices rise, low-income households can cut both the quantity and nutritional quality of food they buy.
+Food safety and food security are related, but they are not interchangeable. Food security concerns reliable access to sufficient, nutritious food. Food safety concerns preventing food from causing harm through contamination, poor handling or unsafe storage.
 
-Targeted social protection and humanitarian assistance can help protect access during severe shocks.
+Solutions for food safety include clean water, handwashing facilities, sanitation, temperature control, inspection, traceability and clear procedures for damaged or recalled products. These controls are especially important in emergency distribution, crowded shelters and disrupted cold chains. WHO's 4 June 2026 fact sheet explains why safe food is essential to health and food security.
 
-## 9. Strengthen logistics and storage
+### 10. Connect early warning to decisions and public accountability
 
-Ports, roads, railways, warehouses and cold-chain facilities are part of food security.
+A warning system is useful only when someone is responsible for acting on it. Combine crop and rainfall monitoring with market prices, import flows, stock levels, fertilizer availability, nutrition indicators and local reports of access problems.
 
-A crop cannot feed people if it cannot be moved or stored safely.
+For each warning, define the decision-maker, the evidence threshold, the available response and the date for review. Publish what is known, what remains uncertain and which areas are affected. This reduces the risk that a price movement is mistaken for a physical shortage—or that a genuine local emergency is hidden by reassuring national averages.
 
-Investment in infrastructure can reduce bottlenecks and make supply chains less vulnerable to disruption.
+## Food crisis management plan: what should happen first?
 
-## 10. Build several layers of resilience
+A practical food crisis management plan has four phases. The exact trigger levels must be set for the country, commodity and population; there is no single global price or stock threshold that works everywhere.
 
-No single policy should carry the entire burden.
+| Phase | Main actions | Evidence to record |
+|---|---|---|
+| Preparedness | Map vulnerable groups, suppliers, ports, warehouses, water systems and delivery partners; agree roles and contingency contracts | Baseline prices, crop outlook, import dependence, stock quality and access |
+| Early response | Verify the disruption, identify affected districts, convene the response team and communicate what is known | Location, duration, commodity, market availability and household impact |
+| Emergency operations | Choose food, cash or vouchers according to market conditions; protect safe storage, transport and distribution access | Deliveries completed, people reached, gaps, complaints and market changes |
+| Recovery | Restore livelihoods and trade, replenish reserves, repair infrastructure and review which actions worked | Sustained access, nutrition, prices, production and lessons from the response |
 
-Water efficiency, fertilizer efficiency, trade diversification, food-loss reduction, social protection and climate adaptation reinforce one another.
+A plan should name a lead authority and supporting roles for agriculture, trade, transport, health, water, local government and humanitarian partners. It should also include a public update schedule. Without clear ownership, several agencies may collect the same data while an affected district remains without support.
 
-## What should governments prioritize?
+## How can food be distributed safely during an emergency?
 
-The priorities differ by country.
+Start by confirming what people need and whether local markets are operating. Then select a delivery channel that people can actually reach. Distribution points should be accessible, schedules should be public, and recipients should not have to take unsafe journeys or pay unofficial fees to receive assistance.
 
-An import-dependent country may gain more from diversified trade and strategic stocks.
+Check the food itself: packaging, expiry dates, storage conditions, allergen information where relevant and temperature control for perishable items. Keep clean water and sanitation available at distribution sites. Finally, collect feedback and publish a simple record of what was delivered, where and when. Distribution totals alone do not prove that every affected household was reached.
 
-A drought-prone farming region may need water management and crop adaptation.
+## Food security policy solutions: what governments should prioritize
 
-A conflict-affected area may need humanitarian access and protection of local markets.
+A credible policy package combines long-term public investment with a response system that can scale quickly. The priorities usually include:
 
-A high-price environment may require social protection as well as supply-side measures.
+- agricultural research, extension, soil and water management;
+- reliable rural roads, ports, warehouses, electricity and cold chains;
+- open and predictable trade rules with diversified sourcing;
+- transparent reserves and market information;
+- targeted social protection and nutrition programmes;
+- food-safety inspection, safe water and public-health coordination;
+- early-warning data linked to named decision-makers and funded response plans.
 
-## What businesses and households can do
+The sequence should reflect the country's main vulnerability. An import-dependent island may need supplier and port diversification; a drought-prone farming area may need water governance; a conflict-affected district may need protected humanitarian access. Copying the same policy list into every national plan is less useful than diagnosing the actual failure point.
 
-Businesses can map supplier concentration, review storage and transport contingencies, and measure avoidable food loss. Households can reduce waste and plan purchases around their own budgets, but household action cannot replace public investment in water, logistics or humanitarian access.
+## What is one solution to reducing food insecurity?
 
+One solution is to **increase and stabilize the reliable food supply** by protecting production, reducing post-harvest losses and keeping trade routes open. That is not enough on its own: households must also have the income, transport and safe access needed to obtain the food.
 
-Food companies can diversify suppliers, improve inventory visibility and maintain backup logistics options.
+## Can one solution prevent every food crisis?
 
-Farmers can improve soil and water management and use better market information.
+No. Production support cannot replace household purchasing power, and food reserves cannot replace functioning markets or humanitarian access. The strongest approach combines prevention, early warning, safe distribution and recovery measures that address the specific cause of the crisis.
 
-Households can reduce waste and maintain sensible reserves rather than reacting to every alarming headline.
+## Related practical guides
 
-## What the 2026 evidence suggests
-
-Use evidence from production, stocks, prices and acute-food-insecurity assessments to identify which intervention is appropriate in each region. A large harvest may reduce availability risk while leaving affordability and logistics constraints unresolved.
-
-## Prioritize interventions by the failure point they address
-
-The ten measures above work best as a portfolio with a clear sequence. Start with the constraint that is currently reducing access or output, assign a measurable indicator to it, and compare the cost of addressing it with the likely benefit. For example, a water-stressed irrigation district needs a different investment sequence from a grain-importing country whose main vulnerability is port congestion or foreign-exchange access. A household affordability problem may require targeted transfers even when production and storage are adequate.
+For household-level preparation, see [how to plan a rotating emergency pantry](/articles/best-non-perishable-foods-30-day-emergency-pantry/) and [how to store drinking water safely](/articles/how-to-store-water-at-home-safely/). These steps can help a household prepare, but they do not replace public food-security policy or emergency response.

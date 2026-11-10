@@ -10,7 +10,8 @@ keywords:
   - ABARES winter crop forecast
   - Australian grain exports
   - El Niño Australia agriculture
-  - Australia food price outlooktype: analysis
+  - Australia food price outlook
+type: analysis
 sources:
   - name: ABARES — Australian Crop Report September 2026
     url: https://www.agriculture.gov.au/abares/research-topics/agricultural-outlook/australian-crop-report/september-2026

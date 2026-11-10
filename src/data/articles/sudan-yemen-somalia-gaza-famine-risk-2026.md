@@ -1,16 +1,16 @@
 ---
-title: "Sudan, Yemen, Somalia and Gaza: Where Famine Risk Is Highest in 2026"
-description: FAO and WFP identify several severe hunger hotspots in 2026, but famine risk differs by place, cause and assessment period.
+title: "Famine Risk in Sudan, Yemen, Somalia and Gaza: Four Different Crises"
+description: "Compare four severe humanitarian food crises without treating their populations, causes, geography or famine classifications as interchangeable."
 pubDate: 2026-10-04
-updatedDate: 2026-10-17
+updatedDate: "2026-11-10"
 author: Food Supply Crisis Report Editorial Desk
 category: Food Security
 keywords:
-  - Sudan famine 2026
-  - Yemen hunger 2026
-  - Somalia famine risk
-  - Gaza food insecurity
-  - famine risk countries
+  - famine risk Sudan Yemen Somalia Gaza 2026
+  - humanitarian food crisis comparison
+  - IPC famine classification
+  - acute food insecurity conflict zones
+  - FAO WFP hunger hotspot analysis
 type: analysis
 sources:
   - name: FAO–WFP Hunger Hotspots — June to November 2026
@@ -20,6 +20,9 @@ sources:
   - name: UN News — Hunger hotspots 2026
     url: https://news.un.org/en/story/2026/06/1167742
 related: []
+seoTitle: "Famine Risk 2026: Sudan, Yemen, Somalia and Gaza"
+primaryKeyword: "famine risk Sudan Yemen Somalia Gaza 2026"
+searchIntent: "comparison"
 ---
 
 Famine is not a single global event. It is a severe food-security condition that can emerge when people lose access to food because of conflict, displacement, weather, economic collapse or restrictions on humanitarian assistance.
@@ -115,6 +118,10 @@ For each location, keep a short source record: report title, issuing organizatio
 Also separate food availability from food access. A shipment or market stock can improve availability without resolving affordability or access for displaced people. Conversely, a national production estimate may be adequate while conflict, road closures or insecurity leave one community cut off from supplies. Humanitarian need must be described with the evidence for the population at risk, not inferred from world food prices alone.
 
 Use current [IPC assessments](https://www.ipcinfo.org/), [WFP publications](https://www.wfp.org/publications) and [FAO hunger-hotspot material](https://www.fao.org/giews/). For formal famine claims, quote the current technical assessment exactly and do not label a forecast or risk statement as a formal declaration. The public deserves urgency without confusion: a clear description of the place, period, severity and uncertainty helps readers understand what is known and why assistance is needed.
+
+## Compare the four settings without merging unlike populations
+
+The four settings share severe food-access problems, but their drivers and assessment coverage are not identical. In one place, conflict may block market access; in another, displacement or drought may reduce household income and food availability; elsewhere, restrictions on movement and damaged infrastructure may shape what aid can reach people. A single regional total would hide those differences.\n\nA responsible comparison uses the same questions for each location: which authority assessed the situation, what population and area were included, which period was measured, what classification was reported, and what assumptions underpin a forward-looking risk warning? Keep the latest estimate for each setting beside its own date and source. Do not infer that a Famine classification in one area automatically applies to an entire country or to the other locations. This comparison is intended to clarify the evidence, not to create a severity league table.
 
 ## Bottom line
 

@@ -1,16 +1,16 @@
 ---
-title: "FAO Food Price Index Explained: October 2026 Reading and What It Means"
-description: "The FAO Food Price Index averaged 133.9 points in October 2026. Learn what changed across commodities and why the index is not your local grocery inflation rate."
+title: "FAO Food Price Index: What October 2026’s 133.9 Reading Measures"
+description: "Understand the FAO Food Price Index’s five commodity groups, October 2026 movement and why an international index is not a household grocery inflation rate."
 pubDate: 2026-10-04
-updatedDate: 2026-11-10
+updatedDate: "2026-11-10"
 author: Food Supply Crisis Report Editorial Desk
 category: Food Prices
 keywords:
-  - FAO Food Price Index
-  - food price index 2026
-  - world food prices
-  - global food prices
-  - FAO food prices
+  - FAO Food Price Index October 2026
+  - how FAO food price index works
+  - FAO cereal price index
+  - international food commodity prices
+  - FAO index methodology
 type: explainer
 sources:
   - name: FAO Food Price Index — October 2026
@@ -18,6 +18,9 @@ sources:
   - name: FAO — October 2026 Food Price Index release, 6 November 2026
     url: https://www.fao.org/newsroom/detail/fao-food-price-index-edges-down-in-october-amid-subdued-demand/
 related: []
+seoTitle: "FAO Food Price Index: October 2026 Explained"
+primaryKeyword: "FAO food price index October 2026"
+searchIntent: "informational"
 ---
 
 The FAO Food Price Index is one of the most widely followed measures of international food commodity prices. It is useful because it provides a consistent monthly snapshot of the direction of globally traded food commodities.
@@ -123,6 +126,10 @@ First, record the release date and the latest month covered. Then note the headl
 Do not use the FAO index alone to forecast the size or date of a retail price change. Exchange rates, local harvests, taxes, subsidies, storage, energy and retail contracts can delay or amplify pass-through. And do not use price indices alone to measure hunger: for that, the relevant evidence concerns access to food, household resources and current humanitarian assessments.
 
 This method allows readers to distinguish a monthly market signal from a sustained trend and keeps the interpretation tied to what the index actually measures.
+
+## Read the component indices before interpreting the headline
+
+The headline index is a weighted basket, so it can move in one direction even when individual food groups move differently. In October 2026, FAO reported a lower overall index while rice and sugar quotations rose and cereal, meat and dairy components moved differently. That is not a contradiction; it is the reason the sub-indices matter.\n\nWhen you read a monthly release, record the month covered, publication date, revised comparison month and annual change. Then check which component contributed most to the movement and whether the change reflects export quotations, production expectations or logistics. Finally, keep the FAO series separate from national consumer-price indices. A global export-price benchmark cannot tell you the exact increase in a household’s local food basket, where exchange rates, domestic crops, taxes, subsidies and retail costs also matter.
 
 ## Bottom line
 

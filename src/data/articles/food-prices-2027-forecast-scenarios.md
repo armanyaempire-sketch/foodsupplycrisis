@@ -1,43 +1,63 @@
 ---
-title: "Food Price Forecast 2027: Four Scenarios and the Signals to Watch"
-description: "Explore four possible 2027 food-price paths and the observable harvest, shipping, fertilizer and energy signals that would make each scenario more likely."
+title: "Food Shortage 2027: Seven Risks to Watch and What Is Known"
+description: "Is a food shortage expected in 2027? Track seven evidence-based risks, the latest FAO supply data and the signals that would confirm or weaken concern."
 pubDate: 2026-10-04
 updatedDate: "2026-11-10"
 author: Food Supply Crisis Report Editorial Desk
 category: Food Prices
 keywords:
-  - food price forecast 2027 scenarios
-  - food inflation outlook 2027
-  - 2027 food commodity prices
-  - fertilizer costs food prices
-  - global harvest outlook 2027
+  - food shortage 2027 list
+  - predicted food shortages 2027
+  - global food crisis 2027
+  - food shortage predictions
+  - 2027 food supply risks
+  - food price forecast 2027
+  - fertilizer and harvest risks
 type: analysis
 sources:
-  - name: FAO Food Price Index
-    url: https://www.fao.org/worldfoodsituation/foodpricesindex/en/
+  - name: FAO Food Price Index, October 2026 release (6 November 2026)
+    url: https://www.fao.org/newsroom/detail/fao-food-price-index-edges-down-in-october-amid-subdued-demand/
+  - name: FAO GIEWS — Countries requiring external assistance for food, November 2026
+    url: https://www.fao.org/giews/country-analysis/external-assistance/en/
   - name: Atlantic Council — Food crisis scenarios
     url: https://www.atlanticcouncil.org/content-series/fastthinking/four-scenarios-for-a-looming-global-food-crisis/
   - name: JPMorgan outlook via Yahoo Finance
     url: https://finance.yahoo.com/markets/commodities/articles/jpmorgan-warns-global-food-crisis-183000431.html
 related: []
-seoTitle: "Food Price Forecast 2027: Four Evidence-Based Scenarios"
-primaryKeyword: "food price forecast 2027 scenarios"
+seoTitle: "Food Shortage 2027: Seven Risks to Watch"
+primaryKeyword: "food shortage 2027 list"
 searchIntent: "analysis"
 ---
 
-Nobody can know the exact level of global food prices in 2027 today.
+No reliable source can publish a guaranteed list of countries that will experience food shortages in 2027. The useful answer is an evidence-led food shortage 2027 risk list: the conditions that could tighten supply, raise prices or make food harder to access—and the data that would confirm each risk. A risk is not a prediction, and a price increase is not automatically a physical shortage.
 
-A better way to think about the outlook is through scenarios.
+## Latest baseline: October 2026 data released on 6 November
 
-Prices could cool if several current pressures ease. They could remain elevated if disruptions persist. They could rise further if weather and supply shocks hit major producing regions at the same time.
+FAO’s 6 November 2026 update puts world cereal production at 2,999 million tonnes, the second-highest level on record. Cereal stocks are forecast to rise 1.8%, with a 32.4% stocks-to-use ratio, while 2026/27 cereal trade is forecast to contract 3.3% to 507.7 million tonnes. The October FAO Food Price Index averaged 133.9 points, down 1.2% from September but 5.9% above October 2025. This is a mixed baseline: large aggregate production and rising stocks alongside tighter trade and different movements among commodities.
 
-## Starting point: September 2026
+FAO’s November 2026 list identifies 41 countries or territories currently requiring external food assistance. That is a present assessment of severe food needs, not a forecast that all 41 will face a national physical shortage in 2027. Check the [FAO country list and its stated reasons](https://www.fao.org/giews/country-analysis/external-assistance/en/) before treating any country list as a prediction.
 
-FAO's Food Price Index reached 136.0 in September 2026, 5.8% above the same month a year earlier.
+## Food shortage 2027 list: seven risks to monitor
 
-The international market is therefore starting the next year from a period of renewed price pressure.
+| Risk | What would confirm it | What would weaken the concern |
+|---|---|---|
+| Weather affecting several major crop regions | Updated national and international crop forecasts show simultaneous deterioration in important producing areas | Crop conditions recover or other exporters have enough supply to offset losses |
+| Fertilizer availability before planting | Deliveries or affordability worsen during the actual purchase and application window | Farmers can obtain the needed nutrients on time, even if prices remain above older averages |
+| Shipping and port disruption | Vessel flows, export loadings or port access remain constrained long enough to delay supply | Routes reopen, freight pressure eases and importers can use alternative routes |
+| Export restrictions or sudden policy changes | Major suppliers limit exports or change rules in ways that reduce internationally available supply | Export policies remain predictable and alternative origins can fill gaps |
+| Falling usable stocks or exportable surplus | Stock-to-use measures, inventory quality or exporter availability deteriorate across more than one supplier | Stocks remain adequate and exportable supply is available when buyers need it |
+| Import financing and currency pressure | Importers cannot secure foreign exchange, credit or insurance to purchase available food | Financing improves and importers can pay for and move contracted supplies |
+| Conflict and blocked market access | Displacement, damaged infrastructure or insecurity prevent people from reaching food and markets | Safe access, local trade and humanitarian delivery improve in affected areas |
 
-But one month's index is not a forecast.
+The risks matter most when they overlap. A poor crop in one region may be offset by another exporter. A port delay may be manageable when stocks and credit are available. The combination of production losses, input constraints, trade disruption and reduced household purchasing power is more serious than any single signal.
+
+## Is there an official list of countries expected to face food shortages in 2027?
+
+There is no single authoritative list that can reliably name every country that will experience a food shortage in 2027. Forecasts have different publication dates and measure different things. FAO’s November 2026 list of countries requiring external food assistance is a current warning and monitoring resource; it must not be relabelled as a guaranteed 2027 shortage list. For country-level outlooks, read the latest [FAO GIEWS country assessments](https://www.fao.org/giews/country-analysis/external-assistance/en/) and check the assessment period, affected population and stated driver.
+
+## How to read the scenarios below
+
+The four scenarios that follow describe possible paths for food prices and supply pressure. They are conditional pathways, not probability estimates and not a claim that one outcome is certain.
 
 ## Scenario 1: Trade normalizes
 

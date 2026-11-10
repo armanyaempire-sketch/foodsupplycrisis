@@ -149,7 +149,9 @@ Preparedness advice should be judged by whether it helps households withstand a 
 
 ## Treat buying behaviour as a signal about expectations, not proof of a shortage
 
-A rush to buy a product can reveal that households expect a disruption, but it does not establish that the product is physically scarce across a country. Purchases may rise because people have seen a price warning, experienced a previous stockout, expect a transport interruption or simply want a larger buffer. Retailers may then sell through their normal inventory before replenishment arrives, creating a temporary local gap even when wholesalers still have supply.\n\nTo understand a stockpiling episode, look for the trigger, the products affected, the length of the buying surge and how quickly stores restock. Compare retail observations with wholesale availability and official supply information. Avoid using an isolated photograph as a national trend. This article examines behaviour and the feedback loop between fear and retail inventory; the separate household storage guides explain how to plan a modest reserve without overbuying.
+A rush to buy a product can reveal that households expect a disruption, but it does not establish that the product is physically scarce across a country. Purchases may rise because people have seen a price warning, experienced a previous stockout, expect a transport interruption or simply want a larger buffer. Retailers may then sell through their normal inventory before replenishment arrives, creating a temporary local gap even when wholesalers still have supply.
+
+To understand a stockpiling episode, look for the trigger, the products affected, the length of the buying surge and how quickly stores restock. Compare retail observations with wholesale availability and official supply information. Avoid using an isolated photograph as a national trend. This article examines behaviour and the feedback loop between fear and retail inventory; the separate household storage guides explain how to plan a modest reserve without overbuying.
 
 ## Bottom line
 

@@ -1,20 +1,16 @@
 ---
-title: "Global Food Prices September 2026: Why Food Costs Are Rising Again"
-description: "Global food prices climbed in September 2026 as cereals, sugar and vegetable oils rose. Here is what is driving the move, what it means and what to watch next."
+title: "FAO Food Prices in September 2026: What Rose and Why"
+description: "A historical breakdown of FAO’s September 2026 food-price reading, including cereal, vegetable-oil and sugar movements and the difference from local food inflation."
 pubDate: 2026-10-04
-updatedDate: 2026-10-04
+updatedDate: "2026-11-10"
 author: Food Supply Crisis Report Editorial Desk
 category: Food Prices
 keywords:
-  - global food prices September 2026
-  - food prices 2026
-  - global food price crisis
-  - food inflation 2026
-  - food price index 2026
-  - wheat prices 2026
-  - maize prices 2026
-  - rice prices 2026
-  - food costs rising
+  - FAO food price index September 2026
+  - September 2026 global food prices
+  - cereal prices September 2026
+  - vegetable oil prices 2026
+  - global food commodity price changes
 type: analysis
 sources:
   - name: FAO — Food Price Index rises in September amid weather concerns and transport disruptions
@@ -26,6 +22,9 @@ sources:
 related:
   - fao-food-price-index-explained-2026
   - food-prices-2027-forecast-scenarios
+seoTitle: "FAO Food Prices September 2026: Commodity Breakdown"
+primaryKeyword: "FAO food price index September 2026"
+searchIntent: "analysis"
 ---
 
 ## Global food prices rose again in September 2026
@@ -289,6 +288,10 @@ Several signals appearing together would be more concerning than a single headli
 A single indicator can be noisy.
 
 Several indicators moving in the same direction provide a stronger reason to reassess the outlook.
+
+## Keep this September snapshot separate from later monthly releases
+
+This article is a dated account of the September 2026 release, not a statement of the latest available index. FAO published the September reading on 2 October; the following month’s release is a separate observation and should not be blended into the September comparison. The September figures are useful for documenting what markets were signaling at that point in time.\n\nFor a time-series comparison, retain the value for each reference month alongside its publication date and any subsequent revision. That prevents an older number from being presented as current when a newer release appears. It also allows a reader to see whether a later change reversed, extended or merely narrowed the September movement. For the current October reading and the five index components, use the separate FAO index explainer linked from the Food Prices hub.
 
 ## Bottom line
 

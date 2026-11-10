@@ -291,7 +291,9 @@ Several indicators moving in the same direction provide a stronger reason to rea
 
 ## Keep this September snapshot separate from later monthly releases
 
-This article is a dated account of the September 2026 release, not a statement of the latest available index. FAO published the September reading on 2 October; the following month’s release is a separate observation and should not be blended into the September comparison. The September figures are useful for documenting what markets were signaling at that point in time.\n\nFor a time-series comparison, retain the value for each reference month alongside its publication date and any subsequent revision. That prevents an older number from being presented as current when a newer release appears. It also allows a reader to see whether a later change reversed, extended or merely narrowed the September movement. For the current October reading and the five index components, use the separate FAO index explainer linked from the Food Prices hub.
+This article is a dated account of the September 2026 release, not a statement of the latest available index. FAO published the September reading on 2 October; the following month’s release is a separate observation and should not be blended into the September comparison. The September figures are useful for documenting what markets were signaling at that point in time.
+
+For a time-series comparison, retain the value for each reference month alongside its publication date and any subsequent revision. That prevents an older number from being presented as current when a newer release appears. It also allows a reader to see whether a later change reversed, extended or merely narrowed the September movement. For the current October reading and the five index components, use the separate FAO index explainer linked from the Food Prices hub.
 
 ## Bottom line
 

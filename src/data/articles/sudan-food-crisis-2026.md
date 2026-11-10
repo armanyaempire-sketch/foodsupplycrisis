@@ -113,7 +113,9 @@ The signs of improvement are not just a change in international commodity prices
 
 ## Report the IPC phase, population and assessment period together
 
-An IPC finding is meaningful only when its geographic coverage, population estimate and time period are stated. A figure for the whole country should not be confused with a local-area estimate, and a projection under a reasonable worst-case scenario should not be described as an observed outcome. The distinction between Phase 4 Emergency, Phase 5 Catastrophe and a formal Famine classification also matters.\n\nConflict and displacement affect food access through several mechanisms: households may lose land or income, markets may stop functioning, roads can become unsafe and humanitarian deliveries may be blocked. These conditions can create extreme hunger even when food exists elsewhere in the country. For each update, compare the latest IPC analysis with WFP operational reporting and information about access and displacement. This provides a more accurate picture than relying on a single headline number.
+An IPC finding is meaningful only when its geographic coverage, population estimate and time period are stated. A figure for the whole country should not be confused with a local-area estimate, and a projection under a reasonable worst-case scenario should not be described as an observed outcome. The distinction between Phase 4 Emergency, Phase 5 Catastrophe and a formal Famine classification also matters.
+
+Conflict and displacement affect food access through several mechanisms: households may lose land or income, markets may stop functioning, roads can become unsafe and humanitarian deliveries may be blocked. These conditions can create extreme hunger even when food exists elsewhere in the country. For each update, compare the latest IPC analysis with WFP operational reporting and information about access and displacement. This provides a more accurate picture than relying on a single headline number.
 
 ## Bottom line
 

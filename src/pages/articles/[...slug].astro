@@ -51,7 +51,9 @@ const { Content } = await render(article);
 
 <ArticleLayout
   title={article.data.title}
+  seoTitle={article.data.seoTitle}
   description={article.data.description}
+  primaryKeyword={article.data.primaryKeyword}
   pubDate={article.data.pubDate}
   updatedDate={article.data.updatedDate}
   author={article.data.author}

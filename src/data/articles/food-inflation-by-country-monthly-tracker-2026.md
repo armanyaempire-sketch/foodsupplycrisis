@@ -145,7 +145,9 @@ When updating this tracker, keep earlier values in a dated series instead of ove
 
 ## A fair country comparison needs the same period and the same basket definition
 
-A country table can mislead when one figure is year-over-year food CPI, another is a month-over-month change and a third is an international commodity index. Before comparing values, record the statistical agency, reference month, annual or monthly rate, food category coverage, base year and whether the series is seasonally adjusted. If a country revises its CPI, note the revision rather than silently mixing series.\n\nFor an apples-to-apples view, use national food CPI for household price changes and keep the FAO Food Price Index in a separate column as an international commodity benchmark. Add the currency and exchange-rate context when import costs matter. Do not rank countries by the percentage alone: the same inflation rate can affect households differently depending on income, subsidies, food budget share and the speed at which prices are changing.
+A country table can mislead when one figure is year-over-year food CPI, another is a month-over-month change and a third is an international commodity index. Before comparing values, record the statistical agency, reference month, annual or monthly rate, food category coverage, base year and whether the series is seasonally adjusted. If a country revises its CPI, note the revision rather than silently mixing series.
+
+For an apples-to-apples view, use national food CPI for household price changes and keep the FAO Food Price Index in a separate column as an international commodity benchmark. Add the currency and exchange-rate context when import costs matter. Do not rank countries by the percentage alone: the same inflation rate can affect households differently depending on income, subsidies, food budget share and the speed at which prices are changing.
 
 ## Bottom line
 

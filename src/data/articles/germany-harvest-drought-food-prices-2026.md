@@ -106,7 +106,9 @@ The transport issue is worth monitoring separately. Inland waterways move more t
 
 ## Trace two different routes from drought to consumer prices
 
-A smaller harvest can affect the grain balance through lower domestic availability or a reduced exportable surplus. Low river levels create a separate logistics channel: barges may carry less cargo, freight schedules can change and some shipments may move by road or rail at higher cost. The two effects can occur together, but they should be measured separately.\n\nFor the harvest channel, compare the final crop estimate with the previous year and the multi-year average, and identify which regions and crops account for the decline. For the transport channel, check river levels, vessel loading limits and freight rates on the relevant route. Then examine milling wheat prices and bakery cost components before attributing a change in bread prices to drought. Energy, wages, rent and processing contracts can outweigh the raw grain share of a loaf.
+A smaller harvest can affect the grain balance through lower domestic availability or a reduced exportable surplus. Low river levels create a separate logistics channel: barges may carry less cargo, freight schedules can change and some shipments may move by road or rail at higher cost. The two effects can occur together, but they should be measured separately.
+
+For the harvest channel, compare the final crop estimate with the previous year and the multi-year average, and identify which regions and crops account for the decline. For the transport channel, check river levels, vessel loading limits and freight rates on the relevant route. Then examine milling wheat prices and bakery cost components before attributing a change in bread prices to drought. Energy, wages, rent and processing contracts can outweigh the raw grain share of a loaf.
 
 ## Bottom line
 

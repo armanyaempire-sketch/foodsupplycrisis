@@ -124,7 +124,9 @@ Readers outside the affected communities should respond to humanitarian crises b
 
 ## A hotspot warning is an early-warning classification, not a single famine label
 
-The FAO–WFP hotspot list identifies places where acute food insecurity is expected to deteriorate during a defined period. It is designed to guide attention and humanitarian response; it does not mean every person in a listed country is in the same phase, nor that each area has a confirmed Famine classification. Geographic coverage, population estimates and severity differ between assessments.\n\nWhen comparing updates, record the publication date, projection window, area covered, population group and classification terminology. A national figure may include regions with very different conditions, while a subnational assessment can reveal a severe crisis hidden by a country average. The report should be read alongside the underlying IPC analysis, WFP operational updates and evidence about access, displacement, markets and funding. This makes the hotspot list useful as an early-warning instrument rather than a ranking of countries.
+The FAO–WFP hotspot list identifies places where acute food insecurity is expected to deteriorate during a defined period. It is designed to guide attention and humanitarian response; it does not mean every person in a listed country is in the same phase, nor that each area has a confirmed Famine classification. Geographic coverage, population estimates and severity differ between assessments.
+
+When comparing updates, record the publication date, projection window, area covered, population group and classification terminology. A national figure may include regions with very different conditions, while a subnational assessment can reveal a severe crisis hidden by a country average. The report should be read alongside the underlying IPC analysis, WFP operational updates and evidence about access, displacement, markets and funding. This makes the hotspot list useful as an early-warning instrument rather than a ranking of countries.
 
 ## Bottom line
 

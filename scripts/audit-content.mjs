@@ -17,58 +17,66 @@ const seen = {
   primaryKeyword: new Map()
 };
 
-const field = (metadata, name) => {
-  const match = metadata.match(new RegExp("^" + name + ":[ \\t]*(.*)$", "m"));
-  if (!match) return "";
-  const value = match[1].trim();
-  if (value.startsWith('"')) {
-    try { return JSON.parse(value); } catch { return value.slice(1, -1); }
+const readField = (lines, name) => {
+  const line = lines.find((item) => item.startsWith(name + ":"));
+  if (!line) return "";
+  const raw = line.slice(name.length + 1).trim();
+  if (raw.startsWith('"')) {
+    try { return JSON.parse(raw); } catch { return raw.slice(1, -1); }
   }
-  if (value.startsWith("'") && value.endsWith("'")) return value.slice(1, -1).replace(/''/g, "'");
-  return value;
+  if (raw.startsWith("'") && raw.endsWith("'")) return raw.slice(1, -1).replace(/''/g, "'");
+  return raw;
 };
 
 const rememberUnique = (kind, value, file) => {
-  const normalized = value.trim().toLowerCase().replace(/\\s+/g, " ");
+  const normalized = value.trim().toLowerCase().replace(/ +/g, " ");
   if (!normalized) return;
   const previous = seen[kind].get(normalized);
-  if (previous) {
-    failures.push(`${file}: duplicate ${kind} also used by ${previous}`);
-  } else {
-    seen[kind].set(normalized, file);
-  }
+  if (previous) failures.push(`${file}: duplicate ${kind} also used by ${previous}`);
+  else seen[kind].set(normalized, file);
 };
 
-const normalizedParagraph = (paragraph) => paragraph
-  .toLowerCase()
-  .replace(/https?:\\/\\/\\S+/g, " ")
-  .replace(/[^a-z0-9]+/g, " ")
-  .replace(/\\s+/g, " ")
-  .trim();
+const normalizeParagraph = (paragraph) =>
+  paragraph.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 
 const longParagraphs = new Map();
-const repeatedHeadings = /^##\\s+(?:How to read the country risk correctly|Practical response:\\s+what to do if conditions worsen)\\s*$/im;
+const allowedIntents = new Set(["informational", "how-to", "comparison", "analysis", "reference"]);
 
 for (const file of articleFiles) {
   const fullPath = join(articleDirectory, file);
   const content = await readFile(fullPath, "utf8");
-  const frontmatter = content.match(/^---\\s*\\n([\\s\\S]*?)\\n---/);
+  const firstDivider = content.indexOf("---");
+  const secondDivider = content.indexOf("---", firstDivider + 3);
 
-  if (!frontmatter) {
+  if (firstDivider !== 0 || secondDivider < 0) {
     failures.push(`${file}: missing YAML frontmatter`);
     continue;
   }
 
-  const metadata = frontmatter[1];
-  const title = field(metadata, "title");
-  const seoTitle = field(metadata, "seoTitle");
-  const description = field(metadata, "description");
-  const primaryKeyword = field(metadata, "primaryKeyword");
-  const searchIntent = field(metadata, "searchIntent");
-  const sources = metadata.match(/^sources:[ \\t]*$/m);
-  const sourceUrl = metadata.match(/^[ \\t]+url:[ \\t]*["']?https?:\\/\\//im);
-  const keywordBlock = metadata.match(/^keywords:[ \\t]*\\n([\\s\\S]*?)(?=^[A-Za-z][A-Za-z0-9_]*:[ \\t]*|$)/m);
-  const keywordCount = keywordBlock ? (keywordBlock[1].match(/^[ \\t]+-/gm) || []).length : 0;
+  const metadata = content.slice(firstDivider + 3, secondDivider);
+  const lines = metadata.split("\n").map((line) => line.trimEnd());
+  const title = readField(lines, "title");
+  const seoTitle = readField(lines, "seoTitle");
+  const description = readField(lines, "description");
+  const primaryKeyword = readField(lines, "primaryKeyword");
+  const searchIntent = readField(lines, "searchIntent");
+  const updatedDate = readField(lines, "updatedDate");
+
+  const keywordStart = lines.findIndex((line) => line.trim() === "keywords:");
+  let keywordCount = 0;
+  if (keywordStart >= 0) {
+    for (let i = keywordStart + 1; i < lines.length; i++) {
+      const line = lines[i];
+      if (line.length > 0 && !line.startsWith(" ") && line.includes(":")) break;
+      if (line.trimStart().startsWith("- ")) keywordCount++;
+    }
+  }
+
+  const hasSources = lines.some((line) => line.trim() === "sources:");
+  const hasSourceUrl = lines.some((line) => {
+    const value = line.trim().startsWith("url:") ? line.trim().slice(4).trim() : "";
+    return value.startsWith("https://") || value.startsWith('"https://') || value.startsWith("http://") || value.startsWith('"http://');
+  });
 
   if (!title) failures.push(`${file}: missing title`);
   if (!seoTitle) failures.push(`${file}: missing SEO title`);
@@ -77,10 +85,9 @@ for (const file of articleFiles) {
     failures.push(`${file}: meta description must be 80–180 characters`);
   }
   if (!primaryKeyword) failures.push(`${file}: missing one primary keyword`);
-  if (!["informational", "how-to", "comparison", "analysis", "reference"].includes(searchIntent)) {
-    failures.push(`${file}: missing or invalid searchIntent`);
-  }
-  if (!sources || !sourceUrl) failures.push(`${file}: add at least one direct HTTP(S) source URL`);
+  if (!allowedIntents.has(searchIntent)) failures.push(`${file}: missing or invalid searchIntent`);
+  if (!updatedDate) failures.push(`${file}: missing material updatedDate`);
+  if (!hasSources || !hasSourceUrl) failures.push(`${file}: add at least one direct HTTP(S) source URL`);
   if (keywordCount < 3 || keywordCount > 15) failures.push(`${file}: include 3–15 secondary keywords`);
 
   rememberUnique("title", title, file);
@@ -88,15 +95,17 @@ for (const file of articleFiles) {
   rememberUnique("description", description, file);
   rememberUnique("primaryKeyword", primaryKeyword, file);
 
-  if (repeatedHeadings.test(content)) {
-    failures.push(`${file}: remove a repeated generic editorial section and replace it with topic-specific analysis`);
+  const body = content.slice(secondDivider + 3);
+  if (body.includes("## How to read the country risk correctly")) {
+    failures.push(`${file}: repeated country-risk template heading remains`);
+  }
+  if (body.includes("## Practical response: what to do if conditions worsen")) {
+    failures.push(`${file}: repeated generic preparedness section remains`);
   }
 
-  const body = content.replace(/^---\\s*\\n[\\s\\S]*?\\n---/, "");
-  const paragraphs = body.split(/\\n\\s*\\n/).filter((p) => p.trim() && !p.trim().startsWith("#"));
-  for (const paragraph of paragraphs) {
-    const normalized = normalizedParagraph(paragraph);
-    const wordCount = normalized ? normalized.split(" ").length : 0;
+  for (const paragraph of body.split("\n\n")) {
+    const normalized = normalizeParagraph(paragraph);
+    const wordCount = normalized ? normalized.split(" ").filter(Boolean).length : 0;
     if (wordCount < 50) continue;
     const previous = longParagraphs.get(normalized);
     if (previous && previous !== file) {

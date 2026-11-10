@@ -464,7 +464,9 @@ Keep dry foods sealed, dry and protected from pests. Keep canned foods away from
 
 ## Treat the 5% figure as a conditional scenario, not a guaranteed outcome
 
-The value of the JPMorgan scenario is that it describes a chain of conditions, not a date on which food prices must rise. The estimate depends on several pressures persisting together: a fertilizer supply disruption that affects planting decisions, energy and transport costs that remain elevated, and weather that reduces output in exposed producing regions. If one of those conditions eases, the path can change.\n\nWhen quoting the 5% figure, state the comparison period, geography and whether it refers to global food inflation or a local consumer-price index. Do not present it as a prediction for every country or every grocery basket. Compare the report’s assumptions with updated FAO commodity indices, fertilizer availability, national crop estimates and household food CPI. The purpose is to test the scenario as evidence arrives—not to repeat its headline as a certainty.
+The value of the JPMorgan scenario is that it describes a chain of conditions, not a date on which food prices must rise. The estimate depends on several pressures persisting together: a fertilizer supply disruption that affects planting decisions, energy and transport costs that remain elevated, and weather that reduces output in exposed producing regions. If one of those conditions eases, the path can change.
+
+When quoting the 5% figure, state the comparison period, geography and whether it refers to global food inflation or a local consumer-price index. Do not present it as a prediction for every country or every grocery basket. Compare the report’s assumptions with updated FAO commodity indices, fertilizer availability, national crop estimates and household food CPI. The purpose is to test the scenario as evidence arrives—not to repeat its headline as a certainty.
 
 ## Final assessment
 

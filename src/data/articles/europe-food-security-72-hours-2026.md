@@ -120,7 +120,9 @@ A strong food-security assessment also looks at affordability. A supermarket can
 
 ## Separate the household continuity plan from the national supply plan
 
-A 72-hour household reserve and a national food reserve solve different problems. The household plan is meant to bridge a short interruption to water, electricity, transport or retail services. National and commercial stocks support procurement, distribution and food processing across a much larger system. Neither measure, by itself, predicts a shortage.\n\nWhen comparing European guidance, identify who issued it, which country it applies to, what duration it covers and whether it concerns food, water, medicines, power or communications. Switzerland’s compulsory reserve model, for example, should not be treated as a single EU-wide rule. For food-system risk, look separately at the country’s import mix, domestic harvest, port and road capacity, storage infrastructure and household food affordability. This prevents an emergency-preparedness message from being misreported as evidence of imminent food scarcity.
+A 72-hour household reserve and a national food reserve solve different problems. The household plan is meant to bridge a short interruption to water, electricity, transport or retail services. National and commercial stocks support procurement, distribution and food processing across a much larger system. Neither measure, by itself, predicts a shortage.
+
+When comparing European guidance, identify who issued it, which country it applies to, what duration it covers and whether it concerns food, water, medicines, power or communications. Switzerland’s compulsory reserve model, for example, should not be treated as a single EU-wide rule. For food-system risk, look separately at the country’s import mix, domestic harvest, port and road capacity, storage infrastructure and household food affordability. This prevents an emergency-preparedness message from being misreported as evidence of imminent food scarcity.
 
 ## Bottom line
 

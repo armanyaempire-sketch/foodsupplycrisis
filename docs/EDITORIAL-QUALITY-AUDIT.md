@@ -1,0 +1,63 @@
+# Editorial quality audit and corrective actions
+
+Updated: 10 November 2026
+
+This document records a structural review of the 49 Markdown articles in `src/data/articles/` and the quality improvements applied on the `adsense-low-value-content` branch. It is an internal editorial record, not a claim that Google has approved the site.
+
+## What was reviewed
+
+The review checked article length, heading structure, source metadata, topic-specific sections, endings and repeated household-preparedness material. The 49 article bodies ranged from roughly 900 words to more than 4,400 words. Word count was used only to identify unusually short or sprawling pages; it was not used as a quality score or a target.
+
+Google explicitly says there is no preferred word count. Its guidance emphasizes original information or analysis, completeness relative to the reader's question, useful insight beyond a summary, accuracy, clear sourcing and a satisfying user experience. The editorial objective is therefore to make each page useful for its actual purpose—not to make every page longer.
+
+## Problems found and corrected
+
+### Repeated generic conclusions
+
+Six articles ended with the same generic emergency-preparedness paragraph even though their subjects were different:
+
+- Pakistan wheat and flour supply
+- Philippines water and rice production
+- Russia–Ukraine grain exports
+- Southeast Asian rice prices
+- Strait of Hormuz fertilizer and shipping exposure
+- Sudan acute food insecurity
+
+Those conclusions have been replaced with topic-specific analytical tests. They now explain which data to compare, which geography and time period matter, and what evidence would support or weaken the article's central claim.
+
+### A macro-analysis article had drifted into a second pantry guide
+
+The JPMorgan 2027 scenario article contained a lengthy household stockpiling checklist, a seven-day pantry plan and repeated household-storage FAQs. Much of that material duplicated the site's dedicated pantry and safe-water guides. The broad checklist has been removed and replaced with a short explanation of why a global inflation scenario is not a direct household grocery forecast, plus links to the dedicated practical guides.
+
+The article's market context was also refreshed with FAO's 6 November 2026 release: the Food Price Index averaged 133.9 points in October, 1.2% below September and 5.9% above October 2025. The September 2026 value is now labelled as an earlier baseline rather than the latest release.
+
+### Reader-facing source transparency
+
+Every article's source box now links to the Editorial Policy, which explains the source hierarchy, how forecasts and uncertainty are described, the publication byline, the possible use of AI-assisted tools, material updates and corrections.
+
+## Automated regression protection
+
+The editorial content audit now rejects several known generic conclusion patterns that were identified during this review. The existing checks for repeated long paragraphs, unique titles, unique descriptions, unique primary keywords and source metadata remain in place.
+
+The automated check is a guardrail, not a substitute for editorial judgment. It does not decide whether a statistic is correct, whether a source truly supports a claim, or whether a page is sufficiently useful to a reader. Those checks require review of the original source and the article's subject.
+
+## Standard for future articles and updates
+
+Before publishing or materially updating an article, editors should be able to answer these questions:
+
+1. What exact reader question does this page answer, and why does it deserve a separate page?
+2. Which primary sources directly support its important factual claims?
+3. What is original here: a comparison, worked example, calculation, explanation of a mechanism, decision aid or a clearly stated evidence test?
+4. Are observed data, estimates, forecasts and editorial interpretation clearly distinguished?
+5. Does the article explain what the cited data does not show?
+6. Does every section belong to this article, or should it link to a separate practical guide instead?
+7. Does the conclusion add a subject-specific insight rather than repeat generic preparedness language?
+8. Are publication and update dates accurate, with an update date changed only after a material edit?
+
+Do not add paragraphs merely to reach a word count. Do not repeat a keyword unnaturally. Do not create a country or product shortage list unless an authoritative source supports the geography, period and meaning of the claim. Where the evidence is incomplete, say so.
+
+## Remaining review requirement
+
+The branch should receive a fresh editorial audit, Astro production build and Cloudflare Pages preview check after the latest commits. Important factual claims should also be checked against the current original source before the article is treated as ready for a new AdSense review.
+
+Google makes the final AdSense eligibility decision. These changes address identified content-quality problems but cannot guarantee approval.

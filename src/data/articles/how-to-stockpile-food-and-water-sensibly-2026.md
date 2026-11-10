@@ -149,7 +149,9 @@ The reserve has served its purpose when it provides a manageable buffer, covers 
 
 ## Set a stopping rule before you start buying
 
-A reserve should cover a specific, realistic interruption—not an undefined period of uncertainty. Decide which services or shopping disruption the plan is meant to bridge, how many people and dietary needs it covers, and where the supplies can be stored safely. Then subtract the food and water already in the home before buying anything. This makes the target finite and prevents headlines from continually expanding the shopping list.\n\nUse a first-in, first-out rotation: place newer purchases behind older ones, mark opening or purchase dates where useful, and use the reserve in normal meals before it reaches its storage limit. Replenish what the household actually consumes. Do not buy quantities that exceed storage capacity, budget or safe shelf life. Follow local emergency-management advice for water and food safety, especially when a real incident is underway.
+A reserve should cover a specific, realistic interruption—not an undefined period of uncertainty. Decide which services or shopping disruption the plan is meant to bridge, how many people and dietary needs it covers, and where the supplies can be stored safely. Then subtract the food and water already in the home before buying anything. This makes the target finite and prevents headlines from continually expanding the shopping list.
+
+Use a first-in, first-out rotation: place newer purchases behind older ones, mark opening or purchase dates where useful, and use the reserve in normal meals before it reaches its storage limit. Replenish what the household actually consumes. Do not buy quantities that exceed storage capacity, budget or safe shelf life. Follow local emergency-management advice for water and food safety, especially when a real incident is underway.
 
 ## Bottom line
 

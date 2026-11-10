@@ -2,7 +2,7 @@ name: Build
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "adsense-low-value-content"]
   pull_request:
     branches: ["main"]
 

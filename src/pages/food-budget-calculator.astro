@@ -1,0 +1,154 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Food Budget Scenario Calculator | Food Supply Crisis Report"
+  description="Model how a hypothetical food-price change could affect a monthly household grocery budget. Adjust your spend, currency and percentage change."
+>
+  <section class="hero">
+    <div class="shell">
+      <p class="eyebrow">Free planning tool</p>
+      <h1>Food Budget Scenario Calculator</h1>
+      <p>Estimate how a hypothetical change in food prices could affect your household’s monthly grocery budget. Change the inputs to test different scenarios.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell calculator-shell">
+      <div class="calculator-intro">
+        <h2>Test a price-change scenario</h2>
+        <p>Enter what you currently spend on a typical month of groceries. Then choose a hypothetical percentage change. The calculator assumes you buy the same basket and quantities.</p>
+      </div>
+
+      <div class="calculator-panel">
+        <div class="calculator-inputs">
+          <label for="monthly-spend">Current monthly grocery spend</label>
+          <div class="input-with-currency">
+            <select id="currency" aria-label="Currency">
+              <option value="INR" selected>INR — Indian rupee</option>
+              <option value="USD">USD — US dollar</option>
+              <option value="GBP">GBP — Pound sterling</option>
+              <option value="EUR">EUR — Euro</option>
+              <option value="AUD">AUD — Australian dollar</option>
+              <option value="CAD">CAD — Canadian dollar</option>
+              <option value="BDT">BDT — Bangladeshi taka</option>
+              <option value="PKR">PKR — Pakistani rupee</option>
+            </select>
+            <input id="monthly-spend" type="number" inputmode="decimal" min="0" max="1000000000" step="100" value="15000" />
+          </div>
+          <label for="price-change">Hypothetical food-price change</label>
+          <div class="range-line">
+            <input id="price-change" type="range" min="-30" max="50" step="1" value="5" />
+            <output id="price-change-value" for="price-change">+5%</output>
+          </div>
+          <p class="input-hint">Use a negative value to model a decrease, or a positive value to model an increase.</p>
+        </div>
+
+        <div class="calculator-results" aria-live="polite" aria-atomic="true">
+          <p class="eyebrow">Scenario estimate</p>
+          <div class="result-primary">
+            <span>New monthly basket estimate</span>
+            <strong id="new-monthly">₹15,750</strong>
+          </div>
+          <div class="result-secondary">
+            <div><span>Change per month</span><strong id="monthly-difference">+₹750</strong></div>
+            <div><span>Difference over 12 months</span><strong id="annual-difference">+₹9,000</strong></div>
+          </div>
+          <p id="scenario-summary" class="scenario-summary">At +5%, the same grocery basket would cost about ₹750 more per month.</p>
+        </div>
+      </div>
+
+      <div class="calculator-explanation">
+        <h2>How to use the result</h2>
+        <p>This is a simple sensitivity test: it applies your selected percentage to your current monthly spending. It does not forecast inflation, estimate a national food-price index, or predict what a particular shop will charge.</p>
+        <p>Real households change brands, quantities and foods; local prices also vary by location, season, taxes, currency and retailer. For a more realistic plan, compare the foods you actually buy and update your monthly spend when your own receipts change.</p>
+        <p>For international market context, see the <a href="/food-prices/">food-prices topic hub</a> and the <a href="/sources/">primary-source directory</a>.</p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .calculator-shell { max-width: 920px; }
+  .calculator-intro { max-width: 720px; margin: 0 auto 24px; }
+  .calculator-panel { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: stretch; }
+  .calculator-inputs, .calculator-results { padding: 24px; border: 1px solid var(--line, #ddd); border-radius: 16px; background: var(--surface, #fff); }
+  .calculator-inputs label { display: block; margin: 0 0 8px; font-weight: 700; }
+  .input-with-currency { display: grid; grid-template-columns: minmax(130px, 0.9fr) minmax(120px, 1.1fr); gap: 8px; margin-bottom: 22px; }
+  .calculator-inputs input, .calculator-inputs select { width: 100%; min-width: 0; padding: 12px; border: 1px solid var(--line, #ccc); border-radius: 8px; background: var(--surface, #fff); color: inherit; font: inherit; }
+  .range-line { display: flex; gap: 12px; align-items: center; }
+  .range-line input { flex: 1; padding: 0; }
+  .range-line output { min-width: 52px; text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .input-hint { margin: 8px 0 0; color: var(--muted, #666); font-size: .9rem; }
+  .calculator-results { background: var(--surface-alt, #f7f7f7); }
+  .result-primary { display: grid; gap: 8px; margin: 12px 0 22px; }
+  .result-primary span, .result-secondary span { color: var(--muted, #666); font-size: .92rem; }
+  .result-primary strong { font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.1; overflow-wrap: anywhere; }
+  .result-secondary { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .result-secondary div { display: grid; gap: 6px; }
+  .result-secondary strong { font-size: 1.15rem; overflow-wrap: anywhere; }
+  .scenario-summary { margin: 20px 0 0; padding-top: 16px; border-top: 1px solid var(--line, #ddd); }
+  .calculator-explanation { max-width: 760px; margin: 28px auto 0; }
+  @media (max-width: 700px) {
+    .calculator-panel { grid-template-columns: 1fr; }
+    .input-with-currency { grid-template-columns: 1fr; }
+    .calculator-inputs, .calculator-results { padding: 18px; }
+  }
+</style>
+
+<script>
+  const spendInput = document.querySelector("#monthly-spend");
+  const currencyInput = document.querySelector("#currency");
+  const changeInput = document.querySelector("#price-change");
+  const changeValue = document.querySelector("#price-change-value");
+  const newMonthly = document.querySelector("#new-monthly");
+  const monthlyDifference = document.querySelector("#monthly-difference");
+  const annualDifference = document.querySelector("#annual-difference");
+  const summary = document.querySelector("#scenario-summary");
+
+  const formatMoney = (amount, currency) => {
+    try {
+      return new Intl.NumberFormat(undefined, {
+        style: "currency",
+        currency,
+        maximumFractionDigits: 0
+      }).format(amount);
+    } catch {
+      return currency + " " + Math.round(amount).toLocaleString();
+    }
+  };
+
+  const updateScenario = () => {
+    if (!(spendInput instanceof HTMLInputElement)
+      || !(currencyInput instanceof HTMLSelectElement)
+      || !(changeInput instanceof HTMLInputElement)
+      || !changeValue || !newMonthly || !monthlyDifference || !annualDifference || !summary) return;
+
+    const rawSpend = Number(spendInput.value);
+    const spend = Number.isFinite(rawSpend) ? Math.max(0, rawSpend) : 0;
+    const change = Number(changeInput.value);
+    const projected = spend * (1 + (change / 100));
+    const difference = projected - spend;
+    const currency = currencyInput.value;
+
+    changeValue.textContent = (change > 0 ? "+" : "") + change + "%";
+    newMonthly.textContent = formatMoney(projected, currency);
+    monthlyDifference.textContent = (difference > 0 ? "+" : difference < 0 ? "−" : "") + formatMoney(Math.abs(difference), currency);
+    annualDifference.textContent = (difference > 0 ? "+" : difference < 0 ? "−" : "") + formatMoney(Math.abs(difference * 12), currency);
+
+    if (change > 0) {
+      summary.textContent = "At +" + change + "%, the same grocery basket would cost about " + formatMoney(difference, currency) + " more per month.";
+    } else if (change < 0) {
+      summary.textContent = "At " + change + "%, the same grocery basket would cost about " + formatMoney(Math.abs(difference), currency) + " less per month.";
+    } else {
+      summary.textContent = "At 0%, the estimated monthly cost remains unchanged.";
+    }
+  };
+
+  [spendInput, currencyInput, changeInput].forEach((element) => {
+    element?.addEventListener("input", updateScenario);
+    element?.addEventListener("change", updateScenario);
+  });
+  updateScenario();
+</script>

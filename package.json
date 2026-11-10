@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "audit:content": "node scripts/audit-content.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "4.0.19",

@@ -1,8 +1,8 @@
 ---
-title: "FAO Food Price Index Explained: September 2026 Reading and What It Means"
-description: "The FAO Food Price Index reached 136.0 in September 2026. Here is what the index measures, what changed and why it does not equal local food inflation."
+title: "FAO Food Price Index Explained: October 2026 Reading and What It Means"
+description: "The FAO Food Price Index averaged 133.9 points in October 2026. Learn what changed across commodities and why the index is not your local grocery inflation rate."
 pubDate: 2026-10-04
-updatedDate: 2026-10-17
+updatedDate: 2026-11-10
 author: Food Supply Crisis Report Editorial Desk
 category: Food Prices
 keywords:
@@ -13,10 +13,10 @@ keywords:
   - FAO food prices
 type: explainer
 sources:
-  - name: FAO Food Price Index — September 2026
+  - name: FAO Food Price Index — October 2026
     url: https://www.fao.org/worldfoodsituation/foodpricesindex/en/
-  - name: FAO — September 2026 Food Price Index release
-    url: https://www.fao.org/newsroom/detail/fao-food-price-index-rises-in-september-amid-weather-concerns-and-transport-disruptions/en
+  - name: FAO — October 2026 Food Price Index release, 6 November 2026
+    url: https://www.fao.org/newsroom/detail/fao-food-price-index-edges-down-in-october-amid-subdued-demand/
 related: []
 ---
 
@@ -34,15 +34,13 @@ That makes it a market indicator rather than a direct household inflation measur
 
 A country can experience faster food inflation than the international index if its currency weakens or its domestic crops perform poorly. Another country can see a smaller increase because it has strong domestic production or uses price controls and subsidies.
 
-## What happened in September 2026?
+## What happened in October 2026?
 
-FAO reported that the index averaged 136.0 points in September 2026.
+FAO reported that the index averaged 133.9 points in October 2026.
 
-That was 1.5% higher than the revised August level and 5.8% above September 2025.
+That was 1.2% below September but 5.9% above October 2025. The index also remained 16.4% below its March 2022 peak.
 
-Cereal, vegetable-oil and sugar prices increased. Meat prices declined and dairy prices were broadly stable.
-
-FAO linked the overall increase mainly to transportation disruptions, weather concerns and higher quotations in crop-based commodity groups.
+The component indices did not move together. Cereal prices fell 4.5% as wheat quotations eased; the All Rice Price Index rose 1.6%; sugar prices rose 6.6%; and the meat and dairy indices declined. The overall change therefore describes a broad basket, not every food market.
 
 ## Why did cereal prices rise?
 
@@ -116,7 +114,7 @@ FAO’s Food Price Index is a measure of monthly changes in international prices
 
 An index-point level is not a price per kilogram, a supermarket bill or a measure of how much every item costs. The percentage change over a month or year is often more interpretable, and the sub-indices show whether movements are concentrated in particular commodity groups. A national consumer-price index answers another question: it measures prices paid in that country and may include local products, distribution costs, taxes and other factors not directly reflected in international export quotations.
 
-FAO’s release dated 2 October 2026 said the index averaged 136.0 points in September, up 1.5% from its revised August level and 5.8% from a year earlier. It also noted that the index remained 15.1% below its March 2022 peak. That context matters: a recent rise can be real and worth tracking without meaning that the series is at an all-time high. The same release reported higher cereal, vegetable-oil and sugar indices while the meat index declined and dairy was broadly stable.
+FAO’s release dated 6 November 2026 said the index averaged 133.9 points in October, down 1.2% from September and 5.9% higher than October 2025. It remained 16.4% below its March 2022 peak. The cereal index fell 4.5%, the All Rice Price Index rose 1.6%, sugar increased 6.6%, and meat and dairy indices declined. These movements show why the component indices are more informative than the headline alone.
 
 ## A repeatable way to read each monthly release
 
@@ -128,7 +126,7 @@ This method allows readers to distinguish a monthly market signal from a sustain
 
 ## Bottom line
 
-The September 2026 FAO Food Price Index confirms that international food commodity markets are under renewed pressure.
+The October 2026 FAO Food Price Index shows that international commodity prices eased from September but remained above their year-earlier level, with notable differences between commodity groups.
 
 It does not prove a universal food shortage.
 

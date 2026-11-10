@@ -6,28 +6,46 @@ export async function getStaticPaths() {
   const articles = await getCollection("articles");
 
   return articles.map((article) => {
-    const articleKeywords = new Set(
-      article.data.keywords.map((keyword) =>
-        keyword.toLowerCase().replace(/[^a-z0-9\s-]/g, " ").replace(/\s+/g, " ").trim()
-      )
-    );
+    const stopWords = new Set([
+      "a", "an", "and", "are", "as", "at", "by", "for", "from", "how",
+      "in", "is", "it", "of", "on", "or", "the", "to", "what", "when",
+      "why", "with", "2026", "2027", "food", "foods", "global", "crisis",
+      "prices", "price", "risk", "supply", "security", "outlook", "impact",
+      "guide", "explained", "data", "shortage"
+    ]);
+
+    const keywordTokens = (values: string[]) =>
+      new Set(
+        values
+          .join(" ")
+          .toLowerCase()
+          .replace(/[^a-z0-9\\s-]/g, " ")
+          .split(/\\s+/)
+          .map((word) => word.trim())
+          .filter((word) => word.length > 2 && !stopWords.has(word))
+      );
+
+    const articleTerms = keywordTokens([
+      article.data.primaryKeyword,
+      ...article.data.keywords
+    ]);
 
     const related = articles
       .filter((candidate) => candidate.id !== article.id)
       .map((candidate) => {
-        const candidateKeywords = candidate.data.keywords.map((keyword) =>
-          keyword.toLowerCase().replace(/[^a-z0-9\s-]/g, " ").replace(/\s+/g, " ").trim()
-        );
-        const sharedKeywords = candidateKeywords.filter((keyword) => articleKeywords.has(keyword)).length;
+        const candidateTerms = keywordTokens([
+          candidate.data.primaryKeyword,
+          ...candidate.data.keywords
+        ]);
+        const sharedTerms = [...candidateTerms].filter((term) => articleTerms.has(term));
         const sameCategory = candidate.data.category === article.data.category;
 
-        const score =
-          sharedKeywords * 10 +
-          (sameCategory ? 8 : 0);
-
-        return { candidate, score };
+        return {
+          candidate,
+          score: sharedTerms.length * 10 + (sameCategory && sharedTerms.length > 0 ? 2 : 0)
+        };
       })
-      .filter(({ score }) => score > 0)
+      .filter(({ score }) => score >= 10)
       .sort((a, b) =>
         b.score - a.score ||
         b.candidate.data.pubDate.valueOf() - a.candidate.data.pubDate.valueOf()

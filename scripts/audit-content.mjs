@@ -46,7 +46,7 @@ for (const file of articleFiles) {
   const fullPath = join(articleDirectory, file);
   const content = await readFile(fullPath, "utf8");
   const firstDivider = content.indexOf("---");
-  const secondDivider = content.indexOf("---", firstDivider + 3);
+  const secondDivider = content.indexOf("\\n---", firstDivider + 3);
 
   if (firstDivider !== 0 || secondDivider < 0) {
     failures.push(`${file}: missing YAML frontmatter`);
@@ -95,7 +95,7 @@ for (const file of articleFiles) {
   rememberUnique("description", description, file);
   rememberUnique("primaryKeyword", primaryKeyword, file);
 
-  const body = content.slice(secondDivider + 3);
+  const body = content.slice(secondDivider + 4);
   if (body.includes("## How to read the country risk correctly")) {
     failures.push(`${file}: repeated country-risk template heading remains`);
   }

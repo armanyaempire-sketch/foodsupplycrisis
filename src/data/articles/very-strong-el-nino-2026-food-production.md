@@ -125,7 +125,9 @@ A credible article should identify the exposed crop and region, note the forecas
 
 ## Move from the Pacific signal to regional crop evidence
 
-The ocean-atmosphere signal is an early indicator. It does not directly measure rainfall over a farm or the condition of a crop. The next step is to examine regional seasonal outlooks, observed rainfall, soil moisture, reservoir levels and crop development. The timing of the weather anomaly matters: stress during planting, flowering or grain filling may have different consequences from a dry period after harvest.\n\nA robust assessment should therefore be updated in stages. First confirm NOAA’s ENSO status and forecast probabilities. Next identify which agricultural regions and crop calendars are exposed. Then compare the outlook with actual rainfall and field or satellite crop-condition reports as they arrive. Only after that should production forecasts be revised. This chain keeps a strong climate signal from being overstated as a confirmed global food-production loss.
+The ocean-atmosphere signal is an early indicator. It does not directly measure rainfall over a farm or the condition of a crop. The next step is to examine regional seasonal outlooks, observed rainfall, soil moisture, reservoir levels and crop development. The timing of the weather anomaly matters: stress during planting, flowering or grain filling may have different consequences from a dry period after harvest.
+
+A robust assessment should therefore be updated in stages. First confirm NOAA’s ENSO status and forecast probabilities. Next identify which agricultural regions and crop calendars are exposed. Then compare the outlook with actual rainfall and field or satellite crop-condition reports as they arrive. Only after that should production forecasts be revised. This chain keeps a strong climate signal from being overstated as a confirmed global food-production loss.
 
 ## Bottom line
 

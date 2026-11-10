@@ -104,7 +104,9 @@ Use the current [WFP Nigeria page](https://www.wfp.org/countries/nigeria), [IPC 
 
 ## The household access problem is different from Nigeria’s national food balance
 
-A national food-production figure cannot explain whether displaced families in Borno can reach markets, keep an income or receive assistance. Insecurity can disrupt farming, restrict movement, interrupt trade and raise the cost of transporting food even when supplies exist elsewhere in the country. The most relevant evidence is therefore local: population displacement, market functionality, access constraints, livelihood loss, food assistance coverage and the phase of acute food insecurity for the assessed population.\n\nWhen comparing updates, check whether the estimate covers Borno State, selected local government areas or Nigeria as a whole, and note the months being projected. Do not add national and subnational population figures together; populations may overlap. Also distinguish people in Crisis or worse from those classified in Catastrophe. Those categories describe different levels of severity and should be reported with the assessment date and the source’s assumptions.
+A national food-production figure cannot explain whether displaced families in Borno can reach markets, keep an income or receive assistance. Insecurity can disrupt farming, restrict movement, interrupt trade and raise the cost of transporting food even when supplies exist elsewhere in the country. The most relevant evidence is therefore local: population displacement, market functionality, access constraints, livelihood loss, food assistance coverage and the phase of acute food insecurity for the assessed population.
+
+When comparing updates, check whether the estimate covers Borno State, selected local government areas or Nigeria as a whole, and note the months being projected. Do not add national and subnational population figures together; populations may overlap. Also distinguish people in Crisis or worse from those classified in Catastrophe. Those categories describe different levels of severity and should be reported with the assessment date and the source’s assumptions.
 
 ## Bottom line
 

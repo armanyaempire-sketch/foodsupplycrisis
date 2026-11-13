@@ -3,6 +3,7 @@ import unittest
 from audit_site_quality import (
     blocks_for_duplicate,
     blocks_for_unique_word_count,
+    has_global_render_change,
     page_is_changed,
     should_block_external_source,
     should_block_internal_link,
@@ -63,10 +64,13 @@ class IncrementalGateTests(unittest.TestCase):
         ))
 
     def test_shared_layout_change_rechecks_all_pages(self):
+        changed_paths = {"src/layouts/BaseLayout.astro"}
+        self.assertTrue(has_global_render_change(changed_paths))
         self.assertTrue(page_is_changed(
             "/articles/untouched-article/",
-            {"src/layouts/BaseLayout.astro"},
+            changed_paths,
             set(),
+            global_render_changed=has_global_render_change(changed_paths),
         ))
 
     def test_sitemap_and_redirect_findings_require_relevant_changed_inputs(self):

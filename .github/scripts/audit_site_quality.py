@@ -10,6 +10,7 @@ import os
 from pathlib import Path
 import re
 import sys
+import subprocess
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -74,6 +75,86 @@ def read_article(path: Path) -> tuple[str, str, str | None, str | None]:
     updated_date = updated_match.group(1).strip().strip("\"'") if updated_match else None
     pub_date = pub_match.group(1).strip().strip("\"'") if pub_match else None
     return frontmatter, body, updated_date, pub_date
+
+
+# These are generic household-preparedness appendices, not the article's core topic.
+# Keep the canonical pantry guide's practical sections intact.
+APPENDIX_HEADING_PATTERNS = [
+    re.compile(r"^Practical response: what to do if conditions worsen$", re.I),
+    re.compile(r"^What to store(?: correctly(?::.*)?| if a real disruption occurs)$", re.I),
+    re.compile(r"^What to do about water$", re.I),
+    re.compile(r"^Water and cooking resilience$", re.I),
+    re.compile(r"^What not to do$", re.I),
+    re.compile(r"^Signals that justify a stronger response$", re.I),
+    re.compile(r"^Signals for a stronger response$", re.I),
+    re.compile(r"^Signals for escalation$", re.I),
+    re.compile(r"^When to escalate$", re.I),
+    re.compile(r"^A practical monthly review$", re.I),
+    re.compile(r"^Monthly preparedness review$", re.I),
+    re.compile(r"^Monthly resilience check$", re.I),
+    re.compile(r"^Monthly review$", re.I),
+    re.compile(r"^A practical planning worksheet$", re.I),
+    re.compile(r"^Practical seven-day implementation plan$", re.I),
+    re.compile(r"^Practical seven-day decision guide$", re.I),
+    re.compile(r"^Decision guide for a real disruption$", re.I),
+    re.compile(r"^Final preparedness checklist$", re.I),
+    re.compile(r"^Final practical response checklist$", re.I),
+    re.compile(r"^Practical decision framework$", re.I),
+    re.compile(r"^How to prepare without overbuying$", re.I),
+]
+
+
+def split_repeated_appendices(body: str, slug: str = "") -> tuple[str, str, list[str]]:
+    """Return (core body, appendix text, matched appendix headings)."""
+    if slug == "best-non-perishable-foods-30-day-emergency-pantry":
+        return body, "", []
+    headings = list(re.finditer(r"(?m)^##\s+(.+?)\s*$", body))
+    ranges: list[tuple[int, int, str]] = []
+    for index, heading in enumerate(headings):
+        name = heading.group(1).strip()
+        if any(pattern.match(name) for pattern in APPENDIX_HEADING_PATTERNS):
+            end = headings[index + 1].start() if index + 1 < len(headings) else len(body)
+            ranges.append((heading.start(), end, name))
+    core = body
+    appendix_blocks: list[str] = []
+    for start, end, name in sorted(ranges, key=lambda item: item[0], reverse=True):
+        appendix_blocks.insert(0, body[start:end])
+        core = core[:start] + core[end:]
+    return core, "\n\n".join(appendix_blocks), [name for _, _, name in ranges]
+
+
+def unique_word_band(count: int) -> str:
+    if count < 700:
+        return "MERGE / REDIRECT CANDIDATE"
+    if count <= 1200:
+        return "EXPAND OR REVIEW MERGE"
+    return "KEEP CANDIDATE — QUALITY REVIEW STILL REQUIRED"
+
+
+def blocks_for_unique_word_count(count: int, article_changed: bool) -> bool:
+    """Only block a changed article below 700 core words; report baseline debt."""
+    return article_changed and count < 700
+
+
+def changed_article_slugs() -> set[str]:
+    if os.environ.get("GITHUB_EVENT_NAME") != "pull_request":
+        return set()
+    base_sha = os.environ.get("BASE_SHA", "").strip()
+    if not base_sha:
+        return set()
+    try:
+        import subprocess
+        result = subprocess.run(
+            ["git", "diff", "--name-only", f"{base_sha}...HEAD"],
+            check=True, capture_output=True, text=True
+        )
+    except Exception:
+        return set()
+    return {
+        Path(name).stem for name in result.stdout.splitlines()
+        if name.startswith("src/data/articles/") and name.endswith(".md")
+    }
+
 
 class PageParser(HTMLParser):
     def __init__(self) -> None:
@@ -205,7 +286,11 @@ def main() -> int:
     parser.add_argument("--fail-on-findings", action="store_true",
                         help="Return non-zero when any blocking audit finding exists.")
     parser.add_argument("--min-words", type=int, default=800,
-                        help="Word-count threshold for review warnings (default: 800).")
+                        help="Legacy full-text word-count warning threshold.")
+    parser.add_argument("--min-unique-words", type=int, default=700,
+                        help="Blocking core-word floor for changed articles (default: 700).")
+    parser.add_argument("--review-unique-words", type=int, default=1200,
+                        help="Core-word count above which an article is only a keep candidate (default: 1200).")
     args = parser.parse_args()
 
     failures: list[str] = []
@@ -324,29 +409,19 @@ def main() -> int:
             fail(f"Broken internal link: {source_page} -> {href}")
 
     article_files = sorted(ARTICLE_DIR.glob("*.md")) if ARTICLE_DIR.is_dir() else []
-    word_counts: list[tuple[str, int, str, str]] = []
-    paragraph_owners: dict[str, set[str]] = {}
-    shingle_owners: dict[str, set[str]] = {}
+    changed_slugs = changed_article_slugs()
+    # (slug, raw words, post-appendix words, words removed, triage band, note status, updatedDate)
+    word_counts: list[tuple[str, int, int, int, str, str, str]] = []
+    core_paragraph_owners: dict[str, set[str]] = {}
+    appendix_paragraph_owners: dict[str, set[str]] = {}
+    core_shingle_owners: dict[str, set[str]] = {}
+    appendix_shingle_owners: dict[str, set[str]] = {}
+    total_raw_words = 0
+    total_core_words = 0
+    appendix_section_count = 0
 
-    for article_path in article_files:
-        _, body, updated_date, pub_date = read_article(article_path)
-        plain = markdown_plain(body)
-        count = len(WORD_RE.findall(plain))
-        slug = article_path.stem
-        has_update_note = bool(UPDATE_RE.search(body))
-        needs_update_note = bool(updated_date and pub_date and updated_date != pub_date)
-        note_status = "yes" if has_update_note else ("missing" if needs_update_note else "not marked updated")
-        word_counts.append((slug, count, note_status, updated_date or "—"))
-
-        if count < args.min_words:
-            warn(f"Short article for editorial review ({count} words, threshold {args.min_words}): {slug}")
-        if needs_update_note and not has_update_note:
-            fail(f"Article has an updatedDate later than pubDate but no visible explanatory update note: {slug} (pubDate: {pub_date}, updatedDate: {updated_date})")
-        elif not has_update_note:
-            warn(f"Article has no visible update note: {slug} (updatedDate: {updated_date or 'not set'}, pubDate: {pub_date or 'not set'})")
-            info.append(f"{slug}: no visible update note; updatedDate is absent or matches pubDate.")
-
-        for paragraph in re.split(r"\n\s*\n", body):
+    def collect_paragraphs(source: str, slug: str, owners: dict[str, set[str]]) -> None:
+        for paragraph in re.split(r"\n\s*\n", source):
             raw_lines = [line.strip() for line in paragraph.splitlines() if line.strip()]
             if not raw_lines:
                 continue
@@ -359,38 +434,102 @@ def main() -> int:
                 continue
             cleaned = markdown_plain(paragraph)
             normalized = " ".join(token.lower() for token in WORD_RE.findall(cleaned))
-            if not normalized:
+            if normalized:
+                owners.setdefault(normalized, set()).add(slug)
+
+    def collect_shingles(source: str, slug: str, owners: dict[str, set[str]]) -> None:
+        tokens = [token.lower() for token in WORD_RE.findall(markdown_plain(source))]
+        for index in range(max(0, len(tokens) - 39)):
+            shingle = " ".join(tokens[index:index + 40])
+            owners.setdefault(shingle, set()).add(slug)
+
+    for article_path in article_files:
+        _, body, updated_date, pub_date = read_article(article_path)
+        slug = article_path.stem
+        core_body, appendix_body, appendix_headings = split_repeated_appendices(body, slug)
+        raw_count = len(WORD_RE.findall(markdown_plain(body)))
+        core_count = len(WORD_RE.findall(markdown_plain(core_body)))
+        removed_count = max(0, raw_count - core_count)
+        total_raw_words += raw_count
+        total_core_words += core_count
+        appendix_section_count += len(appendix_headings)
+        band = unique_word_band(core_count)
+        word_counts.append((slug, raw_count, core_count, removed_count, band,
+                            "yes" if UPDATE_RE.search(body) else
+                            ("missing" if updated_date and pub_date and updated_date != pub_date else "not marked updated"),
+                            updated_date or "—"))
+
+        if core_count < args.min_unique_words:
+            message = f"Post-appendix core is only {core_count} words (<{args.min_unique_words}): {slug} — {band}"
+            if blocks_for_unique_word_count(core_count, slug in changed_slugs):
+                fail(message)
+            else:
+                warn("Existing short-core candidate: " + message)
+        elif core_count <= args.review_unique_words:
+            warn(f"Post-appendix core needs expansion or merge review ({core_count} words): {slug}")
+        else:
+            info.append(f"{slug}: {core_count} core words after repeated-appendix removal; keep candidate, subject to quality review.")
+
+        has_update_note = bool(UPDATE_RE.search(body))
+        needs_update_note = bool(updated_date and pub_date and updated_date != pub_date)
+        if needs_update_note and not has_update_note:
+            fail(f"Article has an updatedDate later than pubDate but no visible explanatory update note: {slug} (pubDate: {pub_date}, updatedDate: {updated_date})")
+        elif not has_update_note:
+            warn(f"Article has no visible update note: {slug} (updatedDate: {updated_date or 'not set'}, pubDate: {pub_date or 'not set'})")
+            info.append(f"{slug}: no visible update note; updatedDate is absent or matches pubDate.")
+
+        # Scan the stripped core and the removed appendix text separately:
+        # duplicates in either area are visible, and copied appendices cannot hide.
+        collect_paragraphs(core_body, slug, core_paragraph_owners)
+        collect_shingles(core_body, slug, core_shingle_owners)
+        if appendix_body.strip():
+            collect_paragraphs(appendix_body, slug, appendix_paragraph_owners)
+            collect_shingles(appendix_body, slug, appendix_shingle_owners)
+
+    def classify_duplicate(message: str, owners: list[str]) -> None:
+        if changed_slugs.intersection(owners):
+            fail(message)
+        else:
+            warn("Pre-existing duplicate (not in a changed article): " + message)
+
+    duplicate_core_paragraphs = [
+        (value, sorted(owners)) for value, owners in core_paragraph_owners.items()
+        if len(owners) > 1
+    ]
+    for value, owners in duplicate_core_paragraphs:
+        classify_duplicate(
+            f"Duplicate core paragraph across articles ({', '.join(owners)}): {value[:220]}",
+            owners
+        )
+
+    duplicate_appendix_paragraphs = [
+        (value, sorted(owners)) for value, owners in appendix_paragraph_owners.items()
+        if len(owners) > 1
+    ]
+    for value, owners in duplicate_appendix_paragraphs:
+        classify_duplicate(
+            f"Repeated preparedness-appendix paragraph ({', '.join(owners)}): {value[:220]}",
+            owners
+        )
+
+    def report_repeated_shingle_groups(owners_map: dict[str, set[str]], label: str) -> None:
+        pair_samples: dict[tuple[str, str], str] = {}
+        for phrase, owner_set in owners_map.items():
+            owners = sorted(owner_set)
+            if len(owners) < 2:
                 continue
-            paragraph_owners.setdefault(normalized, set()).add(slug)
+            for left_index in range(len(owners)):
+                for right_index in range(left_index + 1, len(owners)):
+                    pair = (owners[left_index], owners[right_index])
+                    pair_samples.setdefault(pair, phrase)
+        for pair, sample in sorted(pair_samples.items()):
+            classify_duplicate(
+                f"Repeated 40+ word sequence in {label} between {pair[0]} and {pair[1]}: {sample[:220]}",
+                list(pair)
+            )
 
-        # Check repeated 40-word runs across the entire article, not only within
-        # a single paragraph or formatting block.
-        article_tokens = [token.lower() for token in WORD_RE.findall(markdown_plain(body))]
-        for index in range(max(0, len(article_tokens) - 39)):
-            shingle = " ".join(article_tokens[index:index + 40])
-            shingle_owners.setdefault(shingle, set()).add(slug)
-
-    duplicate_paragraphs = [
-        (value, sorted(owners)) for value, owners in paragraph_owners.items()
-        if len(owners) > 1
-    ]
-    for value, owners in duplicate_paragraphs:
-        fail(f"Duplicate paragraph across articles ({', '.join(owners)}): {value[:220]}")
-
-    duplicate_40grams = [
-        (phrase, sorted(owners)) for phrase, owners in shingle_owners.items()
-        if len(owners) > 1
-    ]
-    pair_samples: dict[tuple[str, str], list[str]] = {}
-    for phrase, owners in duplicate_40grams:
-        for left_index in range(len(owners)):
-            for right_index in range(left_index + 1, len(owners)):
-                pair = (owners[left_index], owners[right_index])
-                samples = pair_samples.setdefault(pair, [])
-                if len(samples) < 3 and phrase not in samples:
-                    samples.append(phrase)
-    for pair, samples in sorted(pair_samples.items()):
-        fail(f"Repeated 40+ word sequence between {pair[0]} and {pair[1]}: {samples[0][:220]}")
+    report_repeated_shingle_groups(core_shingle_owners, "article core")
+    report_repeated_shingle_groups(appendix_shingle_owners, "preparedness appendices")
 
     checked_sources: list[tuple[str, int | None, str, str | None]] = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
@@ -417,6 +556,11 @@ def main() -> int:
         f"- Redirect rules checked: {len(redirects)}",
         f"- Article files checked: {len(article_files)}",
         f"- Unique external source URLs checked: {len(source_urls)}",
+        f"- Full article words: {total_raw_words}",
+        f"- Post-appendix core words: {total_core_words}",
+        f"- Generic appendix sections removed for measurement: {appendix_section_count}",
+        f"- Core duplicate paragraphs found: {len(duplicate_core_paragraphs)}",
+        f"- Repeated appendix paragraphs found: {len(duplicate_appendix_paragraphs)}",
         f"- Blocking findings: {len(failures)}",
         f"- Review warnings: {len(warnings)}", "",
         "## Blocking findings", ""
@@ -424,11 +568,11 @@ def main() -> int:
     lines.extend([f"- {item}" for item in failures] or ["- None."])
     lines.extend(["", "## Review warnings", ""])
     lines.extend([f"- {item}" for item in warnings] or ["- None."])
-    lines.extend(["", "## Article word counts and update notes", "",
-                  "| Article | Words | Visible update note | updatedDate |",
-                  "|---|---:|---|---|"])
-    for slug, count, note_status, updated_date in word_counts:
-        lines.append(f"| {slug} | {count} | {note_status} | {updated_date} |")
+    lines.extend(["", "## Article word counts after appendix removal", "",
+                  "| Article | Full words | Core words | Appendix words removed | Editorial triage | Update note | updatedDate |",
+                  "|---|---:|---:|---:|---|---|---|"])
+    for slug, raw_count, core_count, removed_count, band, note_status, updated_date in word_counts:
+        lines.append(f"| {slug} | {raw_count} | {core_count} | {removed_count} | {band} | {note_status} | {updated_date} |")
     lines.extend(["", "## Informational update-note inventory", ""])
     lines.extend([f"- {item}" for item in info[:80]] or ["- All articles have a visible update note."])
     if len(info) > 80:

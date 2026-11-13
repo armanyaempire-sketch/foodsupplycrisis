@@ -143,7 +143,25 @@ def blocks_for_duplicate(owners: list[str], changed_slugs: set[str]) -> bool:
     return bool(changed_slugs.intersection(owners))
 
 
-def changed_article_slugs() -> set[str]:
+GLOBAL_RENDER_FILES = {
+    "astro.config.mjs",
+    "package.json",
+    "package-lock.json",
+    "tsconfig.json",
+    "src/content.config.ts",
+}
+GLOBAL_RENDER_PREFIXES = (
+    "src/layouts/",
+    "src/components/",
+    "src/styles/",
+    "src/config/",
+    "src/utils/",
+    "public/images/",
+    "src/pages/articles/",
+)
+
+
+def changed_repository_paths() -> set[str]:
     if os.environ.get("GITHUB_EVENT_NAME") != "pull_request":
         return set()
     base_ref = os.environ.get("BASE_REF", "").strip()
@@ -156,10 +174,107 @@ def changed_article_slugs() -> set[str]:
         )
     except Exception:
         return set()
+    return {name.strip() for name in result.stdout.splitlines() if name.strip()}
+
+
+def changed_article_slugs(changed_paths: set[str] | None = None) -> set[str]:
+    paths = changed_paths if changed_paths is not None else changed_repository_paths()
     return {
-        Path(name).stem for name in result.stdout.splitlines()
+        Path(name).stem for name in paths
         if name.startswith("src/data/articles/") and name.endswith(".md")
     }
+
+
+def has_global_render_change(changed_paths: set[str]) -> bool:
+    return bool(
+        changed_paths.intersection(GLOBAL_RENDER_FILES)
+        or any(path.startswith(prefix) for path in changed_paths for prefix in GLOBAL_RENDER_PREFIXES)
+    )
+
+
+def page_is_changed(
+    page_path: str,
+    changed_paths: set[str],
+    changed_slugs: set[str],
+    global_render_changed: bool = False,
+) -> bool:
+    if global_render_changed:
+        return True
+    page = norm_path(page_path)
+    if page.startswith("/articles/"):
+        slug = page.strip("/").split("/")[-1]
+        if slug in changed_slugs:
+            return True
+    relative = page.strip("/")
+    if not relative:
+        candidates = {"src/pages/index.astro"}
+    else:
+        candidates = {
+            f"src/pages/{relative}.astro",
+            f"src/pages/{relative}/index.astro",
+        }
+    return bool(candidates.intersection(changed_paths))
+
+
+def should_block_internal_link(
+    source_page: str,
+    target_path: str,
+    changed_paths: set[str],
+    changed_slugs: set[str],
+    changed_redirect_sources: set[str],
+    global_render_changed: bool = False,
+) -> bool:
+    return (
+        page_is_changed(source_page, changed_paths, changed_slugs, global_render_changed)
+        or page_is_changed(target_path, changed_paths, changed_slugs, global_render_changed)
+        or path_key(target_path) in changed_redirect_sources
+    )
+
+
+def should_block_external_source(
+    source_pages: set[str],
+    changed_paths: set[str],
+    changed_slugs: set[str],
+    global_render_changed: bool = False,
+) -> bool:
+    return any(
+        page_is_changed(page, changed_paths, changed_slugs, global_render_changed)
+        for page in source_pages
+    )
+
+
+def should_block_sitemap_issue(changed_paths: set[str], global_render_changed: bool = False) -> bool:
+    return "public/sitemap.xml" in changed_paths or global_render_changed
+
+
+def should_block_redirect_issue(
+    source_path: str,
+    target_path: str,
+    changed_redirect_sources: set[str],
+    changed_paths: set[str],
+    changed_slugs: set[str],
+    global_render_changed: bool = False,
+) -> bool:
+    return (
+        path_key(source_path) in changed_redirect_sources
+        or page_is_changed(target_path, changed_paths, changed_slugs, global_render_changed)
+    )
+
+
+def parse_redirect_map(text: str) -> dict[str, tuple[str, str]]:
+    parsed: dict[str, tuple[str, str]] = {}
+    for line in text.splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        parts = line.split()
+        if len(parts) < 3:
+            continue
+        source, target, status = parts[0], parts[1], parts[2]
+        if "*" in source or ":" in source:
+            continue
+        parsed[path_key(source)] = (target, status)
+    return parsed
 
 
 class PageParser(HTMLParser):
@@ -237,21 +352,9 @@ def file_for_url_path(url_path: str) -> Path | None:
 
 
 def load_redirects() -> dict[str, tuple[str, str]]:
-    redirects: dict[str, tuple[str, str]] = {}
     if not REDIRECTS_FILE.exists():
-        return redirects
-    for line in REDIRECTS_FILE.read_text(encoding="utf-8").splitlines():
-        line = line.strip()
-        if not line or line.startswith("#"):
-            continue
-        parts = line.split()
-        if len(parts) < 3:
-            continue
-        source, target, status = parts[0], parts[1], parts[2]
-        if "*" in source or ":" in source:
-            continue
-        redirects[path_key(source)] = (target, status)
-    return redirects
+        return {}
+    return parse_redirect_map(REDIRECTS_FILE.read_text(encoding="utf-8"))
 
 
 def http_status(url: str) -> tuple[int | None, str, str | None]:
@@ -299,12 +402,42 @@ def main() -> int:
                         help="Core-word count above which an article is only a keep candidate (default: 1200).")
     args = parser.parse_args()
 
+    is_pull_request = os.environ.get("GITHUB_EVENT_NAME") == "pull_request"
+    changed_paths = changed_repository_paths()
+    changed_slugs = changed_article_slugs(changed_paths)
+    global_render_changed = has_global_render_change(changed_paths)
+
+    redirects = load_redirects()
+    changed_redirect_sources: set[str] = set()
+    base_ref = os.environ.get("BASE_REF", "").strip()
+    if is_pull_request and "public/_redirects" in changed_paths and base_ref:
+        try:
+            old_redirect_text = subprocess.run(
+                ["git", "show", f"{base_ref}:public/_redirects"],
+                check=True, capture_output=True, text=True
+            ).stdout
+            old_redirects = parse_redirect_map(old_redirect_text)
+            changed_redirect_sources = {
+                key for key in set(old_redirects) | set(redirects)
+                if old_redirects.get(key) != redirects.get(key)
+            }
+        except Exception:
+            changed_redirect_sources = set(redirects)
+
     failures: list[str] = []
+    pr_failures: list[str] = []
+    baseline_failures: list[str] = []
     warnings: list[str] = []
     info: list[str] = []
 
-    def fail(message: str) -> None:
+    def fail(message: str, introduced: bool = True) -> None:
         failures.append(message)
+        if is_pull_request:
+            if introduced:
+                pr_failures.append(message)
+            else:
+                baseline_failures.append(message)
+                warnings.append("Pre-existing baseline finding (not introduced by this PR): " + message)
 
     def warn(message: str) -> None:
         warnings.append(message)
@@ -313,14 +446,15 @@ def main() -> int:
         print("ERROR: dist/ does not exist. Run npm run build first.", file=sys.stderr)
         return 2
     if not SITEMAP_FILE.is_file():
-        fail("Built sitemap is missing: dist/sitemap.xml")
+        fail("Built sitemap is missing: dist/sitemap.xml",
+             introduced=should_block_sitemap_issue(changed_paths, global_render_changed))
 
-    redirects = load_redirects()
     redirect_targets = {key: value[0] for key, value in redirects.items()}
     page_files = sorted(p for p in DIST.rglob("*.html") if p.name != "404.html")
     page_info: dict[str, dict] = {}
     all_internal_links: list[tuple[str, str]] = []
     source_urls: set[str] = set()
+    source_url_pages: dict[str, set[str]] = {}
 
     for file_path in page_files:
         page_path = norm_path(page_path_from_file(file_path))
@@ -328,15 +462,15 @@ def main() -> int:
         try:
             page_parser.feed(file_path.read_text(encoding="utf-8", errors="replace"))
         except Exception as error:
-            fail(f"Could not parse built page {page_path}: {error}")
+            fail(f"Could not parse built page {page_path}: {error}", introduced=page_is_changed(page_path, changed_paths, changed_slugs, global_render_changed))
             continue
 
         if not page_parser.canonicals:
-            fail(f"Missing canonical tag: {page_path}")
+            fail(f"Missing canonical tag: {page_path}", introduced=page_is_changed(page_path, changed_paths, changed_slugs, global_render_changed))
         elif len(set(page_parser.canonicals)) > 1:
-            fail(f"Conflicting canonical tags: {page_path}")
+            fail(f"Conflicting canonical tags: {page_path}", introduced=page_is_changed(page_path, changed_paths, changed_slugs, global_render_changed))
         if not page_parser.adsense_meta:
-            fail(f"Missing Google AdSense account meta tag: {page_path}")
+            fail(f"Missing Google AdSense account meta tag: {page_path}", introduced=page_is_changed(page_path, changed_paths, changed_slugs, global_render_changed))
 
         robots = ",".join(page_parser.robots).lower()
         is_noindex = any(token.strip() == "noindex" for token in robots.split(","))
@@ -351,9 +485,11 @@ def main() -> int:
                 absolute = urllib.parse.urljoin("https://foodsupplycrisis.pages.dev/", href)
                 parsed = urllib.parse.urlsplit(absolute)
                 if parsed.scheme in {"http", "https"} and parsed.netloc:
-                    source_urls.add(urllib.parse.urlunsplit(
+                    source_url = urllib.parse.urlunsplit(
                         (parsed.scheme, parsed.netloc, parsed.path, parsed.query, "")
-                    ))
+                    )
+                    source_urls.add(source_url)
+                    source_url_pages.setdefault(source_url, set()).add(page_path)
 
     sitemap_paths: set[str] = set()
     sitemap_origin = "https://foodsupplycrisis.pages.dev"
@@ -370,31 +506,31 @@ def main() -> int:
                 url_path = norm_path(parsed.path or "/")
                 key = path_key(url_path)
                 if key in sitemap_paths:
-                    fail(f"Duplicate sitemap entry: {loc}")
+                    fail(f"Duplicate sitemap entry: {loc}", introduced=should_block_sitemap_issue(changed_paths, global_render_changed))
                 sitemap_paths.add(key)
                 if key in redirects:
-                    fail(f"Sitemap contains redirected URL: {loc} -> {redirect_targets[key]}")
+                    fail(f"Sitemap contains redirected URL: {loc} -> {redirect_targets[key]}", introduced=should_block_sitemap_issue(changed_paths, global_render_changed) or key in changed_redirect_sources)
                 target_file = file_for_url_path(url_path)
                 if target_file is None:
-                    fail(f"Sitemap URL has no built page: {loc}")
+                    fail(f"Sitemap URL has no built page: {loc}", introduced=should_block_sitemap_issue(changed_paths, global_render_changed) or page_is_changed(url_path, changed_paths, changed_slugs, global_render_changed))
                     continue
                 built_path = norm_path(page_path_from_file(target_file)) if target_file.suffix == ".html" else None
                 if built_path in page_info and page_info[built_path]["noindex"]:
-                    fail(f"Sitemap contains noindexed page: {loc}")
+                    fail(f"Sitemap contains noindexed page: {loc}", introduced=should_block_sitemap_issue(changed_paths, global_render_changed) or page_is_changed(url_path, changed_paths, changed_slugs, global_render_changed))
         except Exception as error:
-            fail(f"Could not parse built sitemap: {error}")
+            fail(f"Could not parse built sitemap: {error}", introduced=should_block_sitemap_issue(changed_paths, global_render_changed))
 
     for page_path, details in sorted(page_info.items()):
         if not details["noindex"] and path_key(page_path) not in sitemap_paths:
-            fail(f"Built indexable page missing from sitemap: {page_path}")
+            fail(f"Built indexable page missing from sitemap: {page_path}", introduced=should_block_sitemap_issue(changed_paths, global_render_changed) or page_is_changed(page_path, changed_paths, changed_slugs, global_render_changed))
 
     for source_key, (target, status) in sorted(redirects.items()):
         if source_key in sitemap_paths:
-            fail(f"Redirect source appears in sitemap: {source_key}")
+            fail(f"Redirect source appears in sitemap: {source_key}", introduced=should_block_sitemap_issue(changed_paths, global_render_changed) or source_key in changed_redirect_sources)
         if path_key(target) in redirects:
-            fail(f"Redirect target is itself redirected: {source_key} -> {target}")
+            fail(f"Redirect target is itself redirected: {source_key} -> {target}", introduced=should_block_redirect_issue(source_key, target, changed_redirect_sources, changed_paths, changed_slugs, global_render_changed))
         if file_for_url_path(target) is None:
-            fail(f"Redirect target is missing from built output: {source_key} -> {target}")
+            fail(f"Redirect target is missing from built output: {source_key} -> {target}", introduced=should_block_redirect_issue(source_key, target, changed_redirect_sources, changed_paths, changed_slugs, global_render_changed))
         if status not in {"301", "302", "303", "307", "308"}:
             warn(f"Unrecognized redirect status {status}: {source_key} -> {target}")
 
@@ -409,13 +545,12 @@ def main() -> int:
         target_path = norm_path(parsed.path or "/")
         key = path_key(target_path)
         if key in redirects:
-            fail(f"Internal link points to redirected URL: {source_page} -> {target_path} -> {redirect_targets[key]}")
+            fail(f"Internal link points to redirected URL: {source_page} -> {target_path} -> {redirect_targets[key]}", introduced=should_block_internal_link(source_page, target_path, changed_paths, changed_slugs, changed_redirect_sources, global_render_changed))
             continue
         if file_for_url_path(target_path) is None:
-            fail(f"Broken internal link: {source_page} -> {href}")
+            fail(f"Broken internal link: {source_page} -> {href}", introduced=page_is_changed(source_page, changed_paths, changed_slugs, global_render_changed) or page_is_changed(target_path, changed_paths, changed_slugs, global_render_changed))
 
     article_files = sorted(ARTICLE_DIR.glob("*.md")) if ARTICLE_DIR.is_dir() else []
-    changed_slugs = changed_article_slugs()
     # (slug, raw words, post-appendix words, words removed, triage band, note status, updatedDate)
     word_counts: list[tuple[str, int, int, int, str, str, str]] = []
     core_paragraph_owners: dict[str, set[str]] = {}
@@ -479,7 +614,7 @@ def main() -> int:
         has_update_note = bool(UPDATE_RE.search(body))
         needs_update_note = bool(updated_date and pub_date and updated_date != pub_date)
         if needs_update_note and not has_update_note:
-            fail(f"Article has an updatedDate later than pubDate but no visible explanatory update note: {slug} (pubDate: {pub_date}, updatedDate: {updated_date})")
+            fail(f"Article has an updatedDate later than pubDate but no visible explanatory update note: {slug} (pubDate: {pub_date}, updatedDate: {updated_date})", introduced=slug in changed_slugs)
         elif not has_update_note:
             warn(f"Article has no visible update note: {slug} (updatedDate: {updated_date or 'not set'}, pubDate: {pub_date or 'not set'})")
             info.append(f"{slug}: no visible update note; updatedDate is absent or matches pubDate.")
@@ -548,7 +683,7 @@ def main() -> int:
                 status, final_url, error = None, url, str(exception)
             checked_sources.append((url, status, final_url, error))
             if status in {404, 410}:
-                fail(f"External source link returns HTTP {status}: {url} (final URL: {final_url})")
+                fail(f"External source link returns HTTP {status}: {url} (final URL: {final_url})", introduced=should_block_external_source(source_url_pages.get(url, set()), changed_paths, changed_slugs, global_render_changed))
             elif status is None:
                 warn(f"Could not verify external source link (network/server error): {url} ({error})")
             elif status >= 500:
@@ -567,11 +702,18 @@ def main() -> int:
         f"- Generic appendix sections removed for measurement: {appendix_section_count}",
         f"- Core duplicate paragraphs found: {len(duplicate_core_paragraphs)}",
         f"- Repeated appendix paragraphs found: {len(duplicate_appendix_paragraphs)}",
-        f"- Blocking findings: {len(failures)}",
+        f"- Blocking findings in current tree: {len(failures)}",
+        f"- New blocking findings introduced by this PR: {len(pr_failures) if is_pull_request else 'not applicable'}",
+        f"- Pre-existing blocking findings: {len(baseline_failures)}",
         f"- Review warnings: {len(warnings)}", "",
-        "## Blocking findings", ""
+        "## Blocking findings in current tree", ""
     ]
     lines.extend([f"- {item}" for item in failures] or ["- None."])
+    lines.extend(["", "## New blocking findings introduced by this PR", ""])
+    lines.extend([f"- {item}" for item in pr_failures] or ["- None."])
+    if is_pull_request:
+        lines.extend(["", "## Pre-existing baseline blocking findings", ""])
+        lines.extend([f"- {item}" for item in baseline_failures] or ["- None."])
     lines.extend(["", "## Review warnings", ""])
     lines.extend([f"- {item}" for item in warnings] or ["- None."])
     lines.extend(["", "## Article word counts after appendix removal", "",
@@ -594,7 +736,8 @@ def main() -> int:
     if summary_path:
         with open(summary_path, "a", encoding="utf-8") as summary:
             summary.write(report)
-    write_github_output(bool(failures or warnings), len(failures), len(warnings))
+    blocking_count_for_gate = len(pr_failures) if is_pull_request else len(failures)
+    write_github_output(bool(failures or warnings), blocking_count_for_gate, len(warnings))
     print(report)
 
     if args.fail_on_findings and failures:

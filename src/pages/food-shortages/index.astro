@@ -21,6 +21,10 @@ const articles = (await getCollection("articles"))
   </section>
   <section class="section">
     <div class="shell">
+      <h2>Before calling it a shortage, ask five questions</h2>
+      <p><strong>Which product?</strong> A shortage of one staple or input is not a shortage of all food. <strong>Where?</strong> A stock-out at one retailer may be a local distribution problem rather than a national supply failure. <strong>How long?</strong> A brief interruption is different from a persistent shortfall.</p>
+      <p>Then ask what caused it and what official evidence is available. Crop estimates, stock disclosures, import data, market prices and humanitarian assessments each answer different questions. We distinguish physical unavailability from high prices and from households being unable to afford food that remains on sale.</p>
+      <p>Wherever possible, our articles identify the affected location, product, time period and source instead of turning an isolated incident into a global claim.</p>
       {articles.length ? (
         <div class="card-grid">
           {articles.map((article) => <ArticleCard article={article} />)}

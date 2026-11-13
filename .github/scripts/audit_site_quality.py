@@ -361,10 +361,13 @@ def main() -> int:
             if not normalized:
                 continue
             paragraph_owners.setdefault(normalized, set()).add(slug)
-            words = normalized.split()
-            if len(words) >= 40:
-                for index in range(len(words) - 39):
-                    shingle_owners.setdefault(" ".join(words[index:index + 40]), set()).add(slug)
+
+        # Check repeated 40-word runs across the entire article, not only within
+        # a single paragraph or formatting block.
+        article_tokens = [token.lower() for token in WORD_RE.findall(markdown_plain(body))]
+        for index in range(max(0, len(article_tokens) - 39)):
+            shingle = " ".join(article_tokens[index:index + 40])
+            shingle_owners.setdefault(shingle, set()).add(slug)
 
     duplicate_paragraphs = [
         (value, sorted(owners)) for value, owners in paragraph_owners.items()

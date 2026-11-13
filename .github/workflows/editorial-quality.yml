@@ -46,8 +46,13 @@ jobs:
       - name: Build Astro site
         run: npm run build
 
+      - name: Run audit regression tests
+        run: python -m unittest discover -s .github/scripts -p "test_*.py"
+
       - name: Run full read-only audit on every PR and scheduled run
         id: audit
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
         run: python .github/scripts/audit_site_quality.py
 
       - name: Enforce findings on site and content pull requests

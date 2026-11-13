@@ -81,7 +81,7 @@ def read_article(path: Path) -> tuple[str, str, str | None, str | None]:
 # Keep the canonical pantry guide's practical sections intact.
 APPENDIX_HEADING_PATTERNS = [
     re.compile(r"^Practical response: what to do if conditions worsen$", re.I),
-    re.compile(r"^What to store(?: correctly(?::.*)?| if a real disruption occurs)$", re.I),
+    re.compile(r"^What to store(?: correctly(?::.*)?| if a real disruption occurs)?$", re.I),
     re.compile(r"^What to do about water$", re.I),
     re.compile(r"^Water and cooking resilience$", re.I),
     re.compile(r"^What not to do$", re.I),

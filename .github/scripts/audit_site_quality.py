@@ -139,13 +139,12 @@ def blocks_for_unique_word_count(count: int, article_changed: bool) -> bool:
 def changed_article_slugs() -> set[str]:
     if os.environ.get("GITHUB_EVENT_NAME") != "pull_request":
         return set()
-    base_sha = os.environ.get("BASE_SHA", "").strip()
-    if not base_sha:
+    base_ref = os.environ.get("BASE_REF", "").strip()
+    if not base_ref:
         return set()
     try:
-        import subprocess
         result = subprocess.run(
-            ["git", "diff", "--name-only", f"{base_sha}...HEAD"],
+            ["git", "diff", "--name-only", f"{base_ref}...HEAD"],
             check=True, capture_output=True, text=True
         )
     except Exception:

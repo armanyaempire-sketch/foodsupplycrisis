@@ -147,7 +147,7 @@ A country can experience high prices because imports become expensive. A region 
 
 These are real problems, but they are different from a synchronized collapse of global food production.
 
-Our [global food shortage fact-check](/articles/is-there-really-a-global-food-shortage-2026/) explains the difference between global production, local shortages and food access.
+Our [global food shortage fact-check](/articles/global-food-crisis-2026/) explains the difference between global production, local shortages and food access.
 
 ## Why supermarket prices may not match global food-price indexes
 

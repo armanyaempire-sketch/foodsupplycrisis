@@ -2,7 +2,7 @@
 title: "Global Food Crisis 2026: Are Food Shortages Really Spreading Worldwide?"
 description: "Global cereal production remains high, but food prices, conflict, logistics, climate and affordability are creating serious food-security risks in specific regions."
 pubDate: 2026-10-04
-updatedDate: 2026-10-04
+updatedDate: 2026-11-13
 author: "Food Supply Crisis Report Editorial Desk"
 category: "Global Food Crisis"
 keywords:
@@ -17,13 +17,17 @@ keywords:
 featured: true
 type: analysis
 sources:
-  - name: "FAO — Cereal Supply and Demand Brief"
+  - name: "FAO — Cereal Supply and Demand Brief, 6 November 2026"
     url: "https://www.fao.org/worldfoodsituation/csdb"
-  - name: "FAO — Food Price Index"
-    url: "https://www.fao.org/worldfoodsituation/foodpricesindex/en/"
-  - name: "FAO — Food and agriculture news"
-    url: "https://www.fao.org/newsroom/"
+  - name: "FAO — Food Price Index, October 2026"
+    url: "https://www.fao.org/newsroom/detail/fao-food-price-index-edges-down-in-october-amid-subdued-demand/"
+  - name: "FAO–WFP — Hunger Hotspots, June to November 2026"
+    url: "https://www.wfp.org/publications/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-june-november-2026"
+  - name: "NOAA Climate Prediction Center — ENSO Diagnostic Discussion, 12 November 2026"
+    url: "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.html"
 ---
+
+> **Update — 13 November 2026:** The global cereal and food-price figures in this article have been refreshed using FAO's 6 November releases. The humanitarian section now references the FAO–WFP June–November 2026 Hunger Hotspots outlook, and the climate section uses NOAA's 12 November ENSO discussion.
 
 The phrase “global food crisis” can mean very different things. It can refer to high food prices, acute hunger in a conflict zone, a poor harvest, a supply-chain disruption or a fear that the world is running out of food.
 
@@ -35,7 +39,7 @@ The latest global evidence points to a more useful conclusion: world cereal prod
 
 The latest FAO cereal outlook does not show a collapse in global production.
 
-FAO's Cereal Supply and Demand Brief released on 2 October 2026 forecasts global cereal production at about 2.979 billion tonnes. That is 2.1% below the previous year's record, but still the second-highest harvest on record.
+FAO's Cereal Supply and Demand Brief released on 6 November 2026 forecasts global cereal production at about 2.999 billion tonnes in 2026. That is 1.7% below the 2025 record, but still the second-highest harvest on record.
 
 That figure matters because a major global production collapse would be one of the clearest ways for a worldwide supply crisis to become more likely. The current number does not show that.
 
@@ -73,9 +77,9 @@ This distinction is central to interpreting 2026 food-crisis headlines.
 
 Three current indicators illustrate why the picture is mixed.
 
-First, FAO's October cereal outlook puts 2026 global cereal production at 2.979 billion tonnes. That is below the 2025 record but still the second-largest harvest on record.
+First, FAO's 6 November outlook puts 2026 global cereal production at 2.999 billion tonnes, 1.7% below the 2025 record but still the second-highest level on record.
 
-Second, FAO's Food Price Index averaged 136.0 points in September 2026, up 1.5% from August and 5.8% from September 2025. The index tracks internationally traded food commodities, so it is an important global signal, but it is not a direct forecast of what every household will pay at a supermarket.
+Second, FAO's Food Price Index averaged 133.9 points in October 2026, down 1.2% from September but 5.9% above October 2025. It was also 16.4% below its March 2022 peak. The index tracks internationally traded food commodities, so it is an important global signal, but it is not a direct forecast of what every household will pay at a supermarket.
 
 Third, food insecurity remains extremely severe in some places even without a collapse in global production. IPC's Sudan analysis found that nearly 19.5 million people faced high levels of acute food insecurity between February and May 2026, with 14 areas identified as at risk of Famine under a reasonable worst-case scenario.
 
@@ -99,7 +103,7 @@ This is why a global food-supply analysis should never rely on production totals
 
 FAO's Food Price Index is useful because it captures movements in internationally traded commodities.
 
-The September 2026 reading of 136.0 points was 5.8% higher than a year earlier. FAO said transportation disruptions and weather concerns contributed to the increase.
+The October 2026 reading was 133.9 points: 1.2% lower than September but 5.9% higher than a year earlier. FAO attributed the monthly decline to weaker import demand and lower cereal, dairy and meat indices. Sugar moved in the opposite direction, rising 6.6% during the month and 28.8% year on year. The overall index therefore conceals substantial differences between commodity groups.
 
 But an international commodity index does not tell the whole retail story.
 
@@ -141,7 +145,7 @@ For the current fertilizer story, see [Fertilizer](/fertilizer/).
 
 Weather can change food risk without producing a worldwide crop failure.
 
-NOAA's September 2026 ENSO discussion said El Niño was strengthening and gave a greater than 90% chance of a very strong event during the Northern Hemisphere fall and winter 2026–27.
+NOAA's 12 November 2026 ENSO Diagnostic Discussion maintains an El Niño Advisory and says a strong-to-very-strong event is likely through January–March 2027, with a probability above 79%. NOAA also notes that even a very strong event does not guarantee impacts in every region.
 
 That raises the importance of regional crop monitoring because El Niño impacts vary by location, season and crop.
 
@@ -155,7 +159,7 @@ The better approach is to watch which producing regions are actually deteriorati
 
 A global production figure can hide severe local conditions.
 
-Sudan demonstrates this clearly. The IPC assessment for February–May 2026 found nearly 19.5 million people at IPC Phase 3 or above, including very large populations in Crisis, Emergency and Catastrophe conditions. The same analysis identified 14 areas at risk of Famine under a reasonable worst-case scenario.
+The FAO–WFP June–November 2026 Hunger Hotspots outlook identifies 13 countries and territories where acute food insecurity was expected to worsen. Sudan, South Sudan, Yemen and Palestine were placed in the highest-concern group; northeast Nigeria and Somalia were also flagged at the highest level of concern. The report's latest available estimates included 19.5 million people in Sudan at IPC Phase 3 or above through May 2026, 7.8 million in South Sudan through July, 18.3 million in Yemen in the September 2025–February 2026 period, and about 6 million in Somalia between April and June 2026. These periods differ and should not be treated as a same-date ranking.
 
 That does not contradict a large global cereal harvest.
 
@@ -264,7 +268,7 @@ A new headline should not automatically mean a new global crisis.
 
 The 2026 evidence points to a world under real food-security pressure, but not to a simple story in which the planet is running out of food.
 
-FAO's latest outlook still places global cereal production at about 2.979 billion tonnes, the second-highest harvest on record. At the same time, FAO's Food Price Index has risen from a year earlier, while severe regional food insecurity remains present, including in Sudan.
+FAO's 6 November outlook places global cereal production at about 2.999 billion tonnes, the second-highest level on record. FAO's Food Price Index averaged 133.9 in October, below September but above its year-earlier level, while the FAO–WFP outlook continues to identify severe regional food insecurity, including in Sudan and South Sudan.
 
 The central lesson is straightforward:
 
@@ -275,13 +279,3 @@ A credible global food-crisis assessment must follow all of them.
 The biggest risk is not one dramatic headline. It is the possibility that weaker harvests, tighter inputs, high energy costs, disrupted trade and worsening regional food insecurity begin reinforcing one another.
 
 That is what the 2026–27 food system needs to watch.
-
-## Sources & Further Reading
-
-Important figures and current-event claims should be checked against the original material:
-
-- FAO — Cereal Supply and Demand Brief: https://www.fao.org/worldfoodsituation/csdb
-- FAO — Food Price Index: https://www.fao.org/worldfoodsituation/foodpricesindex/en/
-- FAO — Food and agriculture news: https://www.fao.org/newsroom/
-- IPC — Sudan acute food insecurity analysis: https://www.ipcinfo.org/
-- NOAA Climate Prediction Center — ENSO Diagnostic Discussion: https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.html

@@ -23,6 +23,14 @@ const countryArticles = (await getCollection("articles"))
 
   <section class="section">
     <div class="shell">
+      <h2>How to read the country coverage</h2>
+      <p>Country-level food risk is not a single score. Each profile separates national production and stocks from imports, local distribution, household affordability and humanitarian access. A country can produce enough grain nationally while some communities face high prices, transport barriers or acute hunger.</p>
+      <p>We give more weight to country-specific sources than to global headlines: national statistical offices for consumer prices, agriculture ministries for crop forecasts, customs and trade data for imports, and food-security assessments for populations facing acute need. Where an indicator is unavailable or not comparable, it is left out rather than guessed.</p>
+      <p>Forecasts are labelled as forecasts, and a national average is not treated as proof that every province or household has the same experience.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="shell">
       {countryArticles.length > 0 ? (
         <div class="card-grid">
           {countryArticles.map((article) => <ArticleCard article={article} />)}

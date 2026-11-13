@@ -10,6 +10,12 @@ const articles = (await getCollection("articles"))
 
 <BaseLayout title="Food Security 2026 | Food Supply Crisis Report" description="Evidence-based reporting on food security, hunger, affordability, access to food and resilience across regions.">
   <section class="hero"><div class="shell"><p class="eyebrow">Topic Hub</p><h1>Food Security</h1><p>Food security depends on availability, access, affordability, stability and the ability of people and systems to withstand shocks.</p></div></section>
+  <section class="section"><div class="shell">
+    <h2>Availability, access and affordability are different tests</h2>
+    <p>Food security is not measured by harvest totals alone. Availability asks whether food exists through production, stocks and trade. Access asks whether people can physically and economically obtain it. Stability asks whether both remain reliable over time. Nutrition and safe use also matter: a calorie supply does not automatically mean a healthy diet is accessible.</p>
+    <p>Humanitarian assessments such as the Integrated Food Security Phase Classification (IPC) describe the severity of acute food insecurity in defined places and periods. They should be read with the geography and reference dates attached. A severe assessment for one district is not a national average, and a large national harvest does not cancel out a conflict-affected community's lack of access.</p>
+    <p>For cross-country early warnings, see the <a href="https://www.wfp.org/publications/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-june-november-2026" target="_blank" rel="noopener noreferrer">FAO–WFP Hunger Hotspots outlook for June–November 2026</a>.</p>
+  </div></section>
   <section class="section"><div class="shell"><div class="card-grid">
     {articles.length ? articles.map((article) => (<article class="card"><h2><a href={`/articles/${article.id}/`}>{article.data.title}</a></h2><p>{article.data.description}</p></article>)) : <div class="callout"><strong>Food security coverage:</strong> Upcoming reporting will connect hunger, prices, access, conflict, climate and resilience using primary sources.</div>}
   </div></div></section>

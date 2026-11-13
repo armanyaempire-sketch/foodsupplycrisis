@@ -95,7 +95,9 @@ APPENDIX_HEADING_PATTERNS = [
     re.compile(r"^Monthly review$", re.I),
     re.compile(r"^A practical planning worksheet$", re.I),
     re.compile(r"^Practical seven-day implementation plan$", re.I),
+    re.compile(r"^A practical seven-day implementation plan$", re.I),
     re.compile(r"^Practical seven-day decision guide$", re.I),
+    re.compile(r"^A practical seven-day decision guide$", re.I),
     re.compile(r"^Decision guide for a real disruption$", re.I),
     re.compile(r"^Final preparedness checklist$", re.I),
     re.compile(r"^Final practical response checklist$", re.I),
@@ -123,17 +125,17 @@ def split_repeated_appendices(body: str, slug: str = "") -> tuple[str, str, list
     return core, "\n\n".join(appendix_blocks), [name for _, _, name in ranges]
 
 
-def unique_word_band(count: int) -> str:
-    if count < 700:
+def unique_word_band(count: int, min_words: int = 700, review_words: int = 1200) -> str:
+    if count < min_words:
         return "MERGE / REDIRECT CANDIDATE"
-    if count <= 1200:
+    if count <= review_words:
         return "EXPAND OR REVIEW MERGE"
     return "KEEP CANDIDATE — QUALITY REVIEW STILL REQUIRED"
 
 
-def blocks_for_unique_word_count(count: int, article_changed: bool) -> bool:
-    """Only block a changed article below 700 core words; report baseline debt."""
-    return article_changed and count < 700
+def blocks_for_unique_word_count(count: int, article_changed: bool, min_words: int = 700) -> bool:
+    """Only block a changed article below the configured core-word floor."""
+    return article_changed and count < min_words
 
 
 def changed_article_slugs() -> set[str]:
@@ -452,7 +454,7 @@ def main() -> int:
         total_raw_words += raw_count
         total_core_words += core_count
         appendix_section_count += len(appendix_headings)
-        band = unique_word_band(core_count)
+        band = unique_word_band(core_count, args.min_unique_words, args.review_unique_words)
         word_counts.append((slug, raw_count, core_count, removed_count, band,
                             "yes" if UPDATE_RE.search(body) else
                             ("missing" if updated_date and pub_date and updated_date != pub_date else "not marked updated"),
@@ -460,7 +462,7 @@ def main() -> int:
 
         if core_count < args.min_unique_words:
             message = f"Post-appendix core is only {core_count} words (<{args.min_unique_words}): {slug} — {band}"
-            if blocks_for_unique_word_count(core_count, slug in changed_slugs):
+            if blocks_for_unique_word_count(core_count, slug in changed_slugs, args.min_unique_words):
                 fail(message)
             else:
                 warn("Existing short-core candidate: " + message)

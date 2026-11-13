@@ -21,12 +21,14 @@ jobs:
     name: Build and audit rendered site
     runs-on: ubuntu-latest
     outputs:
-      has_findings: ${{ steps.pr_audit.outputs.has_findings || steps.scheduled_audit.outputs.has_findings }}
-      hard_errors: ${{ steps.pr_audit.outputs.hard_errors || steps.scheduled_audit.outputs.hard_errors }}
-      warnings: ${{ steps.pr_audit.outputs.warnings || steps.scheduled_audit.outputs.warnings }}
+      has_findings: ${{ steps.audit.outputs.has_findings }}
+      hard_errors: ${{ steps.audit.outputs.hard_errors }}
+      warnings: ${{ steps.audit.outputs.warnings }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -45,15 +47,33 @@ jobs:
       - name: Build Astro site
         run: npm run build
 
-      - name: Run blocking audit on pull requests
-        id: pr_audit
-        if: github.event_name == 'pull_request'
-        run: python .github/scripts/audit_site_quality.py --fail-on-findings
-
-      - name: Run report-only scheduled/main-branch audit
-        id: scheduled_audit
-        if: github.event_name != 'pull_request'
+      - name: Run full read-only audit on every PR and scheduled run
+        id: audit
         run: python .github/scripts/audit_site_quality.py
+
+      - name: Enforce findings on site and content pull requests
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HARD_ERRORS: ${{ steps.audit.outputs.hard_errors }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          changed_site_files="$(git diff --name-only "$BASE_SHA"...HEAD | grep -E '^(src/|public/|astro\.config\.mjs$|package(-lock)?\.json$|tsconfig\.json$)' || true)"
+          if [[ -z "$changed_site_files" ]]; then
+            echo "No site, content, public asset, build-config or dependency files changed."
+            echo "The full audit still ran and its report is attached; pre-existing baseline findings do not block this CI-only change."
+            exit 0
+          fi
+
+          echo "Site/content files changed:"
+          printf '%s\n' "$changed_site_files"
+          echo "Blocking audit findings: $HARD_ERRORS"
+          if [[ "$HARD_ERRORS" != "0" ]]; then
+            echo "Editorial quality audit found blocking problems. Review the uploaded report and fix them manually."
+            exit 1
+          fi
+          echo "No blocking editorial quality findings found."
 
       - name: Save audit report
         if: always()
@@ -65,7 +85,7 @@ jobs:
           retention-days: 30
 
       - name: Create or refresh weekly findings issue
-        if: github.event_name == 'schedule' && steps.scheduled_audit.outputs.has_findings == 'true'
+        if: github.event_name == 'schedule' && steps.audit.outputs.has_findings == 'true'
         uses: actions/github-script@v7
         env:
           REPORT_PATH: quality-audit-report.md

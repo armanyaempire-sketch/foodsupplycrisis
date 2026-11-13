@@ -174,7 +174,7 @@ def http_status(url: str) -> tuple[int | None, str, str | None]:
             return response.status, response.geturl(), None
     except urllib.error.HTTPError as error:
         status, final_url = error.code, error.geturl()
-        if status in {403, 405, 501}:
+        if status in {403, 404, 405, 410, 501}:
             try:
                 get_request = urllib.request.Request(
                     url, headers={**headers, "Range": "bytes=0-0"}, method="GET"

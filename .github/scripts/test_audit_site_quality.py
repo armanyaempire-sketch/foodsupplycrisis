@@ -1,6 +1,7 @@
 import unittest
 
 from audit_site_quality import (
+    blocks_for_duplicate,
     blocks_for_unique_word_count,
     split_repeated_appendices,
     unique_word_band,
@@ -43,6 +44,12 @@ This is useful pantry-specific guidance.
         self.assertEqual(unique_word_band(699), "MERGE / REDIRECT CANDIDATE")
         self.assertEqual(unique_word_band(700), "EXPAND OR REVIEW MERGE")
         self.assertIn("KEEP CANDIDATE", unique_word_band(1201))
+
+    def test_reintroduced_duplicate_appendix_blocks_changed_article(self):
+        owners = ["country-a", "country-b"]
+        self.assertTrue(blocks_for_duplicate(owners, {"country-b"}))
+        self.assertFalse(blocks_for_duplicate(owners, set()))
+        self.assertFalse(blocks_for_duplicate(owners, {"unrelated-article"}))
 
     def test_broken_core_word_count_blocks_changed_article(self):
         # Regression fixture: a deliberately under-length changed article.

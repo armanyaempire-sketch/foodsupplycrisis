@@ -15,6 +15,8 @@ This is the original country-specific argument.
 This generic appendix should be removed from the core count.
 ## What to store correctly
 More repeated pantry boilerplate belongs in this appendix.
+## A practical seven-day implementation plan
+The generic seven-day plan should not inflate the core.
 ## Bottom line
 The country-specific conclusion remains in the core.
 """
@@ -22,8 +24,9 @@ The country-specific conclusion remains in the core.
         self.assertIn("original country-specific argument", core)
         self.assertIn("country-specific conclusion", core)
         self.assertNotIn("generic appendix should be removed", core)
+        self.assertNotIn("generic seven-day plan", core)
         self.assertIn("generic appendix should be removed", appendix)
-        self.assertEqual(len(headings), 2)
+        self.assertEqual(len(headings), 3)
 
     def test_canonical_pantry_guide_keeps_practical_sections(self):
         body = """## What not to do

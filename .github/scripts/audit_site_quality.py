@@ -346,6 +346,16 @@ def main() -> int:
             info.append(f"{slug}: no visible update note; updatedDate is absent or matches pubDate.")
 
         for paragraph in re.split(r"\n\s*\n", body):
+            raw_lines = [line.strip() for line in paragraph.splitlines() if line.strip()]
+            if not raw_lines:
+                continue
+            # Headings, list entries and Markdown table blocks are not prose paragraphs.
+            if all(
+                re.match(r"^(#{1,6}\s|[-*+]\s+|\d+[.)]\s+|\|)", line)
+                or re.match(r"^\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?$", line)
+                for line in raw_lines
+            ):
+                continue
             cleaned = markdown_plain(paragraph)
             normalized = " ".join(token.lower() for token in WORD_RE.findall(cleaned))
             if not normalized:
@@ -358,7 +368,7 @@ def main() -> int:
 
     duplicate_paragraphs = [
         (value, sorted(owners)) for value, owners in paragraph_owners.items()
-        if len(owners) > 1 and len(value.split()) >= 8
+        if len(owners) > 1
     ]
     for value, owners in duplicate_paragraphs:
         fail(f"Duplicate paragraph across articles ({', '.join(owners)}): {value[:220]}")

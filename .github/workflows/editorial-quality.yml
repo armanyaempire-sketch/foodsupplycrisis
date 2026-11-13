@@ -52,18 +52,18 @@ jobs:
       - name: Run full read-only audit on every PR and scheduled run
         id: audit
         env:
-          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          BASE_REF: origin/${{ github.base_ref }}
         run: python .github/scripts/audit_site_quality.py
 
       - name: Enforce findings on site and content pull requests
         if: github.event_name == 'pull_request'
         env:
-          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          BASE_REF: origin/${{ github.base_ref }}
           HARD_ERRORS: ${{ steps.audit.outputs.hard_errors }}
         shell: bash
         run: |
           set -euo pipefail
-          changed_site_files="$(git diff --name-only "$BASE_SHA"...HEAD | grep -E '^(src/|public/|astro\.config\.mjs$|package(-lock)?\.json$|tsconfig\.json$)' || true)"
+          changed_site_files="$(git diff --name-only "$BASE_REF"...HEAD | grep -E '^(src/|public/|astro\.config\.mjs$|package(-lock)?\.json$|tsconfig\.json$)' || true)"
           if [[ -z "$changed_site_files" ]]; then
             echo "No site, content, public asset, build-config or dependency files changed."
             echo "The full audit still ran and its report is attached; pre-existing baseline findings do not block this CI-only change."

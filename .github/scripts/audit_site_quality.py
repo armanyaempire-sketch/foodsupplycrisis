@@ -343,6 +343,7 @@ def main() -> int:
         if needs_update_note and not has_update_note:
             fail(f"Article has an updatedDate later than pubDate but no visible explanatory update note: {slug} (pubDate: {pub_date}, updatedDate: {updated_date})")
         elif not has_update_note:
+            warn(f"Article has no visible update note: {slug} (updatedDate: {updated_date or 'not set'}, pubDate: {pub_date or 'not set'})")
             info.append(f"{slug}: no visible update note; updatedDate is absent or matches pubDate.")
 
         for paragraph in re.split(r"\n\s*\n", body):

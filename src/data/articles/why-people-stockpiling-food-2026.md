@@ -14,8 +14,8 @@ keywords:
   - food prices
 type: analysis
 sources:
-  - name: Reuters — Renewed fighting in Ethiopia's Tigray region, 3 October 2026
-    url: https://www.reuters.com/world/africa/ethiopia-government-forces-retake-airport-tigrays-capital-sources-say-2026-10-03/
+  - name: Reuters — Residents in Ethiopia's Tigray region stock up amid fears of return to full-scale war, 24 September 2026
+    url: https://www.reuters.com/world/africa/residents-ethiopias-tigray-region-stock-up-fear-return-full-scale-war-2026-09-24/
   - name: FAO — Food Price Index, October 2026
     url: https://www.fao.org/newsroom/detail/fao-food-price-index-edges-down-in-october-amid-subdued-demand/
   - name: FAO — Cereal Supply and Demand Brief, 6 November 2026
@@ -45,7 +45,7 @@ There are several different motivations, and they should not all be described as
 
 ## A local example is not a global measurement
 
-Reuters reported in October 2026 that residents in Ethiopia's Tigray region were stocking up on food and basic goods amid fears connected with renewed conflict. That is evidence of local concern in a place where insecurity can affect movement and market access. It is not evidence that supermarket shelves around the world are empty.
+Reuters reported on 24 September 2026 that residents in Ethiopia's Tigray region were stocking up on food and cash amid fears that renewed fighting could bring back siege conditions. That is evidence of local concern in a place where insecurity can affect movement and market access. It is not evidence that supermarket shelves around the world are empty.
 
 The distinction matters. A household in a conflict-affected area may have good reason to buy food ahead of a possible closure. A shopper in a city with stable transport and retail replenishment faces a different risk. The same behaviour can be rational in one setting and unnecessary in another.
 

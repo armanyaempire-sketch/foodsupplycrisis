@@ -62,7 +62,7 @@ def markdown_plain(text: str) -> str:
     return html.unescape(text)
 
 
-def read_article(path: Path) -> tuple[str, str, str | None]:
+def read_article(path: Path) -> tuple[str, str, str | None, str | None]:
     raw = path.read_text(encoding="utf-8")
     match = FRONTMATTER_RE.match(raw)
     if match:
@@ -70,9 +70,10 @@ def read_article(path: Path) -> tuple[str, str, str | None]:
     else:
         frontmatter, body = "", raw
     updated_match = re.search(r"(?m)^updatedDate\s*:\s*(.*?)\s*$", frontmatter)
+    pub_match = re.search(r"(?m)^pubDate\s*:\s*(.*?)\s*$", frontmatter)
     updated_date = updated_match.group(1).strip().strip("\"'") if updated_match else None
-    return frontmatter, body, updated_date
-
+    pub_date = pub_match.group(1).strip().strip("\"'") if pub_match else None
+    return frontmatter, body, updated_date, pub_date
 
 class PageParser(HTMLParser):
     def __init__(self) -> None:
@@ -328,20 +329,21 @@ def main() -> int:
     shingle_owners: dict[str, set[str]] = {}
 
     for article_path in article_files:
-        _, body, updated_date = read_article(article_path)
+        _, body, updated_date, pub_date = read_article(article_path)
         plain = markdown_plain(body)
         count = len(WORD_RE.findall(plain))
         slug = article_path.stem
         has_update_note = bool(UPDATE_RE.search(body))
-        note_status = "yes" if has_update_note else ("missing" if updated_date else "not marked updated")
+        needs_update_note = bool(updated_date and pub_date and updated_date != pub_date)
+        note_status = "yes" if has_update_note else ("missing" if needs_update_note else "not marked updated")
         word_counts.append((slug, count, note_status, updated_date or "—"))
 
         if count < args.min_words:
             warn(f"Short article for editorial review ({count} words, threshold {args.min_words}): {slug}")
-        if updated_date and not has_update_note:
-            fail(f"Article has updatedDate but no visible explanatory update note: {slug} (updatedDate: {updated_date})")
+        if needs_update_note and not has_update_note:
+            fail(f"Article has an updatedDate later than pubDate but no visible explanatory update note: {slug} (pubDate: {pub_date}, updatedDate: {updated_date})")
         elif not has_update_note:
-            info.append(f"{slug}: no visible update note; no updatedDate is recorded.")
+            info.append(f"{slug}: no visible update note; updatedDate is absent or matches pubDate.")
 
         for paragraph in re.split(r"\n\s*\n", body):
             cleaned = markdown_plain(paragraph)

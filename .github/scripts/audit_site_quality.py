@@ -138,6 +138,11 @@ def blocks_for_unique_word_count(count: int, article_changed: bool, min_words: i
     return article_changed and count < min_words
 
 
+def blocks_for_duplicate(owners: list[str], changed_slugs: set[str]) -> bool:
+    """A duplicate is blocking when at least one of its article owners changed."""
+    return bool(changed_slugs.intersection(owners))
+
+
 def changed_article_slugs() -> set[str]:
     if os.environ.get("GITHUB_EVENT_NAME") != "pull_request":
         return set()
@@ -488,7 +493,7 @@ def main() -> int:
             collect_shingles(appendix_body, slug, appendix_shingle_owners)
 
     def classify_duplicate(message: str, owners: list[str]) -> None:
-        if changed_slugs.intersection(owners):
+        if blocks_for_duplicate(owners, changed_slugs):
             fail(message)
         else:
             warn("Pre-existing duplicate (not in a changed article): " + message)

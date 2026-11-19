@@ -1,6 +1,6 @@
 ---
-title: "FAO Food Price Index Explained: September 2026 Reading and What It Means"
-description: "The FAO Food Price Index reached 136.0 in September 2026. Here is what the index measures, what changed and why it does not equal local food inflation."
+title: "FAO Food Price Index Explained: October 2026 Reading and What It Means"
+description: "The FAO Food Price Index averaged 133.9 in October 2026, down 1.2% monthly but 5.9% above a year earlier. Learn what the index measures and what it does not."
 pubDate: 2026-10-04
 updatedDate: 2026-11-19
 author: Food Supply Crisis Report Editorial Desk
@@ -13,14 +13,14 @@ keywords:
   - FAO food prices
 type: explainer
 sources:
-  - name: FAO Food Price Index — September 2026
+  - name: FAO Food Price Index — October 2026
     url: https://www.fao.org/worldfoodsituation/foodpricesindex/en/
-  - name: FAO — September 2026 Food Price Index release
-    url: https://www.fao.org/newsroom/detail/fao-food-price-index-rises-in-september-amid-weather-concerns-and-transport-disruptions/en
+  - name: FAO — October 2026 Food Price Index release
+    url: https://www.fao.org/newsroom/detail/fao-food-price-index-edges-down-in-october-amid-subdued-demand
 related: []
 ---
 
-> **Update — 19 November 2026:** Added a measurement guide explaining how to compare the FAO index with domestic food inflation, and removed the duplicated household-preparedness material.
+> **Update — 19 November 2026:** Replaced the September reading with FAO’s 6 November October release, including the commodity-group movements, and added guidance on comparing the index with domestic food inflation.
 
 The FAO Food Price Index is one of the most widely followed measures of international food commodity prices. It is useful because it provides a consistent monthly snapshot of the direction of globally traded food commodities.
 
@@ -36,15 +36,23 @@ That makes it a market indicator rather than a direct household inflation measur
 
 A country can experience faster food inflation than the international index if its currency weakens or its domestic crops perform poorly. Another country can see a smaller increase because it has strong domestic production or uses price controls and subsidies.
 
-## What happened in September 2026?
+## What happened in October 2026?
 
-FAO reported that the index averaged 136.0 points in September 2026.
+FAO reported that the Food Price Index averaged **133.9 points in October 2026**. That was 1.2% below the revised September level, 5.9% above October 2025 and 16.4% below the March 2022 peak.
 
-That was 1.5% higher than the revised August level and 5.8% above September 2025.
+The monthly decline was not shared by every commodity group:
 
-Cereal, vegetable-oil and sugar prices increased. Meat prices declined and dairy prices were broadly stable.
+| Commodity group | October movement from September |
+| --- | ---: |
+| Cereals | −4.5% |
+| Vegetable oils | +0.3% |
+| Meat | −1.2% |
+| Dairy | −1.1% |
+| Sugar | +6.6% |
 
-FAO linked the overall increase mainly to transportation disruptions, weather concerns and higher quotations in crop-based commodity groups.
+Rice moved differently from the wider cereal group: the FAO All Rice Price Index increased 1.6% in October. Sugar was the strongest monthly riser, up 6.6% from September and 28.8% from a year earlier. FAO linked the sugar increase partly to rainfall-related disruption to sugarcane harvesting and crushing in Brazil and concerns about production prospects in India, the European Union and Thailand.
+
+This breakdown matters. A lower headline index does not mean every food commodity became cheaper, and the global index is not a retail price index for any one country.
 
 ## Why did cereal prices rise?
 
@@ -116,7 +124,7 @@ For the wider picture, see [Why Are Global Food Prices Rising in 2026?](/article
 
 ## Bottom line
 
-The September 2026 FAO Food Price Index confirms that international food commodity markets are under renewed pressure.
+The October 2026 FAO Food Price Index eased from September, but remained above its year-earlier level; sugar and vegetable oils moved higher even as several other commodity groups declined.
 
 It does not prove a universal food shortage.
 

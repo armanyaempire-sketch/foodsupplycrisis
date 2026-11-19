@@ -20,10 +20,12 @@ sources:
     url: https://www.fao.org/sustainable-development-goals-data-portal/data/indicators/642-water-stress/
   - name: UN-Water — World Water Development Report 2026
     url: https://www.unwater.org/publications/un-world-water-development-report-2026
+  - name: FAO — Irrigation management and water productivity
+    url: https://www.fao.org/land-water/water/agricultural-water-management/irrigation/en
 related: []
 ---
 
-> **Update — 19 November 2026:** Replaced the generic emergency appendix with a framework for distinguishing water stress, agricultural exposure and actual food-security outcomes.
+> **Update — 19 November 2026:** Added a water-source decision matrix. Rain-fed soils, canals, groundwater, reservoirs and desalination require different monitoring and policy responses; a single national water-stress label is not enough.
 
 Water is a basic input into food production, yet water stress often receives less attention than fertilizer or fuel.
 
@@ -113,3 +115,16 @@ A country-level water-stress label can hide very different agricultural conditio
 Useful indicators include groundwater trends, reservoir storage, river flows, irrigation reliability, crop-water requirements and the timing of rainfall against planting and flowering. Water withdrawals should be considered alongside replenishment and environmental needs. A high national irrigation share, for example, is not enough to predict a yield loss without knowing whether the system can deliver water during the critical crop window.
 
 Water stress can become a food-security problem through lower yields, higher pumping costs, reduced livestock productivity, competition between users or loss of household water access. But trade, stocks, income and public policy influence the final food outcome. This article focuses on the water-to-agriculture pathway; humanitarian food insecurity must be assessed using its own evidence and geographic classifications.
+
+## Match water management to the source farmers actually use
+
+| Water source or farming system | Main constraint to verify | Better-fit response |
+|---|---|---|
+| Rain-fed soil moisture | Rainfall onset, dry spells at flowering or grain-fill, soil texture and ground cover | Use district seasonal and short-range forecasts, conserve soil moisture, adjust sowing windows and choose varieties proven for the local rainfall regime. Do not prescribe irrigation where no reliable source exists. |
+| Canal or river irrigation | Reservoir releases, river flow, canal losses, delivery schedules and competing municipal demand | Publish rotation schedules, maintain canals and gates, measure water delivered at farm outlets and prioritise critical crop stages when allocations are constrained. |
+| Groundwater irrigation | Water-table trend, aquifer recharge, pump energy cost and salinity | Monitor abstraction and recharge, protect drinking-water needs, improve pumping efficiency and avoid expanding water-intensive crops where the aquifer is declining. |
+| Reservoir-fed agriculture | Usable storage, inflows, sedimentation, evaporation and planned releases | Use basin-wide water accounting and transparent allocation rules. A reservoir's percentage full is not enough without usable volume and downstream delivery capacity. |
+| Desalination and treated wastewater | Energy, network reliability, treatment quality, brine management and crop suitability | Reserve high-quality desalinated water for uses that need it; use adequately treated reclaimed water for suitable non-food or approved crops under public-health rules. Do not assume desalination makes all domestic agriculture economical. |
+| Glacier- or snow-fed basins | Seasonal snowpack, melt timing, upstream storage and cross-border allocation | Coordinate basin monitoring and seasonal reservoir releases; distinguish short-term high meltwater flows from long-term changes in dependable dry-season supply. |
+
+The measurement must fit the source. Rain-fed farms need soil-moisture and crop-stage data; groundwater districts need aquifer trends; canal command areas need delivery records; cities dependent on desalination need energy and plant-availability data. Combining all of these into a single national water-stress number can hide the local constraint that actually affects food production.

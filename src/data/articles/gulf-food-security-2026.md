@@ -23,7 +23,7 @@ sources:
 related: []
 ---
 
-> **Update — 19 November 2026:** Replaced the generic preparedness ending with an import-system framework that distinguishes supplier, port, water and affordability risks across Gulf states.
+> **Update — 19 November 2026:** Added a four-market Gulf decision matrix so import diversification, port resilience, storage and household affordability are evaluated separately for the UAE, Saudi Arabia, Qatar and Kuwait.
 
 The Gulf's food-security challenge is unusual because the region can have strong purchasing power and modern infrastructure while remaining highly dependent on imported food.
 
@@ -115,3 +115,16 @@ The region should not be treated as one market. The UAE, Saudi Arabia, Qatar and
 A high import share is not enough to establish fragility. The more revealing question is whether a buyer depends on one supplier, one port, one shipping lane or one type of contract. Two countries can import a similar share of food but face very different risks if one has several reliable origins and the other relies on a narrow corridor. Port throughput, cold-chain capacity, storage turnover and access to foreign currency influence how much time a system has to respond.
 
 The Gulf states should be compared individually rather than treated as a single bloc. Population size, staple preferences, re-export activity, public procurement and domestic water constraints differ. Desalination supports municipal water availability but does not eliminate the energy and infrastructure dependencies behind it, nor does it solve the water needs of all domestic crops. For each country, the next useful data point is therefore specific: identify the main imported staples, supplier concentration, port alternatives and the public or commercial stock measure being discussed. Avoid describing an announced reserve target as physical food already available.
+
+## A different resilience test for each Gulf market
+
+The four markets should not receive one regional checklist. Their population scale, domestic production, port network, storage footprint and purchasing power differ. The following are decision tests for policymakers and food businesses, not claims that any one country is currently short of stock.
+
+| Market | Priority to test | Practical response |
+|---|---|---|
+| United Arab Emirates | Multi-origin sourcing and cold-chain continuity across import and re-export activity | Test whether essential food categories can be redirected between available entry points and inland distribution centres; monitor refrigerated warehouse capacity and power backup for high-value perishables. |
+| Saudi Arabia | Long-distance movement from ports and domestic production areas to inland demand centres | Stress-test road, rail and warehouse links between ports, major cities and agricultural regions; distinguish imported staples from locally produced foods when setting reserve targets. |
+| Qatar | Concentration of imported food flows and continuity of chilled storage | Maintain contingency arrangements for more than one supplier and delivery route; check how many days of usable cold-store capacity remain by food category, not as one blended tonnage. |
+| Kuwait | Import dependence, entry-point continuity and the condition of public and commercial inventories | Publish physical stock, contracted cargo and release data separately, and test alternative delivery arrangements for essential staples. |
+
+For households in hot climates, storage capacity is constrained by heat, humidity, apartment space and the cost of refrigeration. The useful instruction is not to buy more: keep dry goods sealed in a cool place and buy perishable items at a pace the refrigerator can safely handle. For public planning, desalination and food storage should be treated as linked infrastructure because both depend on reliable energy and distribution.

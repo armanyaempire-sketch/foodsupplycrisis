@@ -28,7 +28,7 @@ related:
   - food-prices-2027-forecast-scenarios
 ---
 
-> **Update — 19 November 2026:** This article remains a historical snapshot of the September 2026 release. FAO has since published its October index; see the [October 2026 FAO Food Price Index explainer](/articles/fao-food-price-index-explained-2026/) for the latest month and commodity-group movements.
+> **Update — 19 November 2026:** Reframed the consumer response section as a market-level decision guide and labelled the September article as historical; the October FAO release remains in the linked explainer.
 
 ## Global food prices rose again in September 2026
 
@@ -181,42 +181,18 @@ For this reason, consumers should use the FAO Food Price Index as a global marke
 
 Our [FAO Food Price Index explainer](/articles/fao-food-price-index-explained-2026/) covers how the index works and what it does not measure.
 
-## What should consumers do when food prices are rising?
+## A price response depends on where the increase appears
 
-The most useful response is usually not panic buying.
+The FAO index is an export-market signal, not a shopping instruction. Before changing purchasing or supply plans, identify which price is moving:
 
-A better approach is to focus on predictable household exposure.
+| Price signal | Decision that fits the evidence |
+|---|---|
+| Export quotation rises, but local wholesale prices are stable | Importers should review contract cover and delivery dates; households do not need to change purchases based on the export quote alone. |
+| Wholesale price rises in one region | Retailers and local authorities should check arrivals, storage, transport and competition before calling it a shortage. |
+| Retail price rises for one food category | Use the relevant national or city CPI series to identify whether the change is seasonal, local or broader. |
+| Household food costs rise faster than income | Target affordability support and use locally available substitutes; do not infer that the country has physically run out of food. |
 
-### Build a short, normal buffer
-
-Households that have room in their budgets can keep a modest supply of foods they already use and know how to store safely.
-
-That can include shelf-stable staples, cooking ingredients and foods with long best-before windows.
-
-A short buffer can reduce the effect of sudden price spikes or temporary availability problems without encouraging unnecessary stockpiling.
-
-See our guide to [best non-perishable foods for a 30-day emergency pantry](/articles/best-non-perishable-foods-30-day-emergency-pantry/).
-
-### Compare prices by unit, not just package size
-
-When food inflation rises, package sizes and promotions can make price comparisons harder.
-
-Compare the price per kilogram, litre or other relevant unit. This helps reveal whether a cheaper-looking package is actually cheaper.
-
-### Substitute when practical
-
-Consumers can sometimes reduce exposure by switching between comparable products.
-
-For example, a household might change brands, buy seasonal produce, substitute one grain for another or adjust the mix of fresh and shelf-stable foods.
-
-The best substitution depends on dietary needs, local availability and price.
-
-### Avoid extreme reactions
-
-Higher food prices can create fear about shortages. That can encourage unnecessary buying, which can make local shortages worse and leave households with food they cannot use before quality declines.
-
-A measured buffer is usually more useful than a large one.
-
+The September reading is historical. For the latest international commodity movements, use the linked October FAO explainer; for a household budget decision, use the actual products and prices in the reader's local market.
 ## What should farmers and food businesses watch?
 
 Farmers should pay attention to input costs as closely as commodity selling prices.

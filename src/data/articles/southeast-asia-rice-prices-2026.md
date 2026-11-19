@@ -22,7 +22,7 @@ sources:
 related: []
 ---
 
-> **Update — 19 November 2026:** Replaced the generic crisis appendix with a rice-market comparison that keeps paddy, milled-rice, export and retail measures separate.
+> **Update — 19 November 2026:** Added a country-by-country response matrix for Thailand, Vietnam, Indonesia and the Philippines; exporter policy, public reserves and irrigation constraints are no longer treated as one regional recommendation.
 
 Rice is a useful commodity for understanding how climate risk, stocks, production and prices can move in different directions.
 
@@ -100,3 +100,15 @@ For a useful comparison, record the commodity form, unit, reference period, geog
 A rice export quotation is typically a price for a specified origin, grade, shipment window and delivery term. It cannot be treated as the price paid by households in another country. Importers add freight, insurance, port charges, financing, handling, taxes and domestic distribution; exchange rates can change the local-currency cost even when the dollar quotation is stable. Domestic procurement rules or retail support programmes can create another gap between wholesale and consumer prices.
 
 When comparing Thailand, Vietnam, Indonesia and the Philippines, state the grade and delivery basis wherever possible. Keep exporter offers separate from importer tender results and retail price series. Also distinguish the domestic role of rice: a country may be a major exporter while maintaining a separate domestic price policy, or an importer may buy at a favourable tender price but pass it through slowly. A table that gives the unit, grade, date and market stage is far more useful than one that simply ranks countries by “rice prices.”
+
+## The rice decision differs by country
+
+| Market | Main decision-maker | Response that fits the market role |
+|---|---|---|
+| Thailand | Exporters, millers and the Ministry of Commerce | Quote export offers by grade, shipment month and delivery term; keep domestic procurement and exporter quotations separate so export demand is not confused with the price paid by Thai households. |
+| Vietnam | Exporters and the Mekong Delta's water managers | Track crop calendars, salinity intrusion, irrigation-water availability and export contract commitments together. Do not add export volume if local water and crop conditions indicate a production constraint. |
+| Indonesia | BULOG and domestic distribution agencies | Report physical rice stocks, procurement and actual market releases separately. A high reserve number does not lower retail prices unless grain reaches the relevant provincial markets in time. |
+| Philippines | NFA, NIA and provincial agriculture offices | Match import arrival and public procurement schedules to regional harvest gaps, and coordinate rice planting with actual irrigation allocations under the current PAGASA outlook. |
+| Consumers across the region | National statistical agencies and retailers | Compare the same variety, grade, package and unit in the same local market. An export quotation from Bangkok is not a retail-price recommendation for Manila or Jakarta. |
+
+For household storage, rice quality depends on packaging, humidity, pests and turnover. Buy the package size that can be kept dry and consumed before quality deteriorates; a national strategic reserve is not a reason to fill a small home with sacks.

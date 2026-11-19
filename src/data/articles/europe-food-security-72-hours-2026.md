@@ -103,3 +103,9 @@ At the **national and regional level**, resilience depends on diversified suppli
 Readers should therefore check the source of each claim. Official preparedness advice tells people how to reduce the consequences of an interruption. A drought assessment describes production conditions. A food-price or affordability measure describes what households can buy. Treating these as separate indicators avoids turning ordinary preparedness advice into evidence of an imminent national shortage.
 
 For a household plan, follow the relevant national emergency authority's advice and account for local risks such as power cuts, heating, flooding or water interruption. For market analysis, watch trade flows, food inflation and crop reports instead of inferring national supply from the size of a household emergency kit.
+
+## How to evaluate a 72-hour plan
+
+A useful test is whether the plan covers the services that can fail together. Food storage alone is not enough if a household cannot obtain drinking water, access medication, charge a phone or receive emergency instructions. Conversely, a household does not need to buy a fixed quantity of every item simply because a 72-hour figure appears in public advice. The national emergency authority's guidance should be checked against local hazards, household size, mobility needs, climate and the reliability of utilities.
+
+For market analysis, use a different checklist. Look for evidence of supply-chain interruption: port or border delays, distribution-centre disruption, fuel availability, retailer stock-outs across more than one chain, or official contingency measures. A public preparedness recommendation is a resilience policy; it should not be cited as evidence that those disruptions have already happened. Keeping those two tests separate makes the article more useful to European households and avoids turning a precaution into a shortage forecast.

@@ -82,7 +82,7 @@ For the regional picture, see [Southeast Asia Rice Prices 2026](/articles/southe
 
 ## Bottom line
 
-Use the evidence in this article to judge whether the risk is real and local. Prepare proportionately: secure water, keep a modest rotating food buffer, protect refrigeration, follow official guidance and avoid panic buying.
+The Philippines' near-term rice exposure depends on whether water and rainfall conditions affect the crop at critical calendar stages, and whether harvests or imports can arrive in time. Reservoir levels, regional production and local market prices should be read together rather than treated as interchangeable indicators.
 
 ## Assess rice and water risk at the provincial and crop-calendar level
 

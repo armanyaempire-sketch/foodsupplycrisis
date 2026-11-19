@@ -17,12 +17,14 @@ sources:
     url: https://www.fao.org/worldfoodsituation/csdb
   - name: FAO Food Price Index
     url: https://www.fao.org/worldfoodsituation/foodpricesindex/en/
+  - name: FAO — October food prices and November cereal market outlook, 6 November 2026
+    url: https://www.fao.org/newsroom/detail/fao-food-price-index-edges-down-in-october-amid-subdued-demand
   - name: FAO–WFP Hunger Hotspots 2026
     url: https://www.wfp.org/publications/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-june-november-2026
 related: []
 ---
 
-> **Update — 19 November 2026:** Removed the repeated preparedness appendix and added a repeatable method for testing viral food-collapse claims against measurable evidence.
+> **Update — 19 November 2026:** Refreshed the global production and price references with FAO's November release and added a source-quality test for viral claims.
 
 Food-supply stories move quickly online. A photograph of an empty supermarket shelf can be shared thousands of times. A weather warning can become a prediction of crop failure. A price increase can be presented as proof that food is disappearing.
 
@@ -32,15 +34,15 @@ This page provides a simple framework for checking common food-collapse claims.
 
 ## Claim: “The world is running out of food”
 
-**What the data shows:** FAO's October 2026 cereal forecast puts global production at about 2.979 billion tonnes, still the second-highest harvest on record.
+**What the data shows:** FAO's 6 November 2026 Cereal Supply and Demand Brief forecasts global cereal production at **2.999 billion tonnes** for 2026, the second-highest level on record.
 
 **What that means:** There are serious regional food-security problems, but the data does not support a simple claim that global cereal production has collapsed.
 
 ## Claim: “Higher food prices prove there is a global shortage”
 
-**What the data shows:** The FAO Food Price Index reached 136.0 in September 2026, 5.8% above a year earlier.
+**What the data shows:** FAO's Food Price Index averaged **133.9 points in October 2026**, 1.2% lower than September but 5.9% higher than October 2025.
 
-**What that means:** International food commodities are under meaningful price pressure.
+**What that means:** International food commodities remained above their year-earlier level, although the aggregate index eased month on month. A price index does not prove that food is physically unavailable.
 
 But prices respond to more than physical supply. Weather expectations, freight, energy, trade restrictions and currency movements all matter.
 
@@ -123,6 +125,27 @@ There are genuine food-security emergencies in 2026, and international food pric
 Those facts do not require the internet's most dramatic interpretation to be true.
 
 The best fact check combines a current official source, the right geographic scope and several independent indicators before concluding that a food-system collapse is underway.
+
+
+## Match each source to the claim it can actually prove
+
+A source can be authoritative and still be the wrong source for a particular statement. Use the evidence that measures the claim directly.
+
+| Claim being checked | Strongest starting evidence | What it can establish | What it cannot establish by itself |
+| --- | --- | --- | --- |
+| Global harvest is collapsing | FAO cereal production estimates and national crop statistics | Forecast or estimated production by crop, country and season | Whether every local market has adequate supply |
+| A staple is becoming unaffordable | National CPI, local market prices, wages or food-basket data | Price changes over a stated period and area | Whether the product is physically absent |
+| A shop has run out of an item | Dated retailer or market observations, checked across locations and days | A stock-out at a named outlet or local market | A national shortage or a prolonged supply failure |
+| A trade route is disrupted | Port authorities, customs data, vessel movements and shipping notices | Whether shipments are delayed, rerouted or reduced | The eventual retail effect without landed-cost and local-price evidence |
+| A population faces acute hunger | Current IPC, Cadre Harmonisé or other recognised humanitarian assessments | Severity, affected population, geography and reference period | Conditions outside the assessment's area or period |
+
+For a fast-moving claim, check the publication date and the period the figure describes. A report released in November may still describe October data or a projection for the following harvest. A later publication date does not automatically mean that every statistic inside it is current to the day.
+
+## A simple source-quality order
+
+Start with the original statistical agency, meteorological service, agriculture ministry, port authority or humanitarian assessment. Then look for independent corroboration from another recognised institution or a credible report that links directly to the original evidence. Treat a headline, anonymous social post, cropped chart or image without a location and date as a lead to investigate—not as confirmation.
+
+Keep the original wording intact. “Forecast to fall” is not “has failed”; “at risk of Famine” is not a confirmed Famine classification; and “some retailers report stock-outs” is not “the country has run out.” If a source cannot identify the commodity, location, date and measurement, the conclusion should remain limited.
 
 ## A five-part test for a viral food-shortage claim
 

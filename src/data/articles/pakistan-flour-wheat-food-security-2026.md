@@ -84,7 +84,7 @@ Track:
 
 ## Bottom line
 
-Use the evidence in this article to judge whether the risk is real and local. Prepare proportionately: secure water, keep a modest rotating food buffer, protect refrigeration, follow official guidance and avoid panic buying.
+For Pakistan, the relevant warning sign is a persistent widening between wheat procurement or mandi prices and flour prices in the affected provincial markets. That spread should be examined alongside public releases, mill capacity and transport before it is described as a national production shortage.
 
 ## Track the wheat-to-flour chain, not only the national harvest
 

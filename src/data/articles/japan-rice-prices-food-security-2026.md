@@ -88,7 +88,7 @@ The relationship between those indicators matters more than one headline price.
 
 ## Bottom line
 
-A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.
+Japan's rice-reserve story is ultimately about timing and transparency: a contracted buyback, a physical delivery, a public stock figure and a retail market release are different events. Each should be dated and measured separately before drawing conclusions about the supply available to consumers.
 
 ## A rice buyback is not the same as rice available to consumers
 

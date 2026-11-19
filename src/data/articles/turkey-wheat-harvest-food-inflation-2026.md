@@ -13,16 +13,14 @@ keywords:
   - Turkey food prices
 type: analysis
 sources:
-  - name: Miller Magazine — Türkiye grain market outlook
-    url: https://millermagazine.com/blog/turkiyes-grain-market-shifts-as-wheat-outlook-improves-6800
-  - name: AGBI — Türkiye harvest and inflation
-    url: https://www.agbi.com/analysis/agriculture/2026/05/turkey-looks-to-bumper-harvest-to-ease-inflation/
-  - name: S&P Global — Marmara wheat market
-    url: https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/041526-cif-marmara-wheat-prices-surge-to-dec-2023-highs-amid-middle-east-war-soaring-freight
+  - name: FAO GIEWS — Türkiye Country Brief, 7 September 2026
+    url: https://www.fao.org/giews/countrybrief/country.jsp?code=TUR&lang=en
+  - name: Turkish Statistical Institute — Consumer Price Index
+    url: https://data.tuik.gov.tr/Kategori/GetKategori?p=Inflation-and-Price-106
 related: []
 ---
 
-> **Update — 19 November 2026:** Replaced duplicated emergency guidance with a more exact reading of Turkey's wheat and cereal data and the difference between harvest strength and food affordability.
+> **Update — 19 November 2026:** Added the FAO GIEWS 7 September 2026 estimate: 41.6 million tonnes of cereals and a record 22.8 million tonnes of wheat, while preserving the distinction between crop output and food inflation.
 
 Turkey offers one of the clearest counter-examples to the idea that food prices always fall when harvests improve.
 
@@ -30,9 +28,9 @@ The 2026 wheat crop is expected to recover sharply from drought, yet food inflat
 
 ## A much stronger wheat crop
 
-Industry estimates put Turkey's 2026 wheat production well above the drought-affected 2025 crop.
+FAO GIEWS reported on 7 September 2026 that Turkey's first official estimates put 2026 total cereal production at **41.6 million tonnes**, about 12% above the five-year average. Wheat was estimated at a record **22.8 million tonnes**, about 16% above the average; barley was estimated at 9 million tonnes, about 20% above its five-year average.
 
-That improvement should increase domestic grain availability.
+The estimates followed abundant January–May rainfall across major producing regions. They are first official estimates, so the article should not present them as a final harvest result. FAO also noted that cereal import requirements for 2026/27 were expected to be below average, while food inflation remained high.
 
 But a better harvest does not automatically reset every cost in the food chain.
 
@@ -64,7 +62,7 @@ This is why a bumper crop can improve physical supply while consumer prices rema
 
 The relationship between harvests and food inflation is not one-to-one.
 
-A crop can improve substantially while food prices decline slowly.
+A crop can improve substantially while food prices decline slowly. FAO's September brief explicitly reported above-average 2026 cereal production alongside continued high food inflation.
 
 That does not mean the harvest was irrelevant.
 

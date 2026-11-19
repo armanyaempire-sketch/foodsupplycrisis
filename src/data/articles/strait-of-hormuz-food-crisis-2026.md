@@ -98,7 +98,7 @@ Read [Fertilizer Shortage 2026](/articles/fertilizer-shortage-2026/) for the ups
 
 ## Bottom line
 
-Use the evidence in this article to judge whether the risk is real and local. Prepare proportionately: secure water, keep a modest rotating food buffer, protect refrigeration, follow official guidance and avoid panic buying.
+The Hormuz risk should be assessed through the energy, fertilizer and freight flows actually exposed to the corridor. Grain cargoes use a wider network of routes, so any claim about food trade needs to identify the affected supplier, route and delivery window.
 
 ## The food-price connection is often indirect
 

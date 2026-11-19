@@ -415,7 +415,7 @@ Reducing waste effectively increases the amount of food your household gets from
 
 Store foods your household already eats and that can be safely kept for an extended period.
 
-Useful categories include:
+For a practical household reserve, group supplies by function:
 
 | Category | Examples | Storage principle |
 |---|---|---|
@@ -562,7 +562,7 @@ For households, the priorities are much simpler: manage the food budget, reduce 
 
 The best interpretation of a warning is not "buy everything before it disappears."
 
-It is:
+What remains uncertain:
 
 **understand the risk early enough that you can prepare calmly if the risk becomes real.**
 

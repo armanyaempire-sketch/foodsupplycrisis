@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import concurrent.futures
 import html
+import json
 from html.parser import HTMLParser
 import os
 from pathlib import Path
@@ -22,6 +23,7 @@ ARTICLE_DIR = ROOT / "src" / "data" / "articles"
 REDIRECTS_FILE = ROOT / "public" / "_redirects"
 SITEMAP_FILE = DIST / "sitemap.xml"
 REPORT_FILE = ROOT / "quality-audit-report.md"
+EDITORIAL_TRIAGE_FILE = ROOT / ".github" / "editorial-triage-2026-11.json"
 WORD_RE = re.compile(r"[A-Za-z0-9]+(?:[’'-][A-Za-z0-9]+)*")
 UPDATE_RE = re.compile(r"(?im)^\s*>\s*(?:\*\*)?update\b|^\s*#{1,4}\s+update\b")
 FRONTMATTER_RE = re.compile(r"\A---\s*\n(.*?)\n---\s*\n(.*)\Z", re.S)
@@ -131,6 +133,45 @@ def unique_word_band(count: int, min_words: int = 700, review_words: int = 1200)
     if count <= review_words:
         return "EXPAND OR REVIEW MERGE"
     return "KEEP CANDIDATE — QUALITY REVIEW STILL REQUIRED"
+
+
+def editorial_triage_label(
+    count: int,
+    entry: dict | None,
+    min_words: int = 700,
+    review_words: int = 1200,
+) -> tuple[str, bool]:
+    """Apply a documented editorial decision without overriding the hard core floor."""
+    if count < min_words or not isinstance(entry, dict):
+        return unique_word_band(count, min_words, review_words), False
+    action = entry.get("action")
+    rationale = entry.get("rationale")
+    if action == "KEEP_FOCUSED" and isinstance(rationale, str) and len(rationale.strip()) >= 40:
+        return "MANUALLY REVIEWED — KEEP FOCUSED", True
+    if action == "EXPANDED" and isinstance(rationale, str) and len(rationale.strip()) >= 40:
+        return "MANUALLY REVIEWED — SUBSTANTIVE EXPANSION", True
+    return unique_word_band(count, min_words, review_words), False
+
+
+def load_editorial_triage() -> dict[str, dict]:
+    """Load reviewed article dispositions; malformed decisions must not silently pass."""
+    if not EDITORIAL_TRIAGE_FILE.is_file():
+        return {}
+    data = json.loads(EDITORIAL_TRIAGE_FILE.read_text(encoding="utf-8"))
+    articles = data.get("articles") if isinstance(data, dict) else None
+    if not isinstance(articles, dict):
+        raise ValueError("Editorial triage file must contain an 'articles' object.")
+    for slug, entry in articles.items():
+        if not isinstance(slug, str) or not re.fullmatch(r"[a-z0-9-]+", slug):
+            raise ValueError(f"Invalid article slug in editorial triage: {slug!r}")
+        if not isinstance(entry, dict):
+            raise ValueError(f"Editorial triage entry must be an object: {slug}")
+        if entry.get("action") not in {"KEEP_FOCUSED", "EXPANDED"}:
+            raise ValueError(f"Unsupported editorial triage action for {slug}")
+        rationale = entry.get("rationale")
+        if not isinstance(rationale, str) or len(rationale.strip()) < 40:
+            raise ValueError(f"Editorial triage rationale is missing or too short for {slug}")
+    return articles
 
 
 def blocks_for_unique_word_count(count: int, article_changed: bool, min_words: int = 700) -> bool:
@@ -424,11 +465,13 @@ def main() -> int:
         except Exception:
             changed_redirect_sources = set(redirects)
 
+    editorial_triage = load_editorial_triage()
     failures: list[str] = []
     pr_failures: list[str] = []
     baseline_failures: list[str] = []
     warnings: list[str] = []
     info: list[str] = []
+    editorial_decisions: list[str] = []
 
     def fail(message: str, introduced: bool = True) -> None:
         failures.append(message)
@@ -594,7 +637,10 @@ def main() -> int:
         total_raw_words += raw_count
         total_core_words += core_count
         appendix_section_count += len(appendix_headings)
-        band = unique_word_band(core_count, args.min_unique_words, args.review_unique_words)
+        triage_entry = editorial_triage.get(slug)
+        band, manually_reviewed = editorial_triage_label(
+            core_count, triage_entry, args.min_unique_words, args.review_unique_words
+        )
         word_counts.append((slug, raw_count, core_count, removed_count, band,
                             "yes" if UPDATE_RE.search(body) else
                             ("missing" if updated_date and pub_date and updated_date != pub_date else "not marked updated"),
@@ -606,8 +652,12 @@ def main() -> int:
                 fail(message)
             else:
                 warn("Existing short-core candidate: " + message)
-        elif core_count <= args.review_unique_words:
-            warn(f"Post-appendix core needs expansion or merge review ({core_count} words): {slug}")
+        elif core_count <= args.review_unique_words and not manually_reviewed:
+            warn(f"Post-appendix core needs editorial triage ({core_count} words): {slug}")
+        elif manually_reviewed:
+            decision = f"{slug}: {band} — {triage_entry['rationale'].strip()}"
+            editorial_decisions.append(decision)
+            info.append(decision)
         else:
             info.append(f"{slug}: {core_count} core words after repeated-appendix removal; keep candidate, subject to quality review.")
 
@@ -705,7 +755,8 @@ def main() -> int:
         f"- Blocking findings in current tree: {len(failures)}",
         f"- New blocking findings introduced by this PR: {len(pr_failures) if is_pull_request else 'not applicable'}",
         f"- Pre-existing blocking findings: {len(baseline_failures)}",
-        f"- Review warnings: {len(warnings)}", "",
+        f"- Review warnings: {len(warnings)}",
+        f"- Manual editorial decisions recorded: {len(editorial_decisions)}", "",
         "## Blocking findings in current tree", ""
     ]
     lines.extend([f"- {item}" for item in failures] or ["- None."])
@@ -721,6 +772,8 @@ def main() -> int:
                   "|---|---:|---:|---:|---|---|---|"])
     for slug, raw_count, core_count, removed_count, band, note_status, updated_date in word_counts:
         lines.append(f"| {slug} | {raw_count} | {core_count} | {removed_count} | {band} | {note_status} | {updated_date} |")
+    lines.extend(["", "## Manual editorial review decisions", ""])
+    lines.extend([f"- {item}" for item in editorial_decisions] or ["- No manual triage decisions recorded."])
     lines.extend(["", "## Informational update-note inventory", ""])
     lines.extend([f"- {item}" for item in info[:80]] or ["- All articles have a visible update note."])
     if len(info) > 80:

@@ -2,7 +2,7 @@
 title: "Global Food Prices September 2026: Why Food Costs Are Rising Again"
 description: "Global food prices climbed in September 2026 as cereals, sugar and vegetable oils rose. Here is what is driving the move, what it means and what to watch next."
 pubDate: 2026-10-04
-updatedDate: 2026-10-04
+updatedDate: 2026-11-19
 author: Food Supply Crisis Report Editorial Desk
 category: Food Prices
 keywords:
@@ -27,6 +27,8 @@ related:
   - fao-food-price-index-explained-2026
   - food-prices-2027-forecast-scenarios
 ---
+
+> **Update — 19 November 2026:** This article remains a historical snapshot of the September 2026 release. FAO has since published its October index; see the [October 2026 FAO Food Price Index explainer](/articles/fao-food-price-index-explained-2026/) for the latest month and commodity-group movements.
 
 ## Global food prices rose again in September 2026
 

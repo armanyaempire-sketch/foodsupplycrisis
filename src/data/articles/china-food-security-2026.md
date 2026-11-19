@@ -24,7 +24,7 @@ related:
   - /articles/global-food-crisis-2026/
 ---
 
-> **Update — 13 November 2026:** The page now includes China's October CPI release. Summer grain output and autumn crop conditions are production indicators; the October CPI is a consumer-price indicator. Neither alone measures every part of national food security.
+> **Update — 19 November 2026:** Replaced the repeated pantry suggestion with separate decisions for crop producers, grain handlers and urban consumers; no national weather forecast is inferred where the article's cited evidence is provincial.
 
 ## Key takeaways
 
@@ -96,10 +96,16 @@ Taken together, the data show that production and market conditions can strength
 - Ministry of Agriculture and Rural Affairs updates on drought, flood, heat and pest conditions across major autumn crop regions.
 - Changes in regional wholesale and retail prices where local weather or transport conditions disrupt market supply.
 
-## If you live in China
+## Apply the evidence at provincial level
 
-Use NBS price data and local agriculture, weather and market notices to distinguish a national trend from a product-specific or regional change. The October figures show why a falling aggregate food index cannot describe every shopping basket. For general household food planning, see the [30-day emergency pantry guide](/articles/best-non-perishable-foods-30-day-emergency-pantry/).
+China's national summer-grain result and October food-price index are not local operating instructions. Provinces differ in crop mix, water access, storage infrastructure and the distance between producing areas and consumer markets. This article does not have a verified single November weather forecast for every autumn-grain province, so it would be misleading to prescribe one national planting or irrigation response.
 
+- **Farmers:** use the provincial agricultural meteorological bulletin and local extension advice for the crop already in the ground. Decisions about irrigation, pest control or delayed harvest should follow the field's soil moisture and crop stage, not the national CPI.
+- **Grain depots and cooperatives:** track incoming moisture, drying throughput, pest monitoring and silo occupancy by grain type. A reported national output increase does not tell a county depot whether it has enough drying or safe storage capacity for its local arrivals.
+- **Urban households and retailers:** compare the price and availability of the foods actually bought locally—fresh vegetables, pork, eggs, dairy and grain—rather than relying on the national −2.9% food-price movement alone. Refrigerated foods need a reliable cold chain; dry staples need sealed, pest-resistant storage.
+- **Local authorities:** investigate a persistent stock-out by product and market before treating it as a provincial shortage. Check wholesale arrivals, transport and retail coverage alongside production.
+
+This is a market-access and distribution test, not a recommendation for households to accumulate food.
 ## Assessment
 
 China's 2026 summer grain output was strong, supported by higher yield despite a small reduction in planted area. October food prices declined overall, although the movement differed across food categories. The next decisive evidence is the autumn harvest and subsequent regional price data. The figures reviewed here do not support a claim of a nationwide food shortage, but they do justify continued attention to regional weather and uneven consumer-price movements.

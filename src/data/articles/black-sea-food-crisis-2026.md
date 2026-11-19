@@ -23,7 +23,7 @@ sources:
 related: []
 ---
 
-> **Update — 19 November 2026:** Clarified the difference between a disruption to export routes and a shortfall in global grain production; the article now closes with a route-and-market test rather than generic household-preparedness advice.
+> **Update — 19 November 2026:** Replaced the household buffer suggestion with separate decisions for grain importers, ports and processors; this article now focuses on the Black Sea route's market transmission.
 
 The Black Sea is one of the most important corridors in the international grain trade. That makes disruption in the region relevant far beyond the countries around the sea.
 
@@ -96,7 +96,12 @@ For the wider price picture, see [Food Prices](/food-prices/). For the global co
 
 ## If a trade or logistics disruption becomes real
 
-Do not assume that a shipping disruption means the shelves will be empty everywhere. The impact depends on inventories, alternate suppliers, rail and road capacity, ports, storage and the ability of governments and companies to reroute cargo. For a household, the practical response is to increase resilience around the foods that genuinely have few substitutes in your local market. Keep a modest buffer of versatile staples rather than trying to predict exactly which imported product will disappear.
+## What importers and food businesses should do if the corridor is impaired
+
+- **Wheat-importing governments and millers:** compare landed cost, grade, shipment window and foreign-exchange terms across alternative origins. A substitute source is useful only if the wheat meets the mill's specification and can arrive before current stocks are exhausted.
+- **Port and logistics operators:** monitor berth availability, insurance, vessel cancellations, rail and road interchange and the time needed to move grain from port to inland storage. Publish actual throughput, not only nominal terminal capacity.
+- **Feed manufacturers and livestock processors:** test whether maize or other feed ingredients can be substituted without compromising animal-nutrition requirements, and check the price and availability of each ingredient separately.
+- **Public reserve managers:** release stocks against a verified local supply gap and a clear replenishment plan. A broad export restriction can shift the shortage to another importer rather than solve the route problem.
 
 Businesses and community organizations can improve resilience by mapping alternative suppliers, checking storage capacity, protecting cold-chain equipment, and maintaining communication plans for delivery interruptions. Governments can use reserves and trade channels proportionately rather than imposing measures that unintentionally worsen scarcity.
 

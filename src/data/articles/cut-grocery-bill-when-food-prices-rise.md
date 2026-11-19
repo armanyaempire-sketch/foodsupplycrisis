@@ -22,7 +22,7 @@ sources:
 related: []
 ---
 
-> **Update — 19 November 2026:** Removed the unrelated crisis-response appendix and added a more measurable way to compare grocery savings without sacrificing nutrition or increasing food waste.
+> **Update — 19 November 2026:** Added a local-price and equipment test so savings advice responds to the food basket, season and refrigeration/cooking capacity of the household rather than repeating emergency-pantry guidance.
 
 When food prices rise, the most useful response is usually not to buy everything before it gets more expensive.
 
@@ -117,7 +117,17 @@ That is why grocery strategy should be based on local prices, not only global he
 
 When food prices rise without a physical shortage, the best response is usually substitution and budgeting rather than aggressive stockpiling. Compare unit prices, switch among nutritionally similar staples, cook from ingredients already on hand and buy only quantities you can use before quality deteriorates. Build a list of low-cost meals before prices rise further. This protects the household budget without creating a false impression of scarcity.
 
-A price-focused pantry should emphasize versatile ingredients: one or two grains, one or two protein sources, cooking oil, canned or dried produce, seasonings and a few ready-to-eat items. Store foods your household already consumes. There is little value in buying a large quantity of an unfamiliar product simply because it is temporarily cheap.
+Choose substitutions from the local market, not from a generic international list. The lowest-cost option depends on the season, regional diet, local supply and what the household can store or cook.
+
+| What is driving the bill? | More useful response |
+|---|---|
+| A seasonal fresh-food increase | Compare in-season alternatives sold in the same local market and price them by edible portion, not just by kilogram. |
+| A staple such as rice, wheat or maize | Compare the same grade and milling form; a cheaper coarse grain or different package may not be equivalent to the item the household normally buys. |
+| Meat, fish, eggs or dairy | Compare cost per usable protein portion and consider locally familiar pulses or other proteins where they fit the diet. |
+| Refrigeration or electricity is expensive or unreliable | Avoid discounts that require bulk chilled storage. Buy smaller quantities of perishables and use them before the next delivery cycle. |
+| Cooking fuel has become expensive | Compare the full cost and time of preparing a meal, not just ingredient prices; choose dishes that use the available appliance efficiently. |
+
+For a useful comparison, keep a short list of the same five to ten foods bought in your town or neighbourhood. A national CPI can explain the wider trend, but the local basket shows which substitutions are actually available to the household.
 
 
 ## Bottom line

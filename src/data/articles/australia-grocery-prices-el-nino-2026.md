@@ -23,12 +23,16 @@ sources:
     url: https://www.agriculture.gov.au/biosecurity-trade/middle-east-conflict/fertiliser-supply-working-group
   - name: Bureau of Meteorology — ENSO monitoring
     url: https://www.bom.gov.au/climate/enso/
+  - name: Bureau of Meteorology — Climate outlook issued 19 November 2026
+    url: https://www.bom.gov.au/climate/ahead/outlooks/
+  - name: Bureau of Meteorology — Rainfall deficiencies and water availability, 9 November 2026
+    url: https://www.bom.gov.au/climate/drought/
 related:
   - /articles/very-strong-el-nino-2026-food-production/
   - /articles/food-inflation-by-country-monthly-tracker-2026/
 ---
 
-> **Update — 13 November 2026:** This article now includes the September ABARES crop outlook, September consumer-price data and the Australian Government's published fertiliser-import exposure. Forecasts remain forecasts; the December ABARES update is the next major crop checkpoint.
+> **Update — 19 November 2026:** Added a dated regional decision guide using the Bureau of Meteorology's 19 November outlook, so advice differs between hotter/drier regions and wetter eastern inland districts.
 
 ## Key takeaways
 
@@ -107,10 +111,18 @@ This comparison is more informative than comparing only with the exceptional pre
 - **1 December 2026, 8am AEST:** ABARES December Australian Crop Report. Compare revisions to winter crop forecasts and the early summer crop estimate.
 - **Ongoing:** Bureau of Meteorology ENSO updates and regional rainfall and soil-moisture information. Treat local observations as more decision-relevant than a global El Niño headline.
 
-## If you live in Australia
+## What the current forecast means by region
 
-For local impacts, follow state agriculture department updates, the Bureau of Meteorology and the ABS price releases. A national grain forecast does not tell a household whether a particular regional product is temporarily affected. For general household food planning, see our [30-day emergency pantry guide](/articles/best-non-perishable-foods-30-day-emergency-pantry/); this article does not repeat that guide's storage checklist.
+The Bureau of Meteorology's **19 November 2026** outlook for December–February does not describe one Australian rainfall pattern. It favours above-average rainfall in parts of southern Queensland and inland north-eastern New South Wales, below-average rainfall across much of the north and west and Tasmania, and above-average daytime and overnight temperatures across most of the country. Treat this as a seasonal probability, not a district forecast.
 
+| Location or operator | Decision that fits the local risk |
+|---|---|
+| Northern and western growing districts, where the outlook is drier | Base planting and input decisions on district soil-moisture measurements and current BOM updates. Do not expand a dryland crop area solely because the national crop estimate is large. |
+| Southern Queensland and inland north-eastern NSW, where the outlook is wetter | Check paddock access, harvest logistics and drainage plans. Grain handlers should confirm drying and aeration capacity before accepting wetter grain; segregate lots by measured moisture rather than mixing them into a full silo. |
+| Growers and livestock operators facing above-average heat | Review stock-water reliability, shade and cooling arrangements, and monitor stored-grain temperature and insects more frequently. |
+| Households and retailers | Use the next ABS food-category CPI and local price checks. A large national harvest does not guarantee that a remote town has the same prices or delivery choice as a capital city. |
+
+Storage capacity matters at the right scale. A farm or bulk handler should not fill a silo beyond its safe aeration and moisture-management capability. A household should not buy extra chilled or frozen food unless reliable refrigeration and power are available. Neither situation is solved by a national tonnage figure.
 ## Assessment
 
 Australia's 2026–27 outlook is weaker than the previous season, but the national winter crop forecast remains historically large. The risks are uneven: northern growing regions, the summer crop, farm margins and imported fertiliser exposure deserve close attention. The latest CPI reading shows food-price pressure, but it does not convert a lower crop forecast into proof of a nationwide food shortage.

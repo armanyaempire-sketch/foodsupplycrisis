@@ -24,7 +24,7 @@ featured: true
 related: []
 ---
 
-> **Update — 19 November 2026:** Replaced the generic household checklist with a clearer explanation of how fertilizer cost and availability reach farm decisions and later food prices.
+> **Update — 19 November 2026:** Added a short-run decision framework by nutrient, crop stage and delivery window so farmers and distributors do not receive one generic fertilizer recommendation.
 
 Fertilizer is an upstream food-supply issue. Consumers usually notice food prices months before they ever hear about the fertilizer market, even though fertilizer decisions made before planting can influence later harvests.
 
@@ -123,3 +123,16 @@ The path from fertilizer markets to food prices has several stages. Natural gas 
 The first effect may be a change in farm costs rather than an immediate fall in food production. A farmer may reduce application, switch the product used, delay a purchase or keep the planned rate but accept a lower margin. The effect on yields, if any, depends on soil conditions, crop needs, timing and how much nutrient is already available. Retail food prices may respond later, and the change can be diluted or amplified by harvests, stocks, imports, currency movements and transport costs.
 
 To judge the risk, monitor separate indicators: nutrient-specific prices, local retail availability, import arrivals, gas and electricity costs, farmer credit, planting decisions and crop-condition reports. Keep fertilizer affordability distinct from a confirmed food shortage.
+
+## A fertilizer response must fit the nutrient and crop stage
+
+Nitrogen, phosphate and potash are not interchangeable. A disruption to one product should not trigger a blanket reduction in every application. The right decision depends on the soil test, crop requirement, product already applied, growth stage and time remaining in the local application window.
+
+| Farm situation | Decision to make before changing application |
+|---|---|
+| Nitrogen-dependent crop approaching top-dressing | Check the field's crop stage, previous application and local extension recommendation. If a delivery is delayed, ask whether a split application remains agronomically appropriate; do not compensate later with an unverified oversized dose. |
+| Phosphate or potash supply constraint before planting | Use soil-test results and the crop's removal needs to prioritise fields. A short-term price shock does not justify applying a substitute nutrient that does not correct the diagnosed deficiency. |
+| Smallholder with limited working capital | Compare the delivered price and availability of the correct grade from more than one licensed dealer. Avoid taking expensive credit for an input that arrives after the crop's useful window. |
+| Distributor, cooperative or public buyer | Plan inventory by nutrient grade, region and planting calendar. Track physical stock and delivery dates separately from orders and import contracts; protect dry storage from moisture and contamination. |
+
+This short-run response is different from the long-term industrial question in [Fertilizer Independence and Resilient Farming](/articles/fertilizer-independence-resilient-farming/), which concerns manufacturing, energy inputs and national supplier diversity.

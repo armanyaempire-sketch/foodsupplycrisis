@@ -22,7 +22,7 @@ sources:
 related: []
 ---
 
-> **Update — 19 November 2026:** Added the latest Nigeria Cadre Harmonisé assessment as a separate, dated national source and removed a generic household-preparedness conclusion that did not belong in this regional humanitarian review.
+> **Update — 19 November 2026:** Added a response map by humanitarian driver so the article distinguishes conflict access, import dependence, drought and displacement instead of suggesting one household action across all hotspots.
 
 Food insecurity is not spread evenly around the world.
 
@@ -117,3 +117,18 @@ A hunger-hotspot assessment is tied to a defined forecast window and geographic 
 When comparing figures, retain the classification system and reference period. IPC and Cadre Harmonisé categories have related purposes but should not be treated as interchangeable without checking their definitions. Phase 3 or above indicates serious acute food insecurity; the term “Famine” has a much more specific evidentiary threshold and geographic scope. A forecast of worsening conditions is also different from a measured outcome after the period has passed.
 
 The most useful reading combines the country alert with the underlying map, population estimate, drivers of food insecurity and operational access constraints. Check whether the concern is conflict, displacement, drought, market prices, livelihood loss or a combination. That tells readers what kind of response is needed and prevents a single headline number from obscuring where people are most at risk.
+
+## Match the response to the hotspot's main constraint
+
+The same food-assistance model will not work in every hotspot. The FAO–WFP alert and the latest country assessments should be read together with access, market and livelihood evidence.
+
+| Hotspot or setting | Main operational constraint to verify | Response that fits the constraint |
+|---|---|---|
+| Sudan | Front lines, displacement and blocked roads can prevent food from reaching functioning markets | Prioritise safe humanitarian access, local market routes, water and health services. Pre-position supplies where access windows are predictable; do not treat household stockpiling as a solution to an access blockade. |
+| South Sudan | Seasonal flooding and poor road access can isolate communities | Plan transport and pre-positioning around the local flood calendar; combine food assistance with livestock health, fishing and livelihood support where these remain viable. |
+| Yemen | Import dependence, port throughput, fuel and currency conditions affect the cost and availability of food | Track port discharge, fuel prices, exchange rates and local market supply. Use cash or vouchers only where markets are stocked and accessible; use direct assistance where they are not. |
+| Gaza / Palestine | Safe entry, distribution access, water and essential services are binding constraints | Prioritise safe, sustained entry of food, fuel, water and medical supplies and protect distribution operations. No household storage instruction can substitute for humanitarian access. |
+| Northeast Nigeria | Conflict, displacement and seasonal livelihood loss vary by state and locality | Use state-level Cadre Harmonisé maps to target food and nutrition assistance; use cash where local markets function and direct delivery where insecurity has disrupted them. |
+| Somalia | Drought, livestock losses and water access affect pastoral and agropastoral livelihoods | Pair food assistance with livestock water, animal-health services, fodder and livelihood protection where those assets remain recoverable. |
+
+Readers outside the affected areas should use these distinctions to assess response quality and funding needs, not as a shopping signal.

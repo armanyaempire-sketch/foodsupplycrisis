@@ -68,7 +68,7 @@ This is one reason a regional logistics shock can become a global price event.
 
 ## Does this mean the world lacks wheat?
 
-Not necessarily.
+That conclusion does not follow from the route evidence alone.
 
 FAO's October 2026 cereal forecast still points to historically large global production.
 
@@ -84,7 +84,7 @@ Currency strength and local food-policy systems also matter.
 
 ## What to watch
 
-Track:
+Monitor corridor operations and cargo movement:
 
 - port activity;
 - vessel arrivals and cancellations;

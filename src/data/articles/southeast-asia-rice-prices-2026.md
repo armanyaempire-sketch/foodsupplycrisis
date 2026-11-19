@@ -72,7 +72,7 @@ Irrigation infrastructure is therefore crucial. A farm with reliable irrigation 
 
 ## What to watch
 
-Track:
+For a comparable rice-market series, record:
 
 - rice retail prices;
 - export quotations;

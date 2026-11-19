@@ -46,7 +46,7 @@ But prices respond to more than physical supply. Weather expectations, freight, 
 
 ## Claim: “An empty shelf proves a national shortage”
 
-Not necessarily.
+That conclusion does not follow from the evidence cited here.
 
 A retailer may temporarily sell out because demand rose faster than replenishment.
 

@@ -100,7 +100,7 @@ These indicators are more informative than a single photograph of a supermarket.
 
 ## Bottom line
 
-A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.
+For Gulf importers, resilience is best measured by the number of workable sourcing and logistics options available before a disruption occurs. Public stocks, commercial inventories, port capacity and household purchasing power should be reported as separate parts of the system, not compressed into one claim about how many days of food remain.
 
 ## Four links determine how resilient a Gulf food system is
 

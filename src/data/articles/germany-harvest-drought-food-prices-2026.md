@@ -60,7 +60,7 @@ But the European market also has multiple production regions, which provides som
 
 ## What should be watched?
 
-Follow:
+Monitor the next German crop and market releases:
 
 - harvest totals;
 - grain and rapeseed prices;

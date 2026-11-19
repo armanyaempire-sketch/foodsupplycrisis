@@ -124,7 +124,7 @@ This spreads the cost and avoids a single large panic purchase.
 
 ## Bottom line
 
-A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.
+A household reserve should be built from normal consumption and storage capacity, then rotated through ordinary meals. The practical test is whether the supplies remain safe, familiar and affordable—not whether the pantry contains the largest possible number of days.
 
 ## Turn household consumption into a rotation plan
 

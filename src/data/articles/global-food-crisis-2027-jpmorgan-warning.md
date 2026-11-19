@@ -32,7 +32,7 @@ related:
   - /articles/fertilizer-shortage-2026/
 ---
 
-> **Update — 19 November 2026:** Removed the repeated generic household stockpiling checklist. The household section now focuses on India's distinct affordability channels and points to the separate local pantry resource only for storage details.
+> **Update — 19 November 2026:** Narrowed this page to JPMorgan's conditional 2027 scenario, its India-specific exposure channels and how to test the bank's assumptions. Detailed energy, fertilizer, El Niño and household-storage explanations now live in their specialist guides; the FAO counterweight uses the October release.
 
 Food is one of the few household expenses that cannot be reduced to zero. A family can postpone a new phone, delay a holiday or cut back on other discretionary spending. It still has to buy food.
 
@@ -131,99 +131,20 @@ They are not.
 
 The lesson is that global food markets are sensitive to disruptions in a relatively small number of important producing regions, trade routes and agricultural inputs.
 
-## The Strait of Hormuz and the fertilizer problem
+## The two external triggers in JPMorgan's scenario
 
-The Strait of Hormuz is usually discussed as an oil chokepoint.
+JPMorgan's argument combines two conditional triggers: a shipping and energy shock affecting fertilizer costs, and a very strong El Niño affecting selected crop regions. This page does not repeat the mechanics of those systems. The specialist articles explain them in detail:
 
-For food security, however, the fertilizer connection may be just as important.
+- [Strait of Hormuz: the energy and freight pathway](/articles/strait-of-hormuz-food-crisis-2026/)
+- [Fertilizer shortage: nutrient, delivery and crop-stage risks](/articles/fertilizer-shortage-2026/)
+- [Very Strong El Niño: the current forecast and its limits](/articles/very-strong-el-nino-2026-food-production/)
+- [Regional crop exposure by country and crop system](/articles/el-nino-winners-losers-crop-risks-2026/)
 
-Nitrogen fertilizer is central to modern crop production. Nitrogen fertilizer is also closely linked to natural gas because gas is an important feedstock and energy source for ammonia production.
+The JPMorgan-specific question is whether the triggers occur together, overlap with planting or nutrient-application windows in major producing areas, and persist long enough to change production costs or output. A delayed ship is not a fertilizer shortage; a high fertilizer quotation is not a yield loss; and an ENSO probability is not a probability of crop failure.
 
-That creates two channels of risk.
+### Keep probabilities separate
 
-### Energy channel
-
-If energy becomes more expensive:
-
-- farm machinery becomes more expensive to operate;
-- irrigation and processing can cost more;
-- transport costs can rise;
-- fertilizer production becomes more expensive;
-- and cold-chain and storage costs can increase.
-
-### Fertilizer channel
-
-If fertilizer shipments are disrupted:
-
-- importers may face higher prices;
-- farmers may reduce applications;
-- some farmers may delay purchases;
-- planting decisions may change;
-- and yields can be affected later in the crop cycle.
-
-The timing matters.
-
-A fertilizer shortage does not necessarily produce an immediate grocery-store shortage.
-
-A farmer may be unable to apply the desired amount during a critical period. The harvest is then affected months later. The resulting supply change can reach food markets after the original shipping disruption has faded.
-
-That lag makes fertilizer shocks particularly difficult to understand from supermarket prices alone.
-
-For a deeper look at this transmission mechanism, see [Strait of Hormuz Food Crisis: How Shipping and Energy Disruptions Can Affect Food Prices](/articles/strait-of-hormuz-food-crisis-2026/) and [Fertilizer Shortage 2026](/articles/fertilizer-shortage-2026/).
-
-## Why fertilizer is different from oil
-
-Oil has a global strategic-reserve system that can provide some emergency buffer.
-
-Fertilizer does not have an equivalent globally coordinated reserve.
-
-There are national stockpiles and private inventories, and countries can sometimes change suppliers. But nitrogen fertilizer has production and transport constraints that cannot be solved instantly.
-
-There is also a seasonal problem.
-
-Farmers do not have unlimited flexibility about when nutrients are needed. Missing a critical application window can reduce the benefit of applying fertilizer later.
-
-That means the effect of a fertilizer disruption depends not only on how large it is, but also on **when it happens** and **which farming regions are entering planting or key crop-development periods**.
-
-## The super El Niño risk
-
-El Niño is a natural climate pattern involving unusually warm surface waters in the central and eastern tropical Pacific.
-
-Its importance to food security comes from its influence on atmospheric circulation.
-
-It can change rainfall and temperature patterns across many regions. Some areas can become unusually dry, while others experience heavier rain or flooding.
-
-JPMorgan's scenario treats the possibility of a very strong or "super" El Niño as another major food-price risk.
-
-The bank's analysis has been reported as assigning an 81% probability to a super El Niño forming by late 2026 and a 97% probability that those conditions persist into 2027.
-
-Those figures should be treated as **JPMorgan's scenario probabilities**, not as certainty and not as a universal scientific consensus.
-
-That distinction matters because weather forecasting uncertainty increases as the time horizon gets longer, and because the food impact depends on where the strongest weather effects occur.
-
-For more background on crop exposure, see [Very Strong El Niño and Global Food Production](/articles/very-strong-el-nino-2026-food-production/).
-
-## What El Niño can do to food production
-
-There is no single "El Niño crop effect."
-
-The outcome varies by region and crop.
-
-Potential effects include:
-
-- drought in some agricultural areas;
-- excessive rain or flooding elsewhere;
-- heat stress;
-- changes in planting conditions;
-- reduced yields;
-- disruption to fisheries;
-- and changes in commodity trade flows.
-
-Rice, sugar, coffee and cocoa are among the commodities frequently discussed in connection with this risk because important producing regions can be exposed to weather variability.
-
-The key point is that **El Niño changes probabilities; it does not dictate one guaranteed harvest outcome**.
-
-A strong event can be followed by adaptation, good yields in other regions, policy intervention or other developments that reduce the final price effect.
+The bank's scenario probabilities belong to its own model, assumptions and forecast horizon. They should not be presented as NOAA's operational forecast or combined with an official climate probability. Use the latest NOAA discussion for the climate outlook, then check regional rainfall, soil moisture, crop condition and official yield revisions before describing a crop impact.
 
 ## The combination is more important than the headline
 
@@ -419,15 +340,9 @@ The value comes from seeing whether several independent indicators are moving in
 
 ## The current FAO picture is an important counterweight
 
-The FAO Food Price Index remains useful because it measures international food-commodity price movements rather than relying on a single bank's scenario.
+FAO's **October 2026** Food Price Index averaged **133.9 points**, 1.2% below September but 5.9% above October 2025 and 16.4% below the March 2022 peak. The October result is a useful counterweight to the bank's conditional scenario: the latest monthly global index eased even as some commodity groups remained under pressure.
 
-FAO reported that the index averaged 136.0 points in September 2026, up 1.5% from August and 5.8% above September 2025, but still 15.1% below its March 2022 peak.
-
-That is an important piece of context.
-
-The world can face rising food-price pressure without being at the 2022 peak.
-
-It also means the current warning should be monitored as a developing risk rather than described as proof that a global food collapse has already happened.
+For the commodity breakdown and measurement limits, use the [October FAO index explainer](/articles/fao-food-price-index-explained-2026/). The key comparison is that one monthly observation cannot confirm or disprove a conditional 2027 scenario; the scenario needs to be tested against subsequent crop, input, trade and price releases.
 
 ## Frequently asked questions
 
@@ -457,17 +372,15 @@ India has domestic agricultural production, reserves, policy tools and the abili
 
 ### Should households stockpile food now?
 
-A modest rotating reserve of foods you already use can be sensible emergency preparation.
-
-Panic buying is not.
+This bank scenario is not a shopping instruction. Follow the emergency-preparedness advice issued for your country and the specific local hazard; do not increase purchases because a conditional global forecast has been published.
 
 ### What should a family store?
 
-Prioritize safe drinking water, familiar shelf-stable staples, protein, canned or dried produce, cooking fats, ready-to-eat foods and any special-diet or pet supplies the household genuinely needs.
+That depends on local authority guidance, the household's diet, the interruption being planned for and safe storage capacity. The dedicated [30-day emergency pantry guide](/articles/best-non-perishable-foods-30-day-emergency-pantry/) covers food choice and rotation; the separate [safe water storage guide](/articles/how-to-store-water-at-home-safely/) covers water sources and containers.
 
 ### How should food be stored?
 
-Keep dry foods sealed, dry and protected from pests. Keep canned foods away from persistent heat and chemicals. Follow package instructions for products that require refrigeration. Rotate older supplies first.
+Storage depends on the home's heat, humidity, pest exposure, available cupboard space and refrigeration reliability. Use the dedicated pantry and water guides rather than treating one global list as appropriate for every home.
 
 ## Final assessment
 
@@ -475,34 +388,18 @@ The 2027 food-crisis warning is best understood as a **risk story about compound
 
 JPMorgan's scenario puts particular weight on fertilizer disruption, energy costs and a very strong El Niño. Jaishankar's recent comments highlight many of the same vulnerabilities from a geopolitical and Global South perspective.
 
-The underlying mechanisms are credible.
+The scenario's transmission mechanisms are credible, but the final outcome is conditional. Shipping can recover, fertilizer can be redirected, farmers can adapt and harvests can outperform expectations. Conversely, simultaneous disruption across inputs, routes and crop regions could make the impact larger than any single shock.
 
-Agriculture needs fertilizer. Fertilizer needs energy and reliable logistics. Food needs transport, storage and functioning trade routes. Weather can reduce yields. Households need enough purchasing power to afford what is available.
+For policymakers, the test is whether import, reserve and social-protection decisions are linked to the specific commodity and region affected. For agricultural agencies, the test is whether input delivery and weather monitoring are timed to the crop calendar. For Indian households, the relevant indicators are local availability, PDS access, food-basket costs and household income—not the bank's global headline percentage.
 
-When several of those systems are stressed at the same time, food inflation can rise.
-
-But uncertainty remains large.
-
-Shipping conditions can improve. Governments can intervene. Farmers can adapt. Alternative suppliers can emerge. Harvests can outperform expectations. Weather can turn out to be less damaging than feared.
-
-That is why the responsible response is neither complacency nor panic.
-
-For governments, the priorities are diversified supply, reserves, efficient fertilizer use, resilient agriculture, reliable water systems and functioning trade.
-
-For farmers, the priorities are input planning, soil and water efficiency, crop diversification where practical and close attention to weather and market conditions.
-
-For households, the priorities are much simpler: manage the food budget, reduce waste, keep a modest rotating pantry, store water safely, know how to protect food during a power disruption and follow credible information.
-
-The best interpretation of a warning is not "buy everything before it disappears."
-
-What remains uncertain:
-
-**understand the risk early enough that you can prepare calmly if the risk becomes real.**
+A risk becomes an observed food-system problem only when independent evidence shows the relevant trigger, the transmission to production or markets, and a measurable effect on access or affordability.
 
 ## Sources & further reading
 
 - JPMorgan — [Food Security Under Pressure](https://www.jpmorgan.com/insights/sustainability/climate/food-security-under-pressure)
 - FAO — [Food Price Index](https://www.fao.org/worldfoodsituation/foodpricesindex/en/)
+- FAO — [Cereal Supply and Demand Brief](https://www.fao.org/worldfoodsituation/csdb)
+- NOAA — [ENSO Diagnostic Discussion, 12 November 2026](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml)
 - FAO — [World food prices dip in December 2022](https://www.fao.org/newsroom/detail/world-food-prices-dip-in-december/en)
 - FAO — [Food Price Index declines in December 2023](https://www.fao.org/newsroom/detail/fao-food-price-index-declines-in-december/en)
 - The Indian Express — [Jaishankar warns of a major food crisis amid fertilizer shortages and disrupted grain shipments](https://indianexpress.com/article/world/jaishankar-warns-major-food-crisis-fertiliser-shortages-ukraine-iran-gulf-conflicts-10899592/)

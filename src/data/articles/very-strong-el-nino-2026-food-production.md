@@ -1,6 +1,6 @@
 ---
 title: "Very Strong El Niño 2026: Could It Reduce Global Food Production?"
-description: NOAA says El Niño is strengthening in late 2026, while FAO warns that changing rainfall and heat could increase risks to crop production in some regions.
+description: NOAA’s 12 November 2026 outlook says a strong-to-very-strong El Niño is likely through January–March 2027; crop impacts still depend on regional weather and crop calendars.
 pubDate: 2026-10-04
 updatedDate: 2026-11-19
 author: Food Supply Crisis Report Editorial Desk
@@ -14,20 +14,18 @@ keywords:
   - drought agriculture
 type: analysis
 sources:
-  - name: NOAA Climate Prediction Center — September 2026 outlook
-    url: https://www.cpc.ncep.noaa.gov/products/predictions/90day/fxus05.html
-  - name: NOAA Climate Prediction Center — ENSO Diagnostic Discussion, September 2026
-    url: https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml
+  - name: NOAA Climate Prediction Center — ENSO Diagnostic Discussion, 12 November 2026
+    url: https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml
   - name: FAO Cereal Supply and Demand Brief — October 2026
     url: https://www.fao.org/worldfoodsituation/csdb
 related: []
 ---
 
-> **Update — 19 November 2026:** Removed the repeated household appendix and clarified that climate probabilities, crop impacts and market outcomes are separate stages of evidence.
+> **Update — 19 November 2026:** Replaced the superseded September outlook with NOAA’s 12 November diagnostic discussion. NOAA now gives greater than 79% odds of a strong-to-very-strong event through January–March 2027; this is a climate forecast, not a crop-loss probability.
 
 El Niño is one of the most important climate signals for agriculture in late 2026, but the term “very strong El Niño” describes a forecasted strength category, not a guarantee of a global harvest failure.
 
-NOAA's September 2026 ENSO discussion said El Niño was strengthening and gave a greater than 90% chance of a very strong event during the Northern Hemisphere fall and winter of 2026–27.
+NOAA's 12 November 2026 ENSO Diagnostic Discussion says El Niño continues to strengthen and that a **strong-to-very-strong event is likely through January–March 2027, with the chance remaining above 79%**. NOAA reported Niño-3.4 at +2.5°C and Niño-1+2 at +4.4°C in that discussion.
 
 That is a significant warning signal. It is not a forecast that every country will have poor harvests.
 
@@ -35,9 +33,7 @@ That is a significant warning signal. It is not a forecast that every country wi
 
 NOAA reported unusually warm sea-surface temperatures across the eastern and central equatorial Pacific, with further strengthening during the previous month.
 
-For October-December 2026, NOAA said there was a 75% chance of an event reaching a historic strength threshold based on the agency's RONI measure.
-
-Those probabilities describe the expected climate pattern. They do not directly translate into a percentage chance of a specific crop failing.
+The November discussion describes the current event and its forecast horizon. A probability for the ENSO category must not be presented as the probability of a specific crop failing, nor combined with a financial institution’s separate economic scenario. The climate pattern can raise the risk of regional rainfall and heat anomalies, but crop outcomes require local observations.
 
 ## Why El Niño matters to food production
 

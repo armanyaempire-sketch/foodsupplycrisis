@@ -93,3 +93,9 @@ Wheat production is only the first stage in the price of flour. The market outco
 For Pakistan, a useful assessment should name the province and the relevant market whenever possible. Compare farm-gate or mandi prices with flour-mill and retail prices, and check whether a change follows a procurement decision, a transport disruption, a currency movement or a shift in input costs. Do not compare a national production total with a city retail price without explaining the route between them.
 
 The practical indicators are the latest official crop estimate, public procurement and stock-release notices, import or export policy, mill-level availability and the price of a standard flour bag in the markets discussed. A short-lived local increase may reflect distribution or policy timing; a persistent and widespread rise needs broader evidence about stocks, flows and household purchasing power.
+
+## A useful provincial flour-price comparison
+
+For a meaningful local comparison, record the same flour product, bag weight, market and date each time. A 20-kilogram retail bag in one city should not be compared with a wholesale quotation or a different bag size elsewhere. Convert quotations to a common price per kilogram, and keep the product type clear: wheat grain, flour at the mill gate and packaged retail flour are not the same market.
+
+Then compare the local quotation with the procurement and stock situation for the province. Public releases can affect supply, but the timing of transport, milling capacity, power costs and working capital influences whether the grain reaches retailers. If a province reports a surplus while some urban markets show high flour prices, the next investigation should look at distribution bottlenecks, market conduct and the cost of milling before concluding that the national harvest is inadequate. A consistent city-by-city series is more informative than a single national headline.

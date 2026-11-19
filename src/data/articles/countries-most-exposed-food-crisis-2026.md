@@ -13,8 +13,8 @@ keywords:
   - food supply risk
 type: analysis
 sources:
-  - name: FAO — Global Agrifood Implications of the 2026 Middle East Conflict
-    url: https://www.fao.org/agrifood-economics/publications/detail/en/c/1758065/
+  - name: FAO — Cereal Supply and Demand Brief
+    url: https://www.fao.org/worldfoodsituation/csdb
   - name: FAO–WFP Hunger Hotspots — June to November 2026
     url: https://www.wfp.org/publications/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-june-november-2026
   - name: National Bureau of Statistics of China — 2026 Summer Grain Output

@@ -16,10 +16,12 @@ sources:
     url: https://www.maff.go.jp/j/council/seisaku/syokuryo/261030/HP/sanko2.pdf
   - name: Japan Ministry of Agriculture, Forestry and Fisheries
     url: https://www.maff.go.jp/e/
+  - name: MAFF — October 2026 rice transaction prices and volumes, 18 November 2026
+    url: https://www.maff.go.jp/j/press/nousan/kikaku/261118.html
 related: []
 ---
 
-> **Update — 19 November 2026:** Replaced the September media report with the Ministry of Agriculture’s October 2026 material and clarified that the 210,000-tonne buyback was contracted, with delivery procedures still underway.
+> **Update — 19 November 2026:** Added MAFF's 18 November October rice-contract data and separated consumer purchasing, wholesaler delivery and public-reserve decisions.
 
 Japan's rice story in 2026 shows why a food-security problem can be about prices and reserves without becoming a nationwide absence of food.
 
@@ -103,3 +105,12 @@ The evidence to watch is the latest MAFF inventory by category, the quantity act
 Public rice can reach consumers through several channels, and the mechanism changes the likely market effect. A direct release to wholesalers is not identical to a tender open to selected buyers; a sale with delivery conditions is not the same as grain already placed on retail shelves. Grade, milling, packaging, storage location and delivery timing all affect how quickly a reserve release becomes supply available to households.
 
 For that reason, reserve policy should be evaluated against the retail market with a time lag. Check the quantity offered, the quantity actually sold, the quantity delivered and the quantity subsequently distributed. Compare those steps with retail prices and market volumes for the same period. If prices remain elevated after a purchase announcement, the explanation may be a delivery delay, a mismatch in grade or distribution, or other costs in the chain. The announcement alone does not show that the reserve has failed—or that consumers have already benefited.
+
+## What the latest rice-market data means for different buyers
+
+MAFF's 18 November release put the October 2026 average relative transaction price at **¥21,434 per 60 kg of brown rice**. That was ¥141 (1%) above September but ¥15,624 (42%) below October 2025. Contracted transaction volume was 104,000 tonnes. These are contract-market indicators, not the shelf price paid by every household and not proof that the public reserve has already reached retailers.
+
+- **Households:** compare the same rice variety, grade and package size across local shops. Buy to normal consumption and the storage space available; in small or humid homes, a large sack can lose quality before it saves money. Do not treat a public buyback announcement as a signal to rush-buy.
+- **Wholesalers and retailers:** report contracted, delivered and retail-distributed volumes separately. The gap between these stages is the useful indicator of whether a reserve measure is reaching shops.
+- **MAFF and reserve managers:** publish physical deliveries into the reserve separately from signed contracts, and show the grade, location and release route for any stock offered to the market.
+- **Rice farmers and co-operatives:** monitor procurement terms and the next crop outlook before making acreage or storage decisions; a temporary retail-price movement does not by itself define the farm-gate return.

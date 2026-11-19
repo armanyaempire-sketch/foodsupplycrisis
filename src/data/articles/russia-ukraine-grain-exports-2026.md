@@ -108,3 +108,9 @@ A country's grain output and its ability to export grain are related but separat
 The terms used in reporting matter. “Harvest,” “available export surplus,” “contracted shipments” and “grain already loaded” describe different stages. A statement about a damaged terminal should not be converted into a national production loss without evidence. Likewise, a forecast of lower exports is not proof that every shipment has stopped.
 
 To assess the effect on importers, compare port movements and export offers with freight and insurance costs, alternative origins and the timing of cargo arrivals. Then identify which buyers depend on the affected route and what substitution options they have. That approach explains the actual supply-chain exposure without implying that a conflict-related route disruption automatically creates a global food shortage.
+
+## How to read export capacity without overstating losses
+
+Port capacity is not the same as actual exports. A terminal may have a stated annual capacity, but shipments depend on available grain, rail and river connections, storage, loading equipment, vessel access, insurance and the security situation at the time. A damaged asset may reduce potential throughput without stopping every cargo; conversely, a port that remains physically intact can handle fewer shipments if insurance or vessel availability deteriorates.
+
+When reporting a disruption, state whether the evidence concerns a port closure, a reduced loading rate, delayed departures, higher freight costs or a change in export forecasts. Use a defined period and compare it with the same point in the previous marketing year where possible. Also note whether reported cargoes are contracted, loaded or actually departed. These distinctions make the effect on importers clearer and prevent a single incident from being described as the loss of an entire country's harvest.

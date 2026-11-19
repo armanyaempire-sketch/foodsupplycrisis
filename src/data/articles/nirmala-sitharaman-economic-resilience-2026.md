@@ -2,7 +2,7 @@
 title: "Uncertainty Is the New Normal: Nirmala Sitharaman on Building India’s Economic Resilience"
 description: "At Kautilya Economic Conclave 2026, Nirmala Sitharaman said global uncertainty is now a standing condition. Here is what her resilience agenda means for India."
 pubDate: 2026-10-03
-updatedDate: 2026-10-04
+updatedDate: 2026-11-19
 author: Food Supply Crisis Report Editorial Desk
 category: Countries
 keywords:
@@ -33,6 +33,8 @@ related:
   - global-food-crisis-2026
   - oil-energy-food-prices-2026
 ---
+
+> **Update — 19 November 2026:** Clarified the wording around the policy trade-off between efficiency and strategic redundancy.
 
 The global economy is entering a period in which disruption can no longer be treated as a rare interruption between otherwise predictable years. Wars, energy shocks, trade restrictions, technology competition, supply-chain concentration and changing financial conditions can arrive together or in quick succession.
 
@@ -148,7 +150,7 @@ For governments and major industries, the question is therefore not:
 
 **Should we abandon efficiency?**
 
-It is:
+A related policy question is:
 
 **Where is redundancy worth paying for?**
 

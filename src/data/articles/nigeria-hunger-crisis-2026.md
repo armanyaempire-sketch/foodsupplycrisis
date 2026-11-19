@@ -76,7 +76,7 @@ For regional context, see our [Hunger Hotspots 2026](/articles/hunger-hotspots-2
 
 ## Bottom line
 
-A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.
+Nigeria's national estimates show the scale of need, but the operational response must be grounded in state-level evidence about conflict, displacement, market access and the assessment period. A national total cannot show which communities can reach food or which intervention will help them most.
 
 ## Why the lean-season period and state-level geography matter
 

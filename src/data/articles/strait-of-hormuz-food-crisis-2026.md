@@ -21,10 +21,12 @@ sources:
     url: https://www.fao.org/director-general/speeches/details/unga-81-2nd-ministerial-meeting-of-the-rome-coalition-for-fertilizer-access-and-food-security-statement/en
   - name: FAO — Strait of Hormuz crisis and fertilizer scarcity
     url: https://www.fao.org/newsroom/detail/strait-of-hormuz-crisis--fertilizer-scarcity-will-affect-next-harvests-and-food-supplies--fao-warns/
+  - name: FAO — October Food Price Index and November cereal market outlook, 6 November 2026
+    url: https://www.fao.org/newsroom/detail/fao-food-price-index-edges-down-in-october-amid-subdued-demand
 related: []
 ---
 
-> **Update — 19 November 2026:** Refocused the ending on the indirect energy and fertilizer channels and clarified that not every grain shipment passes through the Strait of Hormuz.
+> **Update — 19 November 2026:** Added FAO's 6 November cereal-market update and a route-exposure test separating direct Hormuz flows from indirect energy, fertilizer and freight effects.
 
 The Strait of Hormuz is an energy and trade chokepoint, but its importance to food markets is indirect as well as direct.
 
@@ -78,9 +80,9 @@ Not automatically.
 
 A shipping disruption can raise costs without removing a large share of global agricultural production.
 
-The current global cereal picture illustrates this distinction. FAO's October 2026 forecast still puts global cereal production at about 2.979 billion tonnes, the second-highest harvest on record.
+The latest FAO Cereal Supply and Demand Brief, released on 6 November, forecasts 2026 global cereal production at **2.999 billion tonnes**, the second-highest level on record. At the same time, it expects 2026/27 cereal trade to contract by 3.3% to 507.7 million tonnes, with wheat trade down 8.6%, while global cereal stocks are forecast to rise by 1.8%.
 
-That does not eliminate food-security risk, but it does argue against describing every trade disruption as proof that the world has run out of food.
+That combination is a useful warning against simple conclusions. A large harvest and higher aggregate stocks can coexist with tighter trade flows, logistics constraints and uneven access for individual importers. It does not eliminate food-security risk, but it does argue against describing every trade disruption as proof that the world has run out of food.
 
 ## Who is most exposed?
 
@@ -107,3 +109,26 @@ The Strait of Hormuz matters to food markets mainly through the energy and input
 It is important not to imply that all global grain exports pass through this strait. Grain trade uses a wider network of ports and routes. The effect on a food importer depends on its exposure to Gulf energy, fertilizer supply, shipping services and the availability of alternative sources. A country that imports fertilizer through another route may still feel an indirect energy-price effect, while a country with diversified suppliers may be able to absorb a shipping delay.
 
 Monitor the specific channel claimed: vessel movements and insurance for the route; oil and gas prices for energy; fertilizer quotations and delivery times for farm inputs; and only later, crop costs and food-price data. This sequence avoids treating a geopolitical headline as proof of an immediate food shortage.
+
+
+## Test a country's actual exposure to the route
+
+A country should not be labelled “Hormuz-dependent” simply because it imports food. The analysis needs to identify which flow is exposed and whether a buyer can replace it within the required delivery window.
+
+| Exposure test | Evidence to check | Why it matters |
+| --- | --- | --- |
+| Direct fertilizer sourcing | Origin of urea, ammonia, sulfur and other fertilizer imports; loading port; contract and shipment dates | A buyer may face delayed input deliveries even when its food imports use different routes |
+| Indirect energy exposure | Oil and gas import routes, domestic fuel prices, power tariffs and fertilizer-production costs | Energy costs can pass through even when a country's own grain cargo does not cross Hormuz |
+| Freight and insurance | Vessel routing, war-risk premiums, transit time, port congestion and demurrage | The same cargo may become more expensive or arrive later without any loss of global production |
+| Ability to substitute | Alternative origins, port capacity, supplier specifications, available foreign exchange and delivery lead times | A theoretical alternative is not useful if it cannot meet quality, payment or timing requirements |
+| Physical buffer | Usable commercial inventory and public stocks that are physically held, quality-checked and releasable | Announced purchases or contracted cargoes should not be counted as immediately available stock |
+
+The exposure differs by buyer. A fertilizer importer may face the earliest risk at planting time; a food importer may first see a higher landed cost; a processor may encounter power or packaging costs; and a low-income country may face a financing constraint before the commodity itself becomes scarce. These are different mechanisms and should not be collapsed into one national risk score.
+
+For a practical country assessment, record the commodity, origin, route, contract period and expected arrival date. Then compare that shipment with the buyer's existing usable stocks and the next production or consumption deadline. This identifies whether the main problem is an input delay, a higher import bill, a logistics constraint or a genuine gap in physical supply.
+
+## Read the global cereal forecast alongside trade conditions
+
+FAO's November outlook is not a forecast that every importer will receive enough grain at an affordable price. Production, trade and stocks are separate measures. The expected increase in global cereal stocks partly reflects wheat inventories accumulating in Russia and Ukraine while export disruptions constrain the movement of grain. A stock can exist in an exporting country and still be costly or difficult for a buyer to access.
+
+That is why Hormuz-specific analysis should remain limited to the flows that are actually exposed. Use vessel and customs evidence for direct cargo routes, commodity-specific import data for fertilizer exposure, and local delivery or price data for the domestic effect. Global production totals provide context; they do not replace route-level evidence.

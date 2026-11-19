@@ -119,3 +119,14 @@ A scenario is a conditional pathway: it asks what could happen if a defined set 
 For each scenario, write down three elements. **The trigger** is the event that starts the pathway, such as a material crop downgrade or a prolonged transport disruption. **The confirming indicators** show that the event is feeding into markets, such as export offers, freight costs, stock revisions or currency pressure. **The disconfirming indicators** show that the risk is easing, such as improved crop forecasts, successful substitution by importers or restored route capacity.
 
 This structure makes the analysis updateable. When one indicator changes, revise the relevant scenario rather than changing the headline forecast without explanation. Any probability should be attributed to the institution that produced it, tied to its publication date and kept separate from probabilities published by agencies using different definitions or forecast horizons.
+
+## A practical scenario table for updates through 2027
+
+| Scenario | What would support it | What would weaken it |
+|---|---|---|
+| Benign supply | Stable crop forecasts, adequate stocks and normal shipping | Repeated yield downgrades or export restrictions |
+| Cost-led inflation | Higher energy, fertilizer, freight or currency costs | Falling input costs and cheaper transport |
+| Regional disruption | A named port, corridor or producing area remains impaired | Alternative routes and suppliers restore deliveries |
+| Severe humanitarian deterioration | Conflict, displacement and access constraints worsen in assessed areas | Improved access, assistance funding and livelihoods |
+
+This table is a monitoring framework, not a probability model. Update each column only when a named source publishes a new observation or forecast. Keep the publication date, reference period and geographic scope beside the evidence. A scenario should be downgraded when its own supporting indicators reverse; it should not be kept alive merely because the original headline predicted a crisis. This approach also prevents a climate outlook, an oil-price forecast and a humanitarian classification from being combined into one unsupported numerical probability.

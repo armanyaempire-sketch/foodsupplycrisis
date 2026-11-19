@@ -21,7 +21,7 @@ sources:
 related: []
 ---
 
-> **Update — 19 November 2026:** Replaced the superseded September outlook with NOAA’s 12 November diagnostic discussion. NOAA now gives greater than 79% odds of a strong-to-very-strong event through January–March 2027; this is a climate forecast, not a crop-loss probability.
+> **Update — 19 November 2026:** Added decision gates for farm operators, water managers and market analysts; the article separates an ENSO forecast from an observed crop or storage problem.
 
 El Niño is one of the most important climate signals for agriculture in late 2026, but the term “very strong El Niño” describes a forecasted strength category, not a guarantee of a global harvest failure.
 
@@ -119,3 +119,13 @@ A strong El Niño forecast is a climate outlook, not a measurement of failed har
 The crop impact requires another set of observations: rainfall and soil moisture in the growing region; irrigation and reservoir conditions; the crop calendar; planting progress; heat during flowering or grain fill; and subsequent official yield estimates. A national total can conceal regional losses, while a rainfall anomaly in one season may have limited effect if planting dates, stored water or irrigation reduce exposure.
 
 Only after a production change is established should the analysis turn to prices and trade. Stocks, export availability, exchange rates and substitute suppliers influence whether a local crop loss becomes a wider market shock. The correct sequence is forecast, regional weather, crop condition, harvest estimate and market response—not an automatic jump from an El Niño label to a global food-shortage prediction.
+
+## Three decision gates before changing a farm plan
+
+1. **Climate gate:** confirm the latest NOAA or national meteorological outlook, its probability, area and validity period. A strong-to-very-strong ENSO probability is not a probability of crop failure.
+2. **Field gate:** confirm rainfall, soil moisture, crop stage, reservoir or canal allocation and the local extension bulletin. Do not change irrigation, sowing or fertilizer rates based only on a global ENSO headline.
+3. **Market gate:** revise production or price assumptions only when crop-condition reports, yield estimates, stock changes or trade data confirm that weather is affecting supply.
+
+Water managers should assess storage by usable volume, inflows, planned releases and competing municipal or agricultural demand. Grain handlers should check actual intake moisture, drying throughput and safe silo occupancy if harvest conditions become wet or hot. These are operational measurements, not substitutes for the climate forecast.
+
+For regional crop actions, see [El Niño Crop Risks 2026–27](/articles/el-nino-winners-losers-crop-risks-2026/); this article remains the source for interpreting the strength and uncertainty of the ENSO event.

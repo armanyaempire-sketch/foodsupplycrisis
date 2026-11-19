@@ -1,6 +1,6 @@
 ---
 title: "UK Food Shortage 2026: What the Official Three-Day Preparedness Advice Means"
-description: "The UK’s Be Ready campaign recommends three days of household essentials. Here is what that advice says, what the food-supply data shows, and how to distinguish resilience planning from a national shortage."
+description: "The UK’s Be Ready campaign recommends three days of household essentials. See the official advice, food-supply data and how to separate resilience planning from shortage claims."
 pubDate: 2026-10-04
 updatedDate: 2026-11-19
 author: Food Supply Crisis Report Editorial Desk

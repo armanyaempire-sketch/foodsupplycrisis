@@ -2,7 +2,7 @@
 title: "PM Modi’s Warning on Economic Crisis: Understanding the Disaster Cycle and How India’s Middle Class Can Protect Itself"
 description: "PM Modi warned in The Hague that overlapping global crises could reverse years of progress. Here is how energy shocks can affect prices, jobs and household finances in India."
 pubDate: 2026-10-04
-updatedDate: 2026-10-04
+updatedDate: 2026-11-19
 author: Food Supply Crisis Report Editorial Desk
 category: Countries
 keywords:
@@ -29,6 +29,8 @@ sources:
 related:
   - india-food-security-2026
 ---
+
+> **Update — 19 November 2026:** Clarified the transition into the household-impact summary and made the distinction between external shocks and household responses easier to follow.
 
 Prime Minister Narendra Modi’s warning in the Netherlands was about more than one commodity, one war or one economic indicator. On 16 May 2026, while addressing the Indian community in The Hague, he said the world was facing a sequence of major shocks — first the coronavirus pandemic, then wars and now an energy crisis — and described the period as increasingly becoming a “decade of disasters.” He warned that if conditions were not changed rapidly, gains made over many decades could be lost and a large section of the world’s population could fall back into poverty.
 
@@ -496,7 +498,7 @@ PM Modi's May 16, 2026 remarks in The Hague warned that overlapping global crise
 
 For Indian households, the most useful interpretation is not “an economic collapse is coming.”
 
-It is:
+The practical conclusion is:
 
 **external shocks can travel through energy, prices, interest rates, businesses, jobs and household spending.**
 

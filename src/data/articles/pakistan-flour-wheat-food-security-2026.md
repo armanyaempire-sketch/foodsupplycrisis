@@ -70,7 +70,7 @@ High wheat prices can therefore be a serious affordability issue even when the c
 
 ## What to watch
 
-Track:
+For provincial price checks, record:
 
 - wheat production estimates;
 - flour prices;

@@ -18,7 +18,7 @@ sources:
 related: []
 ---
 
-> **Update — 19 November 2026:** Corrected the national grain estimate to the German federal government’s 2 September preliminary harvest report and replaced the inconsistent secondary-source totals.
+> **Update — 19 November 2026:** Added a role-specific response to the preliminary harvest result, separating field recovery, grain quality/storage and bakery procurement instead of giving households a generic shortage checklist.
 
 Germany's 2026 harvest provides another useful lesson: a serious agricultural problem does not automatically become an equally large consumer food-price shock.
 
@@ -92,3 +92,12 @@ The best indicators for consumers are therefore a combination of harvest revisio
 A national total can hide the difference between regions, crop types and quality grades. Winter wheat, spring cereals, barley and rapeseed do not respond identically to the same weather. Milling quality also matters: a tonne suitable for bread production is not automatically interchangeable with grain used mainly for feed. Before describing a harvest shortfall as a food-security problem, check which crop and production regions account for the change and whether the estimate is preliminary.
 
 For consumers, the next evidence step is to compare producer prices with the cost of milling, bakery energy, labour and transport over the same period. The retail effect may be delayed by contracts and inventories. If bread prices rise while wheat quotations fall, that does not disprove the harvest data; it indicates that other costs or margins are affecting the final product. A useful follow-up should therefore track the federal crop report alongside producer-price and consumer-price series, not select one number as the explanation for every price movement.
+
+## What the harvest result means for each part of the chain
+
+The 37.4-million-tonne preliminary grain estimate is a national total. It does not show whether a farm's grain meets milling specifications, whether a local store has drying capacity or whether a bakery has secured the wheat grade it needs.
+
+- **Farmers in drought-affected districts:** compare final yield and quality with the preliminary federal estimate before deciding how much grain to retain for seed, feed or sale. Where forage stocks were drawn down early, livestock operators should calculate winter feed coverage locally rather than infer it from the national grain total.
+- **Grain merchants and storage operators:** record moisture and quality by lot, maintain aeration and monitor for insects. Do not blend lower-quality or damp grain into a silo that lacks the drying capacity to manage it.
+- **Mills and bakeries:** review milling-wheat specifications, contract cover and alternative origins. A lower domestic harvest may affect particular grades or regions before it affects every tonne of cereal.
+- **Consumers:** compare local bread prices over time; the harvest figure alone does not justify stockpiling flour.

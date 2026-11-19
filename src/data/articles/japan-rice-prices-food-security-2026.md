@@ -97,3 +97,9 @@ Government procurement figures need a status label. A planned purchase, a signed
 For Japan's rice market, follow the chain from the crop and private distribution to government procurement, stock disclosure and any release decision. Retail prices can remain under pressure even when a buyback has been contracted, because consumers buy through wholesalers and retailers, and the timing, grade and location of the grain matter. Conversely, a release from public stocks may ease a market constraint without changing every retail price immediately.
 
 The evidence to watch is the latest MAFF inventory by category, the quantity actually delivered under purchase contracts, the schedule and terms of any release, private-sector distribution and retail price data. Keep the reference date beside each figure. This avoids comparing a current physical inventory with an older purchase announcement or a policy target.
+
+## Why the release channel matters as much as the reserve
+
+Public rice can reach consumers through several channels, and the mechanism changes the likely market effect. A direct release to wholesalers is not identical to a tender open to selected buyers; a sale with delivery conditions is not the same as grain already placed on retail shelves. Grade, milling, packaging, storage location and delivery timing all affect how quickly a reserve release becomes supply available to households.
+
+For that reason, reserve policy should be evaluated against the retail market with a time lag. Check the quantity offered, the quantity actually sold, the quantity delivered and the quantity subsequently distributed. Compare those steps with retail prices and market volumes for the same period. If prices remain elevated after a purchase announcement, the explanation may be a delivery delay, a mismatch in grade or distribution, or other costs in the chain. The announcement alone does not show that the reserve has failed—or that consumers have already benefited.

@@ -21,10 +21,16 @@ sources:
     url: https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release
   - name: FAO Food Price Index
     url: https://www.fao.org/worldfoodsituation/foodpricesindex/en/
+  - name: US Bureau of Labor Statistics — Consumer Price Index, October 2026
+    url: https://www.bls.gov/news.release/cpi.nr0.htm
+  - name: UK Office for National Statistics — Consumer price inflation, October 2026
+    url: https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026
+  - name: Eurostat — HICP annual inflation, October 2026
+    url: https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-18112026-ap
 related: []
 ---
 
-> **Update — 19 November 2026:** Refreshed the global, India and Australia reference points with the latest verified October/September releases and clarified their different reference periods and measures.
+> **Update — 19 November 2026:** Added the latest October 2026 official releases available for the United States, United Kingdom and euro area, alongside the existing global, India and Australia series. The measures are deliberately labelled rather than ranked as if they were identical.
 
 Food inflation is one of the easiest food-system indicators to understand and one of the easiest to misuse.
 
@@ -58,12 +64,19 @@ Older numbers should stay visible only when they provide historical context.
 | Global | October 2026 | FAO Food Price Index | 133.9 points; −1.2% month on month; +5.9% year on year |
 | India | October 2026 | Consumer Food Price Index, year on year | 8.94% provisional (rural 9.09%; urban 8.68%) |
 | Australia | September 2026 | Food and non-alcoholic beverages, year on year | 3.2% |
+| United States | October 2026 | CPI-U, food at home | +0.3% year on year; +0.4% month on month, seasonally adjusted |
+| United Kingdom | October 2026 | CPI, food only | +0.8% year on year; +0.2% month on month |
+| Euro area | October 2026 | HICP, food, alcohol and tobacco | +1.5% year on year |
 
 The global figure is an international commodity index, not consumer inflation. FAO reported that October's index was also 16.4% below its March 2022 peak.
 
 India's October CFPI figure is provisional. The Ministry of Statistics and Programme Implementation reported 8.94% year-on-year food inflation, with 9.09% in rural areas and 8.68% in urban areas. September's corresponding figure was final at 7.74%.
 
 Australia's September 2026 figure is the annual movement for the Food and non-alcoholic beverages group in the weighted average of eight capital cities. The ABS reported a 0.0% monthly change for that group in September, so the 3.2% figure should not be mistaken for the monthly movement.
+
+The United States row uses the BLS **food-at-home** component, not the complete food index: the October release reported +0.3% over 12 months and a +0.4% seasonally adjusted change from September. The complete food index rose 0.4% over 12 months and 0.5% month on month. The UK row is the ONS food-only CPI component; it rose 0.8% over the year and 0.2% during October. Eurostat's 1.5% figure is the broader **food, alcohol and tobacco** HICP aggregate for the euro area, not a food-only national CPI.
+
+The release dates are also different. BLS published its October report on 10 November 2026; ONS and Eurostat published their October figures on 18 November. A tracker should use the latest release available on its update date rather than imply that every country publishes on the same schedule.
 
 ## Why countries cannot be compared blindly
 

@@ -19,10 +19,16 @@ sources:
     url: https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/promoting-our-european-way-life/preparedness_en
   - name: Semafor — UK household preparedness reporting
     url: https://semafor.com/article/08/26/2026/uk-urges-public-to-stockpile-food
+  - name: Finland Suomi.fi — Household emergency supplies for at least three days, updated 29 June 2026
+    url: https://www.suomi.fi/guides/preparedness/how-to-prepare-for-incidents-and-crises/general-instructions-on-preparedness-home-emergency-supplies-and-on-what-to-do-in-different-situations
+  - name: Swiss Federal Office for National Economic Supply — Emergency supplies
+    url: https://www.bwl.admin.ch/en/we-advise-emergency-supplies
+  - name: Swedish Civil Contingencies Agency — Seven Days: Things to keep around the house
+    url: https://www.msb.se/contentassets/b7e98dd40a7746c7936a04e1e2e3424c/vikfolder_msb_sevendays_eng_tryck-1.pdf
 related: []
 ---
 
-> **Update — 19 November 2026:** Separated European public preparedness policy, household emergency guidance and agricultural drought risk; these are related subjects but not evidence of the same kind of shortage.
+> **Update — 19 November 2026:** Replaced the generic household supply list with country-specific guidance. Switzerland, Finland and Sweden use different planning horizons; readers should follow their own civil-protection authority rather than a single EU-wide shopping list.
 
 European food-security policy includes both national supply resilience and household preparedness.
 
@@ -68,14 +74,19 @@ The existence of the advice does not prove the event will happen.
 
 That is why reporting should quote the actual official recommendation and its stated purpose.
 
-## What should households keep?
+## Household guidance differs by country and hazard
 
-The safest approach is to follow current national guidance.
+There is no single detailed household kit that fits every European country. The European 72-hour preparedness message is a planning horizon, while the contents and longer-term target remain matters for national authorities.
 
-A sensible reserve generally prioritizes foods the household already uses, water, essential medicines and the ability to prepare food during a temporary outage.
+| Country example | Official guidance | What makes the advice distinct |
+|---|---|---|
+| Finland | Suomi.fi advises at least three days of home supplies | It includes water, food, medicines, pet supplies and the ability to cope at home; households are asked to avoid hoarding that disrupts shops and supply chains. |
+| Switzerland | The Federal Office for National Economic Supply describes 9 litres of water per person and food for about one week | The water amount is intended for drinking and cooking over three days; food should match normal habits, be consumed and replaced, and be stored cool, dry and protected from light. |
+| Sweden | The Civil Contingencies Agency's household guidance uses a one-week scenario | It includes food, water, heat, medicines, lighting, payment alternatives and paper contact information, reflecting the possibility of electricity, water or communications disruption. |
 
-Switzerland's official guidance, for example, recommends a short-term supply and regular rotation rather than accumulating for a prolonged crisis.
+The correct practical action is to use the national list that applies to the household's country and local hazards. A cold-weather outage, summer heatwave, flood evacuation and temporary supermarket-delivery interruption do not require identical supplies. Households with limited cupboard space should prioritise the essentials in their national authority's list, medicines and foods they already use; they should not attempt to reproduce another country's larger list.
 
+For the detailed food-rotation and storage method, use the separate [30-day emergency pantry guide](/articles/best-non-perishable-foods-30-day-emergency-pantry/). This page compares national policy and agricultural risks rather than creating a second pantry checklist.
 ## What to watch in European food markets
 
 For agriculture, track crop monitoring, rainfall, river levels, fertilizer costs and harvest forecasts.

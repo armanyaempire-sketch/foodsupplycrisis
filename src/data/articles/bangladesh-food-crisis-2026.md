@@ -23,12 +23,18 @@ sources:
     url: https://www.bssnews.net/news/438817
   - name: The Daily Star — Gas crisis and fertiliser imports, July 2026
     url: https://www.thedailystar.net/news/bangladesh/news/gas-crisis-deepens-countrys-reliance-fertiliser-imports-4231716
+  - name: Bangladesh Meteorological Department — November 2026 weather forecast
+    url: https://server6.bmd.gov.bd/file/2026/11/01/pdf/211655.pdf
+  - name: BSS — November rainfall forecast and October rainfall deficit, 15 November 2026
+    url: https://www.bssnews.net/news/445921
+  - name: BSS — Cold-wave outlook for November 2026 to January 2027
+    url: https://www.bssnews.net/news/442658
 related:
   - /articles/india-food-security-2026/
   - /articles/food-inflation-by-country-monthly-tracker-2026/
 ---
 
-> **Update — 13 November 2026:** The analysis now includes Bangladesh's October inflation release and the latest September FAO and USDA crop and trade assessments. October food inflation eased, but this is not the same as prices returning to earlier levels or all household costs easing.
+> **Update — 19 November 2026:** Replaced the generic household referral with Bangladesh-specific actions using the 15 November BMD rainfall outlook and its north-west cold-wave and Bay of Bengal cyclone risks.
 
 ## Key takeaways
 
@@ -93,10 +99,18 @@ Within Bangladesh, the more useful comparison is between Boro, Aus and Aman seas
 3. USDA's next Bangladesh Grain and Feed Update for revisions to rice, wheat and corn import estimates.
 4. BCIC fertiliser factory operating status, gas allocation, actual output and imported fertiliser deliveries ahead of planting windows.
 
-## If you live in Bangladesh
+## Local decisions for Bangladesh's dry-season transition
 
-For local conditions, use BBS price data and official agriculture and disaster-management notices rather than a global shortage headline. Rice and cooking fuel are useful household indicators to track because they influence everyday meals and preparation costs. For general household food planning, see the [30-day emergency pantry guide](/articles/best-non-perishable-foods-30-day-emergency-pantry/).
+Bangladesh's November conditions call for different decisions by location and livelihood. The Bangladesh Meteorological Department's November outlook, reported by BSS on 15 November, followed an October rainfall deficit of 68% and forecast below-normal rainfall across all eight divisions. The BMD also warned that one or two Bay of Bengal low-pressure systems could intensify into cyclones. Its November–January outlook points to several cold waves, with the strongest cold risk in northern and western districts including parts of Rajshahi, Rangpur and Khulna.
 
+| Location or group | Practical priority |
+|---|---|
+| Boro growers in irrigation-dependent districts | Confirm pump, canal and groundwater access before committing acreage. Calculate irrigation cost and availability against the Boro calendar; a dry November is a planning signal, not proof that every district will face the same water shortage. |
+| Coastal households, seed dealers and grain traders | Keep seed, paddy and animal feed in raised, dry, sealed storage that can be moved if a cyclone warning is issued. Protect stock records and small machinery; do not respond by bulk-buying food or water. |
+| Northern and western districts exposed to cold waves and fog | Follow BMD district alerts and local agriculture extension advice for vegetable seedlings, livestock and morning field work. Do not apply a coastal cyclone response to an inland cold-wave risk. |
+| Urban households and retailers | Watch local rice, edible-oil and cooking-fuel prices separately. A national food-inflation average does not show whether a neighbourhood market has a supply delay or an affordability problem. |
+
+For household storage, use the space actually available: keep only the quantity that can remain dry, pest-free and safely rotated. In flood- or cyclone-exposed homes, raised waterproof containers are more useful than a larger stock kept at floor level.
 ## Assessment
 
 Bangladesh's October food-inflation reading improved materially, while general and non-food inflation remained elevated. The crop outlook shows substantial domestic rice production but continued import needs and geographically uneven weather losses. The strongest structural vulnerability in the evidence reviewed here is the fertiliser production chain's exposure to gas and plant availability. It deserves close monitoring, but it is not evidence of an immediate nationwide food shortage.

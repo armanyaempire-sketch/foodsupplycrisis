@@ -28,7 +28,7 @@ related:
   - /articles/how-to-store-water-at-home-safely/
 ---
 
-> **Update — 13 November 2026:** This guide has been consolidated into one household reference. Repeated preparedness sections have been removed from country and market-analysis articles; those pages now link here instead of reproducing the same checklist.
+> **Update — 19 November 2026:** Added a storage-capacity test so the 30-day structure is a flexible planning example, not a universal amount every household should buy.
 
 A useful emergency pantry is not a pile of food bought in response to a frightening headline. It is a set of familiar foods that your household can safely store, prepare and rotate. Build it gradually from ordinary groceries. The aim is to make a short interruption easier, while keeping food waste and unnecessary spending low.
 
@@ -124,3 +124,16 @@ Do not buy one product in enormous quantities because it is trending online. Do 
 ## Bottom line
 
 The best emergency pantry is not the biggest one. It is a modest, rotating supply of familiar food and safe water that fits the household's diet, budget and storage conditions. Build it gradually, use it in everyday meals and keep the preparation plan realistic.
+
+## Fit the 30-day plan to safe storage capacity
+
+A 30-day plan is a planning horizon, not a rule that every household must hold a full month's food at once. Calculate the quantity from food actually used, then limit it to what can be stored safely.
+
+| Storage situation | Suitable approach |
+|---|---|
+| Small apartment or one cupboard | Keep a compact set of foods used every week. Do not buy large bags that cannot be sealed against humidity or pests. Expand only when there is clear shelf space and the budget allows rotation. |
+| Warm or humid home | Prioritise smaller sealed packages, moisture protection and frequent inspection. Avoid storing oils, nuts or other heat-sensitive items in hot cupboards for long periods. |
+| Rural home with a dry storeroom | Larger grain or pulse containers may be practical if the room is ventilated, raised from damp floors and protected from rodents and insects. Keep grain lots dated and inspect them before mixing new stock. |
+| Household with unreliable electricity | Build meals around shelf-stable ingredients. Count freezer food only where backup power or a reliable cooking plan exists; do not treat it as part of a 30-day reserve if it may spoil during an outage. |
+
+A simple capacity check is to write down usable shelf volume, household weekly use and the safe storage conditions for each food group. If the quantity does not fit those three limits, reduce the stock target rather than storing it in unsafe places.

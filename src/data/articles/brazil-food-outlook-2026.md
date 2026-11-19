@@ -21,12 +21,16 @@ sources:
     url: https://www.gov.br/en/government-of-brazil/latest-news/2022/brazilian-government-launches-national-fertilizer-plan
   - name: Conab — National basic food basket analysis, October 2026
     url: https://www.gov.br/conab/pt-br/atuacao/informacoes-agropecuarias/precos-agropecuarios/analise-da-pesquisa-nacional-de-precos-da-cesta-basica-de-alimentos/analise-da-pesquisa-nacional-de-precos-da-cesta-basica-de-alimentos-todas-as-capitais-outubro-2026.pdf
+  - name: INMET — November 2026 climate outlook by Brazilian region
+    url: https://portal.inmet.gov.br/noticias/novembro-como-ser%C3%A1-o-clima-no-brasil-5
+  - name: INMET — Agroclimatic bulletin for November 2026 to January 2027
+    url: https://portal.inmet.gov.br/noticias/boletim-agroclimatol%C3%B3gico-mensal-novembro-2026
 related:
   - /articles/food-inflation-by-country-monthly-tracker-2026/
   - /articles/very-strong-el-nino-2026-food-production/
 ---
 
-> **Update — 13 November 2026:** This rewrite adds Conab's first 2026–27 crop estimate and the IBGE October price release. Conab's figures are early-season forecasts, while IPCA measures consumer prices; they describe different parts of the food system.
+> **Update — 19 November 2026:** Added an INMET regional weather-and-storage decision guide for the November crop window; recommendations now distinguish the wetter South from drier and hotter areas of the centre-north.
 
 ## Key takeaways
 
@@ -100,10 +104,18 @@ A stronger assessment would track the final crop results alongside regional whol
 - Conab/DIEESE city basket updates: which capitals show the largest cost changes, and whether food-basket pressure is regional or widespread.
 - Fertiliser import and delivery information: prices and arrival timing before key application windows.
 
-## If you live in Brazil
+## Regional decisions for the November 2026 crop window
 
-Use IBGE's item-level CPI and Conab/DIEESE city basket data to understand the local cost of food. The October numbers show why a national harvest headline cannot tell a household what happened to rice, tomatoes or meat prices in its own city. For general household planning, see the [30-day emergency pantry guide](/articles/best-non-perishable-foods-30-day-emergency-pantry/).
+INMET's November outlook is geographically uneven: rainfall is forecast above average in parts of the South, Mato Grosso do Sul, São Paulo and the far west of the North, while below-average rain is more likely across parts of the centre-north. Temperatures are forecast above average across the country. This matters more to a farm decision than the national 367.1-million-tonne forecast.
 
+| Production or market area | Decision that matches the local conditions |
+|---|---|
+| Pará and Tocantins soybean districts | INMET identifies irregular or below-average rainfall and heat as risks to crop establishment. Check soil moisture and short-range forecasts before sowing or re-sowing; a single rain event is not proof that the seedbed has recovered. |
+| Parts of the Northeast and centre-north | Review water availability and sowing windows with local extension services. Do not use the wetter South's planting assumptions for a different rainfall regime. |
+| Southern states and wetter parts of São Paulo | Plan field access, harvest timing and grain drying. Storage operators should measure moisture and maintain aeration capacity before filling silos; wet grain should not be mixed into a full bin to save handling time. |
+| Urban consumers | Use the Conab/DIEESE basket for the relevant capital and IBGE item-level prices. Substitute with seasonal local produce only where the quality, price and household cooking needs make sense; the national harvest total is not a city grocery-price forecast. |
+
+For producers, the first constraint may be field moisture or post-harvest drying capacity, not nominal silo volume. For households, extra stock is sensible only where there is a dry, pest-protected place to keep it and enough budget to rotate it.
 ## Assessment
 
 Brazil's first 2026–27 grain forecast is large and slightly higher than the previous cycle, but the crop mix is not uniform. At the same time, October consumer food prices increased faster than the overall CPI. The current evidence supports a story about crop-specific output, input dependence and affordability—not a claim that Brazil is approaching a nationwide food shortage.

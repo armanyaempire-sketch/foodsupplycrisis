@@ -2,7 +2,7 @@
 title: "Will Food Prices Rise in 2027? Forecasts and Four Scenarios"
 description: "Food-price forecasts for 2027 depend on weather, fertilizer, shipping, energy and harvest outcomes. Four scenarios show how the outlook could change."
 pubDate: 2026-10-04
-updatedDate: 2026-10-04
+updatedDate: 2026-11-19
 author: Food Supply Crisis Report Editorial Desk
 category: Food Prices
 keywords:
@@ -15,6 +15,8 @@ type: analysis
 sources:
   - name: FAO Food Price Index
     url: https://www.fao.org/worldfoodsituation/foodpricesindex/en/
+  - name: FAO — October food prices and November cereal market outlook, 6 November 2026
+    url: https://www.fao.org/newsroom/detail/fao-food-price-index-edges-down-in-october-amid-subdued-demand
   - name: Atlantic Council — Food crisis scenarios
     url: https://www.atlanticcouncil.org/content-series/fastthinking/four-scenarios-for-a-looming-global-food-crisis/
   - name: JPMorgan outlook via Yahoo Finance
@@ -22,19 +24,21 @@ sources:
 related: []
 ---
 
+> **Update — 19 November 2026:** Rebased the 2027 outlook on FAO's October food-price index and 6 November cereal forecast; kept the four scenarios conditional rather than presenting a point prediction.
+
 Nobody can know the exact level of global food prices in 2027 today.
 
 A better way to think about the outlook is through scenarios.
 
 Prices could cool if several current pressures ease. They could remain elevated if disruptions persist. They could rise further if weather and supply shocks hit major producing regions at the same time.
 
-## Starting point: September 2026
+## Starting point: the latest verified market baseline
 
-FAO's Food Price Index reached 136.0 in September 2026, 5.8% above the same month a year earlier.
+FAO's Food Price Index averaged **133.9 points in October 2026**, 1.2% below September but 5.9% above October 2025. The monthly decline is a reason not to assume that every commodity is accelerating; the year-on-year increase shows that the international benchmark remains above its year-earlier level.
 
-The international market is therefore starting the next year from a period of renewed price pressure.
+The 6 November Cereal Supply and Demand Brief forecasts 2026 global cereal production at **2.999 billion tonnes**, the second-highest level on record. But it also projects 2026/27 cereal trade to fall 3.3% and wheat trade to fall 8.6%, while global cereal stocks rise 1.8%. This combination makes the outlook more nuanced than a simple “more harvest means lower prices” story: aggregate supply can remain large while trade access and delivered costs tighten for particular buyers.
 
-But one month's index is not a forecast.
+These figures establish a starting point, not a prediction for every country or food category.
 
 ## Scenario 1: Trade normalizes
 
@@ -102,130 +106,6 @@ Global prices are a signal, not a direct grocery-price forecast.
 
 
 
-## Practical response: what to do if conditions worsen
-
-This section translates the article's risk into a proportionate household response. It is not a prediction that a national or global shortage is inevitable. First confirm what has actually changed, whether the change is local or regional, how long it is expected to last, and whether an official authority has issued guidance. A price move, a temporary empty shelf, a water advisory and a confirmed supply interruption are different events and should not trigger the same response.
-
-A useful rule is to prepare for interruption rather than panic about scarcity. Keep a normal, rotating pantry containing foods your household already eats and add a modest emergency layer that can bridge a disruption. Do not buy quantities that cannot be used before quality deteriorates. Do not rely on social-media posts, one unusual shopping trip or a viral video as proof of a broad shortage.
-
-### A simple household action sequence
-
-**1. Confirm the problem.** Identify the exact food, service or input affected. Check local government notices, utilities, reputable retailers and the original sources cited in this article.
-
-**2. Count what you already have.** Inventory drinking water, dry staples, canned foods, cooking oil, shelf-stable protein, pet food and any special-diet items before making another purchase.
-
-**3. Cover water first.** CDC guidance recommends at least one gallon of water per person per day for three days, with a longer supply considered where practical. Use current CDC emergency-water guidance for storage and treatment: https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html
-
-**4. Build food around normal meals.** Combine familiar staples rather than collecting isolated products. Rice or pasta can pair with beans or canned fish; oats can pair with shelf-stable milk; canned vegetables can pair with grains; ready-to-eat foods matter when cooking fuel or electricity is uncertain.
-
-**5. Protect refrigerated food.** During a power failure, keep refrigerator and freezer doors closed. USDA FSIS says an unopened refrigerator generally stays cold for about four hours; a full freezer can hold temperature for roughly 48 hours and a half-full freezer about 24 hours. Follow current food-safety guidance before keeping or discarding food: https://ask.fsis.usda.gov/article/How-do-you-keep-food-safe-during-a-power-failure
-
-**6. Rotate.** Place new purchases behind older products, use the oldest items first and replace what is consumed during ordinary shopping.
-
-**7. Escalate only when evidence supports it.** Stronger preparation is justified by official emergency notices, repeated local stock interruptions, loss of safe water or electricity, sustained transport disruption or clear evidence that supplies cannot reach the affected area.
-
-## What to store correctly
-
-A useful emergency layer should be made from genuinely shelf-stable foods. USDA describes shelf-stable foods as products that can be kept safely at room temperature until opened, including many canned and bottled foods, rice, pasta, flour, sugar, spices and oils. Read the label because some canned or packaged foods still require refrigeration.
-
-Prioritize five groups: dry staples; protein; fruits and vegetables; cooking fats and seasonings; and ready-to-eat foods. Add foods needed by infants, older adults, pets or people with special diets. A manual can opener is essential when canned food is part of the plan.
-
-| Storage group | Examples | Practical purpose | Storage rule |
-|---|---|---|---|
-| Water | Commercially bottled water; food-grade stored water | Drinking and cooking | Date self-filled containers and follow CDC rotation guidance |
-| Staples | Rice, oats, pasta, flour, crackers | Calories and flexible meals | Keep sealed, dry and protected from pests |
-| Protein | Beans, lentils, canned fish, nut or seed butter | More complete meals | Store familiar foods your household already uses |
-| Produce | Canned vegetables, fruit, dried fruit | Variety | Reject leaking, swollen or badly damaged packages |
-| Fats | Oil, shelf-stable spreads | Energy and cooking | Buy normal quantities and rotate |
-| Ready-to-eat | Canned meals, bars, crackers | Limited-fuel periods | Keep a manual opener nearby |
-| Special needs | Infant foods, pet food, allergy-safe foods | Continuity | Store separately and rotate routinely |
-
-Keep food away from direct sunlight, persistent heat, damp floors, fuels and pesticides. Water containers should be protected from contamination and clearly labelled. A pantry works best when it remains part of normal household use rather than becoming a forgotten reserve.
-
-## Water and cooking resilience
-
-Safe water is more urgent than food variety during many emergencies. CDC guidance says unopened commercially bottled water is the safest and most reliable source. For self-filled supplies, use an appropriate food-grade container, sanitize it according to current guidance, fill it with clean water, close it tightly and label the date. CDC advises replacing self-filled stored water every six months and keeping it in a cool location away from sunlight and toxic substances.
-
-Do not assume that any water can be made safe by boiling or disinfecting. Water contaminated by fuel or toxic chemicals cannot be made safe simply by microbial treatment. Follow the local water authority or public-health notice and use current CDC instructions when treatment is appropriate.
-
-Also plan for reduced cooking capacity. Keep at least some foods that can be eaten without a stove or oven. If your household uses gas, electricity or another fuel, know what happens to the appliance when power fails and never improvise unsafe indoor combustion.
-
-## What not to do
-
-Do not empty shop shelves because a forecast looks worrying. Do not buy more perishable food than you can safely refrigerate. Do not store food in damaged or unlabelled containers. Do not put water into containers previously used for chemicals. Do not substitute a private stockpile for an official evacuation, boil-water, shelter or public-health instruction.
-
-## Signals for a stronger response
-
-Look for several independent signals rather than one headline: an official emergency declaration; confirmed local water or power interruption; prolonged distribution-centre or retailer closures; transport restrictions affecting your area; repeated official warnings about a critical staple; or evidence of sustained inability to bring food into the affected region.
-
-For readers outside the affected area, preparedness should not become panic buying. In acute humanitarian emergencies, supporting credible aid organizations and following official information can be more useful than buying unusual amounts of food locally.
-
-## Monthly preparedness review
-
-Once a month, check water dates, damaged packaging, pest exposure, special-diet supplies and the condition of the manual can opener. Use older supplies during regular meals. Every three to six months, reconsider household size, local risks, climate, transport reliability and utility dependence.
-
-Preparedness is strongest when it is routine and evidence-led. The goal is to make the first days of a genuine disruption easier, not to predict the next crisis.
-
-
-## Practical seven-day implementation plan
-
-When an actual disruption occurs, use a sequence rather than trying to solve everything at once.
-
-**Day 1 — verify:** identify the exact product, service or input affected; determine whether it is local, regional or national; save the relevant official notice; and check what your household already has.
-
-**Day 2 — secure essentials:** cover drinking water, familiar staple foods, special dietary needs, pet food and the ability to prepare or open food. Keep some items ready to eat without electricity if an outage is part of the risk.
-
-**Day 3 — substitute:** identify two or three alternatives for any product that is difficult to obtain. Substitution is usually more resilient than trying to maintain a huge reserve of one item.
-
-**Day 4 — protect stored supplies:** inspect packages for moisture, pests, leakage or damage. Keep foods sealed and dry. Keep water separate from chemicals and label self-filled water with the storage date.
-
-**Day 5 — review utilities:** test flashlights, chargers, can openers and cooking arrangements. If refrigeration is required, keep refrigerator and freezer doors closed during a power outage and use appliance thermometers when possible.
-
-**Day 6 — reassess evidence:** review official updates and local availability. Do not increase purchases merely because a forecast remains uncertain.
-
-**Day 7 — rotate and reset:** use older food normally, replace what was consumed, and return to normal shopping when the disruption is easing.
-
-### A better household inventory
-
-A simple inventory can be kept on paper or in a phone note. Record the item, quantity, normal weekly use, storage location and purchase date. Highlight items that cannot be easily substituted. These are the supplies worth protecting first.
-
-| Item | Amount on hand | Normal weekly use | Can substitute? | Storage check |
-|---|---:|---:|---|---|
-| Drinking water | ___ | ___ | Usually limited | Date / container |
-| Main staple | ___ | ___ | ___ | Dry / sealed |
-| Protein | ___ | ___ | ___ | Package condition |
-| Vegetables / fruit | ___ | ___ | ___ | Can / dry |
-| Cooking oil | ___ | ___ | ___ | Heat / seal |
-| Ready-to-eat food | ___ | ___ | ___ | Date / package |
-| Special needs | ___ | ___ | ___ | Dedicated reserve |
-| Pet food | ___ | ___ | Limited | Dry / sealed |
-
-This turns preparedness into a measurable household system. It also makes it obvious when a large stockpile is unnecessary.
-
-### Storage mistakes to avoid
-
-Do not leave bags of grain or flour exposed to humidity. Do not place canned goods where water can pool underneath them. Do not store food beside gasoline, pesticides, solvents or other chemicals. Do not pour water into containers that previously held chemicals. Do not assume a food remains safe simply because its printed date has not passed; package integrity and storage conditions also matter.
-
-Use the manufacturer's storage directions whenever they are more specific than a generic preparedness checklist. Commercially packaged foods should generally remain in their original packaging until needed, while self-filled water should be stored only in appropriate food-grade containers and rotated according to current CDC guidance.
-
-### When preparation should become more serious
-
-Escalate your response when several independent signals line up. Examples include a formal emergency announcement; a prolonged local water interruption; repeated and widespread retail disruption; confirmed transport restrictions; or clear evidence that a critical food cannot reach the area for an extended period.
-
-A single headline, one social-media photograph or one temporary out-of-stock listing is not enough.
-
-### What good preparedness looks like
-
-Good preparedness does not require a perfect prediction. It reduces the consequences of being wrong. A household that has safe water, several days of familiar food, basic cooking and opening tools, and a rotation habit can usually adapt more easily to many different shocks than a household that has bought a large quantity of one speculative product.
-
-For current official water guidance, use CDC: https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html
-
-For current food-safety guidance during power failures, use USDA FSIS: https://ask.fsis.usda.gov/article/How-do-you-keep-food-safe-during-a-power-failure
-
-For broader emergency food choices, USDA explains that shelf-stable foods can include many canned and bottled foods, rice, pasta, flour, sugar, spices and oils, while noting that some packaged foods still require refrigeration: https://ask.fsis.usda.gov/article/What-does-shelf-stable-mean
-
-The objective is continuity, not fear. A modest, rotating reserve that fits the household is usually more practical than an oversized stockpile that is difficult to protect, finance or consume.
-
 ## Bottom line
 
 Food prices could rise in 2027, stay elevated or moderate.
@@ -233,3 +113,39 @@ Food prices could rise in 2027, stay elevated or moderate.
 The outcome will depend on harvests, shipping, fertilizer, energy and household purchasing power.
 
 The most useful forecast is therefore not a single number but a transparent set of conditions that can be monitored as evidence changes.
+
+## How to use scenarios without mistaking them for a point forecast
+
+A scenario is a conditional pathway: it asks what could happen if a defined set of events occurs. It is not a promise that prices will follow one line. For 2027, the useful question is not simply whether food prices will rise, but which combination of crop conditions, energy costs, fertilizer availability, exchange rates, trade restrictions and shipping costs would make a rise more likely.
+
+For each scenario, write down three elements. **The trigger** is the event that starts the pathway, such as a material crop downgrade or a prolonged transport disruption. **The confirming indicators** show that the event is feeding into markets, such as export offers, freight costs, stock revisions or currency pressure. **The disconfirming indicators** show that the risk is easing, such as improved crop forecasts, successful substitution by importers or restored route capacity.
+
+This structure makes the analysis updateable. When one indicator changes, revise the relevant scenario rather than changing the headline forecast without explanation. Any probability should be attributed to the institution that produced it, tied to its publication date and kept separate from probabilities published by agencies using different definitions or forecast horizons.
+
+## A practical scenario table for updates through 2027
+
+| Scenario | What would support it | What would weaken it |
+|---|---|---|
+| Benign supply | Stable crop forecasts, adequate stocks and normal shipping | Repeated yield downgrades or export restrictions |
+| Cost-led inflation | Higher energy, fertilizer, freight or currency costs | Falling input costs and cheaper transport |
+| Regional disruption | A named port, corridor or producing area remains impaired | Alternative routes and suppliers restore deliveries |
+| Severe humanitarian deterioration | Conflict, displacement and access constraints worsen in assessed areas | Improved access, assistance funding and livelihoods |
+
+This table is a monitoring framework, not a probability model. Update each column only when a named source publishes a new observation or forecast. Keep the publication date, reference period and geographic scope beside the evidence. A scenario should be downgraded when its own supporting indicators reverse; it should not be kept alive merely because the original headline predicted a crisis. This approach also prevents a climate outlook, an oil-price forecast and a humanitarian classification from being combined into one unsupported numerical probability.
+
+
+## Separate the market signals before changing a scenario
+
+Use different indicators for different parts of the forecast. The FAO index is a monthly international price benchmark; the cereal production forecast describes expected output; trade and stock estimates describe how much grain may move and remain available. They should not be collapsed into one score.
+
+| Signal | Latest November 2026 evidence | What it means for the 2027 scenarios |
+| --- | --- | --- |
+| Global food commodity prices | October FAO index 133.9; −1.2% month on month, +5.9% year on year | The aggregate eased recently but remains above its year-earlier level |
+| Cereal production | 2.999 billion tonnes forecast for 2026, second-highest on record | Large global output is a buffer, not proof that every region has adequate local supply |
+| Cereal trade | 2026/27 trade forecast −3.3%; wheat trade −8.6% | Logistics and export availability can matter even when production remains high |
+| Cereal stocks | Forecast to rise 1.8% by the close of 2027 seasons | Higher stocks can cushion markets, but location, quality and release access determine whether buyers can use them |
+| Rice | 2026 production forecast to fall 2.5% to 552 million tonnes | Staple-specific risk may diverge from the broader cereal and food-price picture |
+
+A benign global scenario should therefore be downgraded only if the production, trade and stock evidence weakens together or if a major local shock prevents supplies reaching buyers. A cost-led scenario should be monitored through fertilizer, energy, exchange rates and freight. A regional disruption needs route- or country-specific evidence. A humanitarian deterioration must be judged through the relevant food-security assessment and access conditions, not inferred from commodity prices.
+
+For any 2027 update, record the source date and reference period beside each figure. A forecast revision is not an observed harvest result, and a trade forecast is not a report that every shipment has already been cancelled. The article should change its scenario assessment only when the evidence for that scenario changes.

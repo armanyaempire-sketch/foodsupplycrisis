@@ -2,7 +2,7 @@
 title: "Pakistan Flour and Wheat Prices 2026: Floods, Fertilizer and Food Security"
 description: Pakistan entered 2026 with near-record wheat-flour prices after flood-related losses and market disruption, while a new wheat crop offers an important supply buffer.
 pubDate: 2026-10-04
-updatedDate: 2026-10-04
+updatedDate: 2026-11-19
 author: Food Supply Crisis Report Editorial Desk
 category: Countries
 keywords:
@@ -19,8 +19,16 @@ sources:
     url: https://pid.gov.pk/site/press_detail/32365
   - name: FAO Food Price Monitoring and Analysis
     url: https://www.fao.org/giews/food-prices/home/en/
+  - name: Pakistan Bureau of Statistics — Monthly Review of Price Indices, October 2026
+    url: https://www.pbs.gov.pk/wp-content/uploads/2020/07/Monthly-Review-October2026.pdf
+  - name: Pakistan Bureau of Statistics — Sensitive Price Indicator, week ended 12 November 2026
+    url: https://www.pbs.gov.pk/wp-content/uploads/2020/07/Executive-Summary-SPI-Report_12.11.2026.pdf
+  - name: Pakistan Bureau of Statistics — Price Statistics
+    url: https://www.pbs.gov.pk/price-statistics/
 related: []
 ---
+
+> **Update — 19 November 2026:** Added Pakistan Bureau of Statistics October CPI and the 12 November weekly price snapshot to show how wheat-flour inflation differs between urban, rural and weekly market measures.
 
 Pakistan's wheat market entered 2026 under pressure from the previous year's floods, market disruption and high flour prices.
 
@@ -68,7 +76,7 @@ High wheat prices can therefore be a serious affordability issue even when the c
 
 ## What to watch
 
-Track:
+For provincial price checks, record:
 
 - wheat production estimates;
 - flour prices;
@@ -80,161 +88,45 @@ Track:
 
 
 
-## Practical response: what to do if conditions worsen
-
-Treat a food-system warning as an information problem first and a shopping problem second. Identify the affected product, location and time period. A temporary stock-out, higher prices, a transport delay, a drought warning, a power outage and a confirmed interruption to local food access require different responses. Check official notices and the original sources linked in this article before making major changes.
-
-### A measured action sequence
-
-**1. Verify the disruption.** Check local government, utility, agriculture, water or emergency-management information as relevant. Confirm whether the event actually affects your area.
-
-**2. Inventory the home.** Count drinking water, main staples, protein, canned or dried produce, cooking oil, ready-to-eat foods, pet food and special-diet items. Use what you have before adding more.
-
-**3. Secure water.** CDC recommends at least one gallon of water per person per day for at least three days, with a longer supply considered where practical. Follow current CDC storage guidance: https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html
-
-**4. Build meals, not piles.** Store combinations that make actual meals: grains plus beans or other protein; oats plus shelf-stable milk; canned vegetables plus rice or pasta; and ready-to-eat foods when cooking may be difficult.
-
-**5. Protect refrigeration.** USDA FSIS advises keeping refrigerator and freezer doors closed during an outage. An unopened refrigerator generally remains cold for about four hours; a full freezer can stay cold for about 48 hours and a half-full freezer about 24 hours. Follow current food-safety guidance before deciding what to keep: https://ask.fsis.usda.gov/article/How-do-you-keep-food-safe-during-a-power-failure
-
-**6. Rotate and replace.** Put new stock behind old stock. Use the older supply during normal meals, then replace it gradually.
-
-**7. Escalate proportionately.** Stronger preparation makes sense when official alerts, prolonged service interruption, widespread local stock-outs or sustained transport problems show that the disruption is real and persistent.
-
-## What to store correctly
-
-Choose genuinely shelf-stable foods that your household already eats. USDA notes that many canned and bottled foods, rice, pasta, flour, sugar, spices and oils can be shelf-stable, while some packaged foods still require refrigeration. Read the label rather than assuming every packaged item is shelf-stable: https://ask.fsis.usda.gov/article/What-does-shelf-stable-mean
-
-Prioritize water, dry staples, protein, canned or dried produce, cooking fats and ready-to-eat foods. Include infant foods, pet food and allergy-safe or culturally important staples where required. Keep a manual can opener with canned food.
-
-| Storage group | Examples | Correct practice |
-|---|---|---|
-| Water | Bottled water; food-grade stored water | Keep clean, covered, labelled and protected from heat and chemicals |
-| Staples | Rice, oats, pasta, flour | Keep sealed, dry and pest-free |
-| Protein | Beans, lentils, canned fish, nut/seed butter | Choose familiar foods and rotate |
-| Produce | Canned vegetables, fruit, dried fruit | Check package condition before use |
-| Fats | Cooking oil, shelf-stable spreads | Protect from heat and light |
-| Ready-to-eat | Canned meals, bars, crackers | Keep a manual opener nearby |
-| Special needs | Infant, pet and allergy-safe foods | Maintain a dedicated rotating supply |
-
-Keep food away from damp floors, direct sunlight, persistent heat, gasoline, pesticides and other chemicals. Water should never be stored in containers previously used for chemicals.
-
-## Water and cooking resilience
-
-Unopened commercially bottled water is the safest and most reliable emergency source according to CDC. For self-filled water, use an appropriate food-grade container, sanitize it according to current guidance, fill it with clean water, close it tightly and mark the storage date. CDC advises replacing self-filled stored water every six months and keeping it cool and away from sunlight and toxic substances.
-
-Do not assume treatment can make chemically contaminated water safe. During a real emergency, follow the local water authority or public-health notice. Also keep some food that can be eaten without cooking if fuel or electricity is uncertain.
-
-## What not to do
-
-Do not empty local shelves because of a forecast or social-media claim. Do not overbuy perishables that cannot be safely refrigerated. Do not keep damaged, leaking or swollen packages. Do not store dry food in damp areas. Do not substitute household stockpiling for an evacuation, boil-water notice, shelter instruction or other official emergency measure.
-
-## Signals for escalation
-
-Look for several independent signals: an official emergency declaration, sustained loss of water or electricity, widespread retail disruption, transport restrictions affecting your area, repeated official warnings about a critical food, or clear evidence that supplies cannot reach the affected population for an extended period.
-
-## Monthly review
-
-Once a month, inspect water dates, packages, pest exposure, special-diet supplies and basic emergency tools. Use older stock as ordinary food. Every three to six months, reconsider household size and local risk. Preparedness works best as a routine rotation system, not as a permanent panic response.
-
-
-## Practical seven-day decision guide
-
-**Day 1:** Verify the disruption and list what is actually affected.
-
-**Day 2:** Check household water and food inventory and identify the three most important supplies.
-
-**Day 3:** Cover basic water and several days of familiar food. Include at least some ready-to-eat items.
-
-**Day 4:** Inspect storage conditions, seals and refrigeration. Move older items forward for use.
-
-**Day 5:** Identify substitutes for any scarce product and build two or three simple meals around them.
-
-**Day 6:** Recheck official information and local availability. Stop shopping simply because a headline is still circulating.
-
-**Day 7:** Replace only what was consumed or damaged and decide whether the disruption is improving, stable or worsening.
-
-For water storage, use clean food-grade containers, label the date and keep them cool and away from sunlight and hazardous chemicals. CDC recommends replacing self-filled stored water every six months. For wider emergency planning, current CDC guidance recommends at least one gallon of water per person per day for three days.
-
-For food storage, keep shelf-stable products sealed and dry, away from pests and chemicals. Use original packaging where practical. Read labels because some packaged foods require refrigeration. USDA recommends keeping an emergency supply of nonperishable foods and having a manual can opener when canned foods are included.
-
-A useful stopping rule is reached when the household has a reasonable short-term water buffer, several days of familiar food, special-diet supplies, basic opening and cooking tools, and a working rotation habit. Buying beyond what you can safely store can increase waste and reduce available supply for others.
-
-Official guidance:
-- CDC emergency water: https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html
-- USDA FSIS power outage food safety: https://ask.fsis.usda.gov/article/How-do-you-keep-food-safe-during-a-power-failure
-- USDA FSIS shelf-stable foods: https://ask.fsis.usda.gov/article/What-does-shelf-stable-mean
-
-The objective is continuity. Prepare enough to make a genuine short disruption easier, then let evidence—not fear—determine whether more action is required.
-
-
-## Final practical response checklist
-
-### Before buying more
-
-Write down what is actually affected, where, and for how long. Compare that with what is already in the household. A product being expensive or temporarily unavailable is not automatically a reason to buy large quantities.
-
-Keep the emergency layer built around foods the household already eats. Useful categories include rice or other grains, oats, pasta, beans or other protein, canned or dried vegetables and fruit, cooking oil, seasonings and a few ready-to-eat foods. Add infant, pet and special-diet foods where necessary. Keep a manual can opener with canned supplies.
-
-### Water
-
-CDC recommends at least one gallon of water per person per day for at least three days, with a longer supply considered when practical. Commercially bottled water is the safest and most reliable emergency source. For self-filled water, use an appropriate food-grade container, clean and sanitize it according to current guidance, fill with clean water, close tightly and record the date. CDC advises replacing self-filled stored water every six months and storing it in a cool place away from sunlight and toxic substances.
-
-Never use a container that previously held chemicals. During an actual water emergency, follow the local water authority or public-health notice. Water contaminated by fuel or toxic chemicals cannot simply be made safe by microbial disinfection.
-
-### Food storage
-
-Keep dry goods sealed and dry, off damp floors and protected from pests. Keep canned foods away from persistent heat and direct sun, and check for leaks, swelling or severe damage. Follow product labels because some packaged foods require refrigeration.
-
-Rotate supplies. Put new purchases behind older products and use older items through ordinary meals. This turns preparedness into a normal household system rather than a forgotten pile.
-
-### Power and refrigeration
-
-When the power goes out, keep refrigerator and freezer doors closed. USDA FSIS says an unopened refrigerator generally stays cold for about four hours, while a full freezer can hold temperature for approximately 48 hours and a half-full freezer about 24 hours. An appliance thermometer can help. Follow current USDA food-safety instructions before keeping or discarding food.
-
-Include foods that do not require refrigeration and some foods that can be eaten without lengthy cooking. Never improvise unsafe indoor cooking or generator use.
-
-### Seven-day response
-
-**Day 1:** Verify the event and inventory supplies.
-
-**Day 2:** Secure water and food for the near term.
-
-**Day 3:** Substitute scarce foods with familiar alternatives.
-
-**Day 4:** Inspect packaging, water containers and refrigeration.
-
-**Day 5:** Review official updates and local availability.
-
-**Day 6:** Use older pantry supplies and replace only what was consumed.
-
-**Day 7:** Decide whether the disruption is improving, stable or worsening.
-
-### When to escalate
-
-Take stronger action only when several signals agree: a local emergency declaration, prolonged water or electricity loss, widespread retail disruption, sustained transport restrictions, repeated official warnings about a critical food or evidence that essential supplies cannot reach the affected area.
-
-A single empty shelf, social-media image or forecast does not establish a local shortage.
-
-### What not to store
-
-Do not accumulate more perishable food than your refrigerator or freezer can safely handle. Do not store food beside gasoline, pesticides, solvents or other chemicals. Do not store water in chemical containers. Do not create a huge stockpile that your household cannot afford or rotate. Do not buy a product simply because people online are recommending it.
-
-### Special situations
-
-For humanitarian food crises, household storage is not the solution to famine. People in affected areas should follow local authorities and humanitarian organizations and prioritize verified food, water and shelter assistance. People outside affected areas can support credible relief organizations and should avoid panic buying.
-
-For heat, drought and water restrictions, prioritize safe drinking water and follow local allocation rules. For trade or shipping disruptions, focus on versatile staples and substitution. For price shocks, focus on unit-price comparisons and budgeting. For crop or fertilizer risks, remember that household impacts can arrive through prices and availability rather than an immediate physical shortage.
-
-### Monthly maintenance
-
-Once each month, inspect water dates, packaging, pests, special-diet supplies and emergency tools. Every three to six months, reassess household size, local hazards, utility dependence and available storage space. A reserve that is routinely used and replaced is more resilient than one that is forgotten.
-
-Current references:
-- CDC emergency water: https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html
-- USDA FSIS power outage safety: https://ask.fsis.usda.gov/article/How-do-you-keep-food-safe-during-a-power-failure
-- USDA FSIS shelf-stable foods: https://ask.fsis.usda.gov/article/What-does-shelf-stable-mean
-
-
 ## Bottom line
 
-Use the evidence in this article to judge whether the risk is real and local. Prepare proportionately: secure water, keep a modest rotating food buffer, protect refrigeration, follow official guidance and avoid panic buying.
+For Pakistan, the relevant warning sign is a persistent widening between wheat procurement or mandi prices and flour prices in the affected provincial markets. That spread should be examined alongside public releases, mill capacity and transport before it is described as a national production shortage.
+
+## Track the wheat-to-flour chain, not only the national harvest
+
+Wheat production is only the first stage in the price of flour. The market outcome also depends on public procurement, the timing and location of releases, private stocks, imports or exports, mill operating costs, transport and the margin between wholesale and retail markets. A national crop estimate can look comfortable while a particular province or city faces a tighter market because grain is not moving smoothly.
+
+For Pakistan, a useful assessment should name the province and the relevant market whenever possible. Compare farm-gate or mandi prices with flour-mill and retail prices, and check whether a change follows a procurement decision, a transport disruption, a currency movement or a shift in input costs. Do not compare a national production total with a city retail price without explaining the route between them.
+
+The practical indicators are the latest official crop estimate, public procurement and stock-release notices, import or export policy, mill-level availability and the price of a standard flour bag in the markets discussed. A short-lived local increase may reflect distribution or policy timing; a persistent and widespread rise needs broader evidence about stocks, flows and household purchasing power.
+
+## A useful provincial flour-price comparison
+
+For a meaningful local comparison, record the same flour product, bag weight, market and date each time. A 20-kilogram retail bag in one city should not be compared with a wholesale quotation or a different bag size elsewhere. Convert quotations to a common price per kilogram, and keep the product type clear: wheat grain, flour at the mill gate and packaged retail flour are not the same market.
+
+Then compare the local quotation with the procurement and stock situation for the province. Public releases can affect supply, but the timing of transport, milling capacity, power costs and working capital influences whether the grain reaches retailers. If a province reports a surplus while some urban markets show high flour prices, the next investigation should look at distribution bottlenecks, market conduct and the cost of milling before concluding that the national harvest is inadequate. A consistent city-by-city series is more informative than a single national headline.
+
+
+## What the latest official price data shows
+
+Pakistan Bureau of Statistics data published in November 2026 show why wheat flour needs to be tracked separately from the broad inflation headline. The October monthly review records substantial annual increases in flour prices in both urban and rural markets, while the weekly Sensitive Price Indicator gives a shorter-term snapshot across 17 cities.
+
+| Official measure | Reference period and coverage | Wheat-flour result |
+| --- | --- | --- |
+| Urban CPI | October 2026, year-on-year | +34.27% |
+| Urban CPI | October 2026, month-on-month | +7.54% |
+| Rural CPI | October 2026, year-on-year | +35.72% |
+| Rural CPI | October 2026, month-on-month | +9.41% |
+| Weekly SPI average | Week ended 12 November 2026, 17 cities; 20 kg bag | Rs 2,968.92; +0.94% week-on-week and +36.14% year-on-year |
+
+The October figures are item-level CPI changes, not the change in the entire food basket. In the same monthly review, food and non-alcoholic beverage inflation was +8.00% year-on-year in urban areas and +7.46% in rural areas. Wheat flour therefore rose much faster than the broader food group in that month. This is an affordability signal; by itself, it does not establish that Pakistan has physically run out of wheat.
+
+The weekly report offers a different lens. The combined SPI fell 0.46% from the previous week, yet the average 20 kg wheat-flour bag still rose 0.94%. A composite index can fall because other items became cheaper while a staple continues to rise. The reported Rs 2,968.92 per 20 kg is equivalent to about **Rs 148.45 per kg** as a simple unit conversion, but it is an average across the report's covered markets—not a guaranteed price in every city, shop or province.
+
+## How to use these figures without confusing markets
+
+Do not combine the monthly CPI percentage with the weekly SPI price as though they were one series. The CPI compares the price movement of a representative basket over a monthly period; the SPI tracks a selected set of essential items at weekly intervals. The urban and rural CPI groups are also separate statistical populations. Each number should retain its own reference period, geographic coverage and unit.
+
+For a household, compare the same flour type and bag size in the same local market over time. For a miller or wholesaler, add the mandi price, procurement status, grain quality, transport cost, mill operating capacity and the availability of working capital. For a provincial or federal authority, compare local retail quotations with procurement and release data before deciding whether the problem is a supply deficit, uneven distribution or a rise in conversion and handling costs.
+
+The key warning is not one isolated high quotation. It is a sustained rise across multiple cities, accompanied by evidence that wholesale availability, procurement or distribution is tightening. If retail flour rises while grain is available in the province, investigate transport, milling and market margins rather than attributing every increase to a national harvest failure.

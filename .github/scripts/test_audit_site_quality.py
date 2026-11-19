@@ -3,6 +3,7 @@ import unittest
 from audit_site_quality import (
     blocks_for_duplicate,
     blocks_for_unique_word_count,
+    editorial_triage_label,
     has_global_render_change,
     page_is_changed,
     should_block_external_source,
@@ -120,6 +121,37 @@ This is useful pantry-specific guidance.
         self.assertEqual(unique_word_band(699), "MERGE / REDIRECT CANDIDATE")
         self.assertEqual(unique_word_band(700), "EXPAND OR REVIEW MERGE")
         self.assertIn("KEEP CANDIDATE", unique_word_band(1201))
+
+    def test_documented_editorial_keep_resolves_only_nonblocking_word_band(self):
+        entry = {
+            "action": "KEEP_FOCUSED",
+            "rationale": "This page has a distinct reader purpose and is retained without adding filler to hit an arbitrary word count.",
+        }
+        label, reviewed = editorial_triage_label(900, entry)
+        self.assertEqual(label, "MANUALLY REVIEWED — KEEP FOCUSED")
+        self.assertTrue(reviewed)
+
+    def test_documented_expansion_is_recorded(self):
+        entry = {
+            "action": "EXPANDED",
+            "rationale": "This page received new primary-source evidence and a distinct analysis section that improves its reader value.",
+        }
+        label, reviewed = editorial_triage_label(1100, entry)
+        self.assertEqual(label, "MANUALLY REVIEWED — SUBSTANTIVE EXPANSION")
+        self.assertTrue(reviewed)
+
+    def test_manual_triage_cannot_override_the_minimum_core_floor(self):
+        entry = {
+            "action": "KEEP_FOCUSED",
+            "rationale": "This page has a distinct reader purpose and is retained without adding filler to hit an arbitrary word count.",
+        }
+        label, reviewed = editorial_triage_label(699, entry)
+        self.assertEqual(label, "MERGE / REDIRECT CANDIDATE")
+        self.assertFalse(reviewed)
+
+    def test_missing_or_invalid_editorial_triage_remains_unreviewed(self):
+        self.assertFalse(editorial_triage_label(900, None)[1])
+        self.assertFalse(editorial_triage_label(900, {"action": "KEEP_FOCUSED", "rationale": "short"})[1])
 
     def test_reintroduced_duplicate_appendix_blocks_changed_article(self):
         owners = ["country-a", "country-b"]

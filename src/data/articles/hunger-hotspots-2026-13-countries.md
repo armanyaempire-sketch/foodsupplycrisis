@@ -2,7 +2,7 @@
 title: "Hunger Hotspots 2026: The 13 Countries Facing Worsening Food Insecurity"
 description: "FAO and WFP identify 13 hunger hotspots for June-November 2026. Here is where risk is most severe, what is driving hunger and why the outlook matters."
 pubDate: 2026-10-04
-updatedDate: 2026-10-04
+updatedDate: 2026-11-19
 author: Food Supply Crisis Report Editorial Desk
 category: Food Security
 keywords:
@@ -17,8 +17,12 @@ sources:
     url: https://www.wfp.org/publications/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-june-november-2026
   - name: FAO — 13 hunger hotspots warning
     url: https://www.fao.org/newsroom/detail/new-fao-wfp-report-warns-worsening-hunger-puts-13-hotspots-at-significant-risk/
+  - name: Nigeria Cadre Harmonisé — October–December 2026 and June–August 2027
+    url: https://agrhymet.cilss.int/wp-content/uploads/2026/10/snapshop_Nigeria_nov26.pdf
 related: []
 ---
+
+> **Update — 19 November 2026:** Added a response map by humanitarian driver so the article distinguishes conflict access, import dependence, drought and displacement instead of suggesting one household action across all hotspots.
 
 Food insecurity is not spread evenly around the world.
 
@@ -64,9 +68,7 @@ The report noted that 1.6 million people were acutely food insecure in the perio
 
 ## Northeast Nigeria and Somalia
 
-Nigeria entered the highest-concern group because of worsening conditions, particularly in Borno State.
-
-Around 34.8 million people were projected to face Crisis or worse levels of acute food insecurity across the June-August 2026 period, including an estimated 15,000 people in Catastrophe in Borno.
+Nigeria entered the highest-concern group because of worsening conditions, particularly in Borno State. The FAO–WFP June–November 2026 outlook is a regional early-warning assessment. A separate national Cadre Harmonisé analysis subsequently estimated **26.8 million people** in Crisis (CH Phase 3) or worse across 26 states and the FCT during October–December 2026, including 756,815 internally displaced people in Borno, Sokoto and Zamfara. It projected **33.5 million** for June–August 2027, including 891,228 internally displaced people in those states. Those figures have a different period and assessment basis from the older June–August 2026 estimate; they should not be treated as a like-for-like trend without checking the methods.
 
 Somalia faces a different combination of prolonged drought, low agricultural output, conflict and economic pressure.
 
@@ -104,187 +106,29 @@ Our [Global Food Crisis](/global-food-crisis/) coverage explains how regional em
 
 
 
-## Practical response: what to do if conditions worsen
-
-This section is a preparedness guide, not a prediction that a food crisis will reach every household. First define the disruption: a price increase, a temporary stock-out, a transport problem, a power cut, a water advisory and a confirmed regional food-supply interruption are different events. Check official notices and the original evidence before changing your buying behavior.
-
-### A sensible response sequence
-
-**1. Verify.** Identify the exact product or service affected and whether the disruption is local, regional or wider.
-
-**2. Inventory.** Count the drinking water, staple foods, protein foods, cooking oil, ready-to-eat items, special-diet supplies and pet food already in the home.
-
-**3. Secure water first.** CDC recommends at least one gallon of water per person per day for at least three days, with a longer supply considered where practical. Store safe water in appropriate containers and follow current CDC guidance: https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html
-
-**4. Secure several days of normal food.** Build meals from foods the household already knows how to prepare and eat. Use combinations such as grains plus beans, canned vegetables plus rice or pasta, oats plus shelf-stable milk, and ready-to-eat foods when cooking may be difficult.
-
-**5. Protect refrigeration.** During a power failure, keep refrigerator and freezer doors closed. USDA FSIS says an unopened refrigerator generally remains cold for about four hours; a full freezer can stay cold for about 48 hours and a half-full freezer about 24 hours. Use an appliance thermometer when possible and follow current food-safety guidance: https://ask.fsis.usda.gov/article/How-do-you-keep-food-safe-during-a-power-failure
-
-**6. Rotate.** Use older stock first and replace what the household consumes. Preparedness should work inside the normal grocery cycle.
-
-**7. Reassess.** Increase the buffer only when independent evidence shows that a disruption is persistent or widening.
-
-## What to store correctly
-
-Choose foods that are genuinely shelf-stable and familiar. USDA notes that shelf-stable foods can include many canned and bottled foods, rice, pasta, flour, sugar, spices and oils, while warning that some packaged foods still require refrigeration. Read the label rather than assuming every can is safe at room temperature: https://ask.fsis.usda.gov/article/What-does-shelf-stable-mean
-
-A balanced reserve should include **staple carbohydrates**, **protein**, **fruit and vegetables**, **cooking fats and seasonings**, and **ready-to-eat options**. Add infant food, pet food and foods required for allergies or other household dietary needs. Keep a manual can opener with canned food.
-
-| Group | Examples | Why it helps | Correct storage |
-|---|---|---|---|
-| Water | Commercially bottled water; food-grade stored water | Drinking and cooking | Label self-filled containers and follow CDC rotation guidance |
-| Staples | Rice, oats, pasta, flour, crackers | Flexible meals | Keep sealed, dry and pest-free |
-| Protein | Beans, lentils, canned fish, nut/seed butter | Meal balance | Choose familiar foods and rotate |
-| Produce | Canned vegetables, fruit, dried fruit | Variety | Check package integrity |
-| Fats | Cooking oil, shelf-stable spreads | Energy and cooking | Protect from heat and light |
-| Ready-to-eat | Canned meals, bars, crackers | Limited-fuel periods | Keep opening tools accessible |
-| Special needs | Infant and pet foods; allergy-safe items | Continuity | Maintain a separate, clearly labelled reserve |
-
-Keep food away from damp floors, persistent heat, direct sunlight, gasoline, pesticides and other chemicals. Do not store water in containers previously used for chemicals. Inspect supplies during ordinary shopping cycles.
-
-## How to prepare without overbuying
-
-Estimate normal weekly use, then create a modest emergency layer. The purpose is continuity, not speculation. When a product is scarce, substitute before increasing the quantity stored. When a price is high, compare unit prices and use lower-cost alternatives. When a transport disruption is reported, focus on versatile staples rather than trying to guess which brand or imported product will disappear.
-
-Keep some foods that can be eaten with little or no cooking. Check that the household has a manual can opener, safe lighting, chargers and basic sanitation supplies. Where electricity is critical to food storage, plan for the first hours of an outage as carefully as the food itself.
-
-## What to do about water
-
-Unopened commercially bottled water is the safest and most reliable emergency source according to CDC. For self-filled water, use an appropriate food-grade container, sanitize it according to current instructions, fill it with clean water, close it tightly and record the date. CDC advises replacing self-filled water every six months and storing it in a cool place away from direct sunlight and toxic substances.
-
-Do not assume treatment can make every water source safe. Water contaminated with fuel or toxic chemicals cannot be made safe simply by treating it for germs. During an actual emergency, follow local public-health or water-authority instructions first.
-
-## What not to do
-
-Do not empty local shelves because a headline predicts shortages. Do not buy large quantities of perishables that your household cannot refrigerate safely. Do not keep damaged, leaking or swollen packages. Do not let an emergency pantry become so large that it cannot be rotated. And do not treat a forecast, model or social-media post as confirmation of an actual shortage.
-
-## When to escalate
-
-A stronger household response is justified when several signals appear together: an official emergency announcement, a prolonged water or electricity interruption, widespread local stock-outs, sustained transport disruption, repeated official warnings about a critical staple, or clear evidence that supplies cannot reach the area for an extended period.
-
-For readers outside acute humanitarian areas, stockpiling in your own market is not a substitute for humanitarian response. Follow credible aid organizations and official information rather than worsening local pressure through panic buying.
-
-## Monthly resilience check
-
-Once a month, inspect water dates, food packaging, pest exposure, special-diet supplies and basic emergency tools. Use older supplies during ordinary meals. Every three to six months, reconsider household size, local hazards, climate, water reliability, transport and electricity dependence.
-
-Preparedness is most effective when it is ordinary, rotating and evidence-led. The aim is to make a real interruption manageable, not to predict when the next crisis will happen.
-
-
-## Decision guide for a real disruption
-
-Before buying anything, answer six questions: **What is affected? Where is it affected? How long might it last? What do I already have? What can I substitute? Can I store the replacement safely?** Writing the answers down prevents an emotional response to a headline.
-
-### If the disruption lasts 24–72 hours
-
-Prioritize safe water, familiar ready-to-eat foods and foods that require minimal refrigeration or cooking. Keep refrigerator and freezer doors closed during power loss. Use normal pantry stock before opening emergency supplies, then replace only what was consumed.
-
-### If the disruption lasts about a week
-
-Move more meals toward shelf-stable staples and flexible ingredients. Review water supplies, special-diet foods, pet supplies, cooking fuel and the ability to receive official information. Buy smaller quantities of products that are difficult to substitute, rather than attempting to purchase an entire month of one item.
-
-### If the disruption lasts several weeks
-
-Follow local official guidance closely. Reassess the source of the problem: production, transport, water, electricity, prices or access. A long disruption may require substitutions or assistance rather than a larger household stockpile. Protect cash flow as well as food supplies; a stockpile that consumes the household budget can create a second problem.
-
-### The practical storage rule
-
-Keep dry goods dry, water containers clean and closed, canned foods in good condition, and all supplies away from chemicals and persistent heat. Rotate older supplies first. Read labels because shelf-stable status varies by product.
-
-### The practical stopping rule
-
-Stop adding food when you have a reasonable short-term buffer, safe water, the tools required to prepare the food, and a rotation system you can maintain. More storage is not automatically safer. A manageable reserve is easier to inspect, finance and use.
-
-### Official guidance to keep bookmarked
-
-CDC emergency water guidance: https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html
-
-USDA FSIS power-outage food safety: https://ask.fsis.usda.gov/article/How-do-you-keep-food-safe-during-a-power-failure
-
-USDA FSIS shelf-stable food guidance: https://ask.fsis.usda.gov/article/What-does-shelf-stable-mean
-
-Preparedness should reduce vulnerability, not amplify fear. Use the evidence in the article to decide whether the risk is real and local, then use this guide to respond proportionately.
-
-
-## Final preparedness checklist
-
-### Build the reserve before the headline peaks
-
-The best time to organize emergency supplies is before a disruption becomes urgent. Start with ordinary household consumption rather than an abstract target. List the foods used every week, the amount normally consumed, the amount already stored and how easily each item can be substituted. Then create a small emergency layer around the foods and water that matter most.
-
-Keep emergency food familiar. Foods that the household will not eat are a poor reserve even when they have a long shelf life. A useful mix can include grains or other staple carbohydrates, beans or other protein foods, canned or dried vegetables and fruit, cooking oil, seasonings and several ready-to-eat choices. Keep foods for infants, pets and special diets in a separate clearly identified section.
-
-### Water is the first continuity test
-
-CDC recommends at least one gallon of water per person per day for at least three days, with a longer supply considered when practical. Commercially bottled water is the safest and most reliable emergency source. For self-filled water, use an appropriate food-grade container, clean and sanitize it according to current instructions, fill it with clean water, close it tightly and record the date. CDC advises replacing self-filled water every six months and keeping it away from direct sunlight and toxic chemicals.
-
-The container matters. Never use a container that previously held gasoline, pesticides, solvents or another chemical. Keep stored water where it cannot be contaminated by leaking cleaners or fuels. In an actual water emergency, follow the local water authority or public-health instruction before using a questionable source.
-
-### Make meals work without perfect utilities
-
-An emergency pantry should not assume that electricity, refrigeration or cooking fuel will always be available. Keep at least some foods that can be eaten with little or no cooking. Keep a manual can opener with canned foods. Know how your household will prepare food safely when an appliance is unavailable.
-
-During a power failure, keep refrigerator and freezer doors closed. USDA FSIS says an unopened refrigerator generally stays cold for about four hours, while a full freezer can retain temperature for about 48 hours and a half-full freezer about 24 hours. Appliance thermometers make decisions easier. Read current USDA guidance before deciding whether refrigerated food remains safe.
-
-### Organize by function
-
-Think of the pantry as a system:
-
-**Water:** drinking, cooking and essential hygiene.
-
-**Staples:** grains and other foods that form the base of meals.
-
-**Protein:** beans, lentils, canned fish, shelf-stable protein and familiar nut or seed products.
-
-**Produce:** canned or dried fruits and vegetables.
-
-**Energy and cooking:** oil, spreads, seasonings and foods that require minimal cooking.
-
-**Ready-to-eat:** foods useful during outages or periods of limited fuel.
-
-**Special needs:** infant foods, pet food and foods needed for allergies or dietary restrictions.
-
-This structure is more resilient than buying large quantities of one trending item.
-
-### Protect the storage environment
-
-Dry foods should remain dry, sealed and protected from pests. Keep packages off damp floors. Keep canned foods away from persistent heat and direct sunlight. Inspect containers for leaks, swelling or serious damage. Shelf-stable does not mean immune to poor storage.
-
-Use a first-in, first-out rotation. Put newer purchases behind older ones and consume the older products during normal meals. The emergency layer should remain part of the household grocery cycle so that you know which foods you actually have and whether anyone has stopped eating them.
-
-### Know when to substitute
-
-When one food becomes expensive or scarce, first look for another ingredient that performs the same job in a meal. A different grain, bean, canned vegetable or protein can often preserve the meal without forcing the household to chase a specific brand or product.
-
-Substitution is particularly useful during transport disruptions and price shocks because the underlying food system may still be functioning while one item is temporarily constrained. Flexibility also protects the budget.
-
-### Decide when the emergency is genuinely local
-
-A serious household response should be tied to evidence. Useful signals include an official local emergency notice, a prolonged loss of safe water, widespread retail disruption, sustained transport restrictions, repeated official warnings about a critical staple, or clear evidence that essential supplies cannot reach the local population.
-
-One empty shelf is not enough. A viral post is not enough. A forecast is not the same as a confirmed event. A general preparedness recommendation is not proof of an approaching shortage.
-
-### Protect cash flow as well as food
-
-Food security is not only the amount of food stored. A household also needs enough money for utilities, housing, transport and essential health needs. A huge stockpile purchased at the wrong time can create financial stress while a smaller rotating reserve provides the same practical protection.
-
-Set a purchasing ceiling. Buy what can be safely stored and consumed. Stop increasing the reserve once the household has a reasonable short-term water supply, several days of usable food and a working rotation system.
-
-### Use official guidance during the event
-
-Keep these references accessible:
-
-CDC emergency water storage and safety:
-https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html
-
-USDA FSIS power-outage food safety:
-https://ask.fsis.usda.gov/article/How-do-you-keep-food-safe-during-a-power-failure
-
-USDA FSIS explanation of shelf-stable food:
-https://ask.fsis.usda.gov/article/What-does-shelf-stable-mean
-
-During a genuine emergency, local authorities may issue instructions that are more specific to the affected area. Those instructions should take priority over a generic online checklist.
-
 ## Bottom line
 
-A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.
+The central finding is geographic: the 13-country alert identifies where conditions may deteriorate during its stated June–November 2026 window. It is not a global ranking of famine declarations. Readers should use the country maps and the latest national assessments to distinguish early warning, current acute food insecurity and a formally classified Famine.
+
+## Read the period, area and classification before comparing hotspots
+
+A hunger-hotspot assessment is tied to a defined forecast window and geographic area. It does not mean every person in the named country faces the same level of food insecurity, and it does not mean that famine has been declared nationally. Conditions can differ sharply between accessible towns, rural districts, displaced-person sites and areas affected by active conflict.
+
+When comparing figures, retain the classification system and reference period. IPC and Cadre Harmonisé categories have related purposes but should not be treated as interchangeable without checking their definitions. Phase 3 or above indicates serious acute food insecurity; the term “Famine” has a much more specific evidentiary threshold and geographic scope. A forecast of worsening conditions is also different from a measured outcome after the period has passed.
+
+The most useful reading combines the country alert with the underlying map, population estimate, drivers of food insecurity and operational access constraints. Check whether the concern is conflict, displacement, drought, market prices, livelihood loss or a combination. That tells readers what kind of response is needed and prevents a single headline number from obscuring where people are most at risk.
+
+## Match the response to the hotspot's main constraint
+
+The same food-assistance model will not work in every hotspot. The FAO–WFP alert and the latest country assessments should be read together with access, market and livelihood evidence.
+
+| Hotspot or setting | Main operational constraint to verify | Response that fits the constraint |
+|---|---|---|
+| Sudan | Front lines, displacement and blocked roads can prevent food from reaching functioning markets | Prioritise safe humanitarian access, local market routes, water and health services. Pre-position supplies where access windows are predictable; do not treat household stockpiling as a solution to an access blockade. |
+| South Sudan | Seasonal flooding and poor road access can isolate communities | Plan transport and pre-positioning around the local flood calendar; combine food assistance with livestock health, fishing and livelihood support where these remain viable. |
+| Yemen | Import dependence, port throughput, fuel and currency conditions affect the cost and availability of food | Track port discharge, fuel prices, exchange rates and local market supply. Use cash or vouchers only where markets are stocked and accessible; use direct assistance where they are not. |
+| Gaza / Palestine | Safe entry, distribution access, water and essential services are binding constraints | Prioritise safe, sustained entry of food, fuel, water and medical supplies and protect distribution operations. No household storage instruction can substitute for humanitarian access. |
+| Northeast Nigeria | Conflict, displacement and seasonal livelihood loss vary by state and locality | Use state-level Cadre Harmonisé maps to target food and nutrition assistance; use cash where local markets function and direct delivery where insecurity has disrupted them. |
+| Somalia | Drought, livestock losses and water access affect pastoral and agropastoral livelihoods | Pair food assistance with livestock water, animal-health services, fodder and livelihood protection where those assets remain recoverable. |
+
+Readers outside the affected areas should use these distinctions to assess response quality and funding needs, not as a shopping signal.

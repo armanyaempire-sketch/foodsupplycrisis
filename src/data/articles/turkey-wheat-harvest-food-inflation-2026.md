@@ -95,3 +95,9 @@ Crop totals and food inflation describe different parts of the food system. A la
 Keep wheat separate from total cereal production. Wheat is one crop; a total-cereal figure may also include barley, maize and other grains. An estimate for a crop year should not be compared with a marketing-year trade balance without explaining the difference. Where a harvest estimate is preliminary, retain that status until the statistical or agriculture authority publishes a final result.
 
 For the household impact, compare the wheat and flour market with the food CPI and the price of a typical bread basket over the same period. For the production outlook, use the official crop assessment and state its reference date. This lets readers see whether the main pressure is availability, costs or purchasing power instead of assuming that one good harvest resolves all three.
+
+## What a record crop estimate does not tell us
+
+A record wheat estimate is a production indicator, not proof that the full quantity is available to domestic millers at the same price. Some grain may be used on farms, stored, exported or traded under contracts. Quality also determines whether wheat is suitable for a particular milling use. A first official estimate can be revised as harvesting and post-harvest data are completed, so its date and provisional status should remain visible.
+
+For food affordability, compare the crop estimate with mill-gate flour prices, bread prices and the relevant consumer food-inflation series. If the harvest increases while food inflation remains high, investigate exchange rates, energy, labour, packaging, distribution and the wider consumer basket. Do not claim that the harvest has no effect; rather, explain which cost components are likely to adjust quickly and which may remain sticky. This is the difference between reporting a crop result and analysing how it moves through the food economy.

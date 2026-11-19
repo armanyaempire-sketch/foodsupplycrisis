@@ -18,10 +18,16 @@ sources:
     url: https://www.rd.usda.gov/programs-services/business-programs/fertilizer-investment-expansion-long-term-domestic-supply
   - name: FAO Food Price Index
     url: https://www.fao.org/worldfoodsituation/foodpricesindex/en/
+  - name: Drought.gov — National Current Conditions, 4–10 November 2026
+    url: https://www.drought.gov/current-conditions
+  - name: U.S. Drought Monitor — Conditions valid 10 November 2026
+    url: https://droughtmonitor.unl.edu/
+  - name: USDA NASS — Crop Progress, week ending 15 November 2026
+    url: https://esmis.nal.usda.gov/sites/default/release-files/796149/prog4626.pdf
 related: []
 ---
 
-> **Update — 19 November 2026:** Replaced generic household-preparedness material with a clearer explanation of how farm-input, wholesale and household food-price measures differ.
+> **Update — 19 November 2026:** Added a U.S. regional crop-and-drought guide using the 10 November Drought Monitor and USDA's 15 November winter-wheat progress; farm advice now distinguishes Plains conditions from local consumer-price questions.
 
 The 2026 food-price story in the United States is not just about what appears on a supermarket shelf.
 
@@ -126,3 +132,16 @@ US food prices reflect several stages between a farm and a household. Fertilizer
 Different foods also respond differently. Grain and oilseed markets are exposed to harvest forecasts and export demand; meat and dairy prices depend on feed costs and biological production cycles; fresh produce is more sensitive to seasonality, weather and spoilage during transport. A national food CPI combines many categories, so it can move differently from a single commodity benchmark.
 
 To interpret a US price change, compare the same reference period across USDA farm and wholesale indicators, BLS food-at-home and food-away-from-home CPI, and the relevant commodity series. Keep annual inflation separate from monthly movement, and do not describe a fertilizer-price change as evidence of a nationwide food shortage.
+
+## Regional conditions matter more than a national fertilizer headline
+
+The U.S. drought picture is mixed. Drought.gov's 4–10 November summary reported improvement in parts of Texas and the Interior West, while drought worsened in eastern Oklahoma and Texas, the Lower Mississippi Basin and parts of the Great Lakes. USDA's 15 November crop report also showed winter-wheat emergence below the five-year average in Oklahoma (66% versus 79%), while Kansas was close to average (86% versus 85%) and Texas was slightly ahead (74% versus 71%). These are different regional signals, not one national crop condition.
+
+| Region or audience | What to check before acting |
+|---|---|
+| Southern Plains winter-wheat growers | Compare county soil moisture, the U.S. Drought Monitor's short- and long-term impact categories and state extension guidance. In Oklahoma, where emergence remained below its five-year average, check stand establishment before deciding on replanting or additional inputs. Do not raise fertilizer rates to compensate for poor emergence without a field assessment. |
+| Kansas and Nebraska wheat growers | Use the state crop-progress series and local soil-moisture reports; statewide emergence was close to or above the five-year average in the latest USDA table. A national drought headline should not be used to infer that every Plains field needs the same response. |
+| Grain handlers and elevators | Set receiving limits by measured grain moisture and drying throughput, not by silo nameplate capacity. Where wet harvest conditions occur, segregate lots and keep aeration and pest monitoring operational. |
+| Households and retailers | Compare the local BLS food-at-home categories and city-level prices with the actual basket sold in the area. A national fertilizer or grain benchmark does not tell a shopper whether a particular town is facing a delivery delay or a retail-price increase. |
+
+The Drought Monitor is a broad-scale product; local conditions can vary within a state. Farmers should use their county extension office, state climatologist and field measurements for field-level decisions.

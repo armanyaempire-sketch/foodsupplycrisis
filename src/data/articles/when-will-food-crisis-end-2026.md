@@ -127,3 +127,9 @@ There is no single date on which every food-related crisis ends, because the phr
 A useful way to judge improvement is to track each outcome separately. For global markets, watch commodity prices, production forecasts, trade volumes and stock estimates. For a country, examine domestic food inflation, market availability, import costs and policy measures. For household food security, look at income, food access, assistance coverage and the latest IPC or Cadre Harmonisé assessment where those systems apply.
 
 Each measure has its own publication schedule and reference period. A forecast window ending is not proof that the underlying problem has ended, and a lower inflation rate does not mean prices have returned to an earlier level. The most defensible conclusion is a dated one: which indicator improved, where it improved, and which pressures remain unresolved.
+
+## Use a recovery dashboard instead of one end date
+
+A recovery dashboard should have separate rows for availability, affordability and access. Availability can be assessed through harvest estimates, stocks, imports and market supply. Affordability needs consumer food inflation, wages or income, exchange rates and the cost of a basic food basket. Access requires evidence about transport, market function, conflict, displacement, humanitarian coverage and the ability of households to reach food safely.
+
+Set a baseline date for each indicator and avoid combining observations from different reporting periods into a single “recovery” score. A fall in the inflation rate means prices are rising more slowly; it does not mean the price level has returned to its earlier point. A forecast period ending also does not prove that a humanitarian emergency has ended. The article can be updated responsibly by stating which part of the dashboard improved, which remains under pressure and when the next source release is expected.

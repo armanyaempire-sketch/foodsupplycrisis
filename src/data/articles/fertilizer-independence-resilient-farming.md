@@ -17,8 +17,8 @@ sources:
     url: https://www.rd.usda.gov/programs-services/business-programs/fertilizer-investment-expansion-long-term-domestic-supply
   - name: FAO — Fertilizer access and food security
     url: https://www.fao.org/director-general/speeches/details/unga-81-2nd-ministerial-meeting-of-the-rome-coalition-for-fertilizer-access-and-food-security-statement/en
-  - name: FAO — Global agrifood implications of the 2026 Middle East conflict
-    url: https://www.fao.org/agrifood-economics/publications/detail/en/c/1758065/
+  - name: FAO — Strait of Hormuz crisis and fertilizer scarcity, 7 May 2026
+    url: https://www.fao.org/newsroom/detail/strait-of-hormuz-crisis--fertilizer-scarcity-will-affect-next-harvests-and-food-supplies--fao-warns/
 related: []
 ---
 

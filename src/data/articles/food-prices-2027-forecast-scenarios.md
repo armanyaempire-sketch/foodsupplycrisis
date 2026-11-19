@@ -15,6 +15,8 @@ type: analysis
 sources:
   - name: FAO Food Price Index
     url: https://www.fao.org/worldfoodsituation/foodpricesindex/en/
+  - name: FAO — October food prices and November cereal market outlook, 6 November 2026
+    url: https://www.fao.org/newsroom/detail/fao-food-price-index-edges-down-in-october-amid-subdued-demand
   - name: Atlantic Council — Food crisis scenarios
     url: https://www.atlanticcouncil.org/content-series/fastthinking/four-scenarios-for-a-looming-global-food-crisis/
   - name: JPMorgan outlook via Yahoo Finance
@@ -22,7 +24,7 @@ sources:
 related: []
 ---
 
-> **Update — 19 November 2026:** Replaced the repeated emergency checklist with a scenario-testing framework that makes assumptions and leading indicators explicit.
+> **Update — 19 November 2026:** Rebased the 2027 outlook on FAO's October food-price index and 6 November cereal forecast; kept the four scenarios conditional rather than presenting a point prediction.
 
 Nobody can know the exact level of global food prices in 2027 today.
 
@@ -30,13 +32,13 @@ A better way to think about the outlook is through scenarios.
 
 Prices could cool if several current pressures ease. They could remain elevated if disruptions persist. They could rise further if weather and supply shocks hit major producing regions at the same time.
 
-## Starting point: September 2026
+## Starting point: the latest verified market baseline
 
-FAO's Food Price Index reached 136.0 in September 2026, 5.8% above the same month a year earlier.
+FAO's Food Price Index averaged **133.9 points in October 2026**, 1.2% below September but 5.9% above October 2025. The monthly decline is a reason not to assume that every commodity is accelerating; the year-on-year increase shows that the international benchmark remains above its year-earlier level.
 
-The international market is therefore starting the next year from a period of renewed price pressure.
+The 6 November Cereal Supply and Demand Brief forecasts 2026 global cereal production at **2.999 billion tonnes**, the second-highest level on record. But it also projects 2026/27 cereal trade to fall 3.3% and wheat trade to fall 8.6%, while global cereal stocks rise 1.8%. This combination makes the outlook more nuanced than a simple “more harvest means lower prices” story: aggregate supply can remain large while trade access and delivered costs tighten for particular buyers.
 
-But one month's index is not a forecast.
+These figures establish a starting point, not a prediction for every country or food category.
 
 ## Scenario 1: Trade normalizes
 
@@ -130,3 +132,20 @@ This structure makes the analysis updateable. When one indicator changes, revise
 | Severe humanitarian deterioration | Conflict, displacement and access constraints worsen in assessed areas | Improved access, assistance funding and livelihoods |
 
 This table is a monitoring framework, not a probability model. Update each column only when a named source publishes a new observation or forecast. Keep the publication date, reference period and geographic scope beside the evidence. A scenario should be downgraded when its own supporting indicators reverse; it should not be kept alive merely because the original headline predicted a crisis. This approach also prevents a climate outlook, an oil-price forecast and a humanitarian classification from being combined into one unsupported numerical probability.
+
+
+## Separate the market signals before changing a scenario
+
+Use different indicators for different parts of the forecast. The FAO index is a monthly international price benchmark; the cereal production forecast describes expected output; trade and stock estimates describe how much grain may move and remain available. They should not be collapsed into one score.
+
+| Signal | Latest November 2026 evidence | What it means for the 2027 scenarios |
+| --- | --- | --- |
+| Global food commodity prices | October FAO index 133.9; −1.2% month on month, +5.9% year on year | The aggregate eased recently but remains above its year-earlier level |
+| Cereal production | 2.999 billion tonnes forecast for 2026, second-highest on record | Large global output is a buffer, not proof that every region has adequate local supply |
+| Cereal trade | 2026/27 trade forecast −3.3%; wheat trade −8.6% | Logistics and export availability can matter even when production remains high |
+| Cereal stocks | Forecast to rise 1.8% by the close of 2027 seasons | Higher stocks can cushion markets, but location, quality and release access determine whether buyers can use them |
+| Rice | 2026 production forecast to fall 2.5% to 552 million tonnes | Staple-specific risk may diverge from the broader cereal and food-price picture |
+
+A benign global scenario should therefore be downgraded only if the production, trade and stock evidence weakens together or if a major local shock prevents supplies reaching buyers. A cost-led scenario should be monitored through fertilizer, energy, exchange rates and freight. A regional disruption needs route- or country-specific evidence. A humanitarian deterioration must be judged through the relevant food-security assessment and access conditions, not inferred from commodity prices.
+
+For any 2027 update, record the source date and reference period beside each figure. A forecast revision is not an observed harvest result, and a trade forecast is not a report that every shipment has already been cancelled. The article should change its scenario assessment only when the evidence for that scenario changes.

@@ -18,8 +18,8 @@ sources:
     url: https://www.fao.org/director-general/speeches/details/unga-81-2nd-ministerial-meeting-of-the-rome-coalition-for-fertilizer-access-and-food-security-statement/en
   - name: FAO — Strait of Hormuz fertilizer warning
     url: https://www.fao.org/newsroom/detail/strait-of-hormuz-crisis--fertilizer-scarcity-will-affect-next-harvests-and-food-supplies--fao-warns/
-  - name: FAO — Global Agrifood Implications of the 2026 Conflict in the Middle East
-    url: https://www.fao.org/agrifood-economics/publications/detail/en/c/1758065/
+  - name: FAO — Strait of Hormuz crisis and fertilizer scarcity, 7 May 2026
+    url: https://www.fao.org/newsroom/detail/strait-of-hormuz-crisis--fertilizer-scarcity-will-affect-next-harvests-and-food-supplies--fao-warns/
 featured: true
 related: []
 ---

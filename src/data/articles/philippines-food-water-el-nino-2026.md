@@ -19,10 +19,14 @@ sources:
     url: https://pco.gov.ph/news_releases/palasyo-hinimok-ang-publiko-na-maghanda-ng-maayos-sa-posibleng-epekto-ng-super-el-nino/
   - name: Financial Times — Philippine central bank and El Niño
     url: https://www.ft.com/content/390fafe6-88bf-4564-978d-4774e2b75e8d
+  - name: PAGASA — Very Strong El Niño Advisory, 4 November 2026
+    url: https://www.pagasa.dost.gov.ph/press-release/233?page=7
+  - name: PAGASA — Monthly Agroclimatic Review and Outlook
+    url: https://pagasa.dost.gov.ph/agri-weather/monthly-agroclimatic-review-and-outlook
 related: []
 ---
 
-> **Update — 19 November 2026:** Refocused the ending on the relationship between irrigation, seasonal rice production and import timing rather than repeating universal stockpiling advice.
+> **Update — 19 November 2026:** Replaced broad household advice with actions linked to PAGASA's 4 November advisory: province-level drought status, irrigated versus rain-fed rice and local water-service limits.
 
 The Philippines is preparing for the possible effects of a strong El Niño in late 2026 and early 2027.
 
@@ -66,11 +70,18 @@ Water is especially vulnerable to this kind of local demand shock because it is 
 
 Excess buying can therefore create the appearance of scarcity even while national stocks remain adequate.
 
-## Sensible preparation
+## Decisions should follow the province's drought status
 
-The better approach is to maintain a reasonable household reserve, follow official water restrictions and use storage methods appropriate to local conditions.
+PAGASA's 4 November advisory said a very strong El Niño was present and expected to persist into the first half of 2027. It reported that, during October, five provinces experienced meteorological drought, eleven were under dry spell and ten had dry conditions. For November, below- to way-below-normal rainfall was expected over most of the country, but the advisory also notes that tropical cyclones can still bring heavy rain. A national label therefore cannot replace the province-level drought list and dam data.
 
-Preparedness is about continuity, not accumulation.
+| Local situation | Better-fit response |
+|---|---|
+| Irrigated rice areas | Coordinate planting and water releases with the National Irrigation Administration and the relevant reservoir operator. Prioritise water at critical crop stages; avoid scheduling another crop cycle until the irrigation allocation is confirmed. |
+| Rain-fed rice and upland farms | Use PAGASA's local rainfall outlook and municipal agriculture advice to decide when to sow. Where rains have not established, avoid treating an early isolated shower as a reliable season onset. |
+| Provinces already under drought or dry-spell classification | Follow the province's current water-use and agricultural advisories. Farmers should compare crop water requirements with actual available irrigation before choosing a second crop. |
+| Urban households and small retailers | Follow the local water district's supply schedule. Store only the amount that can be kept in clean, covered containers and used safely; excess household water hoarding can deprive neighbours and does not fix a municipal supply gap. |
+
+The practical constraint is often the timing and reach of irrigation water, not the total national rice stock. Keep paddy and milled-rice data separate when assessing whether a local market can be supplied.
 
 ## What to watch
 

@@ -100,7 +100,7 @@ These indicators can help explain why food prices move even when local supermark
 
 ## Bottom line
 
-A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.
+Energy costs reach food through several distinct channels—farm machinery, fertilizer production, irrigation, cold storage, processing and freight. Their timing and pass-through differ, so an oil-price movement should be treated as an upstream signal until input, wholesale and consumer data confirm its effect.
 
 ## Follow the separate channels from energy to the food bill
 

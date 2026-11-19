@@ -15,8 +15,8 @@ type: explainer
 sources:
   - name: Reuters — Oil prices and Middle East supply concerns, 1 October 2026
     url: https://www.reuters.com/business/energy/oil-prices-barely-changed-investors-assess-us-iran-peace-talks-gulf-exports-2026-10-01/
-  - name: FAO — Global Agrifood Implications of the 2026 Conflict in the Middle East
-    url: https://www.fao.org/agrifood-economics/publications/detail/en/c/1758065/
+  - name: FAO — Strait of Hormuz crisis and fertilizer scarcity, 7 May 2026
+    url: https://www.fao.org/newsroom/detail/strait-of-hormuz-crisis--fertilizer-scarcity-will-affect-next-harvests-and-food-supplies--fao-warns/
   - name: FAO Food Price Index — September 2026
     url: https://www.fao.org/worldfoodsituation/foodpricesindex/en/
 related: []

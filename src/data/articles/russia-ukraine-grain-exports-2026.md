@@ -22,7 +22,7 @@ sources:
 related: []
 ---
 
-> **Update — 19 November 2026:** Removed the repeated household appendix and added a route-based framework for assessing whether grain exports are actually interrupted.
+> **Update — 19 November 2026:** Added corridor-specific decisions for Ukraine's exporters, Russian-origin buyers and importers so alternative routes are not treated as interchangeable.
 
 Russia and Ukraine remain central to the global grain trade, but the route from field to buyer has become more complicated.
 
@@ -114,3 +114,12 @@ To assess the effect on importers, compare port movements and export offers with
 Port capacity is not the same as actual exports. A terminal may have a stated annual capacity, but shipments depend on available grain, rail and river connections, storage, loading equipment, vessel access, insurance and the security situation at the time. A damaged asset may reduce potential throughput without stopping every cargo; conversely, a port that remains physically intact can handle fewer shipments if insurance or vessel availability deteriorates.
 
 When reporting a disruption, state whether the evidence concerns a port closure, a reduced loading rate, delayed departures, higher freight costs or a change in export forecasts. Use a defined period and compare it with the same point in the previous marketing year where possible. Also note whether reported cargoes are contracted, loaded or actually departed. These distinctions make the effect on importers clearer and prevent a single incident from being described as the loss of an entire country's harvest.
+
+## A route decision for each side of the trade
+
+The alternatives are not identical. Ukraine's Danube, rail and road routes have different loading limits, border procedures and delivery times from deep-water Black Sea ports. Russian grain exports use a different port and vessel network. Importers should therefore compare the route they actually contract, not rely on a generic “Black Sea alternative”.
+
+- **Ukrainian exporters and inland handlers:** compare the cost and capacity of deep-water ports with Danube and land corridors, and identify where border queues, trans-shipment and storage create the next bottleneck. Keep grain lots segregated by grade while they wait.
+- **Russian-origin buyers:** verify loading port, vessel availability, insurance and actual departure status. Do not treat announced export availability as cargo already loaded or shipped.
+- **Importing mills and governments:** maintain a supplier-and-route matrix by commodity, grade and shipment month. A replacement origin must meet quality requirements and reach the receiving port before the buyer's operational inventory is depleted.
+- **Aid agencies serving import-dependent areas:** separate commercial import exposure from the humanitarian question of whether food can move inside the affected country to displaced and conflict-affected communities.

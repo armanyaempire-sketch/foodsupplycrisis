@@ -70,7 +70,7 @@ It means the harvest is one input into a much larger pricing system.
 
 ## What to monitor
 
-Follow:
+Monitor the next Turkish crop and price releases:
 
 - wheat production;
 - flour prices;

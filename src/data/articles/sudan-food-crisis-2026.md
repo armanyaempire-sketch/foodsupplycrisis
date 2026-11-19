@@ -97,7 +97,7 @@ For the global context, read [Global Food Crisis 2026](/articles/global-food-cri
 
 ## Bottom line
 
-Use the evidence in this article to judge whether the risk is real and local. Prepare proportionately: secure water, keep a modest rotating food buffer, protect refrigeration, follow official guidance and avoid panic buying.
+Sudan's food emergency must be described by the affected locality, IPC phase, assessment period and access conditions. National production or market figures cannot substitute for evidence about whether conflict-affected households can safely reach food and humanitarian assistance.
 
 ## Keep Sudan's famine-risk assessment tied to its place and period
 

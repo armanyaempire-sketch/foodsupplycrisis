@@ -24,7 +24,7 @@ sources:
 related: []
 ---
 
-> **Update — 19 November 2026:** Replaced the repeated emergency checklist with a clearer framework for comparing exposure, and distinguished structural vulnerability from an acute humanitarian food emergency.
+> **Update — 19 November 2026:** Replaced the generic stockpiling rule with an actor-and-exposure matrix; the appropriate intervention now depends on whether the constraint is imports, climate, storage, conflict or household purchasing power.
 
 There is no single list of countries that are “safe” or “unsafe” from food-system shocks.
 
@@ -117,11 +117,19 @@ When assessing a country, ask:
 5. What happens to households when prices rise?
 
 
-## A balanced preparedness rule for global-risk stories
+## Match the response to the exposure
 
-A global food-supply headline should trigger verification, not automatic stockpiling. Global production, trade, reserves, food prices and humanitarian need can move in different directions at the same time. For most households, the sensible hedge is a normal rotating pantry plus a modest emergency layer of water and nonperishable food. The exact size should reflect local hazards, household needs and the reliability of local services.
+A country comparison is useful only when it identifies who can act on the risk. A household stockpile cannot fix a port bottleneck, and a national reserve cannot solve a conflict-related access restriction.
 
+| Exposure pattern | Who needs to act | Better-fit intervention |
+|---|---|---|
+| High dependence on imported staples | Import agencies, port operators and large buyers | Diversify origins and shipment windows; verify port, cold-store and inland-distribution capacity before increasing reserve targets. |
+| Large domestic crop base but high climate exposure | Agriculture ministries, irrigation authorities and farmers | Use basin- and district-level rainfall, reservoir and soil-moisture data to set crop calendars and water allocations; do not apply a national ENSO label to every farm. |
+| Strong reserves but high retail prices | Market regulators, wholesalers and retailers | Track physical releases and delivered volumes, then diagnose milling, freight, competition and local distribution before assuming more public stock is needed. |
+| Conflict or displacement | Humanitarian agencies and local authorities | Prioritise safe access, functioning local markets, water, nutrition and assistance suited to whether markets can operate. Household stockpiling is not a substitute for aid access. |
+| Food available but unaffordable | Social-protection agencies and household-service providers | Target cash, vouchers or food assistance to affected groups where local markets can supply them; monitor wages and a local basic-food basket. |
 
+For country rankings, do not use the same intervention as the measure of resilience. A reserve target, import share, drought forecast and household food-access score describe different constraints.
 ## Bottom line
 
 The countries most exposed to food-system shocks are not necessarily the countries with the least food.

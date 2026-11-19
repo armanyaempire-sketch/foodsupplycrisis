@@ -86,3 +86,9 @@ A national grain estimate is an important starting point, but it is not a retail
 Comparisons also need a consistent statistical scope. “Grain,” “cereals,” “wheat” and “winter wheat” are not interchangeable totals. Before comparing two estimates, check whether they cover the same crops, whether they are preliminary or final, and whether the reference year is a harvest year or marketing year. If two reputable sources disagree materially, explain the difference rather than selecting the larger or smaller figure without reconciliation.
 
 The best indicators for consumers are therefore a combination of harvest revisions, milling-wheat prices, energy and transport costs, food CPI and the timing of any change in retail prices. This is a supply-and-cost transmission story, not a simple equation between tonnes harvested and the price on a bakery shelf.
+
+## What the national estimate can conceal
+
+A national total can hide the difference between regions, crop types and quality grades. Winter wheat, spring cereals, barley and rapeseed do not respond identically to the same weather. Milling quality also matters: a tonne suitable for bread production is not automatically interchangeable with grain used mainly for feed. Before describing a harvest shortfall as a food-security problem, check which crop and production regions account for the change and whether the estimate is preliminary.
+
+For consumers, the next evidence step is to compare producer prices with the cost of milling, bakery energy, labour and transport over the same period. The retail effect may be delayed by contracts and inventories. If bread prices rise while wheat quotations fall, that does not disprove the harvest data; it indicates that other costs or margins are affecting the final product. A useful follow-up should therefore track the federal crop report alongside producer-price and consumer-price series, not select one number as the explanation for every price movement.

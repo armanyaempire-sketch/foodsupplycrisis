@@ -113,3 +113,9 @@ A public reserve is a policy instrument, not simply a warehouse full of food. Go
 A headline tonnage is incomplete without the stock's condition and accessibility. Ask whether the figure describes physical stocks already in storage, purchases that have been contracted, a planned procurement target or an estimate of commercial inventories. Then check the commodity, location, age and quality of the stock, the rate at which it can be released, and which households or buyers are eligible to receive it.
 
 Stock rotation and transparency are central to effectiveness. A reserve that is not inspected, replenished or released according to clear rules can lose value through spoilage, storage costs or delayed decisions. The best comparison between countries is therefore not just tonnes held; it is the purpose, governance, quality, release mechanism and evidence that the reserve can reach the intended users.
+
+## How to judge whether a reserve is operational
+
+An operational reserve needs a public purpose, an accountable custodian and a release mechanism that can be used in time. A useful public report identifies the commodity, quality grade, storage location, physical quantity, inspection date and whether the stock is owned by the state or held under contract. It should also explain the conditions under which releases can occur and which buyers or households can receive the product.
+
+Procurement and release decisions create trade-offs. Buying too aggressively can raise local prices or crowd out private traders; releasing too slowly can make a reserve irrelevant during a short disruption. Rotation reduces spoilage but means the headline inventory changes as older grain is sold and replaced. Compare stocks with domestic consumption or expected use only when both figures use compatible units and periods. A credible reserve policy is transparent about these limits and publishes deliveries and releases separately from targets, tenders and announcements.

@@ -85,7 +85,7 @@ Track:
 
 ## Bottom line
 
-Use the evidence in this article to judge whether the risk is real and local. Prepare proportionately: secure water, keep a modest rotating food buffer, protect refrigeration, follow official guidance and avoid panic buying.
+For Southeast Asia, compare rice prices only after matching grade, unit, shipment term and market stage. Paddy production, milled-rice output, export quotations and retail prices describe different parts of the supply chain and should not be ranked in one undifferentiated table.
 
 ## Rice comparisons need a unit, crop year and market label
 

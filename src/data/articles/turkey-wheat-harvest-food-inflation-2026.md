@@ -17,10 +17,12 @@ sources:
     url: https://www.fao.org/giews/countrybrief/country.jsp?code=TUR&lang=en
   - name: Turkish Statistical Institute — Consumer Price Index
     url: https://data.tuik.gov.tr/Kategori/GetKategori?p=Inflation-and-Price-106
+  - name: Turkish State Meteorological Service — Weekly weather forecast, 19–25 November 2026
+    url: https://mgm.gov.tr/FTPDATA/analiz/haftalik/haftalik.htm
 related: []
 ---
 
-> **Update — 19 November 2026:** Added the FAO GIEWS 7 September 2026 estimate: 41.6 million tonnes of cereals and a record 22.8 million tonnes of wheat, while preserving the distinction between crop output and food inflation.
+> **Update — 19 November 2026:** Added a dated Turkish Meteorological Service weather note and separated winter field operations from grain storage and household price decisions.
 
 Turkey offers one of the clearest counter-examples to the idea that food prices always fall when harvests improve.
 
@@ -101,3 +103,11 @@ For the household impact, compare the wheat and flour market with the food CPI a
 A record wheat estimate is a production indicator, not proof that the full quantity is available to domestic millers at the same price. Some grain may be used on farms, stored, exported or traded under contracts. Quality also determines whether wheat is suitable for a particular milling use. A first official estimate can be revised as harvesting and post-harvest data are completed, so its date and provisional status should remain visible.
 
 For food affordability, compare the crop estimate with mill-gate flour prices, bread prices and the relevant consumer food-inflation series. If the harvest increases while food inflation remains high, investigate exchange rates, energy, labour, packaging, distribution and the wider consumer basket. Do not claim that the harvest has no effect; rather, explain which cost components are likely to adjust quickly and which may remain sticky. This is the difference between reporting a crop result and analysing how it moves through the food economy.
+
+## Local decisions after the 2026 harvest
+
+The 2026 crop estimate is a harvest result for the previous growing cycle; it should not be confused with current field conditions. The Turkish State Meteorological Service's 19–25 November forecast expects widespread rain or showers in several regions, with locally heavy rainfall along parts of the Black Sea coast and around Adana, Hatay and nearby provinces, and strong winds in several inland and coastal areas. This is a short-range weather forecast, not a revised wheat-yield estimate.
+
+- **Winter-cereal growers:** use the provincial forecast and soil condition before field work. In areas expecting heavy rain, protect seed and machinery from water ingress and avoid working saturated fields; in drier districts, use local soil moisture and extension advice rather than a national rainfall average.
+- **Grain stores and mills:** keep lots identified by moisture and grade, and check roof, drainage and aeration before wet weather. A record harvest is not useful if grain quality is lost after intake.
+- **Households:** compare the same flour and bread products in local markets and track food inflation separately from the harvest estimate. A household's safe storage is the quantity it can keep dry and pest-free, not a national wheat surplus.

@@ -22,7 +22,7 @@ sources:
 related: []
 ---
 
-> **Update — 19 November 2026:** Replaced repeated preparedness text with a comparative framework that keeps the four humanitarian emergencies separate rather than implying a single shared cause or ranking.
+> **Update — 19 November 2026:** Added distinct response pathways for Sudan, Yemen, Somalia and Gaza, based on their different access, import, drought and infrastructure constraints.
 
 Famine is not a single global event. It is a severe food-security condition that can emerge when people lose access to food because of conflict, displacement, weather, economic collapse or restrictions on humanitarian assistance.
 
@@ -110,3 +110,14 @@ A useful comparison asks, for each location: what is the primary driver; which a
 A comparison across these emergencies should preserve at least four fields: the assessment system, the reference period, the geographic unit and the population covered. An IPC analysis may report people in Phase 3 or above, while a separate release may highlight Phase 5 Catastrophe or areas classified as Famine. Those are related but not interchangeable measures. A figure for a governorate or district should not be described as a national total.
 
 The drivers also differ. In one setting, access restrictions and conflict may be the dominant constraint; in another, drought and livestock losses may be central; elsewhere, the collapse of livelihoods, currency weakness or damage to basic services may be decisive. The policy response follows those causes. Keep aid access and civilian protection visible where conflict is restricting movement, and keep water, livestock and market access visible where climate and livelihood pressures dominate. A comparative article should clarify the differences rather than flattening the crises into a single ranking.
+
+## The operational response is different in each emergency
+
+| Setting | What most needs to be restored or protected | Intervention that fits |
+|---|---|---|
+| Sudan | Safe movement, market access and delivery into conflict-affected areas | Humanitarian access, local-market support where trade functions, water and nutrition services, and livelihood protection where communities can safely resume production. |
+| Yemen | Food imports, port and inland distribution, fuel and household purchasing power | Keep import routes functioning, monitor discharge and fuel costs, use cash support where markets are stocked, and direct food delivery where supply cannot reach communities. |
+| Somalia | Water for people and livestock, pasture, animal health and rural livelihoods | Combine emergency food assistance with water access, veterinary services, fodder and livelihood protection; target pastoral and agropastoral districts separately from urban markets. |
+| Gaza | Safe entry and distribution of food, water, fuel and medical supplies | Protect humanitarian access and functioning distribution. Household stockpiling cannot replace the safe entry of supplies or restore damaged essential services. |
+
+The table is not a ranking. Conditions change by district and assessment period, so each response should be checked against the latest IPC analysis, market monitoring and humanitarian access reports.

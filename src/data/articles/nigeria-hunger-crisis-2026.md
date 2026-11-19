@@ -1,6 +1,6 @@
 ---
 title: "Nigeria Hunger Crisis 2026: Why Borno Is a Highest-Concern Hotspot"
-description: Borno is among the most concerning food-insecurity areas in Nigeria, with conflict, displacement and funding constraints increasing humanitarian risk.
+description: Nigeria’s October–December 2026 Cadre Harmonisé analysis estimates 26.8 million people in Crisis or worse, with a 33.5 million projection for June–August 2027.
 pubDate: 2026-10-04
 updatedDate: 2026-11-19
 author: Food Supply Crisis Report Editorial Desk
@@ -15,26 +15,26 @@ type: analysis
 sources:
   - name: FAO–WFP Hunger Hotspots — June to November 2026
     url: https://www.wfp.org/publications/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-june-november-2026
-  - name: FAO — Nigeria among highest-concern hotspots
-    url: https://www.fao.org/newsroom/detail/new-fao-wfp-report-warns-worsening-hunger-puts-13-hotspots-at-significant-risk/
-  - name: UN News — Hunger hotspots 2026
-    url: https://news.un.org/en/story/2026/06/1167742
+  - name: Nigeria Cadre Harmonisé — October–December 2026 and June–August 2027
+    url: https://agrhymet.cilss.int/wp-content/uploads/2026/10/snapshop_Nigeria_nov26.pdf
+  - name: FAO–WFP Hunger Hotspots — June to November 2026
+    url: https://www.wfp.org/publications/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-june-november-2026
 related: []
 ---
 
-> **Update — 19 November 2026:** Refocused the article ending on Nigeria's seasonal and geographic food-insecurity measures instead of adding the same household checklist used in unrelated reporting.
+> **Update — 19 November 2026:** Replaced the expired June–August 2026 projection with Nigeria’s latest Cadre Harmonisé current and projected figures, and kept their assessment periods explicit.
 
 Nigeria is one of the countries where acute food insecurity is deteriorating even though the national food system is far larger and more diverse than the crisis areas suggest.
 
 The latest FAO-WFP Hunger Hotspots assessment places particular concern on the northeast, especially Borno State.
 
-## What the latest assessment says
+## What the latest national assessment says
 
-FAO and WFP projected around 34.8 million people in Nigeria could face Crisis or worse levels of acute food insecurity during June-August 2026.
+Nigeria's Cadre Harmonisé analysis for **October–December 2026** estimates that **26.8 million people** across 26 states and the Federal Capital Territory are in Crisis (CH Phase 3) or worse. This current-period estimate includes 756,815 internally displaced people in Borno, Sokoto and Zamfara.
 
-The assessment included an estimated 15,000 people in Catastrophe in Borno.
+The same assessment projects **33.5 million people** in Crisis or worse for **June–August 2027**, including 891,228 internally displaced people in those three states. These are separate time periods: the second number is a forecast for the 2027 lean season, not the current October–December count.
 
-These figures describe a defined assessment period and classification system. They should not be treated as a permanent count.
+The older 34.8 million estimate and 15,000 Catastrophe figure referred to June–August 2026 and should not be presented as the latest national picture. The Cadre Harmonisé uses its own phase system; preserve the assessment date and geographic coverage whenever quoting its totals.
 
 ## Why Borno is vulnerable
 

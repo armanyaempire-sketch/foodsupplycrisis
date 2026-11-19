@@ -22,7 +22,7 @@ sources:
 related: []
 ---
 
-> **Update — 19 November 2026:** Refocused the closing analysis on Egypt's wheat procurement, subsidised bread and import-cost transmission instead of repeating general household storage guidance.
+> **Update — 19 November 2026:** Replaced the generic emergency-preparation advice with Egypt-specific steps for public wheat procurement, mills and households using subsidised baladi bread.
 
 Egypt is one of the countries where the difference between global grain availability and local food-security risk is especially important.
 
@@ -91,7 +91,12 @@ These indicators can show whether the pressure is mainly financial or becoming a
 
 For a country-specific food story, separate five questions: **Is there enough food nationally? Can it be imported or moved? Can households afford it? Can vulnerable households access it? And can the government or market respond quickly?** A country can have strong national production and still experience high food inflation. It can also import heavily without facing an immediate physical shortage if shipping, foreign-exchange access and reserves remain functional. Use the country's official statistical, agriculture, water and disaster-management sources alongside the evidence discussed here.
 
-If you live in or near the affected country, preparation should be local rather than based on a global headline. Identify the foods your household cannot easily substitute, the nearest reliable water source, local emergency numbers, evacuation routes if relevant, and the official channel for food or utility advisories. Keep a small reserve that can bridge an interruption, and keep important documents, chargers and cash accessible when outages could affect electronic payments.
+## The right response depends on the Egyptian buyer
+
+- **Public procurement authorities:** stagger tenders and avoid relying on one origin or shipment window. Publish tender volumes, arrival dates and physical stock releases separately so that market participants can distinguish contracted wheat from grain already available to mills.
+- **Mills and bakeries:** monitor the grade and origin of wheat, delivery timing, foreign-exchange cost and local transport. Keep only the operational inventory that can be stored safely and rotated without quality loss; a large nominal stock is not useful if milling or distribution is constrained.
+- **Households using subsidised baladi bread:** follow the Ministry of Supply's current ration-card and bakery arrangements. A global wheat quotation does not change the subsidised price automatically, and buying extra flour is not a substitute for the public supply system.
+- **Private food businesses:** stress-test import finance and delivery schedules against an extended shipping delay, while keeping commercial stocks distinct from the government's strategic reserve.
 
 
 ## Bottom line

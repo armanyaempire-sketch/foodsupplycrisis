@@ -16,12 +16,14 @@ sources:
     url: https://www.fao.org/worldfoodsituation/foodpricesindex/en/
   - name: FAO Cereal Supply and Demand Brief
     url: https://www.fao.org/worldfoodsituation/csdb
+  - name: FAO — October food prices and November cereal market outlook, 6 November 2026
+    url: https://www.fao.org/newsroom/detail/fao-food-price-index-edges-down-in-october-amid-subdued-demand
   - name: FAO–WFP Hunger Hotspots 2026
     url: https://www.wfp.org/publications/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-june-november-2026
 related: []
 ---
 
-> **Update — 19 November 2026:** Removed the repeated preparedness appendix and clarified that a global price shock, a local shortage and a humanitarian emergency do not share one end date.
+> **Update — 19 November 2026:** Added the latest FAO market baseline to the recovery dashboard, distinguishing easing commodity prices from constrained trade and continuing local food-access emergencies.
 
 A global food crisis does not end on one date.
 
@@ -57,7 +59,7 @@ If harvests remain healthy across major exporting regions, one source of risk co
 
 High production and stocks create a buffer.
 
-FAO's October 2026 forecast remains historically large.
+FAO's 6 November 2026 forecast puts global cereal production at **2.999 billion tonnes** in 2026, the second-highest level on record.
 
 The longer those supplies remain available, the more room markets have to absorb individual shocks.
 
@@ -133,3 +135,24 @@ Each measure has its own publication schedule and reference period. A forecast w
 A recovery dashboard should have separate rows for availability, affordability and access. Availability can be assessed through harvest estimates, stocks, imports and market supply. Affordability needs consumer food inflation, wages or income, exchange rates and the cost of a basic food basket. Access requires evidence about transport, market function, conflict, displacement, humanitarian coverage and the ability of households to reach food safely.
 
 Set a baseline date for each indicator and avoid combining observations from different reporting periods into a single “recovery” score. A fall in the inflation rate means prices are rising more slowly; it does not mean the price level has returned to its earlier point. A forecast period ending also does not prove that a humanitarian emergency has ended. The article can be updated responsibly by stating which part of the dashboard improved, which remains under pressure and when the next source release is expected.
+
+
+## Where the recovery indicators stand on 19 November 2026
+
+The latest FAO releases show why recovery needs to be measured across several parts of the food system. The October Food Price Index eased by 1.2% from September to 133.9 points, but remained 5.9% above October 2025. The November cereal outlook forecasts a large 2026 harvest, but also a 3.3% contraction in 2026/27 cereal trade and an 8.6% fall in wheat trade. Global cereal stocks are forecast to rise 1.8%.
+
+| Recovery dimension | Latest indicator | What has improved—or remains unresolved |
+| --- | --- | --- |
+| International affordability pressure | FAO Food Price Index: −1.2% month on month in October; +5.9% year on year | The index eased recently, but the annual comparison is still higher |
+| Global availability | 2.999 billion tonnes of cereal production forecast for 2026 | Total output remains historically high; this does not describe every country's local supply |
+| Trade access | 2026/27 cereal trade forecast −3.3%, wheat trade −8.6% | A large harvest does not guarantee that exporters can move the same volume or buyers can secure deliveries |
+| Stock buffer | Global cereal stocks forecast +1.8% by the close of 2027 seasons | Stocks can cushion shocks, but their location, quality and release arrangements matter |
+| Humanitarian access | Continue to use the latest IPC, Cadre Harmonisé and FAO–WFP hotspot assessments | A global market improvement does not end conflict, displacement or blocked access in a specific district |
+
+This snapshot is not a declaration that the crisis is ending or worsening everywhere. It shows a mixed global picture: the headline food-price index eased during October, while trade forecasts remain constrained and the global harvest remains large. The household effect still depends on domestic inflation, income, exchange rates and the ability of food to reach local markets.
+
+## What counts as evidence that recovery is durable?
+
+A one-month price decline is an early signal, not a durable recovery. Look for confirmation across consecutive releases and across the relevant stage of the chain. For an importing country, that could mean more reliable cargo arrivals, lower landed costs, stable foreign-exchange access and adequate physical stocks. For a farm-dependent region, it could mean observed rainfall and soil moisture improving at the crop's critical stage, not just a more favourable seasonal forecast. For a conflict-affected population, it means safer access to markets and assistance, functioning livelihoods and better food-security classifications.
+
+Keep the baseline and the comparison period fixed when possible. A 5% fall from an unusually high price is still not necessarily a return to normal affordability. A national stock release may improve market availability while a remote district remains cut off. Report the location, commodity, reference period and source beside every claim of recovery.

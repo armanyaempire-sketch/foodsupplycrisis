@@ -24,7 +24,7 @@ sources:
 related: []
 ---
 
-> **Update — 19 November 2026:** Replaced the repeated household appendix with an implementation lens that distinguishes emergency relief, market resilience and long-term production measures.
+> **Update — 19 November 2026:** Added a constraint-led intervention matrix so the ten solutions are selected by local failure point, crop system and infrastructure instead of being applied as one universal package.
 
 Food crises rarely have a single cause, so resilience rarely has a single solution.
 
@@ -141,3 +141,18 @@ Food-system solutions work on different clocks. Emergency cash, food assistance 
 This matters when judging a proposal. Ask **who benefits**, **how soon the result should appear**, **which constraint it addresses**, and **what indicator would show progress**. A storage project can be measured by post-harvest loss and stock quality; irrigation by water productivity and reliability; cash support by food access and dietary outcomes; trade reform by delivery times, competition and price spreads. The metric should fit the intervention.
 
 No single technology or policy can eliminate hunger. A successful programme usually combines production, logistics, affordability and safety-net measures, with local evidence guiding the balance. The useful test is not whether a solution sounds ambitious, but whether it addresses a diagnosed bottleneck and can be evaluated openly.
+
+## Choose the intervention by the local failure point
+
+Before funding a project, identify what is actually failing. A water project, a new silo or a cash-transfer programme can all be valuable, but they solve different problems.
+
+| Local condition | Intervention that fits | Evidence to measure before scaling |
+|---|---|---|
+| Rain-fed farming with unreliable seasonal onset | Locally adapted seed, sowing-window advice, soil cover and seasonal forecast services | Rainfall onset, soil moisture, crop-stage losses and yield stability across several seasons |
+| Irrigated basin with falling groundwater or reservoir storage | Water accounting, canal scheduling, irrigation efficiency and enforceable groundwater management | Water table, reservoir inflow, water delivered per hectare and crop water productivity |
+| Hot or humid post-harvest environment | Drying capacity, moisture testing, sealed storage where appropriate and pest monitoring | Incoming grain moisture, storage losses, mould/pest incidence and usable grain after storage |
+| Import-dependent market with one vulnerable port or corridor | Supplier and route diversification, customs/port efficiency and contingency contracts | Share of imports by origin/route, vessel delays, port throughput and replacement landed cost |
+| Conflict-affected population with disrupted access | Protected humanitarian access, local-market support where trade works and direct assistance where it does not | Market functionality, safe access, displacement, assistance coverage and nutrition outcomes |
+| Food is available but household income cannot cover it | Targeted cash/vouchers or social protection where markets can supply food | Cost of a local basic basket relative to income, transfer adequacy and household food-access outcomes |
+
+The project should also fit local capacity. A cold store is not a solution where electricity is unreliable and there is no maintenance budget; a large silo is not useful without drying and moisture control; drip irrigation is not automatically sustainable if groundwater extraction is already exceeding replenishment. Match each investment to a working operator, a recurrent budget and a measurable local bottleneck.

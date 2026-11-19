@@ -22,7 +22,7 @@ sources:
 related: []
 ---
 
-> **Update — 19 November 2026:** Replaced the repeated generic appendix with a more specific rotation and budgeting method for building a household reserve without hoarding.
+> **Update — 19 November 2026:** Recast this as a quantity-setting method based on local interruption risk, current supplies, household storage capacity and budget; detailed food lists remain in the separate pantry guide.
 
 Emergency food storage is most useful when it solves a realistic problem: a short interruption to normal shopping, transport, electricity or water.
 
@@ -124,7 +124,13 @@ This spreads the cost and avoids a single large panic purchase.
 
 ## Bottom line
 
-A household reserve should be built from normal consumption and storage capacity, then rotated through ordinary meals. The practical test is whether the supplies remain safe, familiar and affordable—not whether the pantry contains the largest possible number of days.
+Set a target before buying. Use this calculation:
+
+**Target quantity = normal daily household use × the locally recommended interruption period − usable supplies already at home.**
+
+Then apply two limits: the amount must fit in safe storage, and the cost must not displace rent, utilities, medicine or other essentials. “Three days”, “seven days” or “thirty days” should not be copied from another country's guidance without checking the local authority and the hazard being planned for.
+
+The target also changes with the type of interruption. A delivery delay may affect one staple; a water outage changes the amount of safe water needed; a power cut reduces the usefulness of refrigerated food; an evacuation requires portable supplies rather than a heavy cupboard reserve. Keep these scenarios separate instead of trying to cover every possible event with one large stockpile.
 
 ## Turn household consumption into a rotation plan
 

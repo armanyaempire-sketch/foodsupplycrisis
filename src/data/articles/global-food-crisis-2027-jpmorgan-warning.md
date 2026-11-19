@@ -32,7 +32,7 @@ related:
   - /articles/fertilizer-shortage-2026/
 ---
 
-> **Update — 19 November 2026:** Reduced the generic household-preparedness material and made the close focus on the assumptions, dates and indicators needed to test the bank's conditional inflation scenario.
+> **Update — 19 November 2026:** Removed the repeated generic household stockpiling checklist. The household section now focuses on India's distinct affordability channels and points to the separate local pantry resource only for storage details.
 
 Food is one of the few household expenses that cannot be reduced to zero. A family can postpone a new phone, delay a holiday or cut back on other discretionary spending. It still has to buy food.
 
@@ -387,83 +387,16 @@ Better storage, cold chains, roads and logistics can effectively add usable food
 
 Predictable trade is itself a food-security tool. Sudden export restrictions can protect one market while tightening conditions elsewhere.
 
-## What households can do now
+## What the warning means for Indian households
 
-Households cannot control El Niño, fertilizer production or international shipping.
+The report's India implications should be read through the country's actual food channels, not as a signal for every family to stockpile the same items.
 
-They can control their own preparedness.
+- **Households covered by the Public Distribution System:** check entitlement, ration-shop availability and any state-specific notice. A global commodity forecast does not replace the local allocation and distribution channel.
+- **Urban households buying nearly all food at retail:** compare the price of the foods actually consumed—cereals, pulses, edible oil, vegetables and milk—with monthly income. The immediate vulnerability may be affordability, not physical absence.
+- **Rural households with farm income:** monitor the crop and input that affect the household's own production and cash flow. A rise in the selling price of one crop can be offset by higher fertilizer, diesel, irrigation or labour costs.
+- **Households in water-stressed districts:** follow local reservoir, canal and municipal supply notices. Water management and the local crop calendar matter more than a generic El Niño label.
 
-The goal should be **proportionate preparation, not panic buying**.
-
-### 1. Review the food budget
-
-Look at the actual monthly grocery bill.
-
-Identify the products that make up most of the spending and note which have easy substitutes.
-
-This makes a future price increase easier to manage.
-
-### 2. Reduce food waste
-
-Use a simple rotation system.
-
-Plan meals before shopping. Store food correctly. Freeze suitable foods. Use leftovers safely. Check dates and package condition.
-
-Reducing waste effectively increases the amount of food your household gets from the same budget.
-
-### 3. Keep a modest pantry reserve
-
-Store foods your household already eats and that can be safely kept for an extended period.
-
-For a practical household reserve, group supplies by function:
-
-| Category | Examples | Storage principle |
-|---|---|---|
-| Grains | Rice, oats, pasta | Keep sealed, dry and pest-free |
-| Protein | Lentils, beans, canned fish, nut or seed butter | Rotate and store according to label |
-| Produce | Canned or dried vegetables and fruit | Check packaging before use |
-| Cooking fats | Cooking oil and suitable shelf-stable fats | Protect from heat and light |
-| Ready-to-eat foods | Canned meals, crackers, bars | Keep a manual opener if needed |
-| Special needs | Infant, pet or allergy-safe foods | Maintain a separate rotating supply |
-
-Do not build a huge stockpile simply because a forecast is circulating.
-
-The right amount depends on household size, normal consumption, storage space and local conditions.
-
-### 4. Store water correctly
-
-For genuine emergency preparedness, CDC guidance recommends at least one gallon of water per person per day for at least three days, with longer supplies considered where practical.
-
-Use commercially bottled water where possible. If storing water yourself, use a suitable food-grade container, keep it clean and covered, label it and protect it from heat, sunlight and chemicals.
-
-Never reuse containers that held chemicals.
-
-During an actual water emergency, follow local public-health or water-authority instructions.
-
-### 5. Protect refrigeration
-
-If a power disruption occurs, keep refrigerator and freezer doors closed as much as possible.
-
-USDA food-safety guidance indicates that an unopened refrigerator generally stays cold for about four hours, while a full freezer can remain cold for approximately 48 hours and a half-full freezer for about 24 hours.
-
-Those are general guidance figures, not a guarantee that every food item remains safe. Follow current food-safety instructions and use appliance thermometers where practical.
-
-### 6. Build meals around substitutes
-
-If one staple becomes expensive, substitute rather than panic-buy.
-
-For example, a household can compare the cost of several grains, legumes, vegetables or protein sources and choose the combination that meets nutritional needs at the lowest practical cost.
-
-This is especially useful during inflation because **flexibility is a form of resilience**.
-
-### 7. Follow credible information
-
-Use official agencies, established agricultural organizations and the original research where available.
-
-Be cautious with viral posts claiming that a specific food will "disappear" on a particular date.
-
-A forecast is not evidence of a local shortage.
-
+For quantities, food categories and safe storage, use the dedicated [30-day emergency pantry guide](/articles/best-non-perishable-foods-30-day-emergency-pantry/). This article is about the JPMorgan scenario and India's exposure channels, not a second pantry checklist.
 ## How to tell whether the situation is getting worse
 
 Watch for several signals together rather than one dramatic headline.

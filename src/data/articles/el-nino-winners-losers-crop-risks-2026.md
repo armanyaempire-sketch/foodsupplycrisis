@@ -24,7 +24,7 @@ sources:
 related: []
 ---
 
-> **Update — 19 November 2026:** Replaced the generic preparedness ending with a crop-calendar method for assessing El Niño exposure, so the regional analysis is not duplicated by the separate El Niño explainer.
+> **Update — 19 November 2026:** Added a regional farm-decision matrix; the article now distinguishes rice irrigation, Australian dryland crops, South Asian sowing and rain-fed production rather than offering one global weather response.
 
 Calling countries “winners” and “losers” can make El Niño sound more predictable than it really is.
 
@@ -125,3 +125,16 @@ A climate phase is a background condition, not a crop-loss estimate. The same El
 For each crop and region, check four things before describing the impact: **the planting and flowering window**, **observed rainfall and soil-moisture conditions**, **the share of the crop that depends on rain-fed production**, and **the latest official yield or production estimate**. Then compare the result with the local historical baseline. A forecast probability should not be presented as though it were an observed drought, and a national production estimate should not hide severe losses in one producing region.
 
 The trade effect is a separate step. A local shortfall may be partly offset by stocks or imports, while a disruption affecting several exporters at the same time can make substitution more difficult. This article maps the regional crop pathways; the separate very-strong-El-Niño explainer covers the forecast categories and how to interpret the strength of the event.
+
+## What growers should decide by crop system
+
+| Region and crop system | Decision to make locally |
+|---|---|
+| Philippines and other irrigated rice systems | Confirm reservoir releases and irrigation rotations before setting transplanting dates or a second crop. Use provincial drought status and the irrigation district's schedule, not the ENSO category alone. |
+| Australia dryland wheat, barley and canola | Use BOM district rainfall, soil-moisture and heat forecasts to set crop expectations. Where water is constrained, protect soil cover and avoid assuming that the wetter outlook for eastern inland districts applies to the far north, west or Tasmania. |
+| India Rabi wheat and other winter crops | Follow state and district agromet bulletins for sowing window, soil moisture and irrigation timing. A very strong El Niño does not mean that every Rabi crop needs less water or that every region will be dry in November. |
+| Pakistan irrigated wheat and rain-fed crops | Base planting and early irrigation on canal turns, groundwater access and local soil moisture. A farm relying on canal delivery faces a different constraint from a rain-fed farm in a dry district. |
+| Brazil's summer soybean and maize | Use the INMET regional rainfall outlook and field soil moisture to manage sowing dates and stand establishment. In wetter southern areas, protect field access and drying capacity; in drier centre-north areas, avoid treating an isolated shower as a reliable rainfall pattern. |
+| Southern African rain-fed maize and livestock | Use local seasonal forecasts and extension advice to align seed choice, planting date and livestock feed plans with district rainfall and pasture conditions. Do not transfer an Australian or Asian crop response to a different rainfall regime. |
+
+The useful intervention is the one matched to the crop's critical growth stage and the water source available to that field.

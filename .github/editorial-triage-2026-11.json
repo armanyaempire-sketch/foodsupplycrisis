@@ -1,0 +1,150 @@
+{
+  "reviewed_on": "2026-11-19",
+  "purpose": "Manual editorial intent decisions for articles whose core word count falls in the 700–1,200 heuristic band. These decisions are not Google word-count rules; they record whether a focused article should be retained or received a substantive evidence update.",
+  "articles": {
+    "black-sea-food-crisis-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the corridor-and-delivered-cost explainer; the Russia–Ukraine page covers the exporter and route network, while this page explains how shipping, insurance and importer substitution transmit into grain markets."
+    },
+    "countries-most-exposed-food-crisis-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as a comparative country-exposure framework covering import concentration, purchasing power, reserves and conflict access; the humanitarian hotspot pages answer a different question about acute need."
+    },
+    "cut-grocery-bill-when-food-prices-rise": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the household affordability guide focused on receipts, unit prices, meal costs, substitutions and waste; it is not a stockpiling or emergency-pantry checklist."
+    },
+    "egypt-wheat-bread-crisis-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain the Egypt-specific wheat procurement, subsidised baladi bread, mill and fiscal pass-through analysis; its buyer-specific response is not interchangeable with other importer country pages."
+    },
+    "el-nino-winners-losers-crop-risks-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as a cross-region crop-calendar comparison showing why El Niño impacts differ by crop and place; the NOAA-focused page covers the climate signal rather than regional crop exposure."
+    },
+    "europe-food-security-72-hours-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as a comparison of national civil-protection preparedness guidance and resilience layers; it does not claim that a 72-hour household plan measures European food reserves."
+    },
+    "fao-food-price-index-explained-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the indicator-methodology explainer for the FAO international commodity index; the monthly country tracker measures national consumer-price series."
+    },
+    "fertilizer-independence-resilient-farming": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the long-term structural policy page on domestic capacity, import diversity, soil and nutrient efficiency; the fertilizer-shortage page covers the near-term disruption and crop-stage response."
+    },
+    "fertilizer-shortage-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the near-term fertilizer market and farm decision article, with distinctions by nutrient, delivery window and crop stage; long-term fertilizer independence remains a separate policy topic."
+    },
+    "germany-harvest-drought-food-prices-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the Germany-specific harvest, milling-quality, river transport and bread-price pass-through case; a national crop total alone cannot answer the local market questions."
+    },
+    "gulf-food-security-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the Gulf-market resilience comparison across import concentration, ports, cold chains and reserves; the Hormuz page focuses on the geopolitical route and indirect transmission channels."
+    },
+    "how-can-world-prevent-food-crisis-10-solutions": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the cross-sector prevention framework mapping policy tools to local failure points and time horizons; country pages apply those tools to individual situations."
+    },
+    "how-governments-build-food-reserves-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the public reserve governance and infrastructure explainer, distinguishing target stocks, physical stocks, quality, release rules and climate-appropriate storage."
+    },
+    "how-to-stockpile-food-and-water-sensibly-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the household quantity, rotation and storage-capacity planning method; the pantry article evaluates food types and the water article covers water safety."
+    },
+    "how-to-store-water-at-home-safely": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the household drinking-water safety guide about source, container, hygiene, storage conditions and local authority instructions; agricultural water scarcity is covered separately."
+    },
+    "japan-rice-prices-food-security-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the Japan-specific rice price and reserve-policy analysis distinguishing contracted purchases, physical deliveries, releases and market transactions."
+    },
+    "nigeria-hunger-crisis-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the Nigeria-specific Cadre Harmonisé assessment and state/livelihood response analysis; the regional hotspot comparison is broader and does not replace the Nigeria detail."
+    },
+    "philippines-food-water-el-nino-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the Philippines-specific PAGASA, province, irrigation and rice crop-calendar analysis; it translates the wider ENSO signal into local water decisions."
+    },
+    "russia-ukraine-grain-exports-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the exporter and origin-side analysis of Ukrainian and Russian logistics, port capacity and export continuity; the Black Sea page explains the broader market transmission."
+    },
+    "southeast-asia-rice-prices-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the regional rice market comparison distinguishing paddy, milled rice, export quotations and household prices across national systems."
+    },
+    "sudan-food-crisis-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the Sudan-specific conflict, displacement, IPC period and access analysis; the four-emergency comparison deliberately does not replace this country detail."
+    },
+    "sudan-yemen-somalia-gaza-famine-risk-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the comparative humanitarian assessment explaining why classifications, periods, geographies and operational responses differ across four emergencies."
+    },
+    "turkey-wheat-harvest-food-inflation-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the Türkiye case study on a strong harvest coexisting with food inflation, exchange-rate effects and local harvest/market decisions."
+    },
+    "us-food-prices-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the United States fertilizer, state-level drought and winter-wheat conditions analysis; the national price-transmission article covers broader global mechanisms."
+    },
+    "very-strong-el-nino-2026-food-production": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the NOAA signal-to-field evidence article with climate, field and market decision gates; the crop-risk comparison page covers regional outcomes."
+    },
+    "water-crisis-food-crisis": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the agricultural water-system explainer separating rain-fed, canal, groundwater, reservoir and desalination-dependent production."
+    },
+    "why-global-food-prices-rising-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the price-transmission explainer tracing export quotation through currency, freight, handling, processing and retail; commodity index and country tracker pages serve different functions."
+    },
+    "why-people-stockpiling-food-2026": {
+      "action": "KEEP_FOCUSED",
+      "rationale": "Retain as the behavioural explainer on why households buy extra and how demand surges create shelf gaps; the fact-check article tests viral claims against source evidence."
+    },
+    "uk-food-shortage-2026": {
+      "action": "EXPANDED",
+      "rationale": "Updated with the published UK Be Ready three-day guidance, official household water planning figure and 2025 national food-supply measures; supersedes the earlier press-reporting-led treatment."
+    },
+    "pakistan-flour-wheat-food-security-2026": {
+      "action": "EXPANDED",
+      "rationale": "Added PBS October urban and rural wheat-flour CPI movements plus the 12 November 17-city weekly SPI quotation, preserving the distinction between basket inflation and a local retail price."
+    },
+    "food-inflation-by-country-monthly-tracker-2026": {
+      "action": "EXPANDED",
+      "rationale": "Added the October 2026 BLS, ONS and Eurostat readings with precise measure labels and release periods, avoiding invalid cross-country rankings."
+    },
+    "oil-energy-food-prices-2026": {
+      "action": "EXPANDED",
+      "rationale": "Updated the FAO October price baseline and added a channel-by-channel test for fuel, gas/fertilizer, electricity and marine freight pass-through."
+    },
+    "strait-of-hormuz-food-crisis-2026": {
+      "action": "EXPANDED",
+      "rationale": "Updated FAO's November cereal trade baseline and added a route-exposure matrix that separates direct fertilizer flows, indirect energy exposure and importer buffers."
+    },
+    "food-collapse-fact-check-2026": {
+      "action": "EXPANDED",
+      "rationale": "Updated cereal and price baselines and added a claim-to-source matrix and source-quality hierarchy so viral assertions can be checked against the right evidence."
+    },
+    "food-prices-2027-forecast-scenarios": {
+      "action": "EXPANDED",
+      "rationale": "Rebased the conditional 2027 outlook on FAO's November production, trade and stock forecasts and added commodity-specific scenario interpretation without inventing probabilities."
+    },
+    "when-will-food-crisis-end-2026": {
+      "action": "EXPANDED",
+      "rationale": "Added a dated recovery dashboard that separates price, production, trade, stocks and humanitarian access rather than assigning one speculative end date."
+    }
+  }
+}

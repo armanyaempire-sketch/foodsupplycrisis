@@ -23,7 +23,7 @@ sources:
 related: []
 ---
 
-> **Update — 19 November 2026:** Removed repeated general household advice and made the conclusion more precise about IPC periods, geographic coverage and access constraints in Sudan.
+> **Update — 19 November 2026:** Added a Sudan-specific response map based on access and livelihood conditions, replacing broad advice that did not distinguish conflict-affected communities from functioning market areas.
 
 Sudan remains one of the world's most severe food-security emergencies, but the scale of the crisis needs to be described with care.
 
@@ -106,3 +106,16 @@ A Sudan food-security figure is meaningful only when the assessment period, affe
 The same caution applies to the word “Famine.” An IPC Famine classification is a specific, area-based determination that requires evidence against defined thresholds. A statement that an area is at risk of Famine under a reasonable worst-case scenario is not the same as a declaration that Famine exists throughout Sudan. The distinction should remain visible in headlines, summaries and charts.
 
 For updates, check the newest IPC analysis and the underlying geographic maps, not only a secondary article quoting a national total. Note whether figures include internally displaced people, whether access constraints limit data collection and which localities are covered. These details do not reduce the seriousness of the crisis; they make the description accurate enough to support humanitarian decisions and prevent a local assessment from being generalised beyond its evidence.
+
+## What an effective response looks like in different Sudan settings
+
+The correct intervention depends on whether people can reach a market, whether the market can be replenished and whether livelihoods remain usable.
+
+| Local setting | First constraint to assess | Better-fit response |
+|---|---|---|
+| Communities cut off by active conflict | Safe movement of civilians, aid workers and cargo | Negotiate and protect humanitarian access; use pre-positioned food and nutrition supplies only where safe storage and a feasible distribution plan exist. |
+| Displacement sites and receiving towns | Sudden growth in demand for food, water, shelter and health services | Scale water, sanitation, nutrition and food assistance together, and monitor host-community market prices so assistance does not ignore nearby residents. |
+| Areas where markets still operate | Purchasing power, road access and trader replenishment | Use cash or vouchers when traders can restock safely; use direct food delivery when market supply or access has broken down. |
+| Farming and livestock areas where access is possible | Loss of seed, tools, animals, pasture or irrigation | Protect the next production cycle with locally suitable seed, animal-health, water and livelihood support rather than a generic national input package. |
+
+For households already displaced or trapped by access restrictions, advice to build a pantry or store water is not a substitute for assistance. The priority is safe access to food, water, health care and protection.

@@ -24,7 +24,7 @@ sources:
 related: []
 ---
 
-> **Update — 19 November 2026:** Added measurement rules for the country tracker so readers do not mistake different inflation periods, definitions or provisional releases for like-for-like comparisons.
+> **Update — 19 November 2026:** Refreshed the global, India and Australia reference points with the latest verified October/September releases and clarified their different reference periods and measures.
 
 Food inflation is one of the easiest food-system indicators to understand and one of the easiest to misuse.
 
@@ -55,15 +55,15 @@ Older numbers should stay visible only when they provide historical context.
 
 | Market | Reference period | Food-price measure | Latest verified reading |
 | --- | --- | --- | --- |
-| Global | September 2026 | FAO Food Price Index | 136.0 |
-| India | July 2026 | Consumer Food Price Index, year on year | 5.52% |
-| Australia | June 2026 | Food & non-alcoholic beverages, year on year | 3.3% |
+| Global | October 2026 | FAO Food Price Index | 133.9 points; −1.2% month on month; +5.9% year on year |
+| India | October 2026 | Consumer Food Price Index, year on year | 8.94% provisional (rural 9.09%; urban 8.68%) |
+| Australia | September 2026 | Food and non-alcoholic beverages, year on year | 3.2% |
 
-The global figure is an international commodity index, not consumer inflation.
+The global figure is an international commodity index, not consumer inflation. FAO reported that October's index was also 16.4% below its March 2022 peak.
 
-India's 5.52% figure is the provisional July 2026 CFPI rate published by India's Ministry of Statistics and Programme Implementation.
+India's October CFPI figure is provisional. The Ministry of Statistics and Programme Implementation reported 8.94% year-on-year food inflation, with 9.09% in rural areas and 8.68% in urban areas. September's corresponding figure was final at 7.74%.
 
-Australia's 3.3% figure is the annual inflation rate for food and non-alcoholic beverages in the June 2026 CPI release.
+Australia's September 2026 figure is the annual movement for the Food and non-alcoholic beverages group in the weighted average of eight capital cities. The ABS reported a 0.0% monthly change for that group in September, so the 3.2% figure should not be mistaken for the monthly movement.
 
 ## Why countries cannot be compared blindly
 
@@ -79,9 +79,7 @@ That means a 5% food-inflation reading in one country is not necessarily equival
 
 ## What the global FAO index adds
 
-FAO's Food Price Index reached 136.0 in September 2026, up 1.5% from August and 5.8% from September 2025.
-
-The increase was driven by higher prices in cereals, vegetable oils and sugar, while meat declined and dairy was broadly stable.
+FAO's Food Price Index averaged 133.9 points in October 2026, down 1.2% from its revised September level but 5.9% above October 2025. Cereals, dairy and meat eased; sugar rose 6.6% month on month and vegetable oils increased marginally.
 
 This provides the international backdrop.
 

@@ -13,16 +13,12 @@ keywords:
   - Europe drought food prices
 type: analysis
 sources:
-  - name: German Farmers' Association / AFP coverage
-    url: https://macaubusiness.com/german-farmers-warn-drought-will-spell-heavy-crop-losses/
-  - name: Reuters-related German harvest reporting
-    url: https://www.cash.ch/news/top-news/bauernverband-zieht-bittere-erntebilanz-standort-entschied-wie-selten-zuvor-961687
-  - name: dpa-related German harvest reporting
-    url: https://www.infranken.de/deutschland/getreide-verbrennt-duerre-schmaelert-ernte-2026-art-6388079,PRINT
+  - name: German Federal Government — Erntebericht 2026, 2 September 2026
+    url: https://www.bundesregierung.de/breg-de/suche/erntebericht-2026-2451194
 related: []
 ---
 
-> **Update — 19 November 2026:** Replaced the generic preparedness ending with a harvest-to-retail explanation and a reminder to reconcile official harvest estimates with matching crop definitions.
+> **Update — 19 November 2026:** Corrected the national grain estimate to the German federal government’s 2 September preliminary harvest report and replaced the inconsistent secondary-source totals.
 
 Germany's 2026 harvest provides another useful lesson: a serious agricultural problem does not automatically become an equally large consumer food-price shock.
 
@@ -32,7 +28,7 @@ Dry conditions have damaged crops in parts of the country, while low river level
 
 German farmers' representatives have warned that the country's grain output will be lower in 2026.
 
-Reports citing the German Farmers' Association put the crop around 41.9 million tonnes, roughly 7% below the previous year.
+The German federal government's preliminary 2026 harvest report estimated the grain harvest at about **37.4 million tonnes**, 7.3% below 2025. It estimated the winter-wheat harvest at about **20.2 million tonnes**. These are preliminary official figures, not final outturns.
 
 Rapeseed yields have also been under pressure.
 
@@ -44,7 +40,7 @@ A loaf of bread contains more than grain.
 
 The final price also includes milling, bakery labor, electricity, rent, packaging, transport and retail costs.
 
-That means a 7% change in national grain production does not translate mechanically into a 7% change in bread prices.
+That means a 7.3% change in the preliminary national grain estimate does not translate mechanically into a 7.3% change in bread prices.
 
 ## River transport is another risk
 

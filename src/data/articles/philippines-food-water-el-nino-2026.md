@@ -91,3 +91,9 @@ The Philippines' exposure to El Niño cannot be described by one national rainfa
 The supply response also has a timetable. Domestic harvests, public procurement, commercial inventories and imports enter the market at different points in the season. An import decision can help bridge a gap, but the timing of tenders, shipping and port arrival matters. Retail rice prices may therefore respond before or after a national production estimate is revised.
 
 For a grounded update, compare regional rainfall and reservoir reports with the latest agriculture department crop outlook, rice harvest and import-arrival figures, and market prices. Keep paddy and milled-rice units separate. This makes it possible to distinguish a weather warning from a confirmed production loss and a local price movement from a wider supply problem.
+
+## The timing of irrigation stress is critical
+
+A reservoir level is useful only when read with the irrigation calendar and the areas it supplies. Water stored in a dam may support one cropping cycle but be insufficient for a second, while a rainfall deficit outside the planting window may have a smaller effect on yield. Check whether the source reports total storage, usable storage, inflows, planned releases or the share of irrigable land receiving service. These are distinct measures.
+
+The food-market effect also depends on harvest timing. A shortfall in one rice-producing area may be offset by other provinces or imports, but the replacement grain must arrive before local stocks are exhausted. Compare regional crop estimates with procurement and import-arrival dates, then check retail prices for the same rice variety and market. This sequence helps distinguish an El Niño warning from a verified loss of production, and a production loss from a shortage that consumers can actually observe.

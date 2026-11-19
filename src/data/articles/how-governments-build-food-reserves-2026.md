@@ -19,10 +19,16 @@ sources:
     url: https://www.stats.gov.cn/english/PressRelease/202607/t20260713_1964103.html
   - name: Al-Monitor/Reuters — Gulf food strategy
     url: https://www.al-monitor.com/originals/2026/03/gulf-food-strategy-tested-iran-war-snarls-shipping-routes
+  - name: FAO — Grain storage: bulk storage and aeration
+    url: https://www.fao.org/4/T1838E/T1838E1b.htm
+  - name: FAO — Manual of the prevention of post-harvest grain losses: central storage
+    url: https://www.fao.org/4/x5065e/x5065E0a.htm
+  - name: FAO — Factors influencing the choice of bulk store
+    url: https://www.fao.org/4/T1838E/T1838E19.htm
 related: []
 ---
 
-> **Update — 19 November 2026:** Removed the repeated household checklist and clarified the difference between public strategic stocks, commercial inventories and policy targets.
+> **Update — 19 November 2026:** Added storage-capacity rules by commodity and climate. Public reserves are now evaluated by warehouse condition, moisture control, cold-chain reliability and distribution reach, not just announced tonnage.
 
 Food reserves are one of the oldest tools governments use to manage supply risk.
 
@@ -119,3 +125,16 @@ Stock rotation and transparency are central to effectiveness. A reserve that is 
 An operational reserve needs a public purpose, an accountable custodian and a release mechanism that can be used in time. A useful public report identifies the commodity, quality grade, storage location, physical quantity, inspection date and whether the stock is owned by the state or held under contract. It should also explain the conditions under which releases can occur and which buyers or households can receive the product.
 
 Procurement and release decisions create trade-offs. Buying too aggressively can raise local prices or crowd out private traders; releasing too slowly can make a reserve irrelevant during a short disruption. Rotation reduces spoilage but means the headline inventory changes as older grain is sold and replaced. Compare stocks with domestic consumption or expected use only when both figures use compatible units and periods. A credible reserve policy is transparent about these limits and publishes deliveries and releases separately from targets, tenders and announcements.
+
+## Match reserve infrastructure to the commodity and climate
+
+A reserve is only usable while the stored food remains safe and can be moved to buyers. Infrastructure that works for dry grain may be unsuitable for chilled foods or humid coastal conditions.
+
+| Reserve type | Storage capacity that actually matters | Operational checks |
+|---|---|---|
+| Bulk wheat, maize and other dry grain | Silo volume plus drying and aeration throughput; safe moisture depends on grain type, temperature, storage duration and the facility | Measure intake moisture by lot, monitor grain temperature and pests, maintain aeration, inspect roofs and drainage, and keep a stock ledger by grade and location. |
+| Bagged rice or pulses in humid regions | Dry raised floor space, pallets, roof protection, ventilation that matches local humidity and pest barriers | Keep bags off the floor and away from damp walls; inspect for insects and mould; separate wet lots and rotate stock before quality deteriorates. |
+| Meat, dairy, fish and other chilled products | Refrigerated space plus reliable electricity, backup power, temperature monitoring and spare parts | Track temperature continuously, validate backup power under load, and set a plan for stock transfer or safe disposal during a prolonged outage. |
+| Emergency food held near conflict or flood-prone areas | Distributed, accessible storage rather than one large central warehouse | Check road access, flood height, security, staff availability and the time required to move stock to distribution points. |
+
+A reserve manager should never count the nominal building capacity as usable reserve capacity. Usable tonnes are limited by the weakest link: safe storage, quality control, trained staff, power, handling equipment, transport and the ability to release stock before it spoils. The FAO's warehouse and bulk-storage guidance highlights moisture, aeration, pest protection and site drainage as core controls; local design must account for the actual climate and commodity.

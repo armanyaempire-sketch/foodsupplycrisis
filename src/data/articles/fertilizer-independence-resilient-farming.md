@@ -22,7 +22,7 @@ sources:
 related: []
 ---
 
-> **Update — 19 November 2026:** Replaced the repeated crisis-preparedness tail with a practical distinction between fertilizer self-sufficiency and resilient nutrient management.
+> **Update — 19 November 2026:** Added a long-term policy choice matrix by national energy base and import structure; this page now focuses on industrial and soil-system resilience, not short-term farm rationing.
 
 Fertilizer security is increasingly being treated as part of food security.
 
@@ -113,3 +113,16 @@ A serious resilience plan should therefore measure more than domestic factory ca
 A fertilizer strategy should be evaluated at the point where nutrients reach farms. Announced plant capacity is not the same as reliable commercial output, and output is not the same as affordable product available before the local application window. A plant may depend on imported gas, electricity, catalysts, spare parts, port access and working capital. A domestic production target can therefore overstate resilience if the plant's critical inputs remain concentrated in one supply route.
 
 A better dashboard tracks the share of imports sourced from the largest suppliers, delivery time to major farming regions, retail price relative to crop revenue, credit access, and whether dealers have the required nutrient grade in the planting period. Soil testing and extension services matter too: they help farmers apply the right amount rather than respond to high prices by cutting nutrients indiscriminately. The strongest policy mix diversifies exposure and improves nutrient-use efficiency while keeping environmental losses and farmers' cash constraints visible.
+
+## Choose the resilience model that fits the country's resource base
+
+There is no single fertilizer-independence model. The economically sensible mix depends on energy availability, mineral resources, farm structure, import concentration and the nutrient needs of local crops.
+
+| Country or system type | Long-term policy priority | What to measure |
+|---|---|---|
+| Gas-producing country with reliable low-cost energy | Assess whether domestic ammonia or urea production is competitive and resilient to plant outages | Plant utilisation, gas opportunity cost, maintenance, emissions and delivered farm-gate price. |
+| Import-dependent country without cheap gas | Diversify suppliers and ports, improve purchasing coordination and maintain regional distribution stocks | Supplier concentration, shipping lead time, currency exposure and delivery before the crop's application window. |
+| Smallholder-dominated farming system | Improve soil testing, extension, cooperative purchasing and access to the correct nutrient grade | Nutrient-use efficiency, dealer coverage, credit cost and yield response on representative soils. |
+| Intensive irrigated system | Pair nutrient efficiency with water management and crop-specific application timing | Soil organic matter, nutrient losses, irrigation quality and water productivity. |
+
+Domestic factory capacity should not be treated as a success measure by itself. A plant that depends on one imported energy source or cannot deliver affordable product to farms may add capacity without making farmers more secure.

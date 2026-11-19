@@ -17,8 +17,6 @@ type: analysis
 sources:
   - name: FAO Food Price Index — methodology and monthly series
     url: https://www.fao.org/worldfoodsituation/foodpricesindex/en/
-  - name: FAO Food Price Index Explained — October 2026
-    url: /articles/fao-food-price-index-explained-2026/
   - name: World Bank — Commodity Markets (Pink Sheet)
     url: https://www.worldbank.org/en/research/commodity-markets
   - name: FAO Cereal Supply and Demand Brief — October 2026

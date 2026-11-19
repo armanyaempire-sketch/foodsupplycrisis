@@ -22,7 +22,7 @@ sources:
 related: []
 ---
 
-> **Update — 19 November 2026:** Replaced the expired June–August 2026 projection with Nigeria’s latest Cadre Harmonisé current and projected figures, and kept their assessment periods explicit.
+> **Update — 19 November 2026:** Added a state- and livelihood-specific response guide for Borno, Sokoto and Zamfara; it separates conflict access, pastoral needs, market-based assistance and urban affordability.
 
 Nigeria is one of the countries where acute food insecurity is deteriorating even though the national food system is far larger and more diverse than the crisis areas suggest.
 
@@ -91,3 +91,12 @@ Readers should look for the original state-level map, population table, drivers 
 The lean season is the interval before the next main harvest when household food stocks can run down and market purchases become more important. The pressure is not evenly distributed: rural households dependent on their own harvest, pastoral communities, displaced families and urban households buying nearly all their food face different risks. A projected rise in the number of people in Crisis or worse should therefore be read alongside livelihood, market and assistance information, not as a simple count of people who have no food.
 
 The response should match the driver. Where conflict blocks access, safe humanitarian corridors and protection of civilians matter. Where prices are the main constraint, cash or voucher assistance may preserve choice if markets still function. Where households have lost seeds, livestock or tools, livelihood support may be necessary to prevent the next season from worsening. The assessment's state-level tables and displacement coverage help identify which response is appropriate. National totals show scale; local analysis shows what can actually help.
+
+## The response should differ by state and livelihood
+
+The Cadre Harmonisé figure is a national measure, but the operational response needs to follow the state map and local market function.
+
+- **Borno and hard-to-reach conflict-affected communities:** the first constraint may be safe access, not a lack of food in the wider country. Agencies and authorities should protect humanitarian routes, pre-position assistance only where access windows and storage conditions are known, and pair food delivery with water, nutrition and health services. A general household stockpile recommendation is inappropriate for displaced people who cannot safely carry or store supplies.
+- **Sokoto and Zamfara displacement-affected areas:** distinguish pastoral and farming livelihoods from urban market dependence. Where markets function, cash or vouchers can preserve choice; where insecurity has closed routes or traders cannot replenish, direct food assistance may be required. Verify current state-level market and displacement data before choosing the transfer type.
+- **Rural households approaching the 2027 lean season:** monitor seed availability, livestock condition, farm access and local input markets. Livelihood support should match what remains viable—seed and tools for accessible farming communities, animal-health and feed support for pastoral households.
+- **Urban households in functioning markets:** measure the price of the local staple basket against income and assistance coverage. An affordability problem calls for targeted support, not advice to buy more food.

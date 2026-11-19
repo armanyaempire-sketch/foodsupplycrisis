@@ -12,16 +12,14 @@ keywords:
   - Japan rice reserves
 type: analysis
 sources:
-  - name: Jiji/Adnkronos — Japan rice stockpile buyback, September 2026
-    url: https://english.adnkronos.com/2026/09/01/japan-govt-to-buy-back-210000-tons-of-rice-after-stockpile-release/
-  - name: Nippon.com — Japan rice market coverage
-    url: https://www.nippon.com/en/news/yjj2026082600978/
+  - name: Japan Ministry of Agriculture, Forestry and Fisheries — Rice Situation, October 2026
+    url: https://www.maff.go.jp/j/council/seisaku/syokuryo/261030/HP/sanko2.pdf
   - name: Japan Ministry of Agriculture, Forestry and Fisheries
     url: https://www.maff.go.jp/e/
 related: []
 ---
 
-> **Update — 19 November 2026:** Removed repeated household-preparedness material and clarified why announced rice purchases, contracted buybacks and usable reserve stocks are different measures.
+> **Update — 19 November 2026:** Replaced the September media report with the Ministry of Agriculture’s October 2026 material and clarified that the 210,000-tonne buyback was contracted, with delivery procedures still underway.
 
 Japan's rice story in 2026 shows why a food-security problem can be about prices and reserves without becoming a nationwide absence of food.
 
@@ -35,7 +33,7 @@ Rice prices rose sharply before easing later in 2026.
 
 The government responded by releasing reserve rice to increase market supply and later discussing purchases to rebuild stocks.
 
-Jiji reporting carried by Adnkronos said the government planned to buy back 210,000 tonnes after earlier stockpile releases.
+The Ministry of Agriculture, Forestry and Fisheries' October 2026 rice-market materials state that the government decided in September to buy back **210,000 tonnes (brown-rice basis) of 2025-crop rice**. The full quantity had been contracted, while procedures to take delivery were still underway. A contracted purchase is not the same as grain already received into the physical reserve.
 
 ## Why reserves matter
 

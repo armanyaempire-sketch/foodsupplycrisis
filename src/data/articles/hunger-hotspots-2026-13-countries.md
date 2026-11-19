@@ -17,10 +17,12 @@ sources:
     url: https://www.wfp.org/publications/hunger-hotspots-fao-wfp-early-warnings-acute-food-insecurity-june-november-2026
   - name: FAO — 13 hunger hotspots warning
     url: https://www.fao.org/newsroom/detail/new-fao-wfp-report-warns-worsening-hunger-puts-13-hotspots-at-significant-risk/
+  - name: Nigeria Cadre Harmonisé — October–December 2026 and June–August 2027
+    url: https://agrhymet.cilss.int/wp-content/uploads/2026/10/snapshop_Nigeria_nov26.pdf
 related: []
 ---
 
-> **Update — 19 November 2026:** Removed the repeated household checklist and added a guide to reading country-level humanitarian classifications without generalising a hotspot label to an entire population.
+> **Update — 19 November 2026:** Added the latest Nigeria Cadre Harmonisé assessment as a separate, dated national source and removed a generic household-preparedness conclusion that did not belong in this regional humanitarian review.
 
 Food insecurity is not spread evenly around the world.
 
@@ -66,9 +68,7 @@ The report noted that 1.6 million people were acutely food insecure in the perio
 
 ## Northeast Nigeria and Somalia
 
-Nigeria entered the highest-concern group because of worsening conditions, particularly in Borno State.
-
-Around 34.8 million people were projected to face Crisis or worse levels of acute food insecurity across the June-August 2026 period, including an estimated 15,000 people in Catastrophe in Borno.
+Nigeria entered the highest-concern group because of worsening conditions, particularly in Borno State. The FAO–WFP June–November 2026 outlook is a regional early-warning assessment. A separate national Cadre Harmonisé analysis subsequently estimated **26.8 million people** in Crisis (CH Phase 3) or worse across 26 states and the FCT during October–December 2026, including 756,815 internally displaced people in Borno, Sokoto and Zamfara. It projected **33.5 million** for June–August 2027, including 891,228 internally displaced people in those states. Those figures have a different period and assessment basis from the older June–August 2026 estimate; they should not be treated as a like-for-like trend without checking the methods.
 
 Somalia faces a different combination of prolonged drought, low agricultural output, conflict and economic pressure.
 
@@ -108,7 +108,7 @@ Our [Global Food Crisis](/global-food-crisis/) coverage explains how regional em
 
 ## Bottom line
 
-A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.
+The central finding is geographic: the 13-country alert identifies where conditions may deteriorate during its stated June–November 2026 window. It is not a global ranking of famine declarations. Readers should use the country maps and the latest national assessments to distinguish early warning, current acute food insecurity and a formally classified Famine.
 
 ## Read the period, area and classification before comparing hotspots
 

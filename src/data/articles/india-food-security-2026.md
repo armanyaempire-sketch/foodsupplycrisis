@@ -21,13 +21,15 @@ sources:
     url: https://www.fao.org/worldfoodsituation/csdb
   - name: FAO — Food Price Monitoring and Analysis
     url: https://www.fao.org/giews/food-prices/home/en/
+  - name: India Meteorological Department — November 2026 rainfall and temperature outlook, 31 October 2026
+    url: https://mausam.imd.gov.in/Forecast/marquee_data/Press_Release_NOV_31oct_2026.pdf
 related:
   - /articles/australia-grocery-prices-el-nino-2026/
   - /articles/bangladesh-food-crisis-2026/
   - /articles/food-inflation-by-country-monthly-tracker-2026/
 ---
 
-> **Update — 13 November 2026:** This article incorporates the October 2026 CPI release and the Government of India's 6 November rice-market measures. October food inflation is provisional and should be compared with the final September data using the same CPI base.
+> **Update — 19 November 2026:** Replaced the generic pantry recommendation with a region-specific India decision guide using IMD's November rainfall and temperature outlook and the next Rabi crop window.
 
 ## Key takeaways
 
@@ -101,10 +103,18 @@ The comparison does not make India's food inflation less serious. A large produc
 - Weekly stock declarations and any stock-limit actions in the five southern states.
 - State-level crop progress, rainfall, reservoir and fertiliser-delivery information through the next crop season.
 
-## If you live in India
+## What the November outlook means in different parts of India
 
-Use MoSPI CPI releases, state agriculture updates and official public distribution information to judge whether a problem is national or local. Watch the price of the staple grains and pulses your household buys most often rather than using one viral shelf photograph as a signal. For general household food planning, see the [30-day emergency pantry guide](/articles/best-non-perishable-foods-30-day-emergency-pantry/).
+IMD's 31 October outlook for November 2026 expected below-normal rainfall over most of India, with normal-to-above-normal rainfall possible in parts of central, north-western and north-eastern India. It also expected above-normal maximum temperatures across most of the country, with very strong El Niño conditions likely to persist in November–December. This is a national outlook; district agromet bulletins remain the right source for field decisions.
 
+| Location or group | Practical response |
+|---|---|
+| Punjab, Haryana and western Uttar Pradesh wheat growers | Make Rabi sowing and the first irrigation decision from the local PAU/SAU or district agromet bulletin, field moisture and the variety's recommended sowing window. Do not add irrigation simply because a national forecast mentions El Niño; use soil and canal/groundwater conditions. |
+| South Peninsular India, including Tamil Nadu, Puducherry, coastal Andhra Pradesh, Rayalaseema, Kerala and south interior Karnataka | With below-normal November rainfall more likely, farmers should confirm tank, reservoir and canal schedules before committing water-intensive acreage. Prioritise irrigation for critical crop stages and follow state water-allocation notices rather than assuming the monsoon has replenished every local source. |
+| Central, north-western and north-eastern areas with normal-to-above-normal rainfall probabilities | Do not assume a drought response is required everywhere. Watch district rainfall, drainage and crop-stage advisories; excess rain or waterlogging can create a different problem from water scarcity. |
+| Urban households and PDS users | Check the local PDS shop's allocation and the price of the grains and pulses the household actually buys. Keep only a manageable amount in a dry, pest-proof container; buying sacks beyond available storage can create moisture and pest losses. |
+
+For growers, the limiting store may be irrigation water, not grain storage. For households, the constraint may be a small damp kitchen cupboard rather than income alone. The right stock quantity therefore depends on local access and safe storage, not a single nationwide target.
 ## Assessment
 
 India's October food inflation increased even as the government expanded rice sales and stock monitoring. That is not a contradiction: consumer food prices cover many items, while OMSS(D) specifically targets rice-market supply. India's food-security position should be assessed through the interaction of domestic production, public stocks, price intervention, crop weather, input availability and household purchasing power. The evidence points to affordability pressure that warrants monitoring, not a simple claim that the country is running out of food.

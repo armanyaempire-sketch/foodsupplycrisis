@@ -17,12 +17,12 @@ sources:
     url: https://www.reuters.com/business/energy/oil-prices-barely-changed-investors-assess-us-iran-peace-talks-gulf-exports-2026-10-01/
   - name: FAO — Strait of Hormuz crisis and fertilizer scarcity, 7 May 2026
     url: https://www.fao.org/newsroom/detail/strait-of-hormuz-crisis--fertilizer-scarcity-will-affect-next-harvests-and-food-supplies--fao-warns/
-  - name: FAO Food Price Index — September 2026
+  - name: FAO Food Price Index — October 2026
     url: https://www.fao.org/worldfoodsituation/foodpricesindex/en/
 related: []
 ---
 
-> **Update — 19 November 2026:** Replaced the generic emergency appendix with a step-by-step explanation of the separate energy, fertilizer, freight and processing channels.
+> **Update — 19 November 2026:** Updated the global price reference to FAO's October release and added a channel-by-channel test for tracing energy costs into farm inputs, logistics and retail food prices.
 
 Energy is hidden inside almost every stage of the modern food system.
 
@@ -62,13 +62,11 @@ Shipping disruptions can add insurance and routing costs on top of the fuel bill
 
 This can increase the landed cost for an importer even when the underlying agricultural commodity price has changed only modestly.
 
-## What the September 2026 food-price data shows
+## What the October 2026 food-price data shows
 
-FAO's Food Price Index averaged 136.0 points in September 2026, 1.5% higher than August and 5.8% higher than September 2025.
+FAO's Food Price Index averaged **133.9 points in October 2026**, down 1.2% from September but 5.9% above October 2025. That mixed movement is important: the cereals index fell 4.5% month on month, while sugar rose 6.6% and vegetable oils edged up 0.3%.
 
-FAO said transport disruptions and weather concerns contributed to the rise.
-
-The index does not mean every country experienced the same food inflation. Local currency movements, domestic supply, taxes, wages and retail competition all matter.
+A decline in the aggregate index therefore does not mean every food commodity became cheaper. Nor does a global quotation map directly to the price paid by a household. Local currency movements, domestic supply, taxes, wages, energy contracts and retail competition all affect pass-through.
 
 ## Why oil prices do not translate one-for-one into food prices
 
@@ -109,3 +107,23 @@ An energy shock can reach food markets through several channels, and they do not
 The pass-through is not automatic. Farmers may have bought inputs months before a price change. Processors and retailers may operate under contracts. Governments may subsidise fuel, regulate prices or adjust import duties. Currency depreciation can amplify an import-cost shock, while a good harvest or cheaper alternative supplier can offset part of it.
 
 A useful review therefore separates the global energy benchmark from the local cost actually paid by farms and businesses. Check fertilizer quotations, domestic diesel and electricity prices, freight rates, currency movements and the timing of wholesale and retail food-price changes. If only crude oil has moved, it is too early to conclude that supermarket prices must rise by the same percentage.
+
+
+## Trace the energy shock by channel
+
+A useful investigation separates the cost that changed from the actor that pays it. The table below is a diagnostic framework; it does not assume that every cost rises together or reaches shoppers on the same date.
+
+| Channel | Where the cost appears first | Evidence to check | Who is most directly exposed |
+| --- | --- | --- | --- |
+| Diesel and transport fuel | Farm machinery, fishing, trucking and local distribution | Domestic diesel prices, freight quotes, delivery surcharges and fuel-tax changes | Farmers, hauliers, market traders and food distributors |
+| Natural gas and nitrogen fertilizer | Fertilizer manufacturing and wholesale nutrient prices | Gas benchmarks, urea prices, plant operating status, import offers and delivery dates | Fertilizer producers, importers and farmers buying nitrogen |
+| Electricity and other fuels | Irrigation pumping, milling, refrigeration, cold storage and food processing | Industrial electricity tariffs, outage notices, generator fuel costs and processor price notices | Irrigators, mills, cold stores, processors and retailers |
+| Marine fuel, insurance and routing | Import freight and the landed cost of cargo | Bunker costs, war-risk premiums, vessel routes, port delays and contract terms | Import agencies, commodity traders, millers and food manufacturers |
+
+## How to tell whether the energy shock is reaching a local food market
+
+Start with the product and the location. A diesel increase may matter most for produce hauled over long distances, while electricity costs can be more visible in chilled or heavily processed foods. Fertilizer costs affect farm decisions on a different timetable: a farmer who has already bought the season's nutrients may not face the same immediate cost as one who still needs to purchase and apply them.
+
+Then compare the affected cost with the product's price history. Look for a dated change in the input, a plausible link to the commodity or business, and a subsequent movement in wholesale or retail prices. Check whether exchange rates, taxes, harvest timing, seasonal demand or a local transport problem could explain the same movement. Do not attribute a price rise to oil merely because the two happened in the same month.
+
+For households, the practical distinction is whether food has become more expensive or harder to obtain. A higher fuel surcharge may be an affordability pressure while shelves remain replenished. A distribution failure requires separate evidence that deliveries are delayed or products are unavailable in the named market. This distinction keeps energy analysis from turning into an unsupported shortage forecast.

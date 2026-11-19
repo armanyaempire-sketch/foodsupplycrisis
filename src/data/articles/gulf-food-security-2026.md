@@ -18,8 +18,8 @@ sources:
     url: https://www.al-monitor.com/originals/2026/03/gulf-food-strategy-tested-iran-war-snarls-shipping-routes
   - name: Oman Observer — Hormuz disruption and Gulf food bills
     url: https://www.omanobserver.om/article/1186392/world/region/hormuz-blockage-drives-up-food-bills-in-some-gcc-states
-  - name: FAO — Agrifood implications of the 2026 Middle East conflict
-    url: https://www.fao.org/agrifood-economics/publications/detail/en/c/1758065/
+  - name: FAO — Strait of Hormuz crisis and fertilizer scarcity, 7 May 2026
+    url: https://www.fao.org/newsroom/detail/strait-of-hormuz-crisis--fertilizer-scarcity-will-affect-next-harvests-and-food-supplies--fao-warns/
 related: []
 ---
 

@@ -21,7 +21,7 @@ sources:
 related: []
 ---
 
-> **Update — 19 November 2026:** Removed the repeated food-preparedness appendix and focused the ending on the safety checks that determine whether stored water remains usable.
+> **Update — 19 November 2026:** Added a capacity calculation and separate storage approaches for apartments and homes with dedicated storage space; treatment advice remains subordinate to the local water authority.
 
 Water planning is different from food planning because water is both essential and heavy.
 
@@ -120,3 +120,19 @@ During an actual water advisory, follow the local water authority or public-heal
 A simple record makes stored water easier to manage. Note the source, container type, date filled or purchased, and any treatment carried out. Keep commercially sealed water in its original packaging and follow the producer's storage advice. For water filled at home, use a container designed for drinking water, clean and sanitise it according to current public-health instructions, close it securely and mark the date. Do not reuse bottles or jugs that have held chemicals, fuel or cleaning products.
 
 Storage conditions matter after filling. Keep containers away from direct sun, heat sources, solvents and pesticides, and place them where leaks or damage can be noticed. Inspect for cracks, loose caps, unusual appearance or odour; when in doubt, do not assume the contents remain safe. In a real incident, follow the local water supplier's exact notice. A boil-water advisory, a do-not-drink warning and a restriction caused by chemical contamination require different actions. General storage guidance is not a substitute for an active local instruction.
+
+## Size the water reserve to the household and the storage space
+
+Do not copy a litres-per-person figure from another country without checking the local public-health authority's guidance and the type of incident. Where a local authority gives a daily quantity, a planning calculation is:
+
+**Stored volume = people in the household × locally advised daily amount × the advised interruption period.**
+
+Use a separate allowance only where the authority says cooking, hygiene or medical needs should be included. A household with infants, older people, disabilities or medical equipment may need a different plan.
+
+Storage capacity changes how to implement the target:
+- **Small apartment:** use several manageable, sealed containers that can be lifted safely; do not stack heavy water above a person's safe lifting height or block an exit.
+- **House with a cool storeroom:** a larger food-grade tank or container can work if it is protected from sunlight, chemicals, pests and heat, and can be cleaned and rotated as advised by the authority.
+- **Homes with unreliable municipal supply:** identify the approved refill point or alternative safe source before an interruption. A large container is not useful if it cannot be safely filled or moved.
+- **Homes on private wells or tanks:** follow local testing and treatment advice; clear water is not proof of microbiological or chemical safety.
+
+During a real boil-water, do-not-drink or chemical-contamination notice, the notice overrides this planning calculation.

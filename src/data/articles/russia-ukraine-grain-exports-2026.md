@@ -99,7 +99,7 @@ These indicators reveal whether disruption is spreading from logistics into wide
 
 ## Bottom line
 
-Use the evidence in this article to judge whether the risk is real and local. Prepare proportionately: secure water, keep a modest rotating food buffer, protect refrigeration, follow official guidance and avoid panic buying.
+For Black Sea buyers, the decisive evidence is cargo movement from the specific corridor, the availability of substitute origins and the additional time and cost required to deliver grain. Production, exportable surplus and cargoes already shipped must remain separate measures.
 
 ## Export continuity is a route question as well as a harvest question
 

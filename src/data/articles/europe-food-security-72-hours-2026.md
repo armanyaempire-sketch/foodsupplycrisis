@@ -23,7 +23,7 @@ sources:
     url: https://www.suomi.fi/guides/preparedness/how-to-prepare-for-incidents-and-crises/general-instructions-on-preparedness-home-emergency-supplies-and-on-what-to-do-in-different-situations
   - name: Swiss Federal Office for National Economic Supply — Emergency supplies
     url: https://www.bwl.admin.ch/en/we-advise-emergency-supplies
-  - name: Swedish Civil Contingencies Agency — Seven Days: Things to keep around the house
+  - name: Swedish Civil Contingencies Agency — Seven Days guide, things to keep around the house
     url: https://www.msb.se/contentassets/b7e98dd40a7746c7936a04e1e2e3424c/vikfolder_msb_sevendays_eng_tryck-1.pdf
 related: []
 ---

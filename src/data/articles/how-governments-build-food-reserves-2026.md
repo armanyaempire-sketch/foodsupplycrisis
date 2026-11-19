@@ -104,7 +104,7 @@ This explains why countries can maintain large reserves while households still f
 
 ## Bottom line
 
-A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.
+A public reserve is credible only when its physical quantity, quality, ownership, custodian and release rules can be independently understood. Announced targets and purchase contracts matter, but they should never be counted as grain already stored and ready for distribution.
 
 ## What a public food reserve can—and cannot—do
 

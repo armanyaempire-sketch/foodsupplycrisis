@@ -105,7 +105,7 @@ The goal is a dependable buffer, not a basement full of water that nobody can sa
 
 ## Bottom line
 
-A resilient response is simple: verify the risk, inventory what you already have, secure safe water, maintain several days of familiar shelf-stable food, protect refrigeration, rotate supplies and follow official guidance. Do not turn uncertainty into panic buying. The goal is to make a real disruption manageable while avoiding waste, financial strain and unnecessary pressure on the local food system.
+Safe water storage depends on the source, food-grade container, hygiene and conditions after filling. During a real advisory, the local water authority's instruction takes precedence over a general storage routine, especially when the warning concerns chemical contamination rather than microbes.
 
 ## The safety test is the source, container and storage history
 

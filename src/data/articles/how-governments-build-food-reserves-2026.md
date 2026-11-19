@@ -19,9 +19,9 @@ sources:
     url: https://www.stats.gov.cn/english/PressRelease/202607/t20260713_1964103.html
   - name: Al-Monitor/Reuters — Gulf food strategy
     url: https://www.al-monitor.com/originals/2026/03/gulf-food-strategy-tested-iran-war-snarls-shipping-routes
-  - name: FAO — Grain storage: bulk storage and aeration
+  - name: FAO — Grain storage, bulk storage and aeration
     url: https://www.fao.org/4/T1838E/T1838E1b.htm
-  - name: FAO — Manual of the prevention of post-harvest grain losses: central storage
+  - name: FAO — Manual of the prevention of post-harvest grain losses, central storage
     url: https://www.fao.org/4/x5065e/x5065E0a.htm
   - name: FAO — Factors influencing the choice of bulk store
     url: https://www.fao.org/4/T1838E/T1838E19.htm
